@@ -1,3 +1,1 @@
-# Yattecast
-
-https://r7kamura.github.io/yattecast/
+# 株式会社ずんだもん技術室AI放送局
