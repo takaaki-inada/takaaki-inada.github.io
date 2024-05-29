@@ -2,8 +2,8 @@ actors:
   ずんだもん:
     image_url: /images/actors/zunmon001_square.png
     name: ずんだもん
-    url: https://zund-arm-on.com/
-    # url: https://takaaki-inada.github.io/
+    # url: https://zund-arm-on.com/
+    url: https://takaaki-inada.github.io/
 author: takaaki-inada
 description: 株式会社ずんだもん技術室AI放送局のPodcastです ※6/14まで平日試験配信中
 description_long: AIやテクノロジーの最新情報や旬な情報を届けるPodcast（株式会社ずんだもんは架空の登場組織）
@@ -27,5 +27,5 @@ sass:
   sass_dir: css
 timezone: Asia/Tokyo
 title: 株式会社ずんだもん技術室AI放送局
-url: https://zund-arm-on.com/
-# url: https://takaaki-inada.github.io/
+# url: https://zund-arm-on.com/
+url: https://takaaki-inada.github.io/
