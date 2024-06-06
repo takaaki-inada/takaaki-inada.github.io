@@ -1,7 +1,8 @@
 .header {
   background-image: url(../images/zundarmon_titlebar.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
+  min-height: 500px;
 
   &-description {
     color: $color-text-light-secondary;
