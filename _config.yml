@@ -4,8 +4,8 @@ actors:
     name: ずんだもん
     # url: https://zund-arm-on.com/
     url: https://takaaki-inada.github.io/
-author: takaaki-inada
-description: 株式会社ずんだもん技術室AI放送局のPodcastです ※6/14まで平日試験配信中
+author: 株式会社ずんだもん技術室
+description: 株式会社ずんだもん技術室AI放送局のPodcastです
 description_long: AIやテクノロジーの最新情報や旬な情報を届けるPodcast（株式会社ずんだもんは架空の登場組織）
 email: takaaki.inada@gmail.com
 exclude:
