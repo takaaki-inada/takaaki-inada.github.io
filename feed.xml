@@ -27,7 +27,7 @@
         <link>{{ site.github.url }}{{ post.url }}</link>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <description>
-          {% if post.information } 
+          {% if post.information %} 
             <p>
               {{ post.information }}
             </p>
