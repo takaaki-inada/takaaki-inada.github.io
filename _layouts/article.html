@@ -33,6 +33,14 @@
                 <a href="{{ page.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
               </small>
             </p>
+            {% if page.information %}
+              <h2>
+                お知らせ
+              </h2>
+              <p>
+                {{ page.information }}
+              </p>
+            {% endif %}
             <h2>
               内容紹介
             </h2>
