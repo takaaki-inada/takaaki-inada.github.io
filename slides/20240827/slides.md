@@ -8,7 +8,7 @@ paginate: true
 
 # 株式会社ずんだもん技術室AI放送局 20240827
 
-
+<audio controls src="/audio/株式会社ずんだもん技術室AI放送局_podcast_20240827.mp3"></audio>
 
 ---
 
