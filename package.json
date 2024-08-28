@@ -6,8 +6,8 @@
   "private": true,
   "scripts": {
     "build": "npm run -s og-image && npm run -s deck",
-    "deck": "marp --no-stdin slides/20240827/slides.md -o _site/slides/20240827/index.html",
-    "og-image": "marp --no-stdin slides/20240827/slides.md -o _site/og-image.jpg",
+    "deck": "marp --no-stdin slides/20240827/slides.md -o /github/workspace/_site/slides/20240827/index.html",
+    "og-image": "marp --no-stdin slides/20240827/slides.md -o /github/workspace/_site/og-image.jpg",
     "start": "marp -ps .",
     "vercel-build": "yum install nss mesa-libgbm -y && MARP_USER=root CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') npm run build"
   },
