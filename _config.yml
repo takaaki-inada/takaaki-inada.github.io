@@ -16,6 +16,9 @@ exclude:
   - LICENSE.txt
   - README.md
   - vendor
+  - marp.config.mjs
+  - package.json
+  - package-lock.json
 google_analytics:
 hashtag: AIずんだもん
 itunes_podcast_url:
