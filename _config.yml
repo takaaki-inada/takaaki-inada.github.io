@@ -19,7 +19,7 @@ exclude:
   - marp.config.mjs
   - package.json
   - package-lock.json
-  - slides/20240827/slides.md
+  # - slides/20240827/slides.md
 google_analytics:
 hashtag: AIずんだもん
 itunes_podcast_url:
