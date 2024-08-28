@@ -26,7 +26,7 @@ AIやテクノロジーのトレンドを届ける番組。
 </div>
 <div style="flex: 7;">
 
-![height:500px](/zundarmon_titlebar2.jpg)
+![height:500px](/images/zundarmon_titlebar2.jpg)
 
 </div>
 </div>
