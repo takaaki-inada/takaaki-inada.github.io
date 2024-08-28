@@ -4,7 +4,7 @@ const canonicalUrl = process.env.URL || undefined
 const config = {
   allowLocalFiles: true,
   ogImage: (() => {
-    if (canonicalUrl) return `${canonicalUrl}/og-image.jpg`
+    if (canonicalUrl) return `${canonicalUrl}/images/og-image.jpg`
     if (process.env.VERCEL_URL)
       return `https://${process.env.VERCEL_URL}/og-image.jpg`
   
