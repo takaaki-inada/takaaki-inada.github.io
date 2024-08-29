@@ -8,10 +8,6 @@ paginate: true
 
 # 株式会社ずんだもん技術室AI放送局 20240830
 
-<audio controls src="/audio/株式会社ずんだもん技術室AI放送局_podcast_20240830.mp3"></audio>
-
-
-
 ---
 
 #  株式会社ずんだもん技術室AI放送局
@@ -40,6 +36,8 @@ AIやテクノロジーのトレンドを届ける番組。
 - TVアニメ『魔神創造伝ワタル』公式サイト
 - The 4-chan Go programmer
 - はてなブログや GigaViewer で使われている画像変換プロキシを EC2 から EKS に移行しました
+
+<audio controls src="/audio/株式会社ずんだもん技術室AI放送局_podcast_20240830.mp3" autoplay></audio>
 
 ---
 
