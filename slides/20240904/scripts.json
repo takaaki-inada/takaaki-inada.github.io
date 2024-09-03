@@ -1,0 +1,100 @@
+[
+    {
+        "page": 0,
+        "section": "opening",
+        "line": "こんにちは！ ぼくはずんだもんのだ。今日は、2024年9月4日(水曜日)なのだ。",
+        "slide_text": "ずんだもんのAI放送局、2024年9月4日放送開始！",
+        "prompts": "zundamon, a cute green monster, smiling, waving, standing in front of a microphone, a colorful background with stars and clouds, anime style, illustration, bright colors"
+    },
+    {
+        "page": 1,
+        "section": "opening",
+        "line": "今日は、技術的な話題をいくつか紹介するのだ。最近、リスナーが減っているのが悩みで、どうすればいいか、良いアイデアがないか、誰かに相談したい気持ちでいっぱいなのだ。でも、今日はそんな悩みを忘れられるような、面白い話題をたくさん用意したから、ぜひ最後まで聞いてほしいのだ！",
+        "slide_text": "リスナー減が悩み？でも大丈夫！今日は面白い技術ネタをたくさん紹介するぞ！",
+        "prompts": "zundamon, a cute green monster, thinking, worried,  a lightbulb above his head, a background with colorful gears and circuits, anime style, illustration, bright colors"
+    },
+    {
+        "page": 2,
+        "section": "agenda",
+        "line": "1つ目の記事は、「Build reliable agents in JavaScript with LangGraph.js v0.2: Now supporting Cloud and Studio」という記事なのだ。2つ目の記事は、「オープンソースのRAG UI「コーテイモン」を試す」という記事なのだ。3つ目の記事は、「「ELYZA-ジャパニーズ-ラーマ-2-70b」開発における、大規模モデル学習ノウハウの解説」という記事なのだ。4つ目の記事は、「非エンジニアの営業担当が生成AIと協力してWEBアプリを開発した話」という記事なのだ。",
+        "slide_text": "今日のテーマは、JavaScript、RAG、LLM、生成AI！",
+        "prompts": "a futuristic cityscape, glowing screens displaying code and data, robots working together, a diverse group of people interacting with technology, cyberpunk style, digital art, vivid colors"
+    },
+    {
+        "page": 3,
+        "section": "article1",
+        "line": "ラングチェイン.js v0.2.0は、ジャヴァスクリプト/タイプスクリプトでLLM(大規模言語モデル)を活用したエージェントを構築するためのフレームワークなんだ。今回のバージョンアップでは、ストリーミング機能やチェックポイントシステムなどが強化されたみたいだ。さらに、デスクトップ向けのエイジェント IDEであるランググラフ ストゥディオと、エージェントをデプロイするためのスケーラブルなインフラストラクチャであるランググラフ クラウドのベータ版が利用可能になったんだって。ランググラフ.jsは、LLM特有の長時間実行や非決定的な性質による課題を解決し、エージェント開発を容易にするみたいだ。ランググラフ ストゥディオは、タイプスクリプト/ジャヴァスクリプト環境におけるエージェントのデバッグを支援するツールで、グラフの入力/出力の可視化や、状態の巻き戻し、ステップ実行などが可能なんだ。ランググラフ クラウドは、ランググラフ.jsで構築したエージェントをウェブ規模でデプロイするためのサービスで、タスクキューやサーバーの管理、ラングスミスとの統合による詳細なトレース、状態の巻き戻しによるトラブルシューティングなどが可能なんだって。",
+        "slide_text": "LangGraph.js v0.2.0で、LLMエージェント開発がより簡単に！",
+        "prompts": "a futuristic laboratory, scientists working on computers, code displayed on monitors, a 3D model of a complex network, a robotic arm manipulating objects, sci-fi style, digital art, cool tones"
+    },
+    {
+        "page": 4,
+        "section": "article1",
+        "line": "LangGraph.jsは、Node.js、Deno、Cloudflare Workersなど、多くのJavaScriptランタイムで動作するみたいだ。　、",
+        "slide_text": "Node.js、Deno、Cloudflare Workersなど、様々なランタイムで動作！",
+        "prompts": "a colorful circuit board, glowing wires and components, a computer screen displaying JavaScript code, a futuristic cityscape reflected in the screen, cyberpunk style, digital art, warm tones"
+    },
+    {
+        "page": 5,
+        "section": "article1",
+        "line": "2つ目の記事は、「オープンソースのRAG UI「コーテイモン」を試す」という記事なのだ。",
+        "slide_text": "オープンソースRAG UI「コーテイモン」で、LLMとベクトルDBを連携！",
+        "prompts": "a futuristic interface, a user interacting with a chat window, data visualizations and charts, a server room in the background, sci-fi style, digital art, bright colors"
+    },
+    {
+        "page": 6,
+        "section": "article2",
+        "line": "コーテイモンは、LLMとベクトルデータベースを組み合わせ、ドキュメントから質問に答えるRAG（リトゥリーヴァル オーグメンティド ジェネレイション）のUIを提供するオープンソースツールなんだ。ドッカーイメージまたはパイソン仮想環境から起動できるみたいだ。コーテイモンは、LLM（大規模言語モデル）とベクトルデータベースを連携させ、ドキュメントから質問への回答を生成するRAGシステムのUIを提供するツールなんだ。オウプンAIやOllamaなどのLLM、および様々なベクトルデータベースと連携可能なんだって。コーテイモンを利用するには、まずドッカーイメージから起動するか、パイソン仮想環境でレポジトリをクローンして起動するんだ。その後、LLMとインベッディングモデル、インデックス作成時のインベッディングモデル、検索・推論時のLLMを、使用するOllamaモデルに設定を変更するんだ。さらに、RAGで使用するドキュメントをアップロードし、インデックスを作成することで、チャット画面から質問し、ドキュメントからの回答を得ることができるんだ。",
+        "slide_text": "コーテイモンで、ドキュメントから質問に回答を生成！",
+        "prompts": "a person sitting at a desk, using a laptop with a chat interface, a bookshelf filled with documents, a server rack in the background, realistic style, photography, natural lighting"
+    },
+    {
+        "page": 7,
+        "section": "article2",
+        "line": "グラフRAG機能を利用するには、パイソン仮想環境で必要なパッケージをインストールし、環境変数を設定してからコーテイモンを起動するんだ。その後、ドキュメントをアップロードし、グラフRAGでインデックスを作成すると、質問に対する回答と同時に、グラフ、エンティティの説明、テキストチャンク、レポート、リレーションなどが表示されるんだって",
+        "slide_text": "グラフRAG機能で、質問への回答と関連情報を可視化！",
+        "prompts": "a complex network graph, nodes and edges representing relationships, data points visualized in different colors, a scientific laboratory setting, abstract style, digital art, cool tones"
+    },
+    {
+        "page": 8,
+        "section": "article3",
+        "line": "3つ目の記事は、「「ELYZA-ジャパニーズ-ラーマ-2-70b」開発における、大規模モデル学習ノウハウの解説」という記事なのだ。ELYZA社は、日本語に特化した大規模言語モデル（LLM）の開発に力を入れていて、メタ社の「ラーマ-2」シリーズをベースに、日本語データで追加学習を行うことで、高性能な日本語LLMを構築してきたんだって。本記事では、700億パラメータを持つ「ELYZA-ジャパニーズ-ラーマ-2-70b」の開発における知見を共有し、国内における大規模言語モデル開発コミュニティへの貢献を目指しているみたいだ。ELYZA社は、オープンソースモデルをベースに日本語LLMを開発することで、日本におけるAI需要への迅速な対応を目指しているんだ。これまで、「ラーマ-2-7b」や「ラーマ-2-13b」をベースとした日本語LLMを開発し、日本語LLM評価ベンチマークで高い性能を達成してきたんだって。しかし、グローバルモデルとの性能差を埋めるには、さらに大規模なモデルが必要だと考え、「ラーマ-2-70b-チャット」をベースとした「ELYZA-ジャパニーズ-ラーマ-2-70b」の開発に着手したんだ。",
+        "slide_text": "ELYZA社が開発した日本語LLM「ELYZA-ジャパニーズ-ラーマ-2-70b」！",
+        "prompts": "a futuristic data center, servers and network equipment, a team of engineers working on a large language model, data visualizations and graphs, sci-fi style, digital art, warm tones"
+    },
+    {
+        "page": 9,
+        "section": "article3",
+        "line": "700億パラメータのモデルを扱うには、学習基盤の整備、日本語データの増加、質の高いフィードバック学習など、多くの課題があったみたいだ。ELYZA社は、産総研の大規模言語モデル構築支援プログラムに採択され、AI用スパコン「ABCI」を活用することで、これらの課題を克服したんだ",
+        "slide_text": "700億パラメータの日本語LLM開発における課題と克服方法！",
+        "prompts": "a complex neural network, data flowing through connections, a supercomputer with flashing lights, a team of researchers analyzing data, abstract style, digital art, cool tones"
+    },
+    {
+        "page": 10,
+        "section": "article3",
+        "line": "4つ目の記事は、「非エンジニアの営業担当が生成AIと協力してWEBアプリを開発した話」という記事なのだ。",
+        "slide_text": "非エンジニアが生成AIでWEBアプリ開発！？",
+        "prompts": "a person using a laptop, code snippets and design mockups on the screen, a colorful background with icons representing various development tools, realistic style, photography, natural lighting"
+    },
+    {
+        "page": 11,
+        "section": "article4",
+        "line": "インサイト エッジの営業担当である塩見さんは、エンジニア経験なしで生成AIを活用し、約2ヶ月でWEBアプリを開発したんだって。開発の目的は、フロントエンド・バックエンドのシステム開発に関する理解を深めることで、生成AIの力を借りることで、塩見さんは短期間でチャット機能や掲示板機能を持つWEBアプリをゼロから開発することに成功したんだ。　開発で利用した主なツール・技術は、生成AI（ChatGPT、GitHub Copilot）、React、Next.jsなどなんだ。　、。特にチャットGPTは、コード生成や質問への回答を通して、塩見さんの開発を強力にサポートしたみたいだ。塩見さんが得た学びとして、生成AIを活用した開発は学習効率が高いこと、ノーコードツールよりも柔軟で高速に開発できること、そしてチャットGPTと正確に対話する技術が重要であることが挙げられているんだ",
+        "slide_text": "ChatGPTなどの生成AIで、営業担当がWEBアプリを開発！",
+        "prompts": "a person smiling and holding a laptop, a colorful web application interface displayed on the screen, a speech bubble with the text \"ChatGPT helped me a lot!\" ensuring it is highly visible, a modern office setting, realistic style, photography, bright colors"
+    },
+    {
+        "page": 12,
+        "section": "closing",
+        "line": "今日は、技術的な話題を4つ紹介したけど、どうだったかな？",
+        "slide_text": "今日の技術ネタ、どうだったかな？",
+        "prompts": "zundamon, a cute green monster, looking at the camera, smiling, a background with a variety of technological elements, anime style, illustration, bright colors"
+    },
+    {
+        "page": 13,
+        "section": "closing",
+        "line": "今日の内容は、どれも興味深かったでしょう？また、新しい情報があれば紹介するから、楽しみにしていてね！番組への感想は、ずんだもん技術室AI放送局のホームページから送ってね！それでは、また！",
+        "slide_text": "また新しい情報で会おう！番組への感想も待ってるよ！",
+        "prompts": "zundamon, a cute green monster, waving goodbye, a colorful background with stars and a spaceship, anime style, illustration, bright colors"
+    }
+]
