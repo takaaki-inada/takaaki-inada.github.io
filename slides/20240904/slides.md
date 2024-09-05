@@ -150,7 +150,7 @@ Node.js、Deno、Cloudflare Workersなど、様々なランタイムで動作！
 
 ホームページのメッセージフォームから送ることができるよ！
 
-https://zund-arm-on/
+https://zund-arm-on.com/
 
 ---
 
@@ -162,5 +162,5 @@ https://zund-arm-on/
 
 ホームページのメッセージフォームから送ることができるよ！
 
-https://zund-arm-on/
+https://zund-arm-on.com/
 

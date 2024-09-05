@@ -168,7 +168,7 @@ GAS：スプレッドシートやメール自動化
 
 ホームページのメッセージフォームから送ることができるよ！
 
-https://zund-arm-on/
+https://zund-arm-on.com/
 
 ---
 
@@ -180,5 +180,5 @@ https://zund-arm-on/
 
 ホームページのメッセージフォームから送ることができるよ！
 
-https://zund-arm-on/
+https://zund-arm-on.com/
 
