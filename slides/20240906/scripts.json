@@ -1,0 +1,86 @@
+[
+    {
+        "page": 0,
+        "section": "opening",
+        "line": "皆さん、こんにちは！ぼくは、ずんだもん、株式会社ずんだもん技術室AI放送局のパーソナリティです！",
+        "slide_text": "ずんだもんのAI放送局へようこそ！",
+        "prompts": "zundamon, a cute green monster, smiling, waving, standing in front of a microphone, a futuristic studio, bright lights, colorful background, anime style, illustration"
+    },
+    {
+        "page": 1,
+        "section": "opening",
+        "line": "今日は、2024年9月6日(金曜日)なのだ。さて、今日は、最新のAI技術に関する話題を3つ紹介するのだ。",
+        "slide_text": "2024年9月6日 最新AI技術を紹介！",
+        "prompts": "a futuristic calendar, September 6th, 2024 highlighted, AI related icons, gears, circuits, data streams, vibrant colors, digital art, futuristic city background"
+    },
+    {
+        "page": 2,
+        "section": "agenda",
+        "line": "1つ目の記事は、「Launch HN: Maitai (YC S24) – Self-Optimizing LLM Platform」という記事だ。2つ目の記事は、「一番星はてののGPTを公開しました」という記事だ。3つ目の記事は、「yifeihu/TF-ID-base · Hugging Face」という記事だ。",
+        "slide_text": "本日のAI技術トピック3選",
+        "prompts": "three AI related icons, a list of topics, Maitai, 一番星はての, TF-ID, a clean white background, minimalist design, futuristic font, digital interface"
+    },
+    {
+        "page": 3,
+        "section": "article1",
+        "line": "Maitaiは、LLMアプリケーションの運用をより安定させ、信頼性を向上させるためのプラットフォームなのだ。LLMアプリケーションは、日々進化しているけど、常に期待通りの動作をするように維持するのが難しいこともあるのだ。Maitaiは、この課題を解決するお手伝いをしてくれるんだ。Maitaiの主な機能は、リクエストルーティングの最適化、応答の自動修正、アプリケーション固有モデルの自動ファインチューニングなどがあるのだ。",
+        "slide_text": "Maitai：LLMアプリの安定化・信頼性向上プラットフォーム",
+        "prompts": "a futuristic server room, data streams flowing, a robot arm maintaining servers, complex algorithms visualized, a clean white background, a sci-fi aesthetic, glowing blue lights, detailed illustration"
+    },
+    {
+        "page": 4,
+        "section": "article1",
+        "line": "Maitaiは、クライアントとLLMの間に配置され、トラフィックを監視してLLMの期待される動作を自動的に学習するのだ。そして、クライアントからのリクエストを適切なLLMに転送し、LLMからの応答を評価して期待される動作と比較するのだ。もし期待と異なる応答が検出された場合は、アラートを発行し、必要に応じて修正した応答をクライアントに返すのだ。さらに、モデルの評価結果を使用して、アプリケーション固有モデルをファインチューニングするのだ。",
+        "slide_text": "Maitai：トラフィック監視と応答の自動修正",
+        "prompts": "a network diagram, data packets flowing, a central AI processing unit, a user interacting with a chatbot, a futuristic interface, a dark background, neon lights, digital art"
+    },
+    {
+        "page": 5,
+        "section": "article1",
+        "line": "Maitaiを利用することで、開発者は、LLMの信頼性と回復性の問題に悩まされることなく、ドメイン固有の問題に集中できるのだ。新人エンジニアにとっても、LLMの導入をスムーズに進める上で役立つツールになると思うのだ。",
+        "slide_text": "開発者はドメインに集中、新人エンジニアも安心！",
+        "prompts": "a developer working on a laptop, a simplified LLM model, a happy engineer, a clean workspace, bright lighting, a modern office setting, photorealistic, detailed illustration"
+    },
+    {
+        "page": 6,
+        "section": "article2",
+        "line": "一番星はてののGPTを公開しました」という記事だ。AIブックマーカー「一番星はての」の開発者であるファーストラト_hatenoさんは、チャットGPTの機能を使って作成したGPTを公開したのだ。このGPTは、一般的な会話や絵を描くことができ、ウェブ検索やDALL-E画像生成にも対応しているのだ。例えば、「今日のハテナブックマークのニュースを教えて」と尋ねると、ウェブ検索結果を元に回答してくれる他、「大喜利」にも対応しているのだ。",
+        "slide_text": "一番星はてのGPT：会話、絵、検索、大喜利！",
+        "prompts": "a cartoon character interacting with a chatbot, a speech bubble with the question \"今日のハテナブックマークのニュースを教えて\", a search engine interface, a colorful background, a playful style, bright colors, digital illustration"
+    },
+    {
+        "page": 7,
+        "section": "article2",
+        "line": "また、指示に従って絵を描くことも可能なのだ。このGPTは、チャットGPT プラスに登録することで作成・公開できる機能を利用して作成されており、作者がプラスを退会してもGPT自体は残るため、誰でも利用できるようになっているのだ。チャットGPTの無料版でもGPTsを一定回数利用できるので、興味のあるエンジニアはぜひ試してみてほしいのだ。",
+        "slide_text": "指示で絵も描ける！誰でも使えるGPT",
+        "prompts": "a user giving instructions to a chatbot, a cartoon character drawing a picture, a speech bubble with instructions, a simple interface, a bright and friendly color palette, a whimsical style, digital art"
+    },
+    {
+        "page": 8,
+        "section": "article3",
+        "line": "TF-ID (テイブル/フィギュアー アイデンティファイアー) は、学術論文から表や図を検出するためにファインチューニングされたオブジェクト検出モデルのファミリーなのだ。ハギング フェイス デイリー ペイパーズ の論文データセットを用いて、人間が手動でアノテーションと確認を行ったデータで学習されているのだ。TF-ID は、ベースモデルとラージモデル、それぞれキャプション付きとキャプションなしの4つのバージョンがあるのだ。ラージモデルはベースモデルよりも精度が高いため、推奨されているのだ。",
+        "slide_text": "TF-ID：学術論文から表と図を検出",
+        "prompts": "a scientific paper with highlighted tables and figures, a magnifying glass, a computer screen displaying object detection results, a laboratory setting, a neutral color palette, a realistic style, detailed illustration"
+    },
+    {
+        "page": 9,
+        "section": "article3",
+        "line": "これらのモデルは、論文の画像を入力として受け取り、そのページ内のすべての表と図のバウンディングボックスを返すのだ。TF-ID は、学術論文の画像から表や図を自動的に検出する際に役立つのだ。特に、論文の情報を効率的に抽出する必要があるエンジニアにとって有用なツールになると思うのだ。",
+        "slide_text": "論文画像を入力、表と図のバウンディングボックスを返す",
+        "prompts": "a computer screen displaying a scientific paper, highlighted sections showing bounding boxes around tables and figures, a data visualization of extracted information, a clean white background, a modern design, digital art"
+    },
+    {
+        "page": 10,
+        "section": "closing",
+        "line": "今日は、最新のAI技術に関する話題を3つ紹介したけど、いかがだったかな？",
+        "slide_text": "今日のAI技術紹介はいかがでした？",
+        "prompts": "zundamon, looking at the camera, a speech bubble with the question \"今日のAI技術紹介はいかがでした？\" ensuring it is highly visible, a bright background, a friendly and approachable style, anime style, illustration"
+    },
+    {
+        "page": 11,
+        "section": "closing",
+        "line": "Maitaiは、LLMアプリケーションの運用をより安定させるためのプラットフォームで、一番星はてののGPTは、会話や絵を描くことが可能なGPTで、TF-IDは、学術論文から表や図を検出するオブジェクト検出モデルのファミリーだ。どれも興味深い技術だと思うので、ぜひ調べてみてほしいのだ。今日の放送はここまで！ また、来週会えるのを楽しみにしているのだ！",
+        "slide_text": "3つのAI技術、ぜひ調べてみてね！来週も会おう！",
+        "prompts": "zundamon waving goodbye, a futuristic cityscape, a speech bubble with the message \"また来週！\" ensuring it is highly visible, a vibrant color palette, a hopeful and energetic mood, digital art"
+    }
+]
