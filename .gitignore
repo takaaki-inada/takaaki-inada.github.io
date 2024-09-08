@@ -1,2 +1,6 @@
 /_site
 /.sass-cache
+/out
+/node_modules
+/.next
+/tmp
