@@ -1,21 +1,64 @@
 {
-  "name": "marp-cli-example",
+  "name": "zundamon podcast",
   "version": "0.0.0",
-  "author": "Yuki Hattori <yukihattori1116@gmail.com>",
-  "license": "WTFPL",
+  "author": "Takaaki Inada <takaaki.inada@gmail.com>",
+  "license": "UNLICENSED",
   "private": true,
   "scripts": {
-    "build": "rimraf public && npm run -s og-image && npm run -s 20240827 && npm run -s 20240830 && npm run -s 20240903",
-    "20240827": "marp --html --no-stdin slides/20240827/slides.md -o _site/slides/20240827/index.html",
-    "20240830": "marp --html --no-stdin slides/20240830/slides.md -o _site/slides/20240830/index.html",
-    "20240903": "marp --html --no-stdin slides/20240903/slides.md -o _site/slides/20240903/index.html",
-    "og-image": "marp --html --no-stdin slides/20240827/slides.md -o _site/images/og-image.jpg",
+    "20240827": "marp --html --no-stdin public/slides/20240827/slides.md -o _site/slides/20240827/index.html",
+    "20240830": "marp --html --no-stdin public/slides/20240830/slides.md -o _site/slides/20240830/index.html",
+    "20240903": "marp --html --no-stdin public/slides/20240903/slides.md -o _site/slides/20240903/index.html",
+    "dev": "next dev",
+    "_buildmarp": "rimraf public && npm run og-image && npm run 20240827 && npm run 20240830 && npm run 20240903",
+    "buildmarp": "npm run -s og-image && npm run -s 20240827 && npm run -s 20240830 && npm run -s 20240903",
+    "build": "next build",
+    "og-image": "marp --html --no-stdin public/slides/20240827/slides.md -o _site/images/og-image.jpg",
     "start": "marp -ps .",
+    "export": "next export -o _site/",
     "vercel-build": "yum install nss mesa-libgbm -y && MARP_USER=root CHROME_PATH=$(npx -y @puppeteer/browsers@latest install chrome@stable --path $(realpath ./tmp) | awk '{print $2}') npm run build"
   },
+  "dependencies": {
+    "@ai-sdk/openai": "^0.0.54",
+    "@charcoal-ui/icons": "^2.6.0",
+    "@marp-team/marp-core": "^3.9.0",
+    "@marp-team/marpit": "^3.0.0",
+    "@pixiv/three-vrm": "^3.0.0",
+    "@tailwindcss/line-clamp": "^0.4.4",
+    "@types/dom-speech-recognition": "^0.0.1",
+    "ai": "^3.3.20",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "msedge-tts": "^1.1.4",
+    "next": "13.2.4",
+    "node-fetch": "^3.3.1",
+    "openai": "^4.55.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-joyride": "^2.8.2",
+    "three": "^0.167.1",
+    "typescript": "5.0.2",
+    "zustand": "^4.5.5"
+  },
   "devDependencies": {
+    "@charcoal-ui/tailwind-config": "^2.6.0",
+    "@gltf-transform/core": "^2.4.6",
     "@marp-team/marp-cli": "^3.4.0",
+    "@types/node": "18.15.10",
+    "@types/react": "18.0.29",
+    "@types/react-dom": "18.0.11",
+    "@types/three": "0.167.1",
+    "autoprefixer": "^10.4.14",
     "ncp": "^2.0.0",
-    "rimraf": "^6.0.1"
+    "postcss": "^8.4.21",
+    "rimraf": "^6.0.1",
+    "tailwindcss": "^3.3.1"
+  },
+  "engines": {
+    "node": "^20.0.0"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false
   }
 }
