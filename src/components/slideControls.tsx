@@ -45,7 +45,7 @@ const SlideControls: React.FC<SlideControlsProps> = ({
     },
     {
       target: 'body',
-      content: <h2>voicevoxの<u><a href="http://127.0.0.1:50021/setting">CORSの設定画面</a></u>を開いて https://zund-arm-on.com を許可してください。<br/><img src="/images/voidcevox_cors.png"/></h2>,
+      content: <h2>voicevoxを起動し、<u><a href="http://127.0.0.1:50021/setting">CORSの設定画面</a></u>を開いて https://zund-arm-on.com を許可してください。<br/><img src="/images/voidcevox_cors.png"/></h2>,
       locale: {
         skip: <strong aria-label="skip">スキップ</strong>,
         next: '次へ',

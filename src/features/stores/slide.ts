@@ -17,7 +17,7 @@ const slideStore = create<SlideState>()(
       isGuestTurn: false,
       currentSlide: 0,
       currentContext: '',
-      selectedSlideDocs: '20240910',
+      selectedSlideDocs: '20240911',
       scripts: {},
     }),
     {
