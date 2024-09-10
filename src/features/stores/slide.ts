@@ -3,7 +3,9 @@ import { persist } from 'zustand/middleware'
 
 interface SlideState {
   isPlaying: boolean
+  isGuestTurn: boolean
   currentSlide: number
+  currentContext: string
   selectedSlideDocs: string
   scripts: object
 }
@@ -12,8 +14,10 @@ const slideStore = create<SlideState>()(
   persist(
     (set, get) => ({
       isPlaying: false,
+      isGuestTurn: false,
       currentSlide: 0,
-      selectedSlideDocs: '20240903',
+      currentContext: '',
+      selectedSlideDocs: '20240910',
       scripts: {},
     }),
     {

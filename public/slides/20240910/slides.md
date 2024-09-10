@@ -8,8 +8,6 @@ paginate: true
 
 # 株式会社ずんだもん技術室AI放送局 20240910
 
-<audio controls src="/audio/株式会社ずんだもん技術室AI放送局_podcast_20240910.mp3"></audio>
-
 
 
 ---
@@ -62,19 +60,19 @@ AIやテクノロジーのトレンドを届ける番組。
 
 ![bg left](/slides/20240910/images/4.jpg)
 
-ITシステムの3つの価値：生産性向上、新能力獲得、リスク低減と判断向上
+ITシステムは不安を解消し、質の高い判断を支援！
 
 ---
 
 ![bg left](/slides/20240910/images/5.jpg)
 
-ITシステム導入効果の多角的な評価を！
+ITシステム導入の効果は多岐に渡る！
 
 ---
 
 ![bg left](/slides/20240910/images/6.jpg)
 
-新人エンジニア必見！ITシステム導入効果の評価ポイント
+ITシステムの価値：生産性向上、能力獲得、リスク低減＆判断向上
 
 ---
 
@@ -97,19 +95,19 @@ ITシステム導入効果の多角的な評価を！
 
 ![bg left](/slides/20240910/images/8.jpg)
 
-Imagen3の優れた画像品質とテキストレンダリング機能
+Imagen3は高性能！フォトリアルな画像生成が可能！
 
 ---
 
 ![bg left](/slides/20240910/images/9.jpg)
 
-Imagen3の活用可能性と注意点
+Imagen3は無料利用可能！ただし、制限あり！
 
 ---
 
 ![bg left](/slides/20240910/images/10.jpg)
 
-新人エンジニアもImagen3を体験してみよう！
+Imagen3の将来性！様々な分野で活用される可能性！
 
 ---
 
@@ -132,19 +130,19 @@ Imagen3の活用可能性と注意点
 
 ![bg left](/slides/20240910/images/12.jpg)
 
-Tanuki-8B、Ollama、ディフィーで課題解決！
+RAGとは？LLMが外部知識を参照して回答生成！
 
 ---
 
 ![bg left](/slides/20240910/images/13.jpg)
 
-ローカルRAG構築の手順とLLMの能力拡張
+Tanuki-8B, Ollama, ディフィーで課題解決！
 
 ---
 
 ![bg left](/slides/20240910/images/14.jpg)
 
-新人エンジニア必見！RAGでLLMの能力を拡張しよう！
+ローカルRAG構築に挑戦しよう！
 
 ---
 

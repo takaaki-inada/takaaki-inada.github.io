@@ -1,9 +1,19 @@
 import { processReceivedMessage } from '@/features/chat/handlers'
+import { Message } from '@/features/messages/messages'
+import settingsStore from '@/features/stores/settings'
 import React, { useCallback, useEffect, useState } from 'react'
 import homeStore from '../features/stores/home'
 import slideStore from '../features/stores/slide'
 import SlideContent from './slideContent'
 import SlideControls from './slideControls'
+
+import dynamic from 'next/dynamic'; // hydration errorが出たので追加 https://stackoverflow.com/questions/57685340/how-to-get-react-joyride-to-work-in-a-next-js-app
+import { CallBackProps, STATUS, Step } from "react-joyride"
+
+const JoyRideNoSSR = dynamic(
+  () => import('react-joyride'),
+  { ssr: false }
+)
 
 interface SlidesProps {
   markdown: string
@@ -18,11 +28,13 @@ export const goToSlide = (index: number) => {
 const Slides: React.FC<SlidesProps> = ({ markdown }) => {
   const [marpitContainer, setMarpitContainer] = useState<Element | null>(null)
   const isPlaying = slideStore((state) => state.isPlaying)
+  const isGuestTurn = slideStore((state) => state.isGuestTurn)
   const currentSlide = slideStore((state) => state.currentSlide)
   const selectedSlideDocs = slideStore((state) => state.selectedSlideDocs)
-  const chatProcessingCount = homeStore((s) => s.chatProcessingCount)
+  const chatProcessingCount = homeStore((home) => home.chatProcessingCount)
+  const guestName = settingsStore((s) => s.guestName)
   const [slideCount, setSlideCount] = useState(0)
-  const [scripts, setScripts] = useState<Array<{ page: number, line: string }>>([])
+  const [scripts, setScripts] = useState<Array<{ page: number, line: string, section: string, notes: string, question_to_guest?: string }>>([])
 
   // const audioContext = new AudioContext()
   // const source = audioContext.createBufferSource();
@@ -33,12 +45,56 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
   )
   const [audioGain, setAudioGain] = useState<GainNode | null>(null)
 
+  const [ settingTourRun, setSettingTourRun ] = useState(false)
+  const [ steps ] = useState<Step[]>([
+    {
+      target: '.menu-setting',
+      content: <h2>コメンテーターとして参加してみよう！まずは、あなたの名前（ゲスト名）とOpenAIのAPIキーを設定してね。</h2>,
+      locale: {
+        skip: <strong aria-label="skip">スキップ</strong>,
+        next: '次へ',
+      },
+      disableBeacon: true, // これを設定するとビーコンが出ずにすぐにモーダルが出ます
+      disableOverlayClose: true,
+      placement: 'right',
+      spotlightClicks: true,
+      styles: {
+        options: {
+          width: 800,
+        },
+      },
+    },
+    {
+      target: '.message-input-text',
+      content: <h2>設定が完了したらコメントしよう！</h2>,
+      locale: {
+        skip: <strong aria-label="skip">スキップ</strong>,
+        next: '次へ',
+        back: '戻る',
+        last: '終了',
+      },
+      placement: 'top',
+    },
+    {
+      target: '.slide-control-next',
+      content: <h2>次の記事へ行くにはこれを押して！</h2>,
+      locale: {
+        skip: <strong aria-label="skip">スキップ</strong>,
+        next: '次へ',
+        back: '戻る',
+        last: '終了',
+      },
+      placement: 'right',
+    }
+  ])
+
   const sleep = (ms: number) => {
     return new Promise((resolve) => setTimeout(resolve, ms))
   }
 
   useEffect(() => {
-    const currentMarpitContainer = document.querySelector('.marpit')
+    // const currentMarpitContainer = document.querySelector('.marpit')
+    const currentMarpitContainer = document.querySelector('div[id=":$p"]')
     if (currentMarpitContainer) {
       const slides = currentMarpitContainer.querySelectorAll(':scope > svg')
       slides.forEach((slide, i) => {
@@ -54,34 +110,19 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
 
   useEffect(() => {
     const convertMarkdown = async () => {
-      // const response = await fetch('/api/convertMarkdown', {
-      //   method: 'POST',
-      //   headers: {
-      //     'Content-Type': 'application/json',
-      //   },
-      //   body: JSON.stringify({ slideName: selectedSlideDocs }),
-      // })
-      // const response = await fetch(`/api/slides/${selectedSlideDocs}`, {
       const response = await fetch(
-        // `https://zund-arm-on.com/slides/${selectedSlideDocs}/${selectedSlideDocs}.json`,
-        `/slides/${selectedSlideDocs}/${selectedSlideDocs}.json`,
-        {
-          method: 'GET',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-        }
+        //`https://zund-arm-on.com/slides/${selectedSlideDocs}/index.html`,
+        `/slides/${selectedSlideDocs}/index.html`,
       )
-      const data = await response.json()
-
-      // const script_response = await fetch(`https://zund-arm-on.com/slides/${selectedSlideDocs}/scripts.json`)
+      // const css_response = await fetch(`/css/marp/theme.css`, {headers: {'Content-Type': 'text/css'}})
       const script_response = await fetch(`/slides/${selectedSlideDocs}/scripts.json`)
       setScripts(await script_response.json())
 
       // HTMLをパースしてmarpit要素を取得
       const parser = new DOMParser()
-      const doc = parser.parseFromString(data.html, 'text/html')
-      const marpitElement = doc.querySelector('.marpit')
+      const doc = parser.parseFromString(await response.text(), 'text/html')
+      // const marpitElement = doc.querySelector('.marpit')
+      const marpitElement = doc.querySelector('div[id=":$p"]')
       setMarpitContainer(marpitElement)
 
       // スライド数を設定
@@ -100,8 +141,9 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
       }
 
       // CSSを動的に適用
-      const styleElement = document.createElement('style')
-      styleElement.textContent = data.css
+      // const styleElement = document.createElement('style')
+      // styleElement.textContent = await css_response.text()
+      const styleElement = doc.querySelectorAll('style')[1]
       document.head.appendChild(styleElement)
 
       return () => {
@@ -115,7 +157,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
   useEffect(() => {
     // カスタムCSSを適用
     const customStyle = `
-      div.marpit > svg > foreignObject > section {
+      div#\:\$p> svg > foreignObject > section {
         padding: 2em;
       }
     `
@@ -134,22 +176,31 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
 
   const readSlide = useCallback(
     (slideIndex: number) => {
-      const getCurrentLines = () => {
-        // const scripts = require(
-        //   `../../public/slides/${selectedSlideDocs}/scripts.json`
-        // )
-        // `https://zund-arm-on.com/slides/${selectedSlideDocs}/scripts.json` からjsonを読み込む
+      const getCurrentScript = () => {
         const currentScript = scripts.find(
           (script) => script.page === slideIndex
         )
-        return currentScript ? currentScript.line : ''
+        return currentScript
       }
-
-      const currentLines = getCurrentLines()
-      console.log(currentLines)
-      processReceivedMessage(currentLines)
+      const currentScript = getCurrentScript()
+      if (!currentScript) {
+        return ''
+      }
+      const q = currentScript.question_to_guest?.replace('{GUEST}', guestName) || ''
+      if (q) {
+        const messageLog: Message[] = [
+          ...homeStore.getState().chatLog,
+          { role: "assistant", content: q },
+        ];
+        homeStore.setState({ chatLog: messageLog })
+        if (!homeStore.getState().settingTourDone) {
+          setSettingTourRun(true)
+        }
+      }
+      // console.log(currentScript.line + q)
+      processReceivedMessage(currentScript.line + q)
     },
-    [selectedSlideDocs, scripts]
+    [scripts]
   )
 
   const nextSlide = useCallback(() => {
@@ -158,9 +209,9 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
       if (isPlaying) {
         readSlide(newSlide)
       }
-      return { currentSlide: newSlide }
+      return { currentSlide: newSlide, isGuestTurn: false }
     })
-  }, [isPlaying, readSlide, slideCount])
+  }, [isPlaying, isGuestTurn, readSlide, slideCount])
 
   useEffect(() => {
     // 最後のスライドに達した場合、isPlayingをfalseに設定
@@ -228,6 +279,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
         slideStore.setState({
           isPlaying: newIsPlaying,
         })
+        // FIXME: sleepをここにすると最初の発話が逆になる
         readSlide(currentSlide)
       }
       fetchData()
@@ -256,12 +308,54 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
       isPlaying &&
       currentSlide < slideCount - 1
     ) {
-      nextSlide()
+      const getCurrentScript = () => {
+        const currentScript = scripts.find(
+          (script) => script.page === currentSlide
+        )
+        return currentScript
+      }
+      const currentScript = getCurrentScript()
+      if (!currentScript) {
+        return
+      }
+      const isGuestTurn = currentScript.section.startsWith("comment")
+      slideStore.setState({ isGuestTurn: isGuestTurn })
+      slideStore.setState({ currentContext: currentScript.notes })
+      if (!isGuestTurn) {
+        nextSlide()
+      }
     }
-  }, [chatProcessingCount, isPlaying, nextSlide, currentSlide, slideCount])
+  }, [chatProcessingCount, isPlaying, isGuestTurn, nextSlide, currentSlide, slideCount, scripts])
+
+  const handleJoyrideCallback = (data: CallBackProps) => {
+    const { status, type } = data;
+    const finishedStatuses: string[] = [STATUS.FINISHED, STATUS.SKIPPED];
+
+    if (finishedStatuses.includes(status)) {
+      homeStore.setState({settingTourDone: true })
+      setSettingTourRun(false);
+    }
+  };
 
   return (
     <>
+      <JoyRideNoSSR
+        callback={handleJoyrideCallback}
+        continuous
+        hideCloseButton
+        run={settingTourRun && !homeStore.getState().settingTourDone}
+        scrollToFirstStep
+        showProgress // 1/2などの数が表示される
+        showSkipButton
+        steps={steps}
+        spotlightClicks
+        styles={{
+          options: {
+            zIndex: 30,
+          },
+        }}
+      />
+
       <div
         className="absolute"
         style={{
@@ -290,6 +384,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
           currentSlide={currentSlide}
           slideCount={slideCount}
           isPlaying={isPlaying}
+          isGuestTurn={isGuestTurn}
           prevSlide={prevSlide}
           nextSlide={nextSlide}
           toggleIsPlaying={toggleIsPlaying}

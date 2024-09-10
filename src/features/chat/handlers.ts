@@ -55,7 +55,7 @@ export const processReceivedMessage = async (
 
       // タグと返答を結合（音声再生で使用される）
       let aiText = `${tag} ${sentence}`
-      console.log('aiText', aiText)
+      // console.log('aiText', aiText)
 
       if (isCodeBlock && !sentence.includes('```')) {
         codeBlockText += sentence

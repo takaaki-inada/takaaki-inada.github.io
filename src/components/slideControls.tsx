@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { CallBackProps, STATUS, Step } from "react-joyride";
 import { IconButton } from './iconButton';
 
+import homeStore from '@/features/stores/home';
 import dynamic from 'next/dynamic'; // hydration errorが出たので追加 https://stackoverflow.com/questions/57685340/how-to-get-react-joyride-to-work-in-a-next-js-app
 
 const JoyRideNoSSR = dynamic(
@@ -13,6 +14,7 @@ interface SlideControlsProps {
   currentSlide: number
   slideCount: number
   isPlaying: boolean
+  isGuestTurn: boolean
   prevSlide: () => void
   nextSlide: () => void
   toggleIsPlaying: () => void
@@ -22,6 +24,7 @@ const SlideControls: React.FC<SlideControlsProps> = ({
   currentSlide,
   slideCount,
   isPlaying,
+  isGuestTurn,
   prevSlide,
   nextSlide,
   toggleIsPlaying,
@@ -30,7 +33,7 @@ const SlideControls: React.FC<SlideControlsProps> = ({
   const [ steps ] = useState<Step[]>([
     {
       target: 'body',
-      content: <h2>まずPCのvoicevoxを起動してください。</h2>,
+      content: <h2>まずPCのvoicevoxを起動してください。<br/>(なければ <u><a href="https://voicevox.hiroshiba.jp/">ここからdownload</a></u> してね！)</h2>,
       locale: {
         skip: <strong aria-label="skip">スキップ</strong>,
         next: '次へ',
@@ -41,8 +44,19 @@ const SlideControls: React.FC<SlideControlsProps> = ({
       spotlightClicks: true,
     },
     {
+      target: 'body',
+      content: <h2>voicevoxの<u><a href="http://127.0.0.1:50021/setting">CORSの設定画面</a></u>を開いて https://zund-arm-on.com を許可してください。<br/><img src="/images/voidcevox_cors.png"/></h2>,
+      locale: {
+        skip: <strong aria-label="skip">スキップ</strong>,
+        next: '次へ',
+        back: '戻る',
+        last: '終了',
+      },
+      placement: 'center',
+    },
+    {
       target: '.slide-control-play',
-      content: <h2>voicevoxを起動したら放送を開始してみましょう！</h2>,
+      content: <h2>voicevoxを再起動したら放送を開始してみましょう！</h2>,
       locale: {
         skip: <strong aria-label="skip">スキップ</strong>,
         next: '次へ',
@@ -58,12 +72,15 @@ const SlideControls: React.FC<SlideControlsProps> = ({
     const finishedStatuses: string[] = [STATUS.FINISHED, STATUS.SKIPPED];
 
     if (finishedStatuses.includes(status)) {
+      homeStore.setState({ welcomeTourDone: true })
       setRunState(false);
     }
   };
 
   useEffect(() => {
-    setRunState(true)
+    if (!homeStore.getState().welcomeTourDone) {
+      setRunState(true)
+    }
   }, [])
 
   return (
@@ -72,7 +89,7 @@ const SlideControls: React.FC<SlideControlsProps> = ({
         callback={handleJoyrideCallback}
         continuous
         hideCloseButton
-        run={run}
+        run={run && !homeStore.getState().welcomeTourDone}
         scrollToFirstStep
         showProgress // 1/2などの数が表示される
         showSkipButton
@@ -107,10 +124,10 @@ const SlideControls: React.FC<SlideControlsProps> = ({
         />
         <IconButton
           iconName="24/Next"
-          disabled={currentSlide === slideCount - 1 || isPlaying}
+          disabled={currentSlide === slideCount - 1 || (!isGuestTurn && isPlaying)}
           onClick={nextSlide}
           isProcessing={false}
-          className="bg-primary hover:bg-primary-hover disabled:bg-primary-disabled text-white rounded-16 py-8 px-16 text-center mx-16"
+          className="slide-control-next bg-primary hover:bg-primary-hover disabled:bg-primary-disabled text-white rounded-16 py-8 px-16 text-center mx-16"
         />
       </div>
     </div>

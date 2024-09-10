@@ -1,4 +1,3 @@
-import { Message } from "@/features/messages/messages";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import { ChatLog } from "./chatLog";
 import { IconButton } from "./iconButton";
@@ -12,31 +11,25 @@ import Slides from "./slides";
 type Props = {
   openAiKey: string;
   systemPrompt: string;
-  chatLog: Message[];
   assistantMessage: string;
   onChangeSystemPrompt: (systemPrompt: string) => void;
   onChangeAiKey: (key: string) => void;
-  onChangeChatLog: (index: number, text: string) => void;
-  handleClickResetChatLog: () => void;
   handleClickResetSystemPrompt: () => void;
 };
 export const Menu = ({
   openAiKey,
   systemPrompt,
-  chatLog,
   assistantMessage,
   onChangeSystemPrompt,
   onChangeAiKey,
-  onChangeChatLog,
-  handleClickResetChatLog,
   handleClickResetSystemPrompt,
 }: Props) => {
   const [showSettings, setShowSettings] = useState(false);
   const [showChatLog, setShowChatLog] = useState(false);
-  // const { viewer } = useContext(ViewerContext);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const { viewer } = homeStore.getState()
 
+  const chatLog = homeStore((s) => s.chatLog)
   const selectedSlideDocs = slideStore((state) => state.selectedSlideDocs)
   const [markdownContent, setMarkdownContent] = useState('');
 
@@ -99,6 +92,7 @@ export const Menu = ({
             label="設定"
             isProcessing={false}
             onClick={() => setShowSettings(true)}
+            className="menu-setting"
           ></IconButton>
           {showChatLog ? (
             <IconButton
@@ -118,21 +112,18 @@ export const Menu = ({
           )}
         </div>
       </div>
-      {showChatLog && <ChatLog messages={chatLog} />}
+      {showChatLog && <ChatLog />}
       <div className="relative">
         <Slides markdown={markdownContent} />
       </div>
       {showSettings && (
         <Settings
           openAiKey={openAiKey}
-          chatLog={chatLog}
           systemPrompt={systemPrompt}
           onClickClose={() => setShowSettings(false)}
           onChangeAiKey={handleAiKeyChange}
           onChangeSystemPrompt={handleChangeSystemPrompt}
-          onChangeChatLog={onChangeChatLog}
           onClickOpenVrmFile={handleClickOpenVrmFile}
-          onClickResetChatLog={handleClickResetChatLog}
           onClickResetSystemPrompt={handleClickResetSystemPrompt}
         />
       )}

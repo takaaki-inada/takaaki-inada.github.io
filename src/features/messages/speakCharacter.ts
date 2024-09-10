@@ -92,7 +92,7 @@ export const fetchAudioVoiceVox = async (
   pitch: number,
   intonation: number
 ): Promise<ArrayBuffer> => {
-  console.log('speakerId:', speaker)
+  // console.log('speakerId:', speaker)
   const ttsQueryResponse = await fetch(
     VOICE_VOX_API_URL +
       '/audio_query?speaker=' +

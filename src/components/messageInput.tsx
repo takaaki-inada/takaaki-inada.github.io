@@ -45,7 +45,7 @@ export const MessageInput = ({
               onKeyDown={handleKeyDown}
               onClick={onClickUserMessage}
               disabled={isChatProcessing}
-              className="bg-surface1 hover:bg-surface1-hover focus:bg-surface1 disabled:bg-surface1-disabled disabled:text-primary-disabled rounded-16 w-full px-16 text-text-primary typography-16 font-bold disabled"
+              className="message-input-text bg-surface1 hover:bg-surface1-hover focus:bg-surface1 disabled:bg-surface1-disabled disabled:text-primary-disabled rounded-16 w-full px-16 text-text-primary typography-16 font-bold disabled"
               value={userMessage}
             ></input>
 
@@ -57,7 +57,7 @@ export const MessageInput = ({
               onClick={onClickSendButton}
             />
 
-            <IconButton
+            {/* <IconButton
               iconName="24/Camera"
               className="bg-secondary hover:bg-secondary-hover active:bg-secondary-press disabled:bg-secondary-disabled"
               isProcessing={isMicRecording || isChatProcessing}
@@ -70,7 +70,7 @@ export const MessageInput = ({
               isProcessing={isMicRecording || isChatProcessing}
               disabled={isMicRecording || isChatProcessing}
               onClick={onClickReloadButton}
-            />
+            /> */}
           </div>
         </div>
         {/* <div className="py-4 bg-[#413D43] text-center text-white font-Montserrat">

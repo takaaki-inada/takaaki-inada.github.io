@@ -202,6 +202,15 @@ export class Viewer {
     this._camera.aspect =
       parentElement.clientWidth / parentElement.clientHeight;
     this._camera.updateProjectionMatrix();
+
+    const headNode = this.model?.vrm?.humanoid.getNormalizedBoneNode("head");
+    if (headNode) {
+      const headWPos = headNode.getWorldPosition(new THREE.Vector3());
+      // ここでキャラの初期位置を調整する(よくわからないけどこれでうまく動いているのでこのまま)
+      this._cameraControls?.target.set((headWPos.x - this._camera.aspect) , headWPos.y, headWPos.z);
+      // this._cameraControls?.target.set(headWPos.x, headWPos.y, headWPos.z);
+      this._cameraControls?.update();
+    }
   }
 
   /**
@@ -210,15 +219,15 @@ export class Viewer {
   public resetCamera() {
     const headNode = this.model?.vrm?.humanoid.getNormalizedBoneNode("head");
 
-    if (headNode) {
+    if (headNode && this._camera) {
       const headWPos = headNode.getWorldPosition(new THREE.Vector3());
-      this._camera?.position.set(
+      this._camera.position.set(
         this._camera.position.x,
         headWPos.y,
         this._camera.position.z
       );
-      // ここでキャラの初期位置を調整する
-      this._cameraControls?.target.set(headWPos.x - 1.8, headWPos.y, headWPos.z);
+      // ここでキャラの初期位置を調整する(よくわからないけどこれでうまく動いているのでこのまま)
+      this._cameraControls?.target.set((headWPos.x - this._camera.aspect) , headWPos.y, headWPos.z);
       // this._cameraControls?.target.set(headWPos.x, headWPos.y, headWPos.z);
       this._cameraControls?.update();
     }
