@@ -9,7 +9,7 @@ import {
   textsToScreenplay,
 } from "@/features/messages/messages";
 import { speakCharacter } from "@/features/messages/speakCharacter";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 // import { GitHubLink } from "@/components/githubLink";
 import { MessageInputContainer } from "@/components/messageInputContainer";
 import { Meta } from "@/components/meta";
@@ -38,17 +38,19 @@ export default function Home() {
   const [getStatusTimerId, setGetStatusTimerId] = useState<any | null>(null);
   const [autoStatusPolling, setAutoStatusPolling] = useState(false);
 
+  useEffect(() => {
   // system promptはここで保存しないように変更
-  // useEffect(() => {
-  //   if (window.localStorage.getItem("chatVRMParams")) {
+  // if (window.localStorage.getItem("chatVRMParams")) {
   //     const params = JSON.parse(
   //       window.localStorage.getItem("chatVRMParams") as string
   //     );
   //     setSystemPrompt(params.systemPrompt);
   //     homeStore.setState({ chatLog: params.chatLog })
   //   }
-  // }, []);
+    slideStore.setState({ selectedSlideDocs: '20240911' })
+  }, []);
 
+  // system promptはここで保存しないように変更
   // useEffect(() => {
   //   process.nextTick(() =>
   //     window.localStorage.setItem(
