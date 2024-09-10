@@ -1,6 +1,6 @@
 import homeStore from "@/features/stores/home";
 import settingsStore from "@/features/stores/settings";
-import React from "react";
+import React, { useCallback } from "react";
 import { IconButton } from "./iconButton";
 import { Link } from "./link";
 import Character from "./setting/character";
@@ -27,6 +27,16 @@ export const Settings = ({
   const chatLog = homeStore((s) => s.chatLog)
   const characterName = settingsStore((s) => s.characterName)
   const guestName = settingsStore((s) => s.guestName)
+  const welcomeTourDone = homeStore((s) => s.welcomeTourDone)
+  const settingTourDone = homeStore((s) => s.settingTourDone)
+  
+  const handleTourModeChange = useCallback((newMode: boolean) => {
+    homeStore.setState({
+      welcomeTourDone: newMode,
+      settingTourDone: newMode,
+    })
+  }, [])
+
   return (
     <div className="absolute z-40 w-full h-full bg-white/80 backdrop-blur ">
       <div className="absolute m-24">
@@ -92,6 +102,16 @@ export const Settings = ({
               className="px-16 py-8  bg-surface1 hover:bg-surface1-hover h-168 rounded-8 w-full"
             ></textarea>
           </div> */}
+          <div className="my-8">
+            <div className="my-16 typography-20 font-bold">Tour Mode</div>
+            <TextButton
+              onClick={() => {
+                handleTourModeChange(!welcomeTourDone)
+              }}
+            >
+              {welcomeTourDone ? 'Tour Off' : 'Tour On'}
+            </TextButton>
+          </div>
           {chatLog.length > 0 && (
             <div className="my-40">
               <div className="my-8 grid-cols-2">
