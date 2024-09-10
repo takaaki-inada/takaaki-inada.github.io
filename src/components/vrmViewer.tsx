@@ -6,7 +6,6 @@ export default function VrmViewer() {
   const canvasRef = useCallback(
     (canvas: HTMLCanvasElement) => {
       if (canvas) {
-        // const { viewer } = useContext(ViewerContext);
         const { viewer } = homeStore.getState()
         viewer.setup(canvas);
         // viewer.loadVrm(buildUrl("/AvatarSample_B.vrm"));

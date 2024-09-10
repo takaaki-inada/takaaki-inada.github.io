@@ -1,7 +1,7 @@
 import { Menu } from "@/components/menu";
 import VrmViewer from "@/components/vrmViewer";
 import { getLocalStatusGPT4VResponseStream, resetLocalChat } from "@/features/chat/localLLMChat";
-import { getChatResponseStream } from "@/features/chat/openAiChat";
+import { getChatAIResponseStream } from "@/features/chat/openAiChat";
 import { SYSTEM_PROMPT, VISION_PROMPT } from "@/features/constants/systemPromptConstantsYouri";
 import {
   Message,
@@ -9,67 +9,58 @@ import {
   textsToScreenplay,
 } from "@/features/messages/messages";
 import { speakCharacter } from "@/features/messages/speakCharacter";
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useState } from "react";
 // import { GitHubLink } from "@/components/githubLink";
 import { MessageInputContainer } from "@/components/messageInputContainer";
 import { Meta } from "@/components/meta";
 import { SlideText } from "@/components/slideText";
 import homeStore from '@/features/stores/home';
+import settingsStore from "@/features/stores/settings";
 import slideStore from '@/features/stores/slide';
 import { buildUrl } from "@/utils/buildUrl";
 
 export default function Home() {
   const slidePlaying = slideStore((s) => s.isPlaying)
   const chatProcessingCount = homeStore((s) => s.chatProcessingCount)
+  const isGuestTurn = slideStore((s) => s.isGuestTurn)
+  const currentContext = slideStore((s) => s.currentContext)
+  const guestName = settingsStore((s) => s.guestName)
 
-  // const { viewer } = useContext(ViewerContext);
   const { viewer } = homeStore.getState()
 
   const [systemPrompt, setSystemPrompt] = useState(SYSTEM_PROMPT);
-  // 自分
   const [openAiKey, setOpenAiKey] = useState("");
   const [chatProcessing, setChatProcessing] = useState(false);
   const [chatSpeaking, setChatSpeaking] = useState(false);
   const [micRecording, setSpeechRecognizing] = useState(false);
-  const [chatLog, setChatLog] = useState<Message[]>([]);
   const [latestStatusLog, setLatestStatusLog]  = useState<string | null>(null);
   const [assistantMessage, setAssistantMessage] = useState("");
   const [getStatusTimerId, setGetStatusTimerId] = useState<any | null>(null);
   const [autoStatusPolling, setAutoStatusPolling] = useState(false);
 
-  useEffect(() => {
-    if (window.localStorage.getItem("chatVRMParams")) {
-      const params = JSON.parse(
-        window.localStorage.getItem("chatVRMParams") as string
-      );
-      setSystemPrompt(params.systemPrompt);
-      setChatLog(params.chatLog);
-    }
-  }, []);
+  // system promptはここで保存しないように変更
+  // useEffect(() => {
+  //   if (window.localStorage.getItem("chatVRMParams")) {
+  //     const params = JSON.parse(
+  //       window.localStorage.getItem("chatVRMParams") as string
+  //     );
+  //     setSystemPrompt(params.systemPrompt);
+  //     homeStore.setState({ chatLog: params.chatLog })
+  //   }
+  // }, []);
 
-  useEffect(() => {
-    process.nextTick(() =>
-      window.localStorage.setItem(
-        "chatVRMParams",
-        JSON.stringify({ systemPrompt, chatLog })
-      )
-    );
-  }, [systemPrompt, chatLog]);
+  // useEffect(() => {
+  //   process.nextTick(() =>
+  //     window.localStorage.setItem(
+  //       "chatVRMParams",
+  //       JSON.stringify({ systemPrompt, chatLog })
+  //     )
+  //   );
+  // }, [systemPrompt, chatLog]);
 
-  const handleChangeChatLog = useCallback(
-    (targetIndex: number, text: string) => {
-      const newChatLog = chatLog.map((v: Message, i) => {
-        return i === targetIndex ? { role: v.role, content: text } : v;
-      });
-
-      setChatLog(newChatLog);
-    },
-    [chatLog]
-  );
-
-  useEffect(() => {
-    console.log('chatProcessingCount:', chatProcessingCount)
-  }, [chatProcessingCount])
+  // useEffect(() => {
+  //   console.log('chatProcessingCount:', chatProcessingCount)
+  // }, [chatProcessingCount])
 
   /**
    * 文ごとに音声を直列でリクエストしながら再生する
@@ -91,8 +82,12 @@ export default function Home() {
    */
   const handleSendChat = useCallback(
     async (text: string) => {
+
       if (!openAiKey) {
-        setAssistantMessage("APIキーが入力されていません");
+        // setAssistantMessage("APIキーが入力されていません");
+        alert("APIキーが入力されていません");
+        // TODO: tutorialを表示
+        // homeStore.setState({settingTourDone: false })
         return;
       }
 
@@ -100,23 +95,26 @@ export default function Home() {
 
       if (newMessage == null) return;
 
+      const hs = homeStore.getState()
+
       setChatProcessing(true);
       setChatSpeaking(true);
       // ユーザーの発言を追加して表示
       const messageLog: Message[] = [
-        ...chatLog,
+        ...hs.chatLog,
         { role: "user", content: newMessage },
       ];
-      setChatLog(messageLog);
+      homeStore.setState({ chatLog: messageLog })
 
       // Chat GPTへ
       const messages: Message[] = [
         {
           role: "system",
-          content: systemPrompt,
+          content: systemPrompt.replace(/\{CONTEXT\}/g, currentContext).replace(/\{GUEST_NAME\}/g, guestName),
         },
         ...messageLog,
       ];
+      // console.log('messages:', messages)
 
       var stream = null;
       let aiTextLog = "";
@@ -143,25 +141,30 @@ export default function Home() {
         // 実況アクション
         const aiText = '実況するのだ！';
         const aiTalks = textsToScreenplay([aiText]);
-        aiTextLog += aiText;
+        aiTextLog += aiText;  // ログの表示は汚くなるけど、表情を会話で継続的に出力するためには仕方ない
         handleSpeakAi(aiTalks[0], () => { setAssistantMessage(aiText);}, () => {});
         viewer.moveCamera(-1.2, 0, 0);
         viewer.loadVrma(buildUrl("/TaiSp03_Tatsumaki.vrma"));
       } else {
         // stream = await getLocalChatResponseStream(newMessage).catch(
-          stream = await getChatResponseStream(messages, openAiKey).catch(
-            (e) => {
-            console.error(e);
-            return null;
-          }
-        );
+        // stream = await getChatResponseStream(messages, openAiKey).catch(
+        //   (e) => {
+        //   console.error(e);
+        //   return null;
+        // }
+        try {
+          stream = await getChatAIResponseStream(messages, openAiKey)
+        } catch (e) {
+          console.error(e)
+          stream = null
+        }
       }
       if (stream == null) {
         setChatProcessing(false);
         return;
       }
 
-      const reader = stream.getReader();
+      const reader = (stream as ReadableStream<any>).getReader();
       let receivedMessage = "";
       let tag = "";
       const sentences = new Array<string>();
@@ -202,7 +205,7 @@ export default function Home() {
 
             const aiText = `${tag} ${sentence}`;
             const aiTalks = textsToScreenplay([aiText]);
-            aiTextLog += aiText;
+            aiTextLog += aiText;  // ログの表示は汚くなるけど、表情を会話で継続的に出力するためには仕方ない
 
             // リラックス表情アクション
             if (aiTalks[0].expression === 'relaxed') {
@@ -236,13 +239,13 @@ export default function Home() {
         { role: "assistant", content: aiTextLog },
       ];
 
-      setChatLog(messageLogAssistant);
+      homeStore.setState({ chatLog: messageLogAssistant })
       setChatProcessing(false);
       if (autoStatusPolling) {
         startGetStatusTimer();
       }
     },
-    [systemPrompt, chatLog, handleSpeakAi, openAiKey]
+    [systemPrompt, handleSpeakAi, openAiKey, currentContext, guestName]
   );
 
   const startGetStatusTimer = () => {
@@ -337,7 +340,7 @@ export default function Home() {
 
           const aiText = `${tag} ${sentence}`;
           const aiTalks = textsToScreenplay([aiText]);
-          aiTextLog += aiText;
+          aiTextLog += aiText;  // ログの表示は汚くなるけど、表情を会話で継続的に出力するためには仕方ない
 
           // 文ごとに音声を生成 & 再生、返答を表示
           const currentAssistantMessage = sentences.join(" ");
@@ -362,12 +365,13 @@ export default function Home() {
     }
 
     // アシスタントの返答をログに追加
-    const messageLogAssistant: Message[] = [
+     const chatLog = homeStore((s) => s.chatLog)
+     const messageLogAssistant: Message[] = [
       ...chatLog,
       { role: "assistant", content: aiTextLog },
     ];
 
-    setChatLog(messageLogAssistant);
+    homeStore.setState({ chatLog: messageLogAssistant })
     setLatestStatusLog(aiTextLog);
     setChatProcessing(false);
     if (autoStatusPolling) {
@@ -379,7 +383,7 @@ export default function Home() {
     async () => {
       getStatusMessagegAsync();
     },
-    [systemPrompt, chatLog, handleSpeakAi, openAiKey, getStatusTimerId, chatProcessing, chatSpeaking]
+    [systemPrompt, handleSpeakAi, openAiKey, getStatusTimerId, chatProcessing, chatSpeaking]
   )
 
   const resetGetStatusTimerId = useCallback(
@@ -396,12 +400,12 @@ export default function Home() {
 
   const handleReload = useCallback(
     () => {
-      setChatLog([]);
+      homeStore.setState({ chatLog: [] })
       setLatestStatusLog(null);
       setSystemPrompt(SYSTEM_PROMPT);
       resetLocalChat();
     },
-    [getStatusTimerId, chatLog]
+    [getStatusTimerId]
   )
 
   return (
@@ -413,7 +417,7 @@ export default function Home() {
       /> */}
       <VrmViewer />
       {
-        (slidePlaying || chatProcessingCount !== 0) ? (
+        (!isGuestTurn && (slidePlaying || chatProcessingCount !== 0)) ? (
           <SlideText />
         ) : (
           <MessageInputContainer
@@ -431,12 +435,9 @@ export default function Home() {
       <Menu
         openAiKey={openAiKey}
         systemPrompt={systemPrompt}
-        chatLog={chatLog}
         assistantMessage={assistantMessage}
         onChangeAiKey={setOpenAiKey}
         onChangeSystemPrompt={setSystemPrompt}
-        onChangeChatLog={handleChangeChatLog}
-        handleClickResetChatLog={() => setChatLog([])}
         handleClickResetSystemPrompt={() => setSystemPrompt(SYSTEM_PROMPT)}
       />
     </div>

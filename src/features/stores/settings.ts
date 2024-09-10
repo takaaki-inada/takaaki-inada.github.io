@@ -8,7 +8,12 @@ interface ModelProvider {
   voicevoxIntonation: number
 }
 
-export type SettingsState = ModelProvider
+interface Character {
+  characterName: string
+  guestName: string
+}
+
+export type SettingsState = ModelProvider & Character
 
 const settingsStore = create<SettingsState>()(
   persist(
@@ -17,6 +22,8 @@ const settingsStore = create<SettingsState>()(
       voicevoxSpeed: 1.0,
       voicevoxPitch: 0.0,
       voicevoxIntonation: 1.0,
+      characterName: 'ずんだもん',
+      guestName: 'ゲストさん',
     }),
     {
       name: 'chatvrm-settings',
@@ -25,6 +32,8 @@ const settingsStore = create<SettingsState>()(
         voicevoxSpeed: state.voicevoxSpeed,
         voicevoxPitch: state.voicevoxPitch,
         voicevoxIntonation: state.voicevoxIntonation,
+        characterName: state.characterName,
+        guestName: state.guestName,
       }),
     }
   )

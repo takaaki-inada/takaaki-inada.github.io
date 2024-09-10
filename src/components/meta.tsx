@@ -1,10 +1,10 @@
-import { buildUrl } from "@/utils/buildUrl";
 import Head from "next/head";
 export const Meta = () => {
   const title = "ChatVRM";
   const description =
-    "Webブラウザだけで3Dキャラクターとの会話を、マイクやテキスト入力、音声合成を用いて楽しめます。キャラクター（VRM）の変更や性格設定、音声調整もできます。";
-  const imageUrl = "https://pixiv.github.io/ChatVRM/ogp.png";
+    "Webブラウザだけで3Dキャラクターとの会話を、マイクやテキスト入力、音声合成を用いて楽しめます。";
+  // TODO: ogp画像を用意して、URLを指定する
+  const imageUrl = "https://zund-arm-on.com//images/zundarmon_artwork_3000_2.jpg";
   return (
     <Head>
       <title>{title}</title>

@@ -5,13 +5,15 @@ import { Viewer } from '../vrmViewer/viewer'
 
 export interface PersistedState {
   chatLog: Message[]
+  welcomeTourDone: boolean
+  settingTourDone: boolean
 }
 
 export interface TransientState {
   viewer: Viewer
   assistantMessage: string
   slideMessages: string[]
-  chatProcessing: boolean
+  // chatProcessing: boolean
   chatProcessingCount: number
   incrementChatProcessingCount: () => void
   decrementChatProcessingCount: () => void
@@ -24,12 +26,14 @@ const homeStore = create<HomeState>()(
     (set, get) => ({
       // persisted states
       chatLog: [],
+      welcomeTourDone: false,
+      settingTourDone: false,
 
       // transient states
       assistantMessage: '',
       viewer: new Viewer(),
       slideMessages: [],
-      chatProcessing: false,
+      // chatProcessing: false,
       chatProcessingCount: 0,
       incrementChatProcessingCount: () => {
         set(({ chatProcessingCount }) => ({
@@ -44,8 +48,10 @@ const homeStore = create<HomeState>()(
     }),
     {
       name: 'chatvrm-home',
-      partialize: ({ chatLog }) => ({
+      partialize: ({ chatLog, welcomeTourDone, settingTourDone}) => ({
         chatLog,
+        welcomeTourDone,
+        settingTourDone,
       }),
     }
   )

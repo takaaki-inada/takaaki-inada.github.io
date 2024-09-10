@@ -10,7 +10,7 @@ const config = {
   
     return undefined
   })(),
-  themeSet: 'css/marp/theme.css',
+  themeSet: 'public/css/marp/theme.css',
   url: canonicalUrl,
 }
 
