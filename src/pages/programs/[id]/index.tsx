@@ -10,7 +10,7 @@ export default function DynamicPage({ id }: { id: string }) {
   }
 
   useEffect(() => {
-    router.push('/');
+    router.push('/programs/');
   }, []);
 
   return null;
@@ -26,7 +26,7 @@ export async function getStaticPaths() {
       { params: { id: '20240910' } },
       { params: { id: '20240911' } },
     ],
-    fallback: true,
+    fallback: false,
   };
 }
 
