@@ -5,7 +5,8 @@
         "line": "こんにちは！ぼくは、ずんだもんなのだ。株式会社ずんだもん技術室AI放送局へようこそ！",
         "slide_text": "ずんだもんのAI放送局へようこそ！",
         "question_to_guest": "",
-        "prompts": "zundamon, a futuristic studio, a large screen displaying the show's title, a modern desk with a microphone, a lively audience in the background, vibrant colors, anime style, concept art"
+        "prompts": "zundamon, a futuristic studio, a large screen displaying the show's title, a modern desk with a microphone, a lively audience in the background, vibrant colors, anime style, concept art",
+        "notes": "株式会社ずんだもん技術室AI放送局は、AIやテクノロジーのトレンドを届ける番組。平日毎朝6時podcast配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。"
     },
     {
         "page": 1,
@@ -13,7 +14,8 @@
         "line": "今日は、2024年9月10日(火曜日)なのだ。今日は、AIや技術に関する興味深い記事を3つ紹介するのだ。",
         "slide_text": "2024年9月10日 AI技術に関する3つの記事を紹介！",
         "question_to_guest": "",
-        "prompts": "zundamon, a calendar with the date highlighted, a futuristic cityscape with glowing buildings, a robotic arm holding a tablet displaying the show's title, a sleek and modern design, digital art, sci-fi elements"
+        "prompts": "zundamon, a calendar with the date highlighted, a futuristic cityscape with glowing buildings, a robotic arm holding a tablet displaying the show's title, a sleek and modern design, digital art, sci-fi elements",
+        "notes": "株式会社ずんだもん技術室AI放送局は、AIやテクノロジーのトレンドを届ける番組。平日毎朝6時podcast配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。"
     },
     {
         "page": 2,
@@ -21,7 +23,8 @@
         "line": "今日は、AIや技術に関する興味深い記事を3つ紹介するのだ。",
         "slide_text": "AI技術に関する3つの記事を紹介",
         "question_to_guest": "",
-        "prompts": "a futuristic cityscape at night, three glowing orbs representing the articles, zundamon pointing to each orb, a sense of anticipation and excitement, digital art, neon lights"
+        "prompts": "a futuristic cityscape at night, three glowing orbs representing the articles, zundamon pointing to each orb, a sense of anticipation and excitement, digital art, neon lights",
+        "notes": "1つ目の記事は、「本システム導入の目標は、生産性向上なんかじゃありません」というタイトルで、ITシステム導入の目的は、単に生産性向上だけではないという主張が展開されているのだ。2つ目の記事は、「グーグルの画像生成AI「Imagen3」（イメッジFX）の使用経験｜ブラウンカト」というタイトルで、グーグルがリリースした最新画像生成AI「Imagen3」とそのサービス「イメッジFX」について、実際に使用した経験に基づいたレビューなのだ。3つ目の記事は、「Tanuki-8BとOllamaとディフィーを使って日本語ローカルRAG構築」というタイトルで、東京大学の松尾・岩澤研究室が開発した日本語LLM「Tanuki-8B」を用いて、ローカル環境でRAGシステムを構築する方法を紹介しているのだ。"
     },
     {
         "page": 3,
@@ -29,7 +32,8 @@
         "line": "1つ目の記事は、「本システム導入の目標は、生産性向上なんかじゃありません」というタイトルで、ITシステム導入の目的は、単に生産性向上だけではないという主張が展開されているのだ。",
         "slide_text": "ITシステム導入の目的は生産性向上だけではない！",
         "question_to_guest": "",
-        "prompts": "a modern office setting with computers and servers, a person looking at a screen with data and charts, a speech bubble with the article title, ensuring it is highly visible, a clean and professional aesthetic, realistic style"
+        "prompts": "a modern office setting with computers and servers, a person looking at a screen with data and charts, a speech bubble with the article title, ensuring it is highly visible, a clean and professional aesthetic, realistic style",
+        "notes": "タイトル: 本システム導入の目標は、生産性向上なんかじゃありません\n\n要約:\nこの記事では、ITシステム導入の目的は、単に生産性向上だけではないという主張が展開されています。著者は、日々の生活や業務における様々な事例を通して、ITシステムがもたらす真の価値は、生産性向上だけでなく、**不安感情の低減**、ひいては**より質の高い判断**にあると訴えています。\n\n例えば、古くなった車を使い続ける著者は、いざという時に「ちゃんと動くか」という不安を抱えています。しかし、カーナビなどのITシステムは、道順の確認や到着時刻の予測などを通して、その不安を解消し、より質の高い判断を可能にします。\n\n企業におけるITシステム導入においても同様です。MESなどの導入で生産性が向上するとは限らず、経営層は「投資対効果」を疑問視することが多いです。しかし、ITシステムは、業務の可視化やリスクの低減を通じて、より的確な判断を支援し、結果的に組織の決断力を向上させることができます。\n\n著者は、ITシステムの価値を3つの側面から捉えています。\n1つ目は、**生産性向上**です。これは従来から強調されてきた側面ですが、唯一の価値観ではありません。\n2つ目は、**新しい能力の獲得**です。ITシステムによって、今までできなかったことが可能になります。\n3つ目は、**リスク低減と判断の質向上**です。ITシステムは、データに基づく情報提供を通して、より質の高い判断を支援します。\n\n著者は、ITシステムの導入目的を、生産性向上という単一指標で評価することの危険性を指摘しています。そして、**「スマートである」とは、単に生産性が高いだけでなく、不安を解消し、より質の高い判断を支援すること**だと主張しています。\n\n日本の企業では、生産性向上が重視されがちですが、ITシステムの導入目的を多角的に捉え、組織の真の課題解決に繋げる必要があることを、この記事は示唆しています。新人エンジニアの皆さんも、ITシステムの導入効果を評価する際には、生産性だけでなく、これらの側面も考慮することが重要です。 \n"
     },
     {
         "page": 4,
@@ -37,7 +41,8 @@
         "line": "著者は、日々の生活や業務における様々な事例を通して、ITシステムがもたらす真の価値は、生産性向上だけでなく、不安感情の低減、ひいてはより質の高い判断にあると訴えているのだ。",
         "slide_text": "ITシステムは不安を解消し、質の高い判断を支援！",
         "question_to_guest": "",
-        "prompts": "a person driving a car with a GPS navigation system, a calm and serene landscape, a futuristic car with advanced technology, a feeling of safety and security, realistic style, soft lighting"
+        "prompts": "a person driving a car with a GPS navigation system, a calm and serene landscape, a futuristic car with advanced technology, a feeling of safety and security, realistic style, soft lighting",
+        "notes": "タイトル: 本システム導入の目標は、生産性向上なんかじゃありません\n\n要約:\nこの記事では、ITシステム導入の目的は、単に生産性向上だけではないという主張が展開されています。著者は、日々の生活や業務における様々な事例を通して、ITシステムがもたらす真の価値は、生産性向上だけでなく、**不安感情の低減**、ひいては**より質の高い判断**にあると訴えています。\n\n例えば、古くなった車を使い続ける著者は、いざという時に「ちゃんと動くか」という不安を抱えています。しかし、カーナビなどのITシステムは、道順の確認や到着時刻の予測などを通して、その不安を解消し、より質の高い判断を可能にします。\n\n企業におけるITシステム導入においても同様です。MESなどの導入で生産性が向上するとは限らず、経営層は「投資対効果」を疑問視することが多いです。しかし、ITシステムは、業務の可視化やリスクの低減を通じて、より的確な判断を支援し、結果的に組織の決断力を向上させることができます。\n\n著者は、ITシステムの価値を3つの側面から捉えています。\n1つ目は、**生産性向上**です。これは従来から強調されてきた側面ですが、唯一の価値観ではありません。\n2つ目は、**新しい能力の獲得**です。ITシステムによって、今までできなかったことが可能になります。\n3つ目は、**リスク低減と判断の質向上**です。ITシステムは、データに基づく情報提供を通して、より質の高い判断を支援します。\n\n著者は、ITシステムの導入目的を、生産性向上という単一指標で評価することの危険性を指摘しています。そして、**「スマートである」とは、単に生産性が高いだけでなく、不安を解消し、より質の高い判断を支援すること**だと主張しています。\n\n日本の企業では、生産性向上が重視されがちですが、ITシステムの導入目的を多角的に捉え、組織の真の課題解決に繋げる必要があることを、この記事は示唆しています。新人エンジニアの皆さんも、ITシステムの導入効果を評価する際には、生産性だけでなく、これらの側面も考慮することが重要です。 \n"
     },
     {
         "page": 5,
@@ -45,7 +50,8 @@
         "line": "例えば、古くなった車を使い続ける著者は、いざという時に「ちゃんと動くか」という不安を抱えているのだ。しかし、カーナビなどのITシステムは、道順の確認や到着時刻の予測などを通して、その不安を解消し、より質の高い判断を可能にするのだ。企業におけるITシステム導入においても同様で、MESなどの導入で生産性が向上するとは限らず、経営層は「投資対効果」を疑問視することが多いのだ。しかし、ITシステムは、業務の可視化やリスクの低減を通じて、より的確な判断を支援し、結果的に組織の決断力を向上させることができるのだ。",
         "slide_text": "ITシステム導入の効果は多岐に渡る！",
         "question_to_guest": "",
-        "prompts": "a factory with robots and automated machinery, a team of engineers discussing data on a screen, a graph showing the impact of IT systems, a sense of efficiency and optimization, industrial design, realistic style"
+        "prompts": "a factory with robots and automated machinery, a team of engineers discussing data on a screen, a graph showing the impact of IT systems, a sense of efficiency and optimization, industrial design, realistic style",
+        "notes": "タイトル: 本システム導入の目標は、生産性向上なんかじゃありません\n\n要約:\nこの記事では、ITシステム導入の目的は、単に生産性向上だけではないという主張が展開されています。著者は、日々の生活や業務における様々な事例を通して、ITシステムがもたらす真の価値は、生産性向上だけでなく、**不安感情の低減**、ひいては**より質の高い判断**にあると訴えています。\n\n例えば、古くなった車を使い続ける著者は、いざという時に「ちゃんと動くか」という不安を抱えています。しかし、カーナビなどのITシステムは、道順の確認や到着時刻の予測などを通して、その不安を解消し、より質の高い判断を可能にします。\n\n企業におけるITシステム導入においても同様です。MESなどの導入で生産性が向上するとは限らず、経営層は「投資対効果」を疑問視することが多いです。しかし、ITシステムは、業務の可視化やリスクの低減を通じて、より的確な判断を支援し、結果的に組織の決断力を向上させることができます。\n\n著者は、ITシステムの価値を3つの側面から捉えています。\n1つ目は、**生産性向上**です。これは従来から強調されてきた側面ですが、唯一の価値観ではありません。\n2つ目は、**新しい能力の獲得**です。ITシステムによって、今までできなかったことが可能になります。\n3つ目は、**リスク低減と判断の質向上**です。ITシステムは、データに基づく情報提供を通して、より質の高い判断を支援します。\n\n著者は、ITシステムの導入目的を、生産性向上という単一指標で評価することの危険性を指摘しています。そして、**「スマートである」とは、単に生産性が高いだけでなく、不安を解消し、より質の高い判断を支援すること**だと主張しています。\n\n日本の企業では、生産性向上が重視されがちですが、ITシステムの導入目的を多角的に捉え、組織の真の課題解決に繋げる必要があることを、この記事は示唆しています。新人エンジニアの皆さんも、ITシステムの導入効果を評価する際には、生産性だけでなく、これらの側面も考慮することが重要です。 \n"
     },
     {
         "page": 6,
@@ -62,7 +68,8 @@
         "line": "2つ目の記事は、「グーグルの画像生成AI「Imagen3」（イメッジFX）の使用経験｜ブラウンカト」というタイトルで、グーグルがリリースした最新画像生成AI「Imagen3」とそのサービス「イメッジFX」について、実際に使用した経験に基づいたレビューなのだ。",
         "slide_text": "Googleの画像生成AI「Imagen3」とは？",
         "question_to_guest": "",
-        "prompts": "a futuristic laboratory with scientists working on computers, a large screen displaying various images generated by AI, a robot arm holding a paintbrush, a sense of innovation and creativity, digital art, sci-fi elements"
+        "prompts": "a futuristic laboratory with scientists working on computers, a large screen displaying various images generated by AI, a robot arm holding a paintbrush, a sense of innovation and creativity, digital art, sci-fi elements",
+        "notes": "タイトル: Googleの画像生成AI「Imagen3」（ImageFX）の使用経験｜Browncat\n\n\n要約:\nGoogleがリリースした最新画像生成AI「Imagen3」とそのサービス「ImageFX」について、実際に使用した経験に基づいたレビューです。\n\nImagen3は、**プロンプト理解力**、**画像品質**、**テキストレンダリング機能**において、他のAIモデル（DALL-E 3、Stable Diffusionなど）を凌駕する性能を持つとされています。特に、**フォトリアルな画像生成**に優れ、人物描写も自然で破綻が少ない点が特徴です。\n\nImageFXは、Googleアカウントがあれば無料で利用できますが、1日あたりの生成回数に制限があります。また、生成画像サイズは1024x1024ピクセルの正方形に限定されています。\n\n一方で、Imagen3は**表現規制が厳しく**、プロンプトの記述には工夫が必要です。単語数を徐々に増やしながら、規制に引っかからないように調整する必要があります。\n\n記事では、Imagen3と他のAIモデルで同一のプロンプトを用いた生成結果を比較しています。その結果、Imagen3はフォトリアルな画像生成において、他のモデルを上回るクオリティであることが示されています。また、テキストレンダリング機能も優秀で、画像内に指定したテキストを自然に反映させることができます。\n\nImagen3は、非常に高品質な画像生成が可能なAIモデルですが、表現規制や画像サイズ等の制約がある点に注意が必要です。しかし、その優れた性能は、今後様々な分野で活用される可能性を秘めていると言えるでしょう。新人エンジニアの方でも、Googleアカウントさえあれば気軽に試せるので、ぜひImageFXでImagen3の画像生成を体験してみてください。 \n"
     },
     {
         "page": 8,
@@ -70,7 +77,8 @@
         "line": "Imagen3は、プロンプト理解力、画像品質、テキストレンダリング機能において、他のAIモデル（DALL-E 3、ステイブル ディフィゥジョンなど）を凌駕する性能を持つとされているのだ。特に、フォトリアルな画像生成に優れ、人物描写も自然で破綻が少ない点が特徴なのだ。",
         "slide_text": "Imagen3は高性能！フォトリアルな画像生成が可能！",
         "question_to_guest": "",
-        "prompts": "a diverse range of photorealistic images generated by AI, a person interacting with a computer screen, a futuristic interface, a sense of wonder and amazement, realistic style, bright lighting"
+        "prompts": "a diverse range of photorealistic images generated by AI, a person interacting with a computer screen, a futuristic interface, a sense of wonder and amazement, realistic style, bright lighting",
+        "notes": "タイトル: Googleの画像生成AI「Imagen3」（ImageFX）の使用経験｜Browncat\n\n\n要約:\nGoogleがリリースした最新画像生成AI「Imagen3」とそのサービス「ImageFX」について、実際に使用した経験に基づいたレビューです。\n\nImagen3は、**プロンプト理解力**、**画像品質**、**テキストレンダリング機能**において、他のAIモデル（DALL-E 3、Stable Diffusionなど）を凌駕する性能を持つとされています。特に、**フォトリアルな画像生成**に優れ、人物描写も自然で破綻が少ない点が特徴です。\n\nImageFXは、Googleアカウントがあれば無料で利用できますが、1日あたりの生成回数に制限があります。また、生成画像サイズは1024x1024ピクセルの正方形に限定されています。\n\n一方で、Imagen3は**表現規制が厳しく**、プロンプトの記述には工夫が必要です。単語数を徐々に増やしながら、規制に引っかからないように調整する必要があります。\n\n記事では、Imagen3と他のAIモデルで同一のプロンプトを用いた生成結果を比較しています。その結果、Imagen3はフォトリアルな画像生成において、他のモデルを上回るクオリティであることが示されています。また、テキストレンダリング機能も優秀で、画像内に指定したテキストを自然に反映させることができます。\n\nImagen3は、非常に高品質な画像生成が可能なAIモデルですが、表現規制や画像サイズ等の制約がある点に注意が必要です。しかし、その優れた性能は、今後様々な分野で活用される可能性を秘めていると言えるでしょう。新人エンジニアの方でも、Googleアカウントさえあれば気軽に試せるので、ぜひImageFXでImagen3の画像生成を体験してみてください。 \n"
     },
     {
         "page": 9,
@@ -78,7 +86,8 @@
         "line": "イメッジFXは、グーグルアカウントがあれば無料で利用できるが、1日あたりの生成回数に制限があるのだ。また、生成画像サイズは1024x1024ピクセルの正方形に限定されているのだ。一方で、Imagen3は表現規制が厳しく、プロンプトの記述には工夫が必要なのだ。単語数を徐々に増やしながら、規制に引っかからないように調整する必要があるのだ。記事では、Imagen3と他のAIモデルで同一のプロンプトを用いた生成結果を比較しているのだ。その結果、Imagen3はフォトリアルな画像生成において、他のモデルを上回るクオリティであることが示されているのだ。また、テキストレンダリング機能も優秀で、画像内に指定したテキストを自然に反映させることができるのだ。",
         "slide_text": "Imagen3は無料利用可能！ただし、制限あり！",
         "question_to_guest": "",
-        "prompts": "a person typing a prompt into a computer, a screen showing the results of different AI image generators, a comparison chart highlighting the differences, a sense of experimentation and exploration, digital art, clean lines"
+        "prompts": "a person typing a prompt into a computer, a screen showing the results of different AI image generators, a comparison chart highlighting the differences, a sense of experimentation and exploration, digital art, clean lines",
+        "notes": "タイトル: Googleの画像生成AI「Imagen3」（ImageFX）の使用経験｜Browncat\n\n\n要約:\nGoogleがリリースした最新画像生成AI「Imagen3」とそのサービス「ImageFX」について、実際に使用した経験に基づいたレビューです。\n\nImagen3は、**プロンプト理解力**、**画像品質**、**テキストレンダリング機能**において、他のAIモデル（DALL-E 3、Stable Diffusionなど）を凌駕する性能を持つとされています。特に、**フォトリアルな画像生成**に優れ、人物描写も自然で破綻が少ない点が特徴です。\n\nImageFXは、Googleアカウントがあれば無料で利用できますが、1日あたりの生成回数に制限があります。また、生成画像サイズは1024x1024ピクセルの正方形に限定されています。\n\n一方で、Imagen3は**表現規制が厳しく**、プロンプトの記述には工夫が必要です。単語数を徐々に増やしながら、規制に引っかからないように調整する必要があります。\n\n記事では、Imagen3と他のAIモデルで同一のプロンプトを用いた生成結果を比較しています。その結果、Imagen3はフォトリアルな画像生成において、他のモデルを上回るクオリティであることが示されています。また、テキストレンダリング機能も優秀で、画像内に指定したテキストを自然に反映させることができます。\n\nImagen3は、非常に高品質な画像生成が可能なAIモデルですが、表現規制や画像サイズ等の制約がある点に注意が必要です。しかし、その優れた性能は、今後様々な分野で活用される可能性を秘めていると言えるでしょう。新人エンジニアの方でも、Googleアカウントさえあれば気軽に試せるので、ぜひImageFXでImagen3の画像生成を体験してみてください。 \n"
     },
     {
         "page": 10,
@@ -95,7 +104,8 @@
         "line": "3つ目の記事は、「Tanuki-8BとOllamaとディフィーを使って日本語ローカルRAG構築」というタイトルで、東京大学の松尾・岩澤研究室が開発した日本語LLM「Tanuki-8B」を用いて、ローカル環境でRAGシステムを構築する方法を紹介しているのだ。",
         "slide_text": "日本語LLM「Tanuki-8B」でローカルRAG構築！",
         "question_to_guest": "",
-        "prompts": "a computer screen displaying code related to AI and natural language processing, a person working on a laptop in a home office, a futuristic interface with data visualizations, a sense of technical expertise and innovation, digital art, warm lighting"
+        "prompts": "a computer screen displaying code related to AI and natural language processing, a person working on a laptop in a home office, a futuristic interface with data visualizations, a sense of technical expertise and innovation, digital art, warm lighting",
+        "notes": "タイトル: Tanuki-8BとOllamaとDifyを使って日本語ローカルRAG構築\n\n\n要約:\n本記事では、東京大学の松尾・岩澤研究室が開発した日本語LLM「Tanuki-8B」を用いて、ローカル環境でRAGシステムを構築する方法を紹介します。\n\n**RAG（Retrieval-Augmented Generation）**とは、LLMが外部の知識（ナレッジ）を参照して回答生成を行う技術です。これにより、LLM単体では学習していない知識への対応や、事実誤り（ハルシネーション）の抑制が期待できます。しかし、従来のRAG構築には、セキュリティ、コスト、システム構築といった課題がありました。\n\nそこで、本記事では、軽量な日本語LLMであるTanuki-8Bと、ローカルLLM実行環境であるOllama、そしてノーコードRAG構築プラットフォームであるDifyを組み合わせることで、これらの課題を解決する手法を紹介します。\n\n**Tanuki-8B**は、日本語の対話や作文能力においてGPT-3.5-Turboに匹敵する性能を持ちながら、軽量なモデルです。**Ollama**は、様々なプラットフォームでLLMを簡単に実行できるツールで、量子化技術によりTanuki-8Bを低スペックなPCでも動作させることが可能です。**Dify**は、ノーコードでRAGシステムを構築できるオープンソースのプラットフォームで、Ollamaと連携することでローカルRAG環境を構築できます。\n\nこれらのツールを活用することで、企業は自社の機密データを外部に送信することなく、コストを抑え、比較的容易に日本語RAGシステムを構築できます。\n\n本記事では、Tanuki-8B、Ollama、Difyのセットアップ方法から、ナレッジの読み込み、Ollamaとの連携、RAGシステムの動作確認まで、具体的な手順を解説しています。\n\n\n**新人エンジニアの方へ**\n\nRAGは、LLMの能力を拡張し、より実用的なシステムを構築するための重要な技術です。本記事で紹介した方法を使えば、比較的簡単にローカルRAGシステムを構築できますので、ぜひ参考にしてみてください。LLM、RAG、Tanuki-8B、Ollama、Difyといったキーワードを理解し、今後の学習や開発に活かしていただければ幸いです。 \n"
     },
     {
         "page": 12,
@@ -103,7 +113,8 @@
         "line": "RAG（リトゥリーヴァル-オーグメンティド ジェネレイション）とは、LLMが外部の知識（ナレッジ）を参照して回答生成を行う技術なのだ。これにより、LLM単体では学習していない知識への対応や、事実誤り（ハルシネーション）の抑制が期待できるのだ。しかし、従来のRAG構築には、セキュリティ、コスト、システム構築といった課題があったのだ。",
         "slide_text": "RAGとは？LLMが外部知識を参照して回答生成！",
         "question_to_guest": "",
-        "prompts": "a brain with interconnected neurons, a library full of books, a person reading a book, a futuristic interface displaying information, a sense of knowledge and learning, digital art, cool colors"
+        "prompts": "a brain with interconnected neurons, a library full of books, a person reading a book, a futuristic interface displaying information, a sense of knowledge and learning, digital art, cool colors",
+        "notes": "タイトル: Tanuki-8BとOllamaとDifyを使って日本語ローカルRAG構築\n\n\n要約:\n本記事では、東京大学の松尾・岩澤研究室が開発した日本語LLM「Tanuki-8B」を用いて、ローカル環境でRAGシステムを構築する方法を紹介します。\n\n**RAG（Retrieval-Augmented Generation）**とは、LLMが外部の知識（ナレッジ）を参照して回答生成を行う技術です。これにより、LLM単体では学習していない知識への対応や、事実誤り（ハルシネーション）の抑制が期待できます。しかし、従来のRAG構築には、セキュリティ、コスト、システム構築といった課題がありました。\n\nそこで、本記事では、軽量な日本語LLMであるTanuki-8Bと、ローカルLLM実行環境であるOllama、そしてノーコードRAG構築プラットフォームであるDifyを組み合わせることで、これらの課題を解決する手法を紹介します。\n\n**Tanuki-8B**は、日本語の対話や作文能力においてGPT-3.5-Turboに匹敵する性能を持ちながら、軽量なモデルです。**Ollama**は、様々なプラットフォームでLLMを簡単に実行できるツールで、量子化技術によりTanuki-8Bを低スペックなPCでも動作させることが可能です。**Dify**は、ノーコードでRAGシステムを構築できるオープンソースのプラットフォームで、Ollamaと連携することでローカルRAG環境を構築できます。\n\nこれらのツールを活用することで、企業は自社の機密データを外部に送信することなく、コストを抑え、比較的容易に日本語RAGシステムを構築できます。\n\n本記事では、Tanuki-8B、Ollama、Difyのセットアップ方法から、ナレッジの読み込み、Ollamaとの連携、RAGシステムの動作確認まで、具体的な手順を解説しています。\n\n\n**新人エンジニアの方へ**\n\nRAGは、LLMの能力を拡張し、より実用的なシステムを構築するための重要な技術です。本記事で紹介した方法を使えば、比較的簡単にローカルRAGシステムを構築できますので、ぜひ参考にしてみてください。LLM、RAG、Tanuki-8B、Ollama、Difyといったキーワードを理解し、今後の学習や開発に活かしていただければ幸いです。 \n"
     },
     {
         "page": 13,
@@ -111,7 +122,8 @@
         "line": "そこで、本記事では、軽量な日本語LLMであるTanuki-8Bと、ローカルLLM実行環境であるOllama、そしてノーコードRAG構築プラットフォームであるディフィーを組み合わせることで、これらの課題を解決する手法を紹介しているのだ。Tanuki-8Bは、日本語の対話や作文能力においてGPT-3.5-ターボに匹敵する性能を持ちながら、軽量なモデルなのだ。Ollamaは、様々なプラットフォームでLLMを簡単に実行できるツールで、量子化技術によりTanuki-8Bを低スペックなPCでも動作させることが可能なのだ。ディフィーは、ノーコードでRAGシステムを構築できるオープンソースのプラットフォームで、Ollamaと連携することでローカルRAG環境を構築できるのだ。これらのツールを活用することで、企業は自社の機密データを外部に送信することなく、コストを抑え、比較的容易に日本語RAGシステムを構築できるのだ。",
         "slide_text": "Tanuki-8B, Ollama, ディフィーで課題解決！",
         "question_to_guest": "",
-        "prompts": "a network of interconnected computers and servers, a person using a smartphone, a tablet displaying a user-friendly interface, a sense of accessibility and ease of use, digital art, bright and colorful"
+        "prompts": "a network of interconnected computers and servers, a person using a smartphone, a tablet displaying a user-friendly interface, a sense of accessibility and ease of use, digital art, bright and colorful",
+        "notes": "タイトル: Tanuki-8BとOllamaとDifyを使って日本語ローカルRAG構築\n\n\n要約:\n本記事では、東京大学の松尾・岩澤研究室が開発した日本語LLM「Tanuki-8B」を用いて、ローカル環境でRAGシステムを構築する方法を紹介します。\n\n**RAG（Retrieval-Augmented Generation）**とは、LLMが外部の知識（ナレッジ）を参照して回答生成を行う技術です。これにより、LLM単体では学習していない知識への対応や、事実誤り（ハルシネーション）の抑制が期待できます。しかし、従来のRAG構築には、セキュリティ、コスト、システム構築といった課題がありました。\n\nそこで、本記事では、軽量な日本語LLMであるTanuki-8Bと、ローカルLLM実行環境であるOllama、そしてノーコードRAG構築プラットフォームであるDifyを組み合わせることで、これらの課題を解決する手法を紹介します。\n\n**Tanuki-8B**は、日本語の対話や作文能力においてGPT-3.5-Turboに匹敵する性能を持ちながら、軽量なモデルです。**Ollama**は、様々なプラットフォームでLLMを簡単に実行できるツールで、量子化技術によりTanuki-8Bを低スペックなPCでも動作させることが可能です。**Dify**は、ノーコードでRAGシステムを構築できるオープンソースのプラットフォームで、Ollamaと連携することでローカルRAG環境を構築できます。\n\nこれらのツールを活用することで、企業は自社の機密データを外部に送信することなく、コストを抑え、比較的容易に日本語RAGシステムを構築できます。\n\n本記事では、Tanuki-8B、Ollama、Difyのセットアップ方法から、ナレッジの読み込み、Ollamaとの連携、RAGシステムの動作確認まで、具体的な手順を解説しています。\n\n\n**新人エンジニアの方へ**\n\nRAGは、LLMの能力を拡張し、より実用的なシステムを構築するための重要な技術です。本記事で紹介した方法を使えば、比較的簡単にローカルRAGシステムを構築できますので、ぜひ参考にしてみてください。LLM、RAG、Tanuki-8B、Ollama、Difyといったキーワードを理解し、今後の学習や開発に活かしていただければ幸いです。 \n"
     },
     {
         "page": 14,
@@ -128,7 +140,8 @@
         "line": "今日は、AIや技術に関する興味深い記事を3つ紹介したのだ。",
         "slide_text": "AI技術に関する3つの記事を紹介しました！",
         "question_to_guest": "",
-        "prompts": "a futuristic cityscape with a large screen displaying the show's title, zundamon waving goodbye, a sense of closure and anticipation for the next episode, digital art, warm lighting"
+        "prompts": "a futuristic cityscape with a large screen displaying the show's title, zundamon waving goodbye, a sense of closure and anticipation for the next episode, digital art, warm lighting",
+        "notes": "1つ目の記事は、「本システム導入の目標は、生産性向上なんかじゃありません」というタイトルで、ITシステム導入の目的は、単に生産性向上だけではないという主張が展開されているのだ。2つ目の記事は、「グーグルの画像生成AI「Imagen3」（イメッジFX）の使用経験｜ブラウンカト」というタイトルで、グーグルがリリースした最新画像生成AI「Imagen3」とそのサービス「イメッジFX」について、実際に使用した経験に基づいたレビューなのだ。3つ目の記事は、「Tanuki-8BとOllamaとディフィーを使って日本語ローカルRAG構築」というタイトルで、東京大学の松尾・岩澤研究室が開発した日本語LLM「Tanuki-8B」を用いて、ローカル環境でRAGシステムを構築する方法を紹介しているのだ。"
     },
     {
         "page": 16,
@@ -136,6 +149,7 @@
         "line": "来週も、新しい技術や話題をたっぷりお届けするぞ！ \n株式会社ずんだもん技術室AI放送局は、あなたの声を待っているのだ。番組への感想や質問は、ずんだアローまで！ \nそれでは、また次回お会いしましょう！",
         "slide_text": "来週もAI技術の話題をお届け！ご意見・ご感想をお待ちしております！",
         "question_to_guest": "",
-        "prompts": "zundamon standing in front of a microphone, a futuristic studio with screens displaying the show's logo, a sense of excitement and anticipation for the future, digital art, vibrant colors"
+        "prompts": "zundamon standing in front of a microphone, a futuristic studio with screens displaying the show's logo, a sense of excitement and anticipation for the future, digital art, vibrant colors",
+        "notes": "株式会社ずんだもん技術室AI放送局は、AIやテクノロジーのトレンドを届ける番組。平日毎朝6時podcast配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。"
     }
 ]

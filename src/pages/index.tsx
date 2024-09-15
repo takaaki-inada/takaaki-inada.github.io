@@ -47,7 +47,10 @@ export default function Home() {
   //     setSystemPrompt(params.systemPrompt);
   //     homeStore.setState({ chatLog: params.chatLog })
   //   }
-    slideStore.setState({ selectedSlideDocs: '20240911' })
+    if (!slideStore.getState().selectedSlideDocs) {
+      console.log('set default slide.')
+      slideStore.setState({ selectedSlideDocs: '20240911' })
+    }
   }, []);
 
   // system promptはここで保存しないように変更

@@ -1,0 +1,174 @@
+[
+    {
+        "page": 0,
+        "section": "opening",
+        "line": "株式会社ずんだもん技術室AI放送局、はじまるのだ！",
+        "slide_text": "ずんだもん技術室AI放送局、放送開始！",
+        "question_to_guest": "",
+        "prompts": "zundamon, a futuristic studio, vibrant colors, glowing screens, advanced technology, a large camera, a microphone, a presenter, a professional setting,  detailed background, 8k, ultra realistic"
+    },
+    {
+        "page": 1,
+        "section": "opening",
+        "line": "今日は2024年9月11日、水曜日なのだ。\n今日は、最新の技術トレンドを、ぼくがわかりやすく解説していくのだ！\n今日は4つの記事を紹介するのだ。",
+        "slide_text": "2024年9月11日 最新技術トレンド紹介！",
+        "question_to_guest": "",
+        "prompts": "zundamon, a futuristic cityscape at night, neon lights, holographic displays, skyscrapers, flying cars, a sense of wonder, detailed background, 8k, ultra realistic"
+    },
+    {
+        "page": 2,
+        "section": "agenda",
+        "line": "1つ目の記事は、「プレイステイション®5 プロを発表！ プレイステイション®史上最高の映像美の実現へ」という記事なのだ。\n2つ目の記事は、「Amazon EC2 P5e instances are generally available | Amazon Web Services」という記事なのだ。　、。\n3つ目の記事は、「Align Meta Llama 3 to human preferences with DPO, Amazon SageMaker Studio, and Amazon SageMaker Ground Truth | Amazon Web Services」という記事なのだ。　、。\n4つ目の記事は、「「これは傑作。ゾクゾク来た」重いけど、嫌いじゃない、ある意味リアリティな話「アイドルを輝かせ“ようとした”ものの物語」」という記事なのだ。",
+        "slide_text": "本日の放送内容：最新技術トレンド4選",
+        "question_to_guest": "",
+        "prompts": "a futuristic interface, a digital screen, a list of topics, 4 articles, a clean and modern design,  technology theme, concept art, detailed background, 8k"
+    },
+    {
+        "page": 3,
+        "section": "article1",
+        "line": "ソニー・インタラクティブエンタテインメントが、プレイステイション®5の後継機となる「プレイステイション®5 プロ」を発表したのだ。 PS5 プロは、より高精細なグラフィックと滑らかな60FPSのフレームレートを実現することを目指した、プレイステイション®史上最も革新的なコンソールなのだ。\nPS5 プロの主な特徴は、GPUの強化、進化したレイトレーシング、AIによる解像感向上、PS4ゲームの強化、最新の通信規格対応などがあるのだ。\nPS5 プロは、PS5ファミリーのデザインを継承しつつ、より高性能なスペックを実現しているのだ。 ウルトゥラ HD ブルー-レイディスクドライブの取り付けにも対応し、本体カバーの交換も可能なのだ。 希望小売価格は119,980円（税込）で、11月7日より発売予定なのだ。",
+        "slide_text": "PS5 Pro発表！PS5史上最高の映像美を実現",
+        "question_to_guest": "",
+        "prompts": "PS5 Pro, high-resolution graphics, realistic textures, ray tracing, 60FPS, a futuristic gaming console, a modern design, clean lines, detailed background, 8k, photorealistic"
+    },
+    {
+        "page": 4,
+        "section": "article1",
+        "line": "PS5 プロは、プレイヤーとゲームクリエイターの双方に、より高品質なゲーム体験を提供することを目指した次世代ゲーム機なのだ。 多くのPS5ゲームがPS5 プロ向けに強化され、「PS5 プロ エンハンスト」の表記で識別できるようになるのだ。 今後も、PS5およびPS5 プロを通じて、最高のゲーム体験を提供していくとのことなのだ。",
+        "slide_text": "PS5 Proで実現する高品質なゲーム体験",
+        "question_to_guest": "",
+        "prompts": "a gamer playing PS5 Pro, a stunning game scene, realistic graphics, immersive gameplay, a comfortable gaming chair,  a modern living room, detailed background, 8k, photorealistic"
+    },
+    {
+        "page": 5,
+        "section": "article1",
+        "line": " ",
+        "slide_text": "PS5 Proでゲーム体験をさらに進化させよう！",
+        "question_to_guest": "",
+        "prompts": "PS5 Pro, a futuristic gaming environment, a diverse group of gamers, a virtual world,  a sense of excitement, detailed background, 8k, photorealistic"
+    },
+    {
+        "page": 6,
+        "section": "comment1",
+        "line": " ",
+        "slide_text": "PS5 Pro、気になる点は？",
+        "question_to_guest": "{GUEST}、PS5 Proについてどう思いますか？特に気になる点はありますか？",
+        "prompts": "zundamon, a speech bubble,  thinking, asking a question,  a cartoon style,  a simple background,  colorful,  detailed",
+        "notes": "タイトル: PlayStation®5 Proを発表！ PlayStation®史上最高の映像美の実現へ\n\n要約:\nソニー・インタラクティブエンタテインメントは、PlayStation®5の後継機となる「PlayStation®5 Pro」（PS5 Pro）を発表しました。PS5 Proは、より高精細なグラフィックと滑らかな60FPSのフレームレートを実現することを目指した、PlayStation®史上最も革新的なコンソールです。\n\nPS5 Proの主な特徴は以下の通りです。\n\n* **GPUの強化**: 現行PS5と比べて、GPUのコンピュートユニット数が67%増加し、GPUメモリも28%高速化されました。これにより、ゲームのレンダリング速度が最大45%向上し、より滑らかなプレイ体験が期待できます。\n* **進化したレイトレーシング**: よりリアルな光の表現を可能にするレイトレーシング機能が進化し、光線を従来の2～3倍の速度で投射できるようになりました。\n* **AIによる解像感向上**: 機械学習ベースのAI技術「PlayStation®スペクトルスーパーレゾリューション（PSSR）」を搭載し、映像のディテールを大幅にアップスケーリングすることで、より鮮明なビジュアルを実現します。\n* **PS4ゲームの強化**: 8,500以上のPS4ゲームをプレイ可能で、PS5 Proゲームブーストにより、一部のPS5およびPS4ゲームのパフォーマンスが向上する可能性があります。また、PS4ゲームの画質向上設定も利用できます。\n* **最新の通信規格対応**: Wi-Fi 7に対応し、VRR（可変リフレッシュレート）や8Kでのゲームプレイにも対応しています。\n\n\nPS5 Proは、PS5ファミリーのデザインを継承しつつ、より高性能なスペックを実現しています。Ultra HD Blu-rayディスクドライブの取り付けにも対応し、本体カバーの交換も可能です。希望小売価格は119,980円（税込）で、11月7日より発売予定です。\n\nPS5 Proは、プレイヤーとゲームクリエイターの双方に、より高品質なゲーム体験を提供することを目指した次世代ゲーム機です。多くのPS5ゲームがPS5 Pro向けに強化され、「PS5 Pro Enhanced」の表記で識別できるようになります。今後も、PS5およびPS5 Proを通じて、最高のゲーム体験を提供していくとのことです。 \n"
+    },
+    {
+        "page": 7,
+        "section": "article2",
+        "line": "Amazon ウェブ サービシズ (AWS) は、新たに高性能なコンピューティングインスタンス「P5e」を一般提供開始したのだ。 P5eインスタンスは、最新の第4世代インテルXeonスケーラブルプロセッサーと、最新のNVIDIA A100 テンサーコアGPUを搭載しているのだ。\nP5eインスタンスの主な特徴は、高性能なCPUとGPU、高速なメモリとストレージ、高いネットワーク帯域幅などがあるのだ。\nP5eインスタンスは、機械学習モデルのトレーニング、AI推論、高性能コンピューティング、データ分析など、様々な用途に最適なのだ。",
+        "slide_text": "AWSの新インスタンスP5e登場！高性能コンピューティングを実現",
+        "question_to_guest": "",
+        "prompts": "a server room, powerful computers, NVIDIA A100 GPUs, Intel Xeon Scalable Processors, data centers, network infrastructure,  a professional setting, detailed background, 8k, photorealistic"
+    },
+    {
+        "page": 8,
+        "section": "article2",
+        "line": "AWSは、P5eインスタンスの利用には、利用地域やインスタンスタイプ、リージョンなど、いくつかの制約があることを明記しているのだ。 詳細については、AWSの公式ドキュメントを参照してほしいのだ。\n新人エンジニアの皆さんは、この新しい高性能インスタンスを活用することで、より高度なアプリケーションを開発できるようになるだろうのだ。 AWSの提供する豊富なサービスと組み合わせることで、さらに効率的かつ効果的なシステム構築が可能になるのだ。",
+        "slide_text": "P5eで効率的なシステム構築を実現！",
+        "question_to_guest": "",
+        "prompts": "a network diagram,  cloud computing, data flow, server connections,  a modern data center,  a clean and modern design,  detailed background, 8k"
+    },
+    {
+        "page": 9,
+        "section": "article2",
+        "line": " ",
+        "slide_text": "AWS P5eでエンジニアの未来を加速させよう！",
+        "question_to_guest": "",
+        "prompts": "a futuristic cityscape,  a network of connected devices,  data visualization,  artificial intelligence,  a sense of innovation,  detailed background, 8k"
+    },
+    {
+        "page": 10,
+        "section": "comment2",
+        "line": " ",
+        "slide_text": "AWS P5e、活用方法は？",
+        "question_to_guest": "{GUEST}、AWS P5eについてどう思いますか？どのような場面で活用できると考えますか？",
+        "prompts": "zundamon, a speech bubble, thinking, asking a question, a cartoon style, a simple background, colorful, detailed",
+        "notes": "タイトル: Amazon EC2 P5e instances are generally available | Amazon Web Services\n\n\n要約:\n\nAmazon Web Services (AWS) は、新たに高性能なコンピューティングインスタンス「P5e」を一般提供開始しました。P5eインスタンスは、最新の第4世代インテルXeonスケーラブルプロセッサーと、最新のNVIDIA A100 TensorコアGPUを搭載しています。\n\n**P5eインスタンスの主な特徴**\n\n* **高性能なCPUとGPU:** 第4世代インテルXeonスケーラブルプロセッサーとNVIDIA A100 TensorコアGPUにより、高度な機械学習やAI処理に最適です。\n* **高速なメモリとストレージ:** 大容量メモリと高速なストレージにより、データ処理を高速化できます。\n* **高いネットワーク帯域幅:** 高速なネットワーク接続により、データ転送を高速化できます。\n\n**P5eインスタンスの利用シーン**\n\nP5eインスタンスは、以下のような用途に最適です。\n\n* 機械学習モデルのトレーニング\n* AI推論\n* 高性能コンピューティング\n* データ分析\n\nこれらの特徴から、P5eインスタンスは、大規模なデータセットを扱う機械学習やAIアプリケーション、高性能なコンピューティングリソースを必要とするアプリケーションに最適な選択肢となります。\n\n\n**制約事項**\n\nAWSは、P5eインスタンスの利用には、利用地域やインスタンスタイプ、リージョンなど、いくつかの制約があることを明記しています。詳細については、AWSの公式ドキュメントを参照してください。\n\n\n新人エンジニアの皆さんは、この新しい高性能インスタンスを活用することで、より高度なアプリケーションを開発できるようになるでしょう。AWSの提供する豊富なサービスと組み合わせることで、さらに効率的かつ効果的なシステム構築が可能になります。 \n"
+    },
+    {
+        "page": 11,
+        "section": "article3",
+        "line": "この記事では、Amazon セイジメイカーを用いて、メタ ラーマ 3 8B インストゥラクトモデルの応答を人間の好みに合わせる方法について解説しているのだ。 特に、ダイレクト プリファレンス オプティマイゼイション (DPO)という手法を用いることで、LLMの応答を組織の価値観やブランドアイデンティティに合致させる方法が紹介されているのだ。\nDPOは、人間の好みに関するデータ（評価やランキングなど）を用いてLLMを微調整する技術なのだ。 これにより、LLMの応答がより人間にとって有益で、正直で、無害なものになるのだ。 また、特定のトピックへの言及を回避したり、バイアスを軽減したりすることも可能なのだ。　このプロセスでは、Amazon SageMaker StudioとAmazon SageMaker Ground Truthが重要な役割を果たすのだ。　、。",
+        "slide_text": "Amazon SageMakerでLLMを人間の好みに調整！",
+        "question_to_guest": "",
+        "prompts": "Amazon SageMaker Studio, Amazon SageMaker Ground Truth, a data scientist working on a laptop, a machine learning model, data visualization, AI algorithms, a professional office setting, detailed background, 8k, photorealistic"
+    },
+    {
+        "page": 12,
+        "section": "article3",
+        "line": "セイジメイカー ストゥディオは、GPUインスタンスを搭載したジューピーター ノートブク環境を提供し、LLMの微調整を効率的に行うための開発環境となるのだ。 セイジメイカー グラウンド トゥルースは、人間のフィードバックを収集するためのワークフローを構築し、アノテーターの管理や高品質なフィードバックの収集を支援するのだ。\n具体的には、メタ ラーマ 3 8B インストゥラクトモデルをセイジメイカー ストゥディオにロードし、一般的な質問と不適切な質問に対する応答を生成するのだ。 生成された質問と回答のペアはAmazon S3に保存され、セイジメイカー グラウンド トゥルースで人間の評価・ランキングの対象となるのだ。 アノテーターは、組織の価値観に合致する応答を評価・ランキングし、その結果をDPOの微調整に利用するのだ。　Hugging Face TRLライブラリとDPOTrainerを用いて、SageMaker Studio上でMeta Llama 3 8B Instructモデルを微調整し、人間の好みに合わせたモデルを作成するのだ。　、。",
+        "slide_text": "SageMaker StudioとGround TruthでLLMを微調整",
+        "question_to_guest": "",
+        "prompts": "a team of data scientists collaborating, a machine learning workflow, data labeling, model training, a user interface, a clean and modern design,  detailed background, 8k"
+    },
+    {
+        "page": 13,
+        "section": "article3",
+        "line": "さらに、微調整されたモデルをセイジメイカーエンドポイントにデプロイすることで、リアルタイム推論を行うことができるのだ。\nこの記事では、これらのツールと技術を組み合わせることで、LLMを人間の好みに合わせて微調整し、より優れたパフォーマンスを実現する方法を示しているのだ。 新人エンジニアの方でも、セイジメイカー ストゥディオとグラウンド トゥルースを利用することで、LLMの微調整に挑戦しやすくなっている点が大きなメリットと言えるだろうのだ。",
+        "slide_text": "LLMの性能向上！SageMakerでリアルタイム推論を実現",
+        "question_to_guest": "",
+        "prompts": "a futuristic user interface, a chatbot interacting with a user, a machine learning model, real-time inference, a sense of innovation,  a clean and modern design,  detailed background, 8k"
+    },
+    {
+        "page": 14,
+        "section": "comment3",
+        "line": " ",
+        "slide_text": "LLMの倫理的な課題、どう考える？",
+        "question_to_guest": "{GUEST}、LLMの倫理的な課題について、どう思いますか？",
+        "prompts": "zundamon, a speech bubble, thinking, asking a question, a cartoon style, a simple background, colorful, detailed",
+        "notes": "タイトル: Align Meta Llama 3 to human preferences with DPO, Amazon SageMaker Studio, and Amazon SageMaker Ground Truth | Amazon Web Services\n\n\n要約:\n\nこの記事では、Amazon SageMakerを用いて、Meta Llama 3 8B Instructモデルの応答を人間の好みに合わせる方法について解説しています。特に、**Direct Preference Optimization (DPO)**という手法を用いることで、LLMの応答を組織の価値観やブランドアイデンティティに合致させる方法が紹介されています。\n\nDPOは、人間の好みに関するデータ（評価やランキングなど）を用いてLLMを微調整する技術です。これにより、LLMの応答がより人間にとって有益で、正直で、無害なものになります。また、特定のトピックへの言及を回避したり、バイアスを軽減したりすることも可能です。\n\nこのプロセスでは、Amazon SageMaker StudioとAmazon SageMaker Ground Truthが重要な役割を果たします。SageMaker Studioは、GPUインスタンスを搭載したJupyter Notebook環境を提供し、LLMの微調整を効率的に行うための開発環境となります。SageMaker Ground Truthは、人間のフィードバックを収集するためのワークフローを構築し、アノテーターの管理や高品質なフィードバックの収集を支援します。\n\n具体的には、Meta Llama 3 8B InstructモデルをSageMaker Studioにロードし、一般的な質問と不適切な質問に対する応答を生成します。生成された質問と回答のペアはAmazon S3に保存され、SageMaker Ground Truthで人間の評価・ランキングの対象となります。アノテーターは、組織の価値観に合致する応答を評価・ランキングし、その結果をDPOの微調整に利用します。\n\nHugging Face TRLライブラリとDPOTrainerを用いて、SageMaker Studio上でMeta Llama 3 8B Instructモデルを微調整し、人間の好みに合わせたモデルを作成します。さらに、微調整されたモデルをSageMakerエンドポイントにデプロイすることで、リアルタイム推論を行うことができます。\n\n**制約事項**としては、AWSアカウント、SageMaker Studioドメイン、SageMaker Ground Truthの利用権限、Hugging Faceのアクセス権限などが挙げられます。また、モデルの微調整には十分なGPUリソースが必要となります。\n\nこの記事では、これらのツールと技術を組み合わせることで、LLMを人間の好みに合わせて微調整し、より優れたパフォーマンスを実現する方法を示しています。新人エンジニアの方でも、SageMaker StudioとGround Truthを利用することで、LLMの微調整に挑戦しやすくなっている点が大きなメリットと言えるでしょう。 \n"
+    },
+    {
+        "page": 15,
+        "section": "article4",
+        "line": "「アイドルマスター シャイニーカラーズ 事務的光空記録」は、サンデーうぇぶりで連載中の漫画作品なのだ。 アイドルを輝かせようとする物語だが、その過程で様々な困難や葛藤が描かれ、読者からは「重い」「キツイ」といった感想も上がっているのだ。\nこの漫画は、アイドルマスター シャイニーカラーズの世界観をベースに、アイドルをプロデュースする側の苦労や、アイドルを取り巻く厳しい現実をリアルに描写しているのだ。 アイドルを輝かせようとする熱意と、その裏側にある挫折や苦悩が対比的に描かれ、アイドルマスターシリーズのファンだけでなく、幅広い層に読まれているのだ。",
+        "slide_text": "アイドルマスター シャイニーカラーズ 事務的光空記録",
+        "question_to_guest": "",
+        "prompts": "gembacat, a manga panel, idol characters, a dramatic scene, a sense of struggle, a dark and moody atmosphere, detailed background, 8k"
+    },
+    {
+        "page": 16,
+        "section": "article4",
+        "line": "作品はアイドルマスター シャイニーカラーズの世界観を踏襲しているが、オリジナルのストーリーとキャラクターが登場するのだ。 現実世界とは異なるアイドル業界の描写も含まれており、フィクションとして楽しむことが重要なのだ。 また、物語の内容は重く、登場人物の葛藤や苦悩が深く描かれるため、読者によっては不快に感じる可能性もあるのだ。\nこの漫画は、アイドル業界の裏側や、アイドルを支える人々の苦労をリアルに描いた作品なのだ。 アイドルマスターシリーズのファンはもちろん、エンジニアの方にとっても、プロジェクトの成功の裏側にある苦労や、チームメンバーとの協力の重要性など、様々な視点から学ぶものがあるだろうのだ。 ただし、物語の内容は重いため、気分転換や軽い読み物として読むには向いていないかもしれないのだ。",
+        "slide_text": "アイドル業界の裏側を描いた漫画！",
+        "question_to_guest": "",
+        "prompts": "gembacat, a manga character, a speech bubble,  a serious expression,  a sense of realism,  a dark and moody atmosphere,  detailed background, 8k"
+    },
+    {
+        "page": 17,
+        "section": "article4",
+        "line": " ",
+        "slide_text": "アイドルを輝かせる物語の裏側とは？",
+        "question_to_guest": "",
+        "prompts": "gembacat, a group of idol characters, a stage,  a spotlight,  a sense of hope,  a bright and colorful background,  detailed background, 8k"
+    },
+    {
+        "page": 18,
+        "section": "comment4",
+        "line": " ",
+        "slide_text": "アイドル業界のリアル、どう思う？",
+        "question_to_guest": "{GUEST}、アイドル業界の裏側を描いた漫画について、どう思いますか？",
+        "prompts": "zundamon, a speech bubble, thinking, asking a question, a cartoon style, a simple background, colorful, detailed",
+        "notes": "タイトル: 「これは傑作。ゾクゾク来た」重いけど、嫌いじゃない、ある意味リアリティな話「アイドルを輝かせ“ようとした”ものの物語」\n\n\n要約:\n\n「アイドルマスター シャイニーカラーズ 事務的光空記録」は、サンデーうぇぶりで連載中の漫画作品です。アイドルを輝かせようとする物語ですが、その過程で様々な困難や葛藤が描かれ、読者からは「重い」「キツイ」といった感想も上がっています。\n\n**作品の概要**\n\nこの漫画は、アイドルマスター シャイニーカラーズの世界観をベースに、アイドルをプロデュースする側の苦労や、アイドルを取り巻く厳しい現実をリアルに描写しています。アイドルを輝かせようとする熱意と、その裏側にある挫折や苦悩が対比的に描かれ、アイドルマスターシリーズのファンだけでなく、幅広い層に読まれています。\n\n**制約**\n\n作品はアイドルマスター シャイニーカラーズの世界観を踏襲していますが、オリジナルのストーリーとキャラクターが登場します。現実世界とは異なるアイドル業界の描写も含まれており、フィクションとして楽しむことが重要です。また、物語の内容は重く、登場人物の葛藤や苦悩が深く描かれるため、読者によっては不快に感じる可能性もあります。\n\n**新人エンジニアへの補足**\n\nこの漫画は、アイドル業界の裏側や、アイドルを支える人々の苦労をリアルに描いた作品です。アイドルマスターシリーズのファンはもちろん、エンジニアの方にとっても、プロジェクトの成功の裏側にある苦労や、チームメンバーとの協力の重要性など、様々な視点から学ぶものがあるでしょう。ただし、物語の内容は重いため、気分転換や軽い読み物として読むには向いていないかもしれません。 \n\n\n"
+    },
+    {
+        "page": 19,
+        "section": "closing",
+        "line": "いかがだったかな？",
+        "slide_text": "本日の放送、いかがでした？",
+        "question_to_guest": "",
+        "prompts": "zundamon, a studio audience applauding, a warm and inviting atmosphere, a sense of gratitude, a celebratory mood,  detailed background, 8k"
+    },
+    {
+        "page": 20,
+        "section": "closing",
+        "line": "今日は、最新の技術トレンドについて4つの記事を紹介したのだ。\nPS5 プロ、Amazon EC2 P5eインスタンス、メタ ラーマ 3の微調整、そしてアイドル業界の裏側を描いた漫画など、様々な話題を取り上げたのだ。\nこれからも、技術トレンドや面白い情報を紹介していくので、ぜひ楽しみにしていてほしいのだ！\n番組への感想や質問は、ずんだもん技術室AI放送局の公式ホームページ、またはトゥィターで受け付けているのだ。\nそれでは、また次回会おうなのだ！",
+        "slide_text": "ずんだもん技術室AI放送局、次回もお楽しみに！",
+        "question_to_guest": "",
+        "prompts": "zundamon, a futuristic cityscape at night, fireworks,  a sense of excitement,  a bright and colorful background,  detailed background, 8k"
+    }
+]
