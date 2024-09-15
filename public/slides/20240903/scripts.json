@@ -4,132 +4,170 @@
         "section": "opening",
         "line": "皆さん、こんにちは！ ぼくは、ずんだもんなのだ。今日は、2024年9月3日(火曜日)なのだ。",
         "slide_text": "ずんだもんのAI情報バラエティ！2024年9月3日放送",
-        "prompts": "zundamon, a cute green monster, smiling cheerfully, waving hand, in a studio setting, colorful lights, a large screen displaying the date, 2024/09/03, anime style, bright colors, illustration"
+        "question_to_guest": "",
+        "prompts": "zundamon, a cute green monster, smiling cheerfully, waving hand, in a studio setting, colorful lights, a large screen displaying the date, 2024/09/03, anime style, bright colors, illustration",
+        "notes": "株式会社ずんだもん技術室AI放送局は、AIやテクノロジーのトレンドを届ける番組。平日毎朝6時podcast配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。"
     },
     {
         "page": 1,
         "section": "opening",
         "line": "今日は、みんなに面白い記事を紹介するのだ。最近、AIとかVテューバーとか、話題が尽きないよね。 …ところで、最近リスナーさんが減ってて、ちょっと寂しいのだ。どうすればもっとみんなに楽しんでもらえるかな…良いアイデアがあれば教えてほしいのだ。さて、今日は4つの記事を紹介するのだ。",
         "slide_text": "AI・VTuberなど話題満載！リスナー参加型番組！",
-        "prompts": "zundamon, a cute green monster, sitting on a chair, thinking, light blue background, speech bubble, \"How can I make it more fun?\", ensuring it is highly visible, anime style, illustration"
+        "question_to_guest": "",
+        "prompts": "zundamon, a cute green monster, sitting on a chair, thinking, light blue background, speech bubble, \"How can I make it more fun?\", ensuring it is highly visible, anime style, illustration",
+        "notes": "株式会社ずんだもん技術室AI放送局は、AIやテクノロジーのトレンドを届ける番組。平日毎朝6時podcast配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。"
     },
     {
         "page": 2,
         "section": "agenda",
         "line": "1つ目の記事は… 2つ目の記事は… 3つ目の記事は… 4つ目の記事は…",
+        "question_to_guest": "",
         "slide_text": "今日の放送内容：4つの話題を紹介！",
-        "prompts": "a whiteboard with 4 sections, each section with a different topic, AI, VTuber, Software Engineer, Anime, colorful markers, clean background, simple design, illustration"
+        "prompts": "a whiteboard with 4 sections, each section with a different topic, AI, VTuber, Software Engineer, Anime, colorful markers, clean background, simple design, illustration",
+        "notes": "4つの話題を紹介！「私、碧依さくらは事務所を作ります！」。個人勢のVTuber・碧依さくらさん、新グループ“re;BON（リボン）”設立を発表。「AI生成キャラクター」はいまどのレベルまで進んでいるのか？バンダイナムコ研究所が語るAIテキスト生成の光と影【CEDEC 2024】。インターンの二週間で社内APIを新しく建て本番リリースまで何でもやった話【ソフトウェアエンジニアインターン参戦記】。母「自衛隊のアニメを観たけど、あんまりよくなかったよ」私「自衛隊のアニメなんてあるんだね」母「ロボットが気持ち悪くて…」→あっ"
     },
     {
         "page": 3,
         "section": "article1",
         "line": "「私、碧依さくらは事務所を作ります！」。個人勢のVテューバー・碧依さくらさん、新グループ“re;BON（リボン）”設立を発表 このタイトル、すごくワクワクするよね！ 碧依さくらさんは、個人勢Vテューバーとして活動しているんだけど、なんと、自分の事務所を設立したんだって！ 事務所の名前は「re;BON（リボン）」で、英語の「リボーン」（再生）にかけた造語なんだって。 碧依さくらさんは、今年の2月から活動を始めて、半年でユーチューブの登録者数が23万人超え、Vテューバー最協決定戦にも出場するなど、精力的に活動してきたんだって。 事務所設立の背景には、個人勢Vテューバーとしての活動で経験した苦労や、同じように苦労しているVテューバーをサポートしたいという思いがあるんだって。 「re;BON」は、新たな挑戦や一歩を踏み出すVテューバーを応援する事務所を目指しているんだって。 ",
+        "question_to_guest": "",
         "slide_text": "個人勢VTuber碧依さくらさん、事務所「re;BON」設立！",
-        "prompts": "a young woman with pink hair, wearing a colorful outfit, standing in front of a microphone, a large screen behind her with the words \"re;BON\", anime style, bright background, illustration"
+        "prompts": "a young woman with pink hair, wearing a colorful outfit, standing in front of a microphone, a large screen behind her with the words \"re;BON\", anime style, bright background, illustration",
+        "notes": "タイトル: 「私、碧依さくらは事務所を作ります！」。個人勢のVTuber・碧依さくらさん、新グループ“re;BON（リボン）”設立を発表\n\n\n要約:\n個人勢VTuberの碧依さくらさんが、自身の3Dお披露目配信にて、新たなVTuber事務所「re;BON（リボン）」を設立することを発表しました。\n\n碧依さくらさんは今年2月から活動をスタートし、半年でYouTube登録者数23万人超え、VTuber最協決定戦への出場など、精力的に活動を行ってきました。事務所設立の背景には、個人勢VTuberとしての活動で経験した苦労や、同じように苦労しているVTuberをサポートしたいという思いがあるようです。\n\n「re;BON」は、英語の「Reborn」（再生）にかけた造語で、新たな挑戦や一歩を踏み出すVTuberを応援する事務所を目指しています。現時点では碧依さくらさん1人ですが、今後オーディションなどを開催し、メンバーを増やしていく予定です。\n\n碧依さくらさんは、事務所の収益はスタッフの雇用やイベント費用などに充てる予定で、所属VTuberの取り分は受け取らないとのことです。また、自身も「re;BON」に所属するVTuberとして活動を続けていくことを宣言しており、まさに選手兼監督のような立場で事務所を牽引していく姿勢を示しています。\n\n今回の発表は、碧依さくらさんのVTuber業界に対する熱い思いと、今後の更なる発展への強い決意を示すものと言えるでしょう。今後、碧依さくらさんと「re;BON」がどのような活動を展開していくのか、注目が集まります。 \n"
     },
     {
         "page": 4,
         "section": "article1",
         "line": "...すごいよね！ 碧依さくらさん、これからどんな活躍をするのか、楽しみだな！",
+        "question_to_guest": "",
         "slide_text": "碧依さくらさんの今後の活躍に期待！",
-        "prompts": "a spotlight shining on a young woman, a microphone in front of her, a cheering crowd in the background, anime style, dynamic composition, illustration"
+        "prompts": "a spotlight shining on a young woman, a microphone in front of her, a cheering crowd in the background, anime style, dynamic composition, illustration",
+        "notes": "タイトル: 「私、碧依さくらは事務所を作ります！」。個人勢のVTuber・碧依さくらさん、新グループ“re;BON（リボン）”設立を発表\n\n\n要約:\n個人勢VTuberの碧依さくらさんが、自身の3Dお披露目配信にて、新たなVTuber事務所「re;BON（リボン）」を設立することを発表しました。\n\n碧依さくらさんは今年2月から活動をスタートし、半年でYouTube登録者数23万人超え、VTuber最協決定戦への出場など、精力的に活動を行ってきました。事務所設立の背景には、個人勢VTuberとしての活動で経験した苦労や、同じように苦労しているVTuberをサポートしたいという思いがあるようです。\n\n「re;BON」は、英語の「Reborn」（再生）にかけた造語で、新たな挑戦や一歩を踏み出すVTuberを応援する事務所を目指しています。現時点では碧依さくらさん1人ですが、今後オーディションなどを開催し、メンバーを増やしていく予定です。\n\n碧依さくらさんは、事務所の収益はスタッフの雇用やイベント費用などに充てる予定で、所属VTuberの取り分は受け取らないとのことです。また、自身も「re;BON」に所属するVTuberとして活動を続けていくことを宣言しており、まさに選手兼監督のような立場で事務所を牽引していく姿勢を示しています。\n\n今回の発表は、碧依さくらさんのVTuber業界に対する熱い思いと、今後の更なる発展への強い決意を示すものと言えるでしょう。今後、碧依さくらさんと「re;BON」がどのような活動を展開していくのか、注目が集まります。 \n"
     },
     {
         "page": 5,
         "section": "comment1",
-        "line": "2つ目の記事は…",
+        "line": "",
+        "question_to_guest": "{GUEST}は、vtuberに興味がある？",
         "slide_text": "次の話題へ！",
-        "prompts": "a hand flipping a page of a book, a colorful background, abstract shapes, a sense of transition, illustration"
+        "prompts": "a hand flipping a page of a book, a colorful background, abstract shapes, a sense of transition, illustration",
+        "notes": "タイトル: 「私、碧依さくらは事務所を作ります！」。個人勢のVTuber・碧依さくらさん、新グループ“re;BON（リボン）”設立を発表\n\n\n要約:\n個人勢VTuberの碧依さくらさんが、自身の3Dお披露目配信にて、新たなVTuber事務所「re;BON（リボン）」を設立することを発表しました。\n\n碧依さくらさんは今年2月から活動をスタートし、半年でYouTube登録者数23万人超え、VTuber最協決定戦への出場など、精力的に活動を行ってきました。事務所設立の背景には、個人勢VTuberとしての活動で経験した苦労や、同じように苦労しているVTuberをサポートしたいという思いがあるようです。\n\n「re;BON」は、英語の「Reborn」（再生）にかけた造語で、新たな挑戦や一歩を踏み出すVTuberを応援する事務所を目指しています。現時点では碧依さくらさん1人ですが、今後オーディションなどを開催し、メンバーを増やしていく予定です。\n\n碧依さくらさんは、事務所の収益はスタッフの雇用やイベント費用などに充てる予定で、所属VTuberの取り分は受け取らないとのことです。また、自身も「re;BON」に所属するVTuberとして活動を続けていくことを宣言しており、まさに選手兼監督のような立場で事務所を牽引していく姿勢を示しています。\n\n今回の発表は、碧依さくらさんのVTuber業界に対する熱い思いと、今後の更なる発展への強い決意を示すものと言えるでしょう。今後、碧依さくらさんと「re;BON」がどのような活動を展開していくのか、注目が集まります。 \n"
     },
     {
         "page": 6,
         "section": "article2",
         "line": "「AI生成キャラクター」はいまどのレベルまで進んでいるのか？バンダイナムコ研究所が語るAIテキスト生成の光と影【CEDEC 2024】 …AI生成キャラクターって、すごく興味深いよね！ この記事は、CEDEC 2024でバンダイナムコ研究所が発表した講演の内容を紹介しているんだ。 講演では、大規模言語モデル（LLM）を用いたゲーム内テキスト生成の現状と課題が語られているんだって。 LLMは、近年目覚ましい発展を遂げていて、ゲーム開発にも活用が進んでいるんだって。 バンダイナムコ研究所では、AIキャラクターが麻雀や雑談配信を行う「ゴー・ラウンド・ゲーム（ごらんげ）」プロジェクトでLLMを活用しているんだって。 ",
+        "question_to_guest": "",
         "slide_text": "AI生成キャラクターの現状と課題！バンダイナムコ研究所の講演",
-        "prompts": "a futuristic cityscape, a robot character with a speech bubble, \"Hello, world!\", a monitor displaying code, a person in a lab coat looking at the monitor, science fiction, digital art, illustration"
+        "prompts": "a futuristic cityscape, a robot character with a speech bubble, \"Hello, world!\", a monitor displaying code, a person in a lab coat looking at the monitor, science fiction, digital art, illustration",
+        "notes": "タイトル: 「AI生成キャラクター」はいまどのレベルまで進んでいるのか？バンダイナムコ研究所が語るAIテキスト生成の光と影【CEDEC 2024】\n\n\n要約:\nCEDEC 2024でバンダイナムコ研究所が発表した講演では、大規模言語モデル（LLM）を用いたゲーム内テキスト生成の現状と課題が語られました。LLMは近年目覚ましい発展を遂げ、ゲーム開発にも活用が進んでいます。バンダイナムコ研究所では、AIキャラクターが麻雀や雑談配信を行う「ゴー・ラウンド・ゲーム（ごらんげ）」プロジェクトでLLMを活用しています。\n\nしかし、LLMを用いたテキスト生成には、品質や安定性、キャラクターらしさといった課題が存在します。例えば、ゲームのルールを理解させる難しさや、キャラクターの口調や設定を維持することの難しさなどが挙げられます。\n\nこれらの課題を解決するために、バンダイナムコ研究所では、テキスト生成の役割を分担するパイプライン化や、ツール・関数呼び出しによる外部データベースの活用といった手法を取り入れています。また、生成されるテキストの多様性を確保するための工夫や、キャラクターの個性を維持するためのRAG（検索拡張生成）などの技術も活用しています。\n\n講演では、LLMの特性を理解し、適切な活用方法を見極めることの重要性が強調されました。LLMは万能ではなく、得意分野と不得意分野が存在します。ゲーム開発においては、LLMの特性を理解した上で、既存のシステムとの連携や、LLMが得意とするクリエイティブなタスクに焦点を当てることで、より効果的に活用できることが示唆されました。\n\nさらに、AIとの関わり方として、人間とAIが競争するのではなく、共同して創造することでより良い成果が得られるという点も強調されました。AI技術は常に進化しており、常に新しいベストプラクティスを探求していく必要があることを理解しておくことが重要です。\n\n\n新人エンジニアの方々にとって、この講演の内容は、LLMのゲーム開発における可能性と課題を理解する上で非常に参考になるでしょう。LLMを活用したゲーム開発を検討する際には、今回紹介された課題や解決策を参考に、自社のゲームに最適な方法を見つけていくことが重要です。 \n"
     },
     {
         "page": 7,
         "section": "article2",
         "line": "...でも、LLMを用いたテキスト生成には、品質や安定性、キャラクターらしさといった課題もあるみたいなんだ。 例えば、ゲームのルールを理解させる難しさや、キャラクターの口調や設定を維持することの難しさなどが挙げられているんだって。 ",
+        "question_to_guest": "",
         "slide_text": "AI生成キャラクターの課題：品質、安定性、キャラクターらしさ",
-        "prompts": "a robot character with a confused expression, a speech bubble, \"I'm still learning...\", a glitch effect in the background, digital art, futuristic, illustration"
+        "prompts": "a robot character with a confused expression, a speech bubble, \"I'm still learning...\", a glitch effect in the background, digital art, futuristic, illustration",
+        "notes": "タイトル: 「AI生成キャラクター」はいまどのレベルまで進んでいるのか？バンダイナムコ研究所が語るAIテキスト生成の光と影【CEDEC 2024】\n\n\n要約:\nCEDEC 2024でバンダイナムコ研究所が発表した講演では、大規模言語モデル（LLM）を用いたゲーム内テキスト生成の現状と課題が語られました。LLMは近年目覚ましい発展を遂げ、ゲーム開発にも活用が進んでいます。バンダイナムコ研究所では、AIキャラクターが麻雀や雑談配信を行う「ゴー・ラウンド・ゲーム（ごらんげ）」プロジェクトでLLMを活用しています。\n\nしかし、LLMを用いたテキスト生成には、品質や安定性、キャラクターらしさといった課題が存在します。例えば、ゲームのルールを理解させる難しさや、キャラクターの口調や設定を維持することの難しさなどが挙げられます。\n\nこれらの課題を解決するために、バンダイナムコ研究所では、テキスト生成の役割を分担するパイプライン化や、ツール・関数呼び出しによる外部データベースの活用といった手法を取り入れています。また、生成されるテキストの多様性を確保するための工夫や、キャラクターの個性を維持するためのRAG（検索拡張生成）などの技術も活用しています。\n\n講演では、LLMの特性を理解し、適切な活用方法を見極めることの重要性が強調されました。LLMは万能ではなく、得意分野と不得意分野が存在します。ゲーム開発においては、LLMの特性を理解した上で、既存のシステムとの連携や、LLMが得意とするクリエイティブなタスクに焦点を当てることで、より効果的に活用できることが示唆されました。\n\nさらに、AIとの関わり方として、人間とAIが競争するのではなく、共同して創造することでより良い成果が得られるという点も強調されました。AI技術は常に進化しており、常に新しいベストプラクティスを探求していく必要があることを理解しておくことが重要です。\n\n\n新人エンジニアの方々にとって、この講演の内容は、LLMのゲーム開発における可能性と課題を理解する上で非常に参考になるでしょう。LLMを活用したゲーム開発を検討する際には、今回紹介された課題や解決策を参考に、自社のゲームに最適な方法を見つけていくことが重要です。 \n"
     },
     {
         "page": 8,
         "section": "article2",
         "line": "...難しい課題もあるみたいだけど、LLMはゲーム開発の可能性を広げる技術だよね。 今後の発展が楽しみだな！",
+        "question_to_guest": "",
         "slide_text": "LLMはゲーム開発の可能性を広げる！今後の発展に期待！",
-        "prompts": "a game controller, a robot character smiling, a futuristic landscape in the background, video game style, dynamic, illustration"
+        "prompts": "a game controller, a robot character smiling, a futuristic landscape in the background, video game style, dynamic, illustration",
+        "notes": "タイトル: 「AI生成キャラクター」はいまどのレベルまで進んでいるのか？バンダイナムコ研究所が語るAIテキスト生成の光と影【CEDEC 2024】\n\n\n要約:\nCEDEC 2024でバンダイナムコ研究所が発表した講演では、大規模言語モデル（LLM）を用いたゲーム内テキスト生成の現状と課題が語られました。LLMは近年目覚ましい発展を遂げ、ゲーム開発にも活用が進んでいます。バンダイナムコ研究所では、AIキャラクターが麻雀や雑談配信を行う「ゴー・ラウンド・ゲーム（ごらんげ）」プロジェクトでLLMを活用しています。\n\nしかし、LLMを用いたテキスト生成には、品質や安定性、キャラクターらしさといった課題が存在します。例えば、ゲームのルールを理解させる難しさや、キャラクターの口調や設定を維持することの難しさなどが挙げられます。\n\nこれらの課題を解決するために、バンダイナムコ研究所では、テキスト生成の役割を分担するパイプライン化や、ツール・関数呼び出しによる外部データベースの活用といった手法を取り入れています。また、生成されるテキストの多様性を確保するための工夫や、キャラクターの個性を維持するためのRAG（検索拡張生成）などの技術も活用しています。\n\n講演では、LLMの特性を理解し、適切な活用方法を見極めることの重要性が強調されました。LLMは万能ではなく、得意分野と不得意分野が存在します。ゲーム開発においては、LLMの特性を理解した上で、既存のシステムとの連携や、LLMが得意とするクリエイティブなタスクに焦点を当てることで、より効果的に活用できることが示唆されました。\n\nさらに、AIとの関わり方として、人間とAIが競争するのではなく、共同して創造することでより良い成果が得られるという点も強調されました。AI技術は常に進化しており、常に新しいベストプラクティスを探求していく必要があることを理解しておくことが重要です。\n\n\n新人エンジニアの方々にとって、この講演の内容は、LLMのゲーム開発における可能性と課題を理解する上で非常に参考になるでしょう。LLMを活用したゲーム開発を検討する際には、今回紹介された課題や解決策を参考に、自社のゲームに最適な方法を見つけていくことが重要です。 \n"
     },
     {
         "page": 9,
         "section": "comment2",
-        "line": "3つ目の記事は…",
+        "line": "",
+        "question_to_guest": "{GUEST}は、ゲーム開発に興味がある？",
         "slide_text": "次の話題へ！",
-        "prompts": "a hand flipping a page of a book, a vintage book background, a sense of transition, illustration"
+        "prompts": "a hand flipping a page of a book, a vintage book background, a sense of transition, illustration",
+        "notes": "タイトル: 「AI生成キャラクター」はいまどのレベルまで進んでいるのか？バンダイナムコ研究所が語るAIテキスト生成の光と影【CEDEC 2024】\n\n\n要約:\nCEDEC 2024でバンダイナムコ研究所が発表した講演では、大規模言語モデル（LLM）を用いたゲーム内テキスト生成の現状と課題が語られました。LLMは近年目覚ましい発展を遂げ、ゲーム開発にも活用が進んでいます。バンダイナムコ研究所では、AIキャラクターが麻雀や雑談配信を行う「ゴー・ラウンド・ゲーム（ごらんげ）」プロジェクトでLLMを活用しています。\n\nしかし、LLMを用いたテキスト生成には、品質や安定性、キャラクターらしさといった課題が存在します。例えば、ゲームのルールを理解させる難しさや、キャラクターの口調や設定を維持することの難しさなどが挙げられます。\n\nこれらの課題を解決するために、バンダイナムコ研究所では、テキスト生成の役割を分担するパイプライン化や、ツール・関数呼び出しによる外部データベースの活用といった手法を取り入れています。また、生成されるテキストの多様性を確保するための工夫や、キャラクターの個性を維持するためのRAG（検索拡張生成）などの技術も活用しています。\n\n講演では、LLMの特性を理解し、適切な活用方法を見極めることの重要性が強調されました。LLMは万能ではなく、得意分野と不得意分野が存在します。ゲーム開発においては、LLMの特性を理解した上で、既存のシステムとの連携や、LLMが得意とするクリエイティブなタスクに焦点を当てることで、より効果的に活用できることが示唆されました。\n\nさらに、AIとの関わり方として、人間とAIが競争するのではなく、共同して創造することでより良い成果が得られるという点も強調されました。AI技術は常に進化しており、常に新しいベストプラクティスを探求していく必要があることを理解しておくことが重要です。\n\n\n新人エンジニアの方々にとって、この講演の内容は、LLMのゲーム開発における可能性と課題を理解する上で非常に参考になるでしょう。LLMを活用したゲーム開発を検討する際には、今回紹介された課題や解決策を参考に、自社のゲームに最適な方法を見つけていくことが重要です。 \n"
     },
     {
         "page": 10,
         "section": "article3",
         "line": "インターンの二週間で社内APIを新しく建て本番リリースまで何でもやった話【ソフトウェアエンジニアインターン参戦記】 …これは、新人エンジニアさん必見の記事だね！ エムスリーの新卒ソフトウェアエンジニアインターンに参加した河村さんが、2週間で社内サービス「Yucca」のAPI開発から本番リリース、さらにはデータベース改善検討まで行った経験をまとめた記事なんだって。 …2週間で、API開発から本番リリースまでって、すごいよね！ 河村さんは、既存のAPIの仕様変更によるウェブサイト開発者の負担軽減を目的とした新APIの開発を行ったんだって。 Goやラスト、Kubernetes、Terraformなど、普段あまり触れない技術にも挑戦したんだって。 ",
+        "question_to_guest": "",
         "slide_text": "2週間でAPI開発から本番リリース！エムスリーインターン",
-        "prompts": "a laptop with code on the screen, a young person working on the laptop, a whiteboard with diagrams and notes, a modern office setting, realistic style, photorealistic"
+        "prompts": "a laptop with code on the screen, a young person working on the laptop, a whiteboard with diagrams and notes, a modern office setting, realistic style, photorealistic",
+        "notes":  "タイトル: インターンの二週間で社内APIを新しく建て本番リリースまで何でもやった話【ソフトウェアエンジニアインターン参戦記】\n\n\n要約:\nエムスリーの新卒ソフトウェアエンジニアインターンに参加した河村さんが、2週間で社内サービス「Yucca」のAPI開発から本番リリース、さらにはデータベース改善検討まで行った経験をまとめた記事です。\n\nYuccaはBigQueryのデータをクローリングしてAPI化するサービスで、RustとGoで開発されています。河村さんは、既存のAPIの仕様変更によるウェブサイト開発者の負担軽減を目的とした新APIの開発を行いました。GoやRust、Kubernetes、Terraformなど、普段あまり触れない技術にも挑戦し、6日で新APIを完成させて本番環境にデプロイしました。\n\nさらに、予定より早くタスクを終えたため、Yuccaで使用されているCloud SQLの代替となるデータベースの検討も行いました。RDBMSに依存しないYuccaの特性を活かし、NoSQLデータベースやフルマネージドサービス以外の選択肢も検討した結果、Cloud SQLを使い続けるか、Firestoreに移行するのが良いという結論に至りました。\n\nインターン期間中は、チームの夕会や1on1を通して社員と交流する機会も多く、エムスリーの組織文化を肌で感じることができました。エムスリーは、少人数で多くのプロダクトを開発・運用する組織ですが、コミュニケーションが活発で、新しい技術にも寛容な環境です。\n\n河村さんは、このインターンを通して多くの技術に触れ、Webバックエンド開発の自信を得ることができました。エムスリーのインターンは、学生にとって技術力向上と企業理解を深める貴重な機会となるでしょう。  \n"
     },
     {
         "page": 11,
         "section": "article3",
         "line": "...インターン期間中は、チームの夕会や1on1を通して社員と交流する機会も多く、エムスリーの組織文化を肌で感じることができたんだって。 河村さんは、このインターンを通して多くの技術に触れ、ウェブバックエンド開発の自信を得ることができたんだって。 ",
+        "question_to_guest": "",
         "slide_text": "インターンを通して技術力向上と企業理解を深める",
-        "prompts": "a group of people having a meeting, a casual and friendly atmosphere, a modern office setting, realistic style, photorealistic"
+        "prompts": "a group of people having a meeting, a casual and friendly atmosphere, a modern office setting, realistic style, photorealistic",
+        "notes":  "タイトル: インターンの二週間で社内APIを新しく建て本番リリースまで何でもやった話【ソフトウェアエンジニアインターン参戦記】\n\n\n要約:\nエムスリーの新卒ソフトウェアエンジニアインターンに参加した河村さんが、2週間で社内サービス「Yucca」のAPI開発から本番リリース、さらにはデータベース改善検討まで行った経験をまとめた記事です。\n\nYuccaはBigQueryのデータをクローリングしてAPI化するサービスで、RustとGoで開発されています。河村さんは、既存のAPIの仕様変更によるウェブサイト開発者の負担軽減を目的とした新APIの開発を行いました。GoやRust、Kubernetes、Terraformなど、普段あまり触れない技術にも挑戦し、6日で新APIを完成させて本番環境にデプロイしました。\n\nさらに、予定より早くタスクを終えたため、Yuccaで使用されているCloud SQLの代替となるデータベースの検討も行いました。RDBMSに依存しないYuccaの特性を活かし、NoSQLデータベースやフルマネージドサービス以外の選択肢も検討した結果、Cloud SQLを使い続けるか、Firestoreに移行するのが良いという結論に至りました。\n\nインターン期間中は、チームの夕会や1on1を通して社員と交流する機会も多く、エムスリーの組織文化を肌で感じることができました。エムスリーは、少人数で多くのプロダクトを開発・運用する組織ですが、コミュニケーションが活発で、新しい技術にも寛容な環境です。\n\n河村さんは、このインターンを通して多くの技術に触れ、Webバックエンド開発の自信を得ることができました。エムスリーのインターンは、学生にとって技術力向上と企業理解を深める貴重な機会となるでしょう。  \n"
     },
     {
         "page": 12,
         "section": "article3",
         "line": "...エムスリーのインターンは、学生にとって技術力向上と企業理解を深める貴重な機会になるみたいだね。",
+        "question_to_guest": "",
         "slide_text": "エムスリーインターン：学生にとって貴重な経験！",
-        "prompts": "a student smiling confidently, a certificate in hand, a company logo in the background, realistic style, photorealistic"
+        "prompts": "a student smiling confidently, a certificate in hand, a company logo in the background, realistic style, photorealistic",
+        "notes":  "タイトル: インターンの二週間で社内APIを新しく建て本番リリースまで何でもやった話【ソフトウェアエンジニアインターン参戦記】\n\n\n要約:\nエムスリーの新卒ソフトウェアエンジニアインターンに参加した河村さんが、2週間で社内サービス「Yucca」のAPI開発から本番リリース、さらにはデータベース改善検討まで行った経験をまとめた記事です。\n\nYuccaはBigQueryのデータをクローリングしてAPI化するサービスで、RustとGoで開発されています。河村さんは、既存のAPIの仕様変更によるウェブサイト開発者の負担軽減を目的とした新APIの開発を行いました。GoやRust、Kubernetes、Terraformなど、普段あまり触れない技術にも挑戦し、6日で新APIを完成させて本番環境にデプロイしました。\n\nさらに、予定より早くタスクを終えたため、Yuccaで使用されているCloud SQLの代替となるデータベースの検討も行いました。RDBMSに依存しないYuccaの特性を活かし、NoSQLデータベースやフルマネージドサービス以外の選択肢も検討した結果、Cloud SQLを使い続けるか、Firestoreに移行するのが良いという結論に至りました。\n\nインターン期間中は、チームの夕会や1on1を通して社員と交流する機会も多く、エムスリーの組織文化を肌で感じることができました。エムスリーは、少人数で多くのプロダクトを開発・運用する組織ですが、コミュニケーションが活発で、新しい技術にも寛容な環境です。\n\n河村さんは、このインターンを通して多くの技術に触れ、Webバックエンド開発の自信を得ることができました。エムスリーのインターンは、学生にとって技術力向上と企業理解を深める貴重な機会となるでしょう。  \n"
     },
     {
         "page": 13,
         "section": "comment3",
-        "line": "4つ目の記事は…",
+        "line": "",
+        "question_to_guest": "{GUEST}は、インターンに参加したことがある？",
         "slide_text": "次の話題へ！",
-        "prompts": "a hand flipping a page of a book, a colorful background, abstract shapes, a sense of transition, illustration"
+        "prompts": "a hand flipping a page of a book, a colorful background, abstract shapes, a sense of transition, illustration",
+        "notes":  "タイトル: インターンの二週間で社内APIを新しく建て本番リリースまで何でもやった話【ソフトウェアエンジニアインターン参戦記】\n\n\n要約:\nエムスリーの新卒ソフトウェアエンジニアインターンに参加した河村さんが、2週間で社内サービス「Yucca」のAPI開発から本番リリース、さらにはデータベース改善検討まで行った経験をまとめた記事です。\n\nYuccaはBigQueryのデータをクローリングしてAPI化するサービスで、RustとGoで開発されています。河村さんは、既存のAPIの仕様変更によるウェブサイト開発者の負担軽減を目的とした新APIの開発を行いました。GoやRust、Kubernetes、Terraformなど、普段あまり触れない技術にも挑戦し、6日で新APIを完成させて本番環境にデプロイしました。\n\nさらに、予定より早くタスクを終えたため、Yuccaで使用されているCloud SQLの代替となるデータベースの検討も行いました。RDBMSに依存しないYuccaの特性を活かし、NoSQLデータベースやフルマネージドサービス以外の選択肢も検討した結果、Cloud SQLを使い続けるか、Firestoreに移行するのが良いという結論に至りました。\n\nインターン期間中は、チームの夕会や1on1を通して社員と交流する機会も多く、エムスリーの組織文化を肌で感じることができました。エムスリーは、少人数で多くのプロダクトを開発・運用する組織ですが、コミュニケーションが活発で、新しい技術にも寛容な環境です。\n\n河村さんは、このインターンを通して多くの技術に触れ、Webバックエンド開発の自信を得ることができました。エムスリーのインターンは、学生にとって技術力向上と企業理解を深める貴重な機会となるでしょう。  \n"
     },
     {
         "page": 14,
         "section": "article4",
         "line": "母「自衛隊のアニメを観たけど、あんまりよくなかったよ」私「自衛隊のアニメなんてあるんだね」母「ロボットが気持ち悪くて…」→あっ …これは、ちょっと面白い話題だね！ トゥィィター上で、自衛隊を題材としたアニメに関する話題が盛り上がっているんだって。 きっかけは、あるユーザーの母親が自衛隊のアニメを視聴し、「ロボットが気持ち悪い」と感じたという投稿だったんだって。 …どんなアニメだったんだろう？ この投稿に対し、多くのユーザーが反応し、そのアニメが「ブレイブウィッチーズ」シリーズであることを特定したんだって。 ブレイブウィッチーズは、自衛隊と魔法少女を組み合わせた作品で、特にロボットのデザインが特徴的なんだって。 ",
+        "question_to_guest": "",
         "slide_text": "自衛隊アニメの話題でTwitterが盛り上がる！",
-        "prompts": "gembacat, a cute cat with a military helmet, holding a smartphone, a Twitter logo in the background, anime style, illustration"
+        "prompts": "gembacat, a cute cat with a military helmet, holding a smartphone, a Twitter logo in the background, anime style, illustration",
+        "notes": "タイトル: 母「自衛隊のアニメを観たけど、あんまりよくなかったよ」私「自衛隊のアニメなんてあるんだね」母「ロボットが気持ち悪くて…」→あっ\n\n\n要約:\n\nTwitter上で、自衛隊を題材としたアニメに関する話題が盛り上がっています。きっかけは、あるユーザーの母親が自衛隊のアニメを視聴し、「ロボットが気持ち悪い」と感じたという投稿でした。\n\nこの投稿に対し、多くのユーザーが反応し、そのアニメが「ブレイブウィッチーズ」シリーズであることを特定しました。ブレイブウィッチーズは、自衛隊と魔法少女を組み合わせた作品で、特にロボットのデザインが特徴的です。\n\nユーザーからは、ブレイブウィッチーズのロボットデザインに対する否定的な意見や、他の自衛隊を題材としたアニメとの比較、そして作品への愛着など、様々な意見が寄せられています。\n\n話題になったアニメは、一見すると自衛隊を題材としているものの、独特な世界観やロボットデザインにより、一般的な自衛隊アニメとは異なる印象を与えているようです。この事実は、アニメのジャンルや表現方法の多様性、そして視聴者それぞれの好みが大きく影響することを示しています。\n\n新人エンジニアの皆さんにとって、この話題は、アニメの制作や、ユーザーの嗜好を理解する上で参考になるかもしれません。アニメのジャンルは多岐に渡り、それぞれに異なる特徴や魅力があります。ユーザーの反応を分析することで、より多くの人に受け入れられる作品を生み出すヒントが得られるでしょう。 \n"
     },
     {
         "page": 15,
         "section": "article4",
         "line": "...ロボットのデザインが特徴的って、どういうことだろう？ ユーザーからは、ブレイブウィッチーズのロボットデザインに対する否定的な意見や、他の自衛隊を題材としたアニメとの比較、そして作品への愛着など、様々な意見が寄せられているんだって。 ",
+        "question_to_guest": "",
         "slide_text": "ロボットデザインへの賛否両論！様々な意見が飛び交う",
-        "prompts": "gembacat, a cute cat with a military helmet, holding a megaphone, a crowd of people with different expressions, anime style, illustration"
+        "prompts": "gembacat, a cute cat with a military helmet, holding a megaphone, a crowd of people with different expressions, anime style, illustration",
+        "notes": "タイトル: 母「自衛隊のアニメを観たけど、あんまりよくなかったよ」私「自衛隊のアニメなんてあるんだね」母「ロボットが気持ち悪くて…」→あっ\n\n\n要約:\n\nTwitter上で、自衛隊を題材としたアニメに関する話題が盛り上がっています。きっかけは、あるユーザーの母親が自衛隊のアニメを視聴し、「ロボットが気持ち悪い」と感じたという投稿でした。\n\nこの投稿に対し、多くのユーザーが反応し、そのアニメが「ブレイブウィッチーズ」シリーズであることを特定しました。ブレイブウィッチーズは、自衛隊と魔法少女を組み合わせた作品で、特にロボットのデザインが特徴的です。\n\nユーザーからは、ブレイブウィッチーズのロボットデザインに対する否定的な意見や、他の自衛隊を題材としたアニメとの比較、そして作品への愛着など、様々な意見が寄せられています。\n\n話題になったアニメは、一見すると自衛隊を題材としているものの、独特な世界観やロボットデザインにより、一般的な自衛隊アニメとは異なる印象を与えているようです。この事実は、アニメのジャンルや表現方法の多様性、そして視聴者それぞれの好みが大きく影響することを示しています。\n\n新人エンジニアの皆さんにとって、この話題は、アニメの制作や、ユーザーの嗜好を理解する上で参考になるかもしれません。アニメのジャンルは多岐に渡り、それぞれに異なる特徴や魅力があります。ユーザーの反応を分析することで、より多くの人に受け入れられる作品を生み出すヒントが得られるでしょう。 \n"
     },
     {
         "page": 16,
         "section": "article4",
         "line": "...アニメのジャンルや表現方法の多様性、そして視聴者それぞれの好みが大きく影響するんだね。 …今日は、色々な話題を紹介したけど、みんなはどの記事が気になったかな？ 今日の放送はここまでなのだ。 ",
+        "question_to_guest": "{GUEST}は、ロボットアニメは好き？どんなのを見るのが好き？",
         "slide_text": "アニメの多様性と視聴者の好み！",
-        "prompts": "gembacat, a cute cat with a military helmet, sitting on a pile of anime DVDs, a variety of anime characters in the background, anime style, illustration"
+        "prompts": "gembacat, a cute cat with a military helmet, sitting on a pile of anime DVDs, a variety of anime characters in the background, anime style, illustration",
+        "notes": "タイトル: 母「自衛隊のアニメを観たけど、あんまりよくなかったよ」私「自衛隊のアニメなんてあるんだね」母「ロボットが気持ち悪くて…」→あっ\n\n\n要約:\n\nTwitter上で、自衛隊を題材としたアニメに関する話題が盛り上がっています。きっかけは、あるユーザーの母親が自衛隊のアニメを視聴し、「ロボットが気持ち悪い」と感じたという投稿でした。\n\nこの投稿に対し、多くのユーザーが反応し、そのアニメが「ブレイブウィッチーズ」シリーズであることを特定しました。ブレイブウィッチーズは、自衛隊と魔法少女を組み合わせた作品で、特にロボットのデザインが特徴的です。\n\nユーザーからは、ブレイブウィッチーズのロボットデザインに対する否定的な意見や、他の自衛隊を題材としたアニメとの比較、そして作品への愛着など、様々な意見が寄せられています。\n\n話題になったアニメは、一見すると自衛隊を題材としているものの、独特な世界観やロボットデザインにより、一般的な自衛隊アニメとは異なる印象を与えているようです。この事実は、アニメのジャンルや表現方法の多様性、そして視聴者それぞれの好みが大きく影響することを示しています。\n\n新人エンジニアの皆さんにとって、この話題は、アニメの制作や、ユーザーの嗜好を理解する上で参考になるかもしれません。アニメのジャンルは多岐に渡り、それぞれに異なる特徴や魅力があります。ユーザーの反応を分析することで、より多くの人に受け入れられる作品を生み出すヒントが得られるでしょう。 \n"
     },
     {
         "page": 17,
         "section": "closing",
         "line": "また、色々な話題を紹介するから、楽しみにしててね！ ",
+        "question_to_guest": "",
         "slide_text": "次回の放送もお楽しみに！",
-        "prompts": "zundamon, a cute green monster, waving goodbye, a colorful background, anime style, illustration"
+        "prompts": "zundamon, a cute green monster, waving goodbye, a colorful background, anime style, illustration",
+        "notes": "4つの話題を紹介！「私、碧依さくらは事務所を作ります！」。個人勢のVTuber・碧依さくらさん、新グループ“re;BON（リボン）”設立を発表。「AI生成キャラクター」はいまどのレベルまで進んでいるのか？バンダイナムコ研究所が語るAIテキスト生成の光と影【CEDEC 2024】。インターンの二週間で社内APIを新しく建て本番リリースまで何でもやった話【ソフトウェアエンジニアインターン参戦記】。母「自衛隊のアニメを観たけど、あんまりよくなかったよ」私「自衛隊のアニメなんてあるんだね」母「ロボットが気持ち悪くて…」→あっ"
     },
     {
         "page": 18,
         "section": "closing",
         "line": "番組への感想は、ずんだもん技術室のホームページで募集しているから、ぜひ送ってほしいのだ。 それでは、また！ ",
+        "question_to_guest": "",
         "slide_text": "番組への感想をお待ちしております！",
-        "prompts": "zundamon, a cute green monster, holding a microphone, a speech bubble, \"Send your comments!\", ensuring it is highly visible, a website address on the screen, anime style, illustration"
+        "prompts": "zundamon, a cute green monster, holding a microphone, a speech bubble, \"Send your comments!\", ensuring it is highly visible, a website address on the screen, anime style, illustration",
+        "notes": "株式会社ずんだもん技術室AI放送局は、AIやテクノロジーのトレンドを届ける番組。平日毎朝6時podcast配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。"
     }
 ]

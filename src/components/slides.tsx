@@ -200,7 +200,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
       // console.log(currentScript.line + q)
       processReceivedMessage(currentScript.line + q)
     },
-    [scripts]
+    [scripts, guestName]
   )
 
   const nextSlide = useCallback(() => {

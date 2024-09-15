@@ -58,8 +58,10 @@ jobs:
       - name: Static HTML export with Next.js
         run: |
           npx --no-install next export -o _site/
-          mkdir -p _site/welcome
-          cp _site/index.html _site/welcome/index.html
+          # mkdir -p _site/welcome
+          # cp _site/index.html _site/welcome/index.html
+          mkdir -p _site/programs
+          cp _site/index.html _site/programs/index.html
 
       # marp (/slides)
       # - name: Install dependencies
