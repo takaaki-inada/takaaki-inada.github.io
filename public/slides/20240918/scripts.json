@@ -1,0 +1,174 @@
+[
+    {
+        "page": 0,
+        "section": "opening",
+        "line": "株式会社ずんだもん技術室AI放送局、はじまるのだ！",
+        "slide_text": "株式会社ずんだもん技術室AI放送局",
+        "question_to_guest": "",
+        "prompts": "zundamon, AI, broadcasting studio, futuristic technology, colorful lights, holographic display,  futuristic cityscape, 8k, hyperrealistic, detailed"
+    },
+    {
+        "page": 1,
+        "section": "opening",
+        "line": "今日は 2024年9月18日(水曜日) なのだ。",
+        "slide_text": "2024年9月18日(水曜日) AIトレンド紹介",
+        "question_to_guest": "",
+        "prompts": "zundamon, calendar, 2024, September 18, Wednesday, AI, technology, futuristic,  digital art, clean lines, vibrant colors"
+    },
+    {
+        "page": 2,
+        "section": "agenda",
+        "line": "今日、ぼくが紹介するのは、AIの最新トレンドをまとめた記事、全部で 4つ なのだ。",
+        "slide_text": "AIトレンド紹介 4つの最新情報",
+        "question_to_guest": "",
+        "prompts": "zundamon, list of topics, AI, trends, technology, news, information, futuristic interface, clean design, digital art, vibrant colors"
+    },
+    {
+        "page": 3,
+        "section": "article1",
+        "line": "1つ目の記事は、Mistral AIが発表した新しいオープンソースの多様な言語モデル「Pixtral 12B」についての記事なのだ。　タイトルは、「Announcing Pixtral 12B」で、Mistral AIが発表した記事なのだ。　、。Pixtral 12Bは、画像とテキストの両方を理解するようにトレーニングされた、新しいオープンソースの多様な言語モデルなのだ。 Mistral ネモー 12Bをベースに、新たに4億パラメータのビジョンエンコーダを追加することで、多様なタスクにおいて優れた性能を実現しているのだ。 特に、図表や文書の理解、多様な推論、指示に従う能力に優れており、MMMU推論ベンチマークでは52.5%という高いスコアを達成しているのだ。 これは、他の多くのより大規模なモデルを上回る成果なのだ。 ",
+        "slide_text": "Pixtral 12B 画像とテキスト理解の多様な言語モデル",
+        "question_to_guest": "",
+        "prompts": "Pixtral 12B, Mistral AI, open source, language model, image recognition, text understanding, AI, neural network, data science, futuristic, technology,  digital art, clean lines, bright colors"
+    },
+    {
+        "page": 4,
+        "section": "article1",
+        "line": "Pixtral 12Bは、画像の解像度やアスペクト比を維持したまま処理できるため、ユーザーは画像処理に使用するトークンの数を柔軟に調整できるのだ。 また、最大128kトークンの長いコンテキストウィンドウ内に複数の画像を処理することも可能なのだ。 Pixtral 12Bは、オープンソースでありながら、多様な言語モデルの性能において新たな基準を打ち立てたのだ。 今後、様々なアプリケーションやワークフローに統合され、画像とテキストの処理において重要な役割を果たしていくことが期待されているのだ。",
+        "slide_text": "画像処理の柔軟性と高い性能を実現",
+        "question_to_guest": "",
+        "prompts": "image processing, AI, flexible, high performance, tokens, context window,  technology, future, innovation,  digital art, 3D rendering, futuristic backgrounds"
+    },
+    {
+        "page": 5,
+        "section": "article1",
+        "line": " ",
+        "slide_text": "Pixtral 12Bは画像とテキスト処理の未来を拓く",
+        "question_to_guest": "",
+        "prompts": "Pixtral 12B, future of AI, image and text processing, technology, innovation, progress, hope,  digital art, glowing colors, futuristic background, stars, cosmos"
+    },
+    {
+        "page": 6,
+        "section": "comment1",
+        "line": " ",
+        "slide_text": "Pixtral 12Bへの感想を聞かせてください！",
+        "question_to_guest": "{GUEST}、Pixtral 12Bについてどう思いますか？オープンソースで画像とテキストの両方を理解できる点は、今後どのように活用されていくと思いますか？",
+        "prompts": "zundamon, speech bubble, asking a question,  friendly, curious,  illustration, cartoon style, bright background,  ensuring it is highly visible",
+        "notes": "タイトル: Announcing Pixtral 12B\n\n\n要約:\nMistral AIは、画像とテキストの両方を理解するようにトレーニングされた、新しいオープンソースの多様な言語モデル「Pixtral 12B」を発表しました。\n\nPixtral 12Bは、Mistral Nemo 12Bをベースに、新たに4億パラメータのビジョンエンコーダを追加することで、多様なタスクにおいて優れた性能を実現しています。特に、図表や文書の理解、多様な推論、指示に従う能力に優れており、MMMU推論ベンチマークでは52.5%という高いスコアを達成しています。これは、他の多くのより大規模なモデルを上回る成果です。\n\nPixtral 12Bは、画像の解像度やアスペクト比を維持したまま処理できるため、ユーザーは画像処理に使用するトークンの数を柔軟に調整できます。また、最大128kトークンの長いコンテキストウィンドウ内に複数の画像を処理することも可能です。\n\n**Pixtral 12Bの主な特徴**\n\n*   画像とテキストの両方を理解\n*   多様なタスクで優れた性能を発揮\n*   テキストのみのベンチマークでも最先端の性能を維持\n*   可変の画像サイズとアスペクト比に対応\n*   最大128kトークンの長いコンテキストウィンドウ内で複数の画像を処理可能\n*   Apache 2.0ライセンス\n\n\n**Pixtral 12Bのアーキテクチャ**\n\nPixtral 12Bは、画像をトークン化するビジョンエンコーダと、テキストと画像のシーケンスから次のテキストトークンを予測する多様なトランスフォーマーデコーダの2つのコンポーネントで構成されています。このアーキテクチャにより、任意のサイズの画像を複数処理できます。\n\n**Pixtral 12Bの活用方法**\n\nPixtral 12Bは、Mistral AIが提供するチャットインターフェース「Le Chat」やAPIを通じて利用できます。また、`mistral-inference`や`vLLM`などのライブラリを用いてローカル環境で実行することも可能です。\n\n\nPixtral 12Bは、オープンソースでありながら、多様な言語モデルの性能において新たな基準を打ち立てました。今後、様々なアプリケーションやワークフローに統合され、画像とテキストの処理において重要な役割を果たしていくことが期待されます。 \n"
+    },
+    {
+        "page": 7,
+        "section": "article2",
+        "line": "2つ目の記事は、Synchron社が、脳コンピューターインターフェース（BCI）を用いて、ALS（筋萎縮性側索硬化症）患者がAmazon Alexaを操作することに世界で初めて成功したという記事なのだ。　タイトルは、「Synchron Announces First Use of Amazon’s Alexa with a Brain Computer Interface」で、Synchron社が発表した記事なのだ。　、。このBCIシステムは、脳の運動皮質の表面にある血管に、経静脈的に埋め込まれるのだ。 患者の思考を検知し、ワイヤレスで送信することで、重度の麻痺を持つ人々が、手を動かさずにデジタルデバイスを操作することを可能にするのだ。今回の発表では、ALS患者であるマークさんが、SynchronのBCIシステムを使って、Amazon ファイアータブレットのタップ to Alexa機能を通じてスマートホームを制御することに成功したのだ。",
+        "slide_text": "Synchron社 BCIでAlexa操作に成功！ALS患者も操作可能に",
+        "question_to_guest": "",
+        "prompts": "Synchron, brain computer interface, BCI, ALS, Amazon Alexa, smart home, medical technology, innovation, hope,  realistic, medical equipment, hospital setting, bright lights"
+    },
+    {
+        "page": 8,
+        "section": "article2",
+        "line": "照明のオンオフ、ビデオ通話、音楽再生、スマート家電の操作など、音声や手を使わずに、思考だけで様々な操作が可能になったのだ。Synchron社は、Alexaとの連携を通じて、BCI技術の可能性を広げ、自宅内外の環境制御を容易にすることを目指しているのだ。 これにより、重度の麻痺を持つ人々の自立性向上に貢献できると期待されているのだ。今回の成果は、BCI技術が、重度の麻痺を持つ人々の生活の質を向上させるための大きな可能性を秘めていることを示すものなのだ。 今後の研究開発によって、さらに多くの機能が追加され、より多くの患者が恩恵を受けることが期待されるのだ。",
+        "slide_text": "思考で操作！生活の質向上へ貢献するBCI技術",
+        "question_to_guest": "",
+        "prompts": "brain, thoughts, control, AI, technology, future,  innovation,  realistic, human brain,  neural network, futuristic interface,  bright colors"
+    },
+    {
+        "page": 9,
+        "section": "article2",
+        "line": " ",
+        "slide_text": "BCI技術は重度の麻痺を持つ人々の生活を豊かにする",
+        "question_to_guest": "",
+        "prompts": "person in wheelchair, smiling, using a tablet,  hope, future,  realistic,  warm lighting,  natural background,  bright colors"
+    },
+    {
+        "page": 10,
+        "section": "comment2",
+        "line": " ",
+        "slide_text": "BCI技術への感想を聞かせてください！",
+        "question_to_guest": "{GUEST}、脳コンピューターインターフェース（BCI）技術の進化は、今後どのような未来をもたらすと考えますか？倫理的な課題など、懸念点があれば教えてください。",
+        "prompts": "zundamon, speech bubble, thinking,  illustration, cartoon style,  bright background, ensuring it is highly visible",
+        "notes": "タイトル: Synchron Announces First Use of Amazon’s Alexa with a Brain Computer Interface\n\n\n要約:\nSynchron社は、脳コンピューターインターフェース（BCI）を用いて、ALS（筋萎縮性側索硬化症）患者がAmazon Alexaを操作することに世界で初めて成功したと発表しました。\n\nこのBCIシステムは、脳の運動皮質の表面にある血管に、経静脈的に埋め込まれます。患者の思考を検知し、ワイヤレスで送信することで、重度の麻痺を持つ人々が、手を動かさずにデジタルデバイスを操作することを可能にします。\n\n今回の発表では、ALS患者であるMarkさんが、SynchronのBCIシステムを使って、Amazon FireタブレットのTap to Alexa機能を通じてスマートホームを制御することに成功しました。照明のオンオフ、ビデオ通話、音楽再生、スマート家電の操作など、音声や手を使わずに、思考だけで様々な操作が可能になりました。\n\nSynchron社は、Alexaとの連携を通じて、BCI技術の可能性を広げ、自宅内外の環境制御を容易にすることを目指しています。これにより、重度の麻痺を持つ人々の自立性向上に貢献できると期待されています。\n\nSynchron社のCEOであるTom Oxley氏は、「SynchronのBCIは、神経技術と消費者向け技術のギャップを埋めるものであり、麻痺を持つ人々が再び環境をコントロールできるようになる可能性を示しています。」と述べています。\n\n今回の成果は、BCI技術が、重度の麻痺を持つ人々の生活の質を向上させるための大きな可能性を秘めていることを示すものです。今後の研究開発によって、さらに多くの機能が追加され、より多くの患者が恩恵を受けることが期待されます。\n\n\n"
+    },
+    {
+        "page": 11,
+        "section": "article3",
+        "line": "　3つ目の記事は、Amazon Web Services (AWS) 上で、Retrieval Augmented Generation (RAG) ベースの生成AIアプリケーションを構築する方法について解説した記事なのだ。タイトルは、「Build RAG-based generative AI applications in AWS using Amazon FSx for NetApp ONTAP with Amazon Bedrock | Amazon Web Services」で、Amazon Web Servicesが公開した記事なのだ。　、。RAGは、大規模言語モデル（LLM）の出力に関連する情報を外部データソースから取得することで、より正確で関連性の高い応答を生成する技術なのだ。具体的には、Amazon Bedrock、Amazon スケスクス フォー ネットアプ ONTAP、およびその他のAWSサービスを組み合わせることで、大規模なドキュメントやデータセットを効率的に格納・管理し、LLMにこれらの情報を提供する仕組みを構築する方法が紹介されているのだ。",
+        "slide_text": "AWSでRAGベースの生成AIアプリ構築！",
+        "question_to_guest": "",
+        "prompts": "Amazon Web Services, AWS, cloud computing, AI, machine learning, RAG, LLM, data storage, data management, technology,  futuristic data center, servers, network,  clean lines, bright colors"
+    },
+    {
+        "page": 12,
+        "section": "article3",
+        "line": "本記事のポイントは、RAGを用いた生成AIアプリケーションの構築、Amazon スケスクス フォー ネットアプ ONTAPによるデータ管理、Amazon Bedrockを活用したLLMの利用なのだ。これらの技術を組み合わせることで、企業は自社のデータやドキュメントを活用した、より高度な生成AIアプリケーションを構築することが可能になるのだ。 例えば、顧客サポートの自動化、文書要約、質問応答システムなど、様々なユースケースに適用できるのだ。",
+        "slide_text": "データ管理とLLM活用で高度な生成AIアプリ構築",
+        "question_to_guest": "",
+        "prompts": "data, information, AI, knowledge, application,  technology, futuristic interface,  data visualization, charts, graphs,  clean lines, bright colors"
+    },
+    {
+        "page": 13,
+        "section": "article3",
+        "line": "新人エンジニアの方にとっても、AWSのサービスを活用した生成AIアプリケーションの構築方法を理解する上で、参考になる内容となっているのだ。",
+        "slide_text": "AWSで生成AIアプリ構築を学ぼう！",
+        "question_to_guest": "",
+        "prompts": "AWS, AI, learning, education, tutorial,  technology,  futuristic classroom,  students, teacher,  clean lines, bright colors"
+    },
+    {
+        "page": 14,
+        "section": "comment3",
+        "line": " ",
+        "slide_text": "AWSのRAGベース生成AIアプリ構築への感想を聞かせてください！",
+        "question_to_guest": "{GUEST}、AWS上でRAGベースの生成AIアプリケーションを構築する技術は、今後どのようなビジネスシーンで活用されていくと思いますか？",
+        "prompts": "zundamon, speech bubble,  thinking,  illustration, cartoon style,  bright background, ensuring it is highly visible",
+        "notes": "タイトル: Build RAG-based generative AI applications in AWS using Amazon FSx for NetApp ONTAP with Amazon Bedrock | Amazon Web Services\n\n\n要約:\n\nこのブログ記事では、Amazon Web Services (AWS) 上で、Retrieval Augmented Generation (RAG) ベースの生成AIアプリケーションを構築する方法について解説しています。RAGは、大規模言語モデル（LLM）の出力に関連する情報を外部データソースから取得することで、より正確で関連性の高い応答を生成する技術です。\n\n具体的には、Amazon Bedrock、Amazon FSx for NetApp ONTAP、およびその他のAWSサービスを組み合わせることで、大規模なドキュメントやデータセットを効率的に格納・管理し、LLMにこれらの情報を提供する仕組みを構築する方法が紹介されています。\n\n**本記事のポイントは以下の通りです。**\n\n* **RAGを用いた生成AIアプリケーションの構築**: LLMの能力を最大限に引き出し、より信頼性の高い応答を生成できます。\n* **Amazon FSx for NetApp ONTAPによるデータ管理**: 大量のドキュメントやデータを効率的に保存・管理し、LLMへのアクセスを容易にします。\n* **Amazon Bedrockを活用したLLMの利用**: 様々なLLMを簡単に利用し、RAGアプリケーションに組み込むことができます。\n\nこれらの技術を組み合わせることで、企業は自社のデータやドキュメントを活用した、より高度な生成AIアプリケーションを構築することが可能になります。例えば、顧客サポートの自動化、文書要約、質問応答システムなど、様々なユースケースに適用できます。\n\n新人エンジニアの方にとっても、AWSのサービスを活用した生成AIアプリケーションの構築方法を理解する上で、参考になる内容となっています。\n\n\n"
+    },
+    {
+        "page": 15,
+        "section": "article4",
+        "line": "4つ目の記事は、チャットGPTがエクセルのエラー解決に役立つツールとして注目されているという記事なのだ。タイトルは、「「エクセルのエラーをグーグルで調べる時代は終わりましたね」チャットGPTにスクショを送ってポンすれば、10秒ぐらいで返答するので、効率の良さが全然違う」で、トゥィターで話題になった記事なのだ。チャットGPTは、画像認識と自然言語処理技術を活用することで、エクセルのエラーや問題を効率的に解決できる可能性を秘めているのだ。一方、グーグル検索は、キーワード検索と検索結果の精査が必要となるため、チャットGPTに比べて時間がかかる場合があるのだ。",
+        "slide_text": "ChatGPTがエクセルのエラー解決に役立つ！",
+        "question_to_guest": "",
+        "prompts": "ChatGPT, Excel, error, problem solving, AI, image recognition, natural language processing,  technology,  office scene, computer screen, excel spreadsheet,  clean lines, bright colors"
+    },
+    {
+        "page": 16,
+        "section": "article4",
+        "line": "チャットGPTは、エクセルのエラー解決だけでなく、英文の修正や表データの抽出など、幅広い用途で活用できる可能性を秘めているのだ。しかし、まだ開発段階であり、完璧な回答が得られない場合もある点には注意が必要なのだ。新人エンジニアの方々も、ぜひチャットGPTを活用して、エクセルのスキルアップを目指してみて下さい。",
+        "slide_text": "ChatGPTでエクセルスキルアップ！幅広い用途で活用",
+        "question_to_guest": "",
+        "prompts": "ChatGPT, Excel, skill up, improvement, learning, AI,  technology,  futuristic interface,  data visualization, charts, graphs, clean lines, bright colors"
+    },
+    {
+        "page": 17,
+        "section": "article4",
+        "line": " ",
+        "slide_text": "ChatGPTはエクセル作業の効率化に貢献する",
+        "question_to_guest": "",
+        "prompts": "ChatGPT, Excel, efficiency, productivity,  technology,  futuristic interface,  data visualization, charts, graphs, clean lines, bright colors"
+    },
+    {
+        "page": 18,
+        "section": "comment4",
+        "line": " ",
+        "slide_text": "ChatGPT活用への感想を聞かせてください！",
+        "question_to_guest": "{GUEST}、ChatGPTは、エクセル作業の効率化やスキルアップに役立つツールとして、今後どのように進化していくと思いますか？",
+        "prompts": "zundamon, speech bubble,  thinking,  illustration, cartoon style,  bright background, ensuring it is highly visible",
+        "notes": "タイトル: 「ExcelのエラーをGoogleで調べる時代は終わりましたね」ChatGPTにスクショを送ってポンすれば、10秒ぐらいで返答するので、効率の良さが全然違う\n\n\n要約:\n近年、ChatGPTがExcelのエラー解決に役立つツールとして注目されています。\n\n**ChatGPTの活用:** \nExcelのエラーメッセージを画像でChatGPTに送信すると、わずか10秒ほどで回答が得られるケースが増えています。これは、従来Google検索でエラー内容を調べ、適切な情報を探すのに要していた時間と比較して、大幅な時間短縮につながります。\n\n**エンジニアやExcelユーザーの反応:**\nTwitter上では、ChatGPTのこの機能に多くのユーザーが驚きの声を上げています。Excelの関数やエラーメッセージの解釈、さらには英語の誤り訂正など、画像から情報を理解し、的確な回答を返すChatGPTの能力に、驚嘆と期待の声が多数寄せられています。\n\n**ChatGPTとGoogle検索の比較:**\nChatGPTは、画像認識と自然言語処理技術を活用することで、Excelのエラーや問題を効率的に解決できる可能性を秘めています。一方、Google検索は、キーワード検索と検索結果の精査が必要となるため、ChatGPTに比べて時間がかかる場合があります。\n\n**ChatGPTの今後の可能性:**\nChatGPTは、Excelのエラー解決だけでなく、英文の修正や表データの抽出など、幅広い用途で活用できる可能性を秘めています。しかし、まだ開発段階であり、完璧な回答が得られない場合もある点には注意が必要です。\n\n**新人エンジニアへのアドバイス:**\nExcelの操作に慣れていない新人エンジニアにとって、ChatGPTは強力な学習ツールとなりえます。エラー解決だけでなく、Excelの機能や関数の使い方を学ぶ際にも、ChatGPTを活用することで、学習効率を向上させることが期待できます。ただし、ChatGPTの回答を鵜呑みにせず、自分で確認する習慣を身につけることが重要です。\n\n\nChatGPTは、Excelのエラー解決において、従来のGoogle検索に代わる新たな選択肢として注目されています。新人エンジニアの方々も、ぜひChatGPTを活用して、Excelのスキルアップを目指してみて下さい。 \n"
+    },
+    {
+        "page": 19,
+        "section": "closing",
+        "line": "今日は、AIの最新トレンドをまとめた記事を 4つ 紹介したのだ。",
+        "slide_text": "AIトレンド紹介 4つの最新情報",
+        "question_to_guest": "",
+        "prompts": "zundamon, AI, trends, technology, news, information,  futuristic interface,  clean design, digital art, vibrant colors"
+    },
+    {
+        "page": 20,
+        "section": "closing",
+        "line": "どれも興味深い内容だったのではないかな？もし、この番組について何か感想があれば、ぜひお便り送ってほしいのだ。株式会社ずんだもん技術室AI放送局は、これからも最新のAI情報をお届けしていくのだ。また、来週も会えるのを楽しみにしているのだ！",
+        "slide_text": "株式会社ずんだもん技術室AI放送局 また来週！",
+        "question_to_guest": "",
+        "prompts": "zundamon, AI, broadcasting studio,  thank you,  goodbye,  futuristic technology, colorful lights, holographic display,  futuristic cityscape, 8k, hyperrealistic, detailed"
+    }
+]
