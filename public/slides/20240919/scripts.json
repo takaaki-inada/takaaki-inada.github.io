@@ -1,0 +1,93 @@
+[
+    {
+        "page": 0,
+        "section": "opening",
+        "line": "こんにちは！株式会社ずんだもん技術室AI放送局の、ずんだもんなのだ。今日は2024年9月19日(木曜日)なのだ。",
+        "slide_text": "ずんだもん技術室AI放送局",
+        "question_to_guest": "",
+        "prompts": "zundamon, a cute green monster, wearing a headset, smiling, standing in front of a microphone, studio background, bright colors, illustration, cartoon style"
+    },
+    {
+        "page": 1,
+        "section": "opening",
+        "line": "今日は、AIや技術に関する興味深い記事を3つ紹介するのだ。",
+        "slide_text": "AIと技術の最新情報をお届け！",
+        "question_to_guest": "",
+        "prompts": "a futuristic cityscape, glowing neon signs, robots walking around, flying cars, holographic displays, digital art, sci-fi style, vibrant colors, intricate details"
+    },
+    {
+        "page": 2,
+        "section": "agenda",
+        "line": "1つ目の記事は、「GitHub - ictnlp/LLaMA-Omni: LLaMA-Omni is a low-latency and high-quality end-to-end speech interaction model built upon Llama-3.1-8B-Instruct, aiming to achieve speech capabilities at the GPT-4o level.」というタイトルの記事なのだ。2つ目の記事は、「Qwen2.5: A Party of Foundation Models!」というタイトルの記事なのだ。3つ目の記事は、「RLHF アンド RLAIF in GPT-NeoX」というタイトルの記事なのだ。",
+        "slide_text": "AI技術の最新情報3本立て！",
+        "question_to_guest": "",
+        "prompts": "a whiteboard with three different topics written on it, AI, technology, future, futuristic setting, clean and simple design, digital art, minimalist style, bright colors"
+    },
+    {
+        "page": 3,
+        "section": "article1",
+        "line": "GitHub - ictnlp/LLaMA-Omni: LLaMA-Omni is a low-latency and high-quality end-to-end speech interaction model built upon Llama-3.1-8B-Instruct, aiming to achieve speech capabilities at the GPT-4o level。、。ラーマ-オムニは、ラーマ-3.1-8B-インストゥラクトをベースに作られた、音声言語モデルなのだ。音声指示を理解して、テキストと音声の両方で答えることができるらしいのだ。しかも、レスポンスが速くて、品質も高いのだって。GPT-4oレベルの性能を目指しているらしいぞ。ラーマ-オムニは、ラーマ-3.1をベースにしているから、ラーマ 3.1のライセンスに従う必要があるのだ。ラーマ-オムニは、音声対話においてGPT-4レベルの性能を目指した、有望なモデルなのだ。日本語のエンジニア、特に新人エンジニアにとって、音声認識や自然言語処理技術の理解を深める上で、参考になるリポジトリと言えるでしょう。",
+        "slide_text": "LLaMA-Omni：GPT-4oレベルの音声対話モデル",
+        "question_to_guest": "",
+        "prompts": "a futuristic robot, speaking to a human, speech bubble, ensuring it is highly visible, AI interface, clean and simple design, digital art, sci-fi style, cool colors"
+    },
+    {
+        "page": 4,
+        "section": "comment1",
+        "line": "ラーマ-オムニは、音声指示を理解して、テキストと音声の両方で答えることができるらしいのだ。しかも、レスポンスが速くて、品質も高いのだって。GPT-4oレベルの性能を目指しているらしいぞ。",
+        "slide_text": "LLaMA-Omni：高速・高品質な音声対話",
+        "question_to_guest": "{GUEST}、LLaMA-Omniのような音声対話モデルについて、どのような可能性を感じますか？",
+        "prompts": "a person using a smartphone, voice assistant interface, AI chatbot, speech bubble, ensuring it is highly visible, futuristic technology, digital art, vibrant colors, realistic style",
+        "notes": "タイトル: GitHub - ictnlp/LLaMA-Omni: LLaMA-Omni is a low-latency and high-quality end-to-end speech interaction model built upon Llama-3.1-8B-Instruct, aiming to achieve speech capabilities at the GPT-4o level.\n\n\n要約:\n\nLLaMA-Omniは、Llama-3.1-8B-Instructをベースに構築された、音声言語モデルです。音声指示に基づいて、テキストと音声の両方の応答を同時に生成し、低遅延かつ高品質な音声対話を実現することを目指しています。\n\n**LLaMA-Omniの特徴**\n\n* Llama-3.1-8B-Instructを基盤とすることで、高品質な応答を生成します。\n* 遅延が226msと非常に短い、低遅延な音声対話を実現します。\n* 音声指示に対して、テキストと音声の両方の応答を同時に生成します。\n* わずか4つのGPUで3日以内の短期間でトレーニングが完了しました。\n\n\n**制約事項**\n\nLLaMA-Omniは、MetaのLlama 3.1を基盤としているため、Llama 3.1のライセンスに準拠する必要があります。\n\n\nLLaMA-Omniは、音声対話においてGPT-4レベルの性能を目指した、有望なモデルです。日本語のエンジニア、特に新人エンジニアにとって、音声認識や自然言語処理技術の理解を深める上で、参考になるリポジトリと言えるでしょう。"
+    },
+    {
+        "page": 5,
+        "section": "article2",
+        "line": "Qwen2.5: A Party of Foundation Models!。、。クェン2.5は、アリババが開発したオープンソースの大規模言語モデル（LLM）の最新バージョンなのだ。クェン2の後継として、コーディングに特化したクェン2.5-コウダー、数学に特化したクェン2.5-マスなど、様々なモデルが公開されたのだ。クェン2.5は、クェン2よりも知識量が増えて性能も向上したらしいのだ。命令を理解したり、長い文章を作ったり、表やJSONなどの構造化データも理解できるのだって。クェン2.5-コウダーは、コードに関するデータで学習しているから、小型モデルでもコーディングが得意らしいぞ。クェン2.5-マスは、中国語と英語に対応していて、数学の問題も解けるらしいのだ。クェン2.5は、オープンソースコミュニティの協力によって開発が進められているのだ。今後、マルチモーダルな情報処理や推論能力の強化など、更なる発展が期待されるのだ。",
+        "slide_text": "Qwen2.5：多様なモデルで進化したLLM",
+        "question_to_guest": "",
+        "prompts": "a group of people working on computers, coding, data analysis, AI models, bright colors, digital art, futuristic style, modern technology, clean lines"
+    },
+    {
+        "page": 6,
+        "section": "comment2",
+        "line": "クェン2.5は、クェン2よりも知識量が増えて性能も向上したらしいのだ。命令を理解したり、長い文章を作ったり、表やJSONなどの構造化データも理解できるのだって。",
+        "slide_text": "Qwen2.5：知識量と性能が向上",
+        "question_to_guest": "{GUEST}、オープンソースの大規模言語モデルの進化について、どう思いますか？",
+        "prompts": "a large brain, connected to a network of computers, data flowing through the network, futuristic technology, digital art, dark blue and purple colors, intricate details, complex design",
+        "notes": "タイトル: Qwen2.5: A Party of Foundation Models!\n\n\n要約:\nQwen2.5は、アリババが開発したオープンソースの大規模言語モデル（LLM）の最新バージョンです。Qwen2の後継として、コーディングに特化したQwen2.5-Coder、数学に特化したQwen2.5-Mathを含む、様々なサイズ（0.5B〜72Bパラメータ）のモデル群が公開されました。\n\n**Qwen2.5の主な特徴**は、以下の通りです。\n\n* **知識量の増加と性能向上**: 18兆トークンのデータで事前学習されており、Qwen2と比較して、MMLU、HumanEval、MATHなどのベンチマークで大幅な性能向上を実現しています。\n* **命令理解力とテキスト生成能力の強化**: より複雑な指示への対応力、8Kトークンを超える長文生成、表などの構造化データの理解、JSONなどの構造化出力生成能力が向上しました。\n* **多言語対応**: 中国語、英語、フランス語など29以上の言語に対応しています。\n* **トークン数**: 最大128Kトークンの入力と最大8Kトークンの出力をサポートしています。\n\n\n**Qwen2.5-Coder**は、5.5兆トークンのコード関連データで学習されており、小型モデルでも他のLLMと比較して競争力のあるコーディング性能を発揮します。**Qwen2.5-Math**は、中国語と英語に対応し、CoT、PoT、TIRなどの推論手法を取り入れています。\n\n**性能面**では、Qwen2.5-72BはLlama-3.1-70B、Mistral-Large-V2などのオープンソースLLMと比較して、優れた性能を示しています。また、APIベースのフラッグシップモデルであるQwen2.5-Plusは、GPT4-oやClaude-3.5-Sonnetなどの商用モデルと比較しても遜色のない性能を有しています。\n\n\n**利用方法**としては、Hugging Face Transformers、vLLM、Ollamaなどのツールを用いて、API経由やローカル環境で利用できます。また、vLLMやOllamaでは、ツール呼び出し機能もサポートされています。\n\n\nQwen2.5は、オープンソースコミュニティの協力によって開発が進められています。今後も、マルチモーダルな情報処理や推論能力の強化など、更なる発展が期待されます。\n\n\n**制約**として、3Bと72B以外のモデルはApache 2.0ライセンスで公開されています。また、Qwen2.5-PlusやQwen2.5-Turboなどのフラッグシップモデルは、Model Studioを通じてAPIアクセスのみ提供されています。\n\n\n本要約は、Qwen2.5の主要な特徴と性能、利用方法、そして今後の展望を理解する助けとなることを目的としています。新人エンジニアの方でも、Qwen2.5の概要を掴み、今後の学習や開発に役立てられることを願っています。 \n"
+    },
+    {
+        "page": 7,
+        "section": "article3",
+        "line": "RLHF アンド RLAIF in GPT-NeoX。GPT-NeoXは、大規模言語モデルの事前学習フレームワークとして広く使われているオープンソースのライブラリなのだ。GPT-NeoXに、人間の好みを反映させるための**強化学習（RLHF）**と**好みに基づいたAI学習（RLAIF）**の機能が追加されたのだ。RLHFは、AIモデルを人間の好みに合わせるための効果的な手法で、要約などのタスクでモデルの性能向上に役立つらしいのだ。GPT-NeoXでは、RLHFの実装として、**直接的選好最適化（DPO）**と**Kahneman-ターブセアーキー最適化（KTO）**という2つの手法が導入されたのだ。今回のRLHF/RLAIF機能の追加により、GPT-NeoXは既存のTRLなどのライブラリと比べて、**30～40%の速度向上**を実現したらしいのだ。GPT-NeoXは、より多くの研究者が、大規模言語モデルの研究開発に参画しやすくなり、AI技術の進化が加速すると期待されるのだ。",
+        "slide_text": "GPT-NeoX：RLHF/RLAIFで進化したLLM",
+        "question_to_guest": "",
+        "prompts": "a computer screen with code, AI algorithms, machine learning, data visualization, bright colors, digital art, futuristic style, clean lines, modern design"
+    },
+    {
+        "page": 8,
+        "section": "comment3",
+        "line": "今回のRLHF/RLAIF機能の追加により、GPT-NeoXは既存のTRLなどのライブラリと比べて、**30～40%の速度向上**を実現したらしいのだ。",
+        "slide_text": "GPT-NeoX：速度が30～40%向上！",
+        "question_to_guest": "{GUEST}、AIモデルの学習方法の進化について、どう思いますか？",
+        "prompts": "a rocket launching into space, AI technology, data science, machine learning, vibrant colors, digital art, futuristic style, dynamic composition, sense of speed",
+        "notes": "タイトル: RLHF and RLAIF in GPT-NeoX\n\n\n要約:\n\nGPT-NeoXは、大規模言語モデルの事前学習フレームワークとして広く使われているオープンソースのライブラリです。EleutherAIとSynthLabsは共同で、GPT-NeoXに人間の好みを反映させるための**強化学習（RLHF）**と**好みに基づくAI学習（RLAIF）**の機能を追加しました。\n\nRLHFは、AIモデルを人間の好みに合わせるための効果的な手法で、要約などのタスクでモデルの性能向上に役立ちます。GPT-NeoXでは、RLHFの実装として、**直接的選好最適化（DPO）**と**Kahneman-Tversky最適化（KTO）**という2つの手法が導入されました。DPOは、使いやすく安定した学習が可能なため、広く利用されています。KTOは、従来の手法とは異なり、二値の報酬を用いて好みに基づいた学習を行うことができます。\n\nさらに、GPT-NeoXでは報酬モデルの学習機能も強化されました。これにより、大規模な報酬モデルの研究が促進されると期待されます。GPT-NeoXは、ZeRO、3D並列処理、Flash Attentionなどの技術を活用することで、様々なGPU、モデルアーキテクチャ、ネットワーク環境、ジョブランチャーに対応し、大規模モデルの学習を効率的に行うことができます。\n\n今回のRLHF/RLAIF機能の追加により、GPT-NeoXは既存のTRLなどのライブラリと比べて、**30～40%の速度向上**を実現しました。これは、事前学習の最適化を、事後学習プロセスにも適用することで可能になりました。\n\n**今回の発表のポイントは、誰でも利用可能なオープンソースのGPT-NeoXに、大規模言語モデルの性能向上に効果的なRLHF/RLAIF機能が追加されたことです。**これにより、より多くの研究者が、大規模言語モデルの研究開発に参画しやすくなり、AI技術の進化が加速すると期待されます。\n\n\n**補足**\n\n* RLHF: Reinforcement Learning with Human Feedback（人間のフィードバックによる強化学習）\n* RLAIF: Reinforcement Learning with AI Feedback（AIフィードバックによる強化学習）\n* DPO: Direct Preference Optimization（直接的選好最適化）\n* KTO: Kahneman-Tversky Optimization（Kahneman-Tversky最適化）\n* GPT-NeoX: EleutherAIが開発した大規模言語モデルの事前学習フレームワーク\n* TRL: Hugging Faceが開発したRLHF用のライブラリ\n\n\n新人エンジニアの方にも理解しやすいように、専門用語を出来る限り避け、平易な言葉で説明するように心がけました。"
+    },
+    {
+        "page": 9,
+        "section": "closing",
+        "line": "今日は、AIや技術に関する興味深い記事を3つ紹介したのだ。",
+        "slide_text": "AI技術の未来は明るい！",
+        "question_to_guest": "",
+        "prompts": "a futuristic cityscape, with AI robots and humans living together, harmony, peace, bright colors, digital art, utopian style, hope for the future"
+    },
+    {
+        "page": 10,
+        "section": "closing",
+        "line": "1つ目は、音声指示を理解して、テキストと音声の両方で答えることができる音声言語モデル「ラーマ-オムニ」についてだったのだ。2つ目は、コーディングや数学に特化したモデルを含む、様々なモデルが公開された「クェン2.5」についてだったのだ。3つ目は、人間の好みを反映させるための機能が追加された、「GPT-NeoX」についてだったのだ。どれも、今後のAI技術の発展に期待が持てる内容だったと思うのだ。これからも、色々な情報をお届けしていくので、楽しみにしていてください。番組への感想は、ずんだもん技術室AI放送局の公式トゥィターまで、ぜひ送ってください。それでは、また次回お会いしましょう！",
+        "slide_text": "ずんだもん技術室AI放送局、次回もお楽しみに！",
+        "question_to_guest": "",
+        "prompts": "zundamon, waving goodbye, standing in front of a microphone, studio background, bright colors, illustration, cartoon style"
+    }
+]
