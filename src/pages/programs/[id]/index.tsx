@@ -25,6 +25,7 @@ export async function getStaticPaths() {
       { params: { id: '20240903' } },
       { params: { id: '20240910' } },
       { params: { id: '20240911' } },
+      { params: { id: 'LT_podcast' } },
     ],
     fallback: false,
   };

@@ -1,12 +1,18 @@
 import { wait } from "@/utils/wait";
 // import { synthesizeVoiceApi } from "./synthesizeVoice";
+import englishToJapanese from '@/utils/englishToJapanese.json';
 import homeStore from "../stores/home";
 import settingsStore from "../stores/settings";
 import { Screenplay, Talk } from "./messages";
 import { synthesizeVoice } from "./synthesizeVoice";
 
+interface EnglishToJapanese {
+  [key: string]: string
+}
+
 const VOICE_VOX_API_URL =
   process.env.NEXT_PUBLIC_VOICE_VOX_API_URL || 'http://localhost:50021'
+  const typedEnglishToJapanese = englishToJapanese as EnglishToJapanese
 
 const createSpeakCharacter = () => {
   let lastTime = 0;
@@ -23,6 +29,11 @@ const createSpeakCharacter = () => {
     const ss = settingsStore.getState()
     const { viewer } = homeStore.getState()
     onStart?.()
+
+    // 英単語を日本語で読み上げる
+    screenplay.talk.message = convertEnglishToJapaneseReading(
+      screenplay.talk.message
+    )
 
     const fetchPromise = prevFetchPromise.then(async () => {
       const now = Date.now();
@@ -84,6 +95,18 @@ export const fetchAudio = async (
   const buffer = await resAudio.arrayBuffer();
   return buffer;
 };
+
+function convertEnglishToJapaneseReading(text: string): string {
+  const sortedKeys = Object.keys(typedEnglishToJapanese).sort(
+    (a, b) => b.length - a.length
+  )
+
+  return sortedKeys.reduce((result, englishWord) => {
+    const japaneseReading = typedEnglishToJapanese[englishWord]
+    const regex = new RegExp(`\\b${englishWord}\\b`, 'gi')
+    return result.replace(regex, japaneseReading)
+  }, text)
+}
 
 export const fetchAudioVoiceVox = async (
   talk: Talk,

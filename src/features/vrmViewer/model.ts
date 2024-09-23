@@ -1,11 +1,12 @@
-import * as THREE from "three";
+import { VRMLookAtSmootherLoaderPlugin } from "@/lib/VRMLookAtSmootherLoaderPlugin/VRMLookAtSmootherLoaderPlugin";
 import { VRM, VRMLoaderPlugin, VRMUtils } from "@pixiv/three-vrm";
+import * as THREE from "three";
 import { GLTFLoader } from "three/examples/jsm/loaders/GLTFLoader";
 import { VRMAnimation } from "../../lib/VRMAnimation/VRMAnimation";
-import { VRMLookAtSmootherLoaderPlugin } from "@/lib/VRMLookAtSmootherLoaderPlugin/VRMLookAtSmootherLoaderPlugin";
-import { LipSync } from "../lipSync/lipSync";
 import { EmoteController } from "../emoteController/emoteController";
+import { LipSync } from "../lipSync/lipSync";
 import { Screenplay } from "../messages/messages";
+import slideStore from "../stores/slide";
 
 /**
  * 3Dキャラクターを管理するクラス
@@ -97,6 +98,12 @@ export class Model {
   public async speak(buffer: ArrayBuffer, screenplay: Screenplay) {
     // NOTE: ここで表情を変えている src/features/messages/speakCharacter.ts から呼ばれる
     this.emoteController?.playEmotion(screenplay.expression);
+    // 音声強制停止を追加 (ここに入れないと次のセリフが再生されてしまう)
+    const ss = slideStore.getState()
+    if (!ss.isPlaying) {
+      this._lipSync?.stop();
+      return
+    }
     await new Promise((resolve) => {
       this._lipSync?.playFromArrayBuffer(buffer, () => {
         resolve(true);
@@ -113,5 +120,9 @@ export class Model {
     this.emoteController?.update(delta);
     this.mixer?.update(delta);
     this.vrm?.update(delta);
+  }
+
+  public stop() {
+    this._lipSync?.stop();
   }
 }
