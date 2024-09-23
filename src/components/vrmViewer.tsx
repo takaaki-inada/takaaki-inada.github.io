@@ -51,6 +51,7 @@ export default function VrmViewer() {
     }, []
   );
 
+  // style={{ pointerEvents: 'none' }}を追加すると、マウスイベントがCanvasに届かなくなる
   return (
     <div className={"absolute top-0 left-0 w-screen h-[100svh] z-5"}>
       <canvas ref={canvasRef} className={"h-full w-full"}></canvas>

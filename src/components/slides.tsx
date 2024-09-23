@@ -34,7 +34,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
   const chatProcessingCount = homeStore((home) => home.chatProcessingCount)
   const guestName = settingsStore((s) => s.guestName)
   const [slideCount, setSlideCount] = useState(0)
-  const [scripts, setScripts] = useState<Array<{ page: number, line: string, section: string, notes: string, question_to_guest?: string }>>([])
+  const [scripts, setScripts] = useState<Array<{ page: number, line: string, section: string, notes: string, question_to_guest?: string, bgmpath?: string }>>([])
 
   // const audioContext = new AudioContext()
   // const source = audioContext.createBufferSource();
@@ -240,19 +240,27 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
 
   const toggleIsPlaying = () => {
     const newIsPlaying = !isPlaying
-    // slideStore.setState({
-    //   isPlaying: newIsPlaying,
-    // })
-    // if (newIsPlaying) {
-    //   readSlide(currentSlide)
-    // }
+    const bgmpath = scripts[0]?.bgmpath ?? '/パステルハウス.mp3'
+    if (!bgmpath) {
+      slideStore.setState({
+        isPlaying: newIsPlaying,
+      })
+      if (newIsPlaying) {
+        readSlide(currentSlide)
+      } else {
+        const { viewer } = homeStore.getState()
+        viewer.model?.stop()
+      }
+      return
+    }
 
     if (newIsPlaying) {
       if (audioContext) {
         const source = audioContext.createBufferSource()
         const gainNode = audioContext.createGain()
         // fetch("https://zund-arm-on.com/audio/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E3%81%9A%E3%82%93%E3%81%A0%E3%82%82%E3%82%93%E6%8A%80%E8%A1%93%E5%AE%A4AI%E6%94%BE%E9%80%81%E5%B1%80_podcast_20240816.mp3")
-        fetch('/パステルハウス.mp3')
+        console.log(bgmpath)
+        fetch(bgmpath)
           .then((response) => response.arrayBuffer())
           .then((data) => audioContext.decodeAudioData(data))
           .then((buffer) => {
@@ -274,7 +282,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
             setAudioGain(gainNode)
           })
       }
-      const fetchData = async () => {
+      const startDelay = async () => {
         await sleep(3000)
         slideStore.setState({
           isPlaying: newIsPlaying,
@@ -282,7 +290,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
         // FIXME: sleepをここにすると最初の発話が逆になる
         readSlide(currentSlide)
       }
-      fetchData()
+      startDelay()
     } else {
       if (audioContext) {
         audioGain?.gain.linearRampToValueAtTime(
@@ -291,14 +299,16 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
         )
         audioGain?.gain.linearRampToValueAtTime(0, audioContext.currentTime + 2)
       }
-      const fetchData = async () => {
+      const stopDelay = async () => {
         await sleep(2000)
         audioSource?.stop()
         slideStore.setState({
           isPlaying: newIsPlaying,
         })
+        const { viewer } = homeStore.getState()
+        viewer.model?.stop()
       }
-      fetchData()
+      stopDelay()
     }
   }
 

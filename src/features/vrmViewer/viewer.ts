@@ -179,6 +179,18 @@ export class Viewer {
     window.addEventListener("resize", () => {
       this.resize();
     });
+
+    // canvas.addEventListener('click', (event) => {
+    //   const mouse = new THREE.Vector2();
+    //   mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
+    //   mouse.y = -(event.clientY / window.innerHeight) * 2 + 1;
+      
+    //   const element = document.elementFromPoint(event.clientX, event.clientY);
+    //   if (element && element.tagName === 'A') {
+    //     element.click();
+    //   }
+    // });
+
     this.isReady = true;
     this.update();
   }
