@@ -100,7 +100,7 @@ export class Model {
     this.emoteController?.playEmotion(screenplay.expression);
     // 音声強制停止を追加 (ここに入れないと次のセリフが再生されてしまう)
     const ss = slideStore.getState()
-    if (!ss.isPlaying) {
+    if (ss.isStopping) {
       this._lipSync?.stop();
       return
     }

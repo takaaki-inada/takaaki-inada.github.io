@@ -217,6 +217,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
     // 最後のスライドに達した場合、isPlayingをfalseに設定
     if (currentSlide === slideCount - 1 && chatProcessingCount === 0) {
       slideStore.setState({ isPlaying: false })
+      slideStore.setState({ isStopping: true })
       if (audioContext) {
         audioGain?.gain.linearRampToValueAtTime(
           0.1,
@@ -224,11 +225,12 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
         )
         audioGain?.gain.linearRampToValueAtTime(0, audioContext.currentTime + 2)
       }
-      const fetchData = async () => {
+      const delayAudioStop = async () => {
         await sleep(2000)
         audioSource?.stop()
+        slideStore.setState({ isStopping: false })
       }
-      fetchData()
+      delayAudioStop()
     }
   }, [currentSlide, slideCount, chatProcessingCount])
 
