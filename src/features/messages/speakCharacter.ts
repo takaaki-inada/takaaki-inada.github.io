@@ -11,7 +11,7 @@ interface EnglishToJapanese {
 }
 
 const VOICE_VOX_API_URL =
-  process.env.NEXT_PUBLIC_VOICE_VOX_API_URL || 'http://localhost:50021'
+  process.env.NEXT_PUBLIC_VOICE_VOX_API_URL || 'http://127.0.0.1:50021'
   const typedEnglishToJapanese = englishToJapanese as EnglishToJapanese
 
 const createSpeakCharacter = () => {
