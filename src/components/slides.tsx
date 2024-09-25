@@ -161,6 +161,12 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
         padding: 2em;
       }
     `
+    // FIXME: A tagを最前面に表示したかったが、うまくいかなかった
+    //   div#\:\$p> svg > foreignObject > section a {
+    //     position: relative;
+    //     z-index: 10;
+    //   }
+    // `
     const styleElement = document.createElement('style')
     styleElement.textContent = customStyle
     document.head.appendChild(styleElement)
