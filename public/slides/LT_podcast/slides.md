@@ -50,7 +50,7 @@ LTテーマ [個人開発]<br/>
 
 ---
 
-操作員(Human)が実際の放送でどんな記事をとりあげているか紹介
+実際の放送でどんな記事をとりあげているか操作員(Human)が紹介
 
 <a href="https://zund-arm-on.com/" target="_blank">株式会社ずんだもん技術室AI放送局</a>
 
@@ -66,13 +66,13 @@ LTテーマ [個人開発]<br/>
 
 # 使っている技術の簡単な説明 2/2 (30秒)
 
-|   | 使用している技術   |
-|:-----------|:------------|
-| LLM (番組作成, スライドショー台本作成, MCとのChat)  | gpt-4o-mini, gemini flash            |
+| 機能　             | 使用している技術   |
+|:-------------------|:------------|
+| LLM (番組作成, Chatbot)  | gpt-4o-mini, gemini flash            |
 | AI Agent framework | langgraph            |
 | スライドショー | marp, aituberkit(slides関連実装)   |
 | スライド画像生成 | flux.1            |
-| MC側の音声読み上げ(TTS) | voicevox |
+| 音声読み上げ | voicevox |
 | 番組作成配信のCI/CD | github actions            |
 | 配信サイト | github pages (yattecast, marp-cli, Next.js(static export))     |
 | Xへの自動配信告知 | tweepy            |
