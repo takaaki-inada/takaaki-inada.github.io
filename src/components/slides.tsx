@@ -34,7 +34,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
   const chatProcessingCount = homeStore((home) => home.chatProcessingCount)
   const guestName = settingsStore((s) => s.guestName)
   const [slideCount, setSlideCount] = useState(0)
-  const [scripts, setScripts] = useState<Array<{ page: number, line: string, section: string, notes: string, question_to_guest?: string, bgmpath?: string }>>([])
+  const [scripts, setScripts] = useState<Array<{ page: number, line: string, section: string, notes: string, question_to_guest?: string, vrmdisable?: Boolean, bgmpath?: string }>>([])
 
   // const audioContext = new AudioContext()
   // const source = audioContext.createBufferSource();
@@ -46,6 +46,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
   const [audioGain, setAudioGain] = useState<GainNode | null>(null)
 
   const [ settingTourRun, setSettingTourRun ] = useState(false)
+  const [ isDisableVRM, setDisableVRM ] = useState(false)
   const [ steps ] = useState<Step[]>([
     {
       target: '.menu-setting',
@@ -209,15 +210,35 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
     [scripts, guestName]
   )
 
-  const nextSlide = useCallback(() => {
-    slideStore.setState((state) => {
-      const newSlide = Math.min(state.currentSlide + 1, slideCount - 1)
+  const nextSlide = useCallback(
+    () => {
+      const newSlide = Math.min(currentSlide + 1, slideCount - 1)
+      slideStore.setState({ currentSlide: newSlide })
+
+      const getCurrentScript = () => {
+        const currentScript = scripts.find(
+          (script) => script.page === newSlide
+        )
+        return currentScript
+      }
+      const currentScript = getCurrentScript()
+      if (currentScript) {
+        const isGuestTurn = currentScript.section.startsWith("comment")
+        slideStore.setState({ isGuestTurn: isGuestTurn })
+        slideStore.setState({ currentContext: currentScript.notes })
+        setDisableVRM(!!currentScript.vrmdisable)
+      } else {
+        slideStore.setState({ isGuestTurn: false })
+        slideStore.setState({ currentContext: '' })
+        setDisableVRM(false)
+      }
+
       if (isPlaying) {
         readSlide(newSlide)
       }
-      return { currentSlide: newSlide, isGuestTurn: false }
-    })
-  }, [isPlaying, isGuestTurn, readSlide, slideCount])
+    },
+    [currentSlide, isPlaying, isGuestTurn, readSlide, slideCount]
+  )
 
   useEffect(() => {
     // 最後のスライドに達した場合、isPlayingをfalseに設定
@@ -241,10 +262,29 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
   }, [currentSlide, slideCount, chatProcessingCount])
 
   const prevSlide = useCallback(() => {
+    const newSlide = Math.max(currentSlide - 1, 0)
     slideStore.setState((state) => ({
-      currentSlide: Math.max(state.currentSlide - 1, 0),
+      currentSlide: newSlide,
     }))
-  }, [])
+
+    const getCurrentScript = () => {
+      const currentScript = scripts.find(
+        (script) => script.page === newSlide
+      )
+      return currentScript
+    }
+    const currentScript = getCurrentScript()
+    if (currentScript) {
+      const isGuestTurn = currentScript.section.startsWith("comment")
+      slideStore.setState({ isGuestTurn: isGuestTurn })
+      slideStore.setState({ currentContext: currentScript.notes })
+      setDisableVRM(!!currentScript.vrmdisable)
+    } else {
+      slideStore.setState({ isGuestTurn: false })
+      slideStore.setState({ currentContext: '' })
+      setDisableVRM(false)
+    }
+  }, [currentSlide])
 
   const toggleIsPlaying = () => {
     const newIsPlaying = !isPlaying
@@ -326,19 +366,6 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
       isPlaying &&
       currentSlide < slideCount - 1
     ) {
-      const getCurrentScript = () => {
-        const currentScript = scripts.find(
-          (script) => script.page === currentSlide
-        )
-        return currentScript
-      }
-      const currentScript = getCurrentScript()
-      if (!currentScript) {
-        return
-      }
-      const isGuestTurn = currentScript.section.startsWith("comment")
-      slideStore.setState({ isGuestTurn: isGuestTurn })
-      slideStore.setState({ currentContext: currentScript.notes })
       if (!isGuestTurn) {
         nextSlide()
       }
@@ -383,6 +410,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
           right: 0,
           left: 0,
           margin: 'auto',
+          zIndex: isDisableVRM && chatProcessingCount == 0 ? 10 : 0,
         }}
       >
         <SlideContent marpitContainer={marpitContainer} />

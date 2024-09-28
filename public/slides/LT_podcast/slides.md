@@ -12,7 +12,7 @@ LTテーマ [個人開発]<br/>
 ～AI使って全自動でやってるよ～
 </h1>
 
-2024/9/26 inada
+2024/9/26
 
 ![blur bg cover opacity:.3](/slides/LT_podcast/images/4.jpg)
 
@@ -117,9 +117,15 @@ LTテーマ [個人開発]<br/>
 
 （AIとずんだもんに仕事を奪われていく…）
 
+</div>
+
+</div>
+
+---
+
+<!-- _class: end -->
+
+# link
+
 podcast配信サイト: [株式会社ずんだもん技術室AI放送局](https://zund-arm-on.com/)
 Qiita: [\[個人開発\]ずんだもんが技術トレンド記事を紹介するAIラジオの自動配信をはじめました](https://qiita.com/takaaki_inada/items/ae457a2c4fbcecf9eade) 
-
-</div>
-
-</div>
