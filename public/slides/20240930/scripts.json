@@ -1,0 +1,93 @@
+[
+    {
+        "page": 0,
+        "section": "opening",
+        "line": "こんにちは！ぼくはずんだもんなのだ！2024年9月30日(月曜日)、「株式会社ずんだもん技術室AI放送局」をお届けするのだ！",
+        "slide_text": "ずんだもんのAI放送局！2024年9月30日放送開始！",
+        "question_to_guest": "",
+        "prompts": "zundamon, cheerful, vibrant colors, cute anime style, broadcasting studio background, date: September 30, 2024,  bright lighting, dynamic composition"
+    },
+    {
+        "page": 1,
+        "section": "opening",
+        "line": "今日はAIに関するホットな話題を3つ紹介するのだ！まずは、今日のお知らせはないのだ！それでは、早速今日のAIニュースを紹介するのだ！",
+        "slide_text": "AIニュース3本立て！早速始めよう！",
+        "question_to_guest": "",
+        "prompts": "zundamon, pointing at a screen displaying AI news headlines, futuristic interface, clean and modern design,  soft lighting,  calm atmosphere"
+    },
+    {
+        "page": 2,
+        "section": "agenda",
+        "line": "今日はAIに関するホットな話題を3つ紹介するのだ！",
+        "slide_text": "今日のAIニュース：3つのホットな話題！",
+        "question_to_guest": "",
+        "prompts": "three glowing AI icons, futuristic background,  clean lines,  minimalistic design,  bright and vibrant colors"
+    },
+    {
+        "page": 3,
+        "section": "article1",
+        "line": "1つ目の記事は、「OpenAI considering restructuring to for-profit, CTO Mira Murati and two top research execs depart」という記事なのだ。　、。これは、オウプンAIが営利企業への再編を検討していて、CTOのミラ・ムラティさんをはじめ、主要な研究者2人が会社を辞めたというニュースなのだ。オウプンAIはチャットGPTで有名になった会社で、企業価値は1500億ドルを超えると言われているのだ。でも、急成長によるリスクや、優秀な人が辞めてしまう問題を抱えているのだ。今回の再編は、これらの問題を解決するための試みなのだ。AI業界では競争が激しいから、オウプンAIがどう対応していくのか注目されているのだ。新人エンジニアの皆さんには、AI業界の最新情報に常に目を向けておくことが大切なのだ！",
+        "slide_text": "OpenAI再編！急成長のリスクと人材流出問題",
+        "question_to_guest": "",
+        "prompts": "OpenAI logo, news headline graphic,  serious business people,  a graph showing rapid growth,  dark and moody color palette,  photorealistic style"
+    },
+    {
+        "page": 4,
+        "section": "comment1",
+        "line": "ぼくはね、オウプンAIの再編は、AI業界全体に大きな影響を与えると思うのだ。優秀な人材の確保は、どの企業にとっても重要な課題なのだ。オウプンAIが今後どうなっていくのか、ぼくもずんだ餅を食べながら見守っていくのだ！",
+        "slide_text": "ずんだもんの視点：人材確保が鍵！",
+        "question_to_guest": "{GUEST}さんは、OpenAIの再編についてどう思いますか？",
+        "prompts": "zundamon eating mochi, speech bubble: \"Interesting development!\",  calm and peaceful background,  soft lighting,  illustration style",
+        "notes": "タイトル: OpenAI considering restructuring to for-profit, CTO Mira Murati and two top research execs depart\n\n\n要約:\nOpenAIは、営利企業への再編を検討していることが明らかになりました。これは、CTOのミラ・ムラティ氏をはじめ、最高研究責任者（CRO）のボブ・マクグロウ氏、研究担当副社長のバレット・ゾフ氏といった主要な人物が相次いで退社したことを受けてのことです。\n\n再編により、投資家にとってより分かりやすく、従業員がより容易に利益を得られる構造になると期待されています。ただし、非営利部門は別組織として存続する予定です。\n\nOpenAIは、2022年末のChatGPTのリリース以降、急成長を遂げ、企業価値は1,500億ドルを超えるとの評価を得ています。しかし、その一方で、急速な成長に伴うリスクや、従業員や経営陣の不安定化といった課題も抱えています。\n\n今回の再編は、これらの課題に対処し、OpenAIの持続的な成長を確保するための試みと考えられます。特に、優秀な人材の流出を防ぎ、今後の研究開発を推進していくことが重要となるでしょう。\n\n今回の動きは、AI分野における競争が激化する中で、OpenAIがどのように対応していくのかを示す重要な出来事と言えます。今後、OpenAIがどのような方向に進み、AI技術の開発と社会実装にどのような影響を与えるのか、注目が集まります。\n\n\n新人エンジニアの皆さんにとって、OpenAIはAI分野における最先端の技術開発を牽引する企業の一つです。今回の再編や人材の変動は、AI業界全体に大きな影響を与える可能性があります。常に最新の情報に目を向け、今後の動向を注視していくことが重要です。 \n"
+    },
+    {
+        "page": 5,
+        "section": "article2",
+        "line": "2つ目の記事は、「RAG-LLMシステムへのユーザークエリは4つのレベルに分類できる 最も複雑なのは「隠れた根拠からの推論が必要なクエリ」マイクロソフトによる研究」という記事なのだ。これは、マイクロソフトの研究者が、大規模言語モデル(LLM)を外部データと連携させるシステムについて研究した結果についての記事なのだ。LLMは単体だと間違ったことを言ってしまうことがあるけど、外部データを使うことでそれを防げるのだ。マイクロソフトの研究チームは、ユーザーからの質問を4つのレベルに分類したのだ。簡単な事実確認から、複雑な推論が必要な質問まであるのだ。LLMを効果的に使うには、質問のレベルを理解して、適切なデータや方法を選ぶことが大切なのだ。新人エンジニアの皆さんには、LLMの潜在能力を最大限に引き出すための知識を身につけてほしいのだ！",
+        "slide_text": "マイクロソフトのLLM研究：質問のレベル分類",
+        "question_to_guest": "",
+        "prompts": "Microsoft logo,  data visualization,  complex network diagram,  abstract shapes and lines,  cool blue color palette,  geometric style"
+    },
+    {
+        "page": 6,
+        "section": "comment2",
+        "line": "ぼくは、この研究はLLMの活用方法を考える上でとても参考になると思うのだ。質問のレベルを意識することで、より正確で役に立つ情報を引き出せるようになるのだ。ずんだアローに変身して、LLMの研究をもっと進めたいのだ！",
+        "slide_text": "ずんだもん：LLM活用、質問のレベルが重要！",
+        "question_to_guest": "{GUEST}さんは、このマイクロソフトの研究成果をどのように評価しますか？",
+        "prompts": "zundamon as an arrow,  flying through data streams,  dynamic and energetic composition,  bright and futuristic background,  digital painting style",
+        "notes": "タイトル: RAG-LLMシステムへのユーザークエリは4つのレベルに分類できる 最も複雑なのは「隠れた根拠からの推論が必要なクエリ」Microsoftによる研究\n\n\n要約:\n\nこの記事では、Microsoftの研究者が行った、大規模言語モデル（LLM）を外部情報で強化する際に必要となる質問に関する調査結果について解説しています。\n\nLLM単体では、特定の分野や最新情報への対応が難しい場合があり、外部データの活用が重要になります。外部データを用いることで、事実と異なる情報を生成してしまう「ハルシネーション」の抑制にも繋がります。\n\n外部データ活用には、検索拡張生成（RAG）やファインチューニングといった手法がありますが、それぞれに課題も存在します。特に、専門性の高い分野や複雑な推論を必要とする質問に対しては、適切なデータ選択やLLMの活用方法が重要になります。\n\nそこでMicrosoftの研究チームは、ユーザーからの質問を4つの難易度レベルに分類し、それぞれに適した解決策を提案しています。\n\n**質問の4つのレベル**\n\n1. **単純な事実確認:**  最も簡単なレベルで、直接的な答えが得られる質問です。\n2. **複数の事実の組み合わせ:** 複数の情報を組み合わせる必要がある質問です。\n3. **推論と解釈:** ある程度の推論や解釈が必要な質問です。\n4. **隠れた根拠からの推論:**  最も複雑なレベルで、質問の意図を理解し、関連する情報を推測して回答する必要がある質問です。\n\nLLMの能力を最大限に引き出すには、質問のレベルを理解し、適切なデータや手法を選択することが重要になります。この記事では、これらのポイントを踏まえて、LLMと外部データの連携をより効果的に活用する方法について解説しています。\n\n\n新人エンジニアの皆さんにとって、LLMは非常に興味深く、かつ活用範囲が広い技術です。しかし、その潜在能力を最大限に引き出すためには、適切な知識と理解が必要です。この記事で紹介されているMicrosoftの研究成果は、LLMと外部データの連携に関する理解を深める上で、非常に有益な情報となるでしょう。ぜひ参考にして、LLMの活用を検討してみてください。 \n"
+    },
+    {
+        "page": 7,
+        "section": "article3",
+        "line": "3つ目の記事は、「AMD Unveils Its First Small Language Model AMD-135M」という記事なのだ。　、。AMDが新しい小型言語モデル(SLM)「AMD-135M」を発表したというニュースなのだ。これは、AMDのチップを使って学習されたモデルで、推論処理が速いのが特徴なのだ。AMDは、このモデルのコードやデータなどを公開しているので、誰でも使えるのだ。AMDはAI分野でのイノベーションを推進し、オープンソースコミュニティとの連携を強化していくと言っているのだ。ぼくは、AMDがSLMをオープンソース化したのは素晴らしいと思うのだ。これによって、AI技術の進歩が加速するだろうし、より多くの人がAI技術を活用できるようになるのだ。ずんだ餅を片手に、AMD-135Mで遊んでみたいのだ！",
+        "slide_text": "AMDの小型言語モデルAMD-135M発表！",
+        "question_to_guest": "",
+        "prompts": "AMD logo,  circuit board,  microchip,  fast processing speed graphic,  warm and inviting color palette,  realistic style"
+    },
+    {
+        "page": 8,
+        "section": "comment3",
+        "line": "ぼくは、AMDがSLMをオープンソース化したのは素晴らしいと思うのだ。これによって、AI技術の進歩が加速するだろうし、より多くの人がAI技術を活用できるようになるのだ。ずんだ餅を片手に、AMD-135Mで遊んでみたいのだ！",
+        "slide_text": "オープンソース化でAI技術の進歩加速！",
+        "question_to_guest": "{GUEST}さんは、AMD-135Mのオープンソース化についてどう思いますか？",
+        "prompts": "zundamon holding mochi and looking at a computer screen,  speech bubble: \"Great for open innovation!\" ensuring it is highly visible,  cozy and friendly atmosphere,  illustration style",
+        "notes": "タイトル: AMD Unveils Its First Small Language Model AMD-135M\n\n\n要約:\n\nAMDは、新たに開発した小型言語モデル（SLM）「AMD-135M」を発表しました。これは、AMD Instinct™ MI250アクセラレータを用いてゼロから学習された、Llamaファミリー初のSLMです。AMD-135Mは、一般的なデータ6700億トークンで学習された「AMD-Llama-135M」と、さらにコードデータ200億トークンでファインチューニングされた「AMD-Llama-135M-code」の2つのモデルで構成されています。\n\nAMD-135Mの特徴として、推論処理の高速化を実現する「推論的デコード」技術が挙げられます。従来のオート回帰方式では、トークンを1つずつ生成するため処理速度が遅くなる問題がありましたが、推論的デコードでは、小さなモデルで候補トークンを生成し、大きなモデルで検証することで、複数のトークンを同時に生成し、推論速度を大幅に向上させています。\n\nAMDは、AMD-135Mのトレーニングコード、データセット、およびモデルの重みをオープンソース化しており、開発者がモデルを再現したり、他のSLMやLLMの学習に役立てたりすることができます。これは、AI技術の進歩を促進し、より多くの人がその恩恵を受けられるようにするというAMDのコミットメントを示しています。\n\nAMD-135Mは、データセンターのInstinct MI250アクセラレータや、AI PC向けのRyzen™ AIプロセッサ上で、推論処理の高速化を実現しています。AMDは、今後もAI分野におけるイノベーションを推進し、オープンソースコミュニティとの連携を強化していくことを表明しています。\n\n\n**制約事項**\n\n* AMD-135Mは、Llamaファミリーの小型言語モデルであり、AMD Instinct™ MI250アクセラレータで学習されました。\n* 推論的デコード技術により、推論処理の高速化を実現しています。\n* トレーニングコード、データセット、モデルの重みはオープンソース化されています。 \n"
+    },
+    {
+        "page": 9,
+        "section": "closing",
+        "line": "はい、今日のAIニュースは以上です！今日はオウプンAIの再編、マイクロソフトのLLM研究、そしてAMDの新しいSLMについてお話ししました。どれもAI業界の大きな動きで、今後の発展が楽しみですね！",
+        "slide_text": "今日のAIニュースまとめ！今後の発展に期待！",
+        "question_to_guest": "",
+        "prompts": "three AI related icons summarizing the news,  futuristic cityscape background,  dynamic and energetic composition,  bright and optimistic color palette"
+    },
+    {
+        "page": 10,
+        "section": "closing",
+        "line": "次回も面白いAIニュースを紹介するから、楽しみにしていてください！そして、この番組への感想や質問があれば、ぜひ送ってくださいね！ぼくはずんだもんでした！また来週！",
+        "slide_text": "来週も放送！感想・質問お待ちしてます！",
+        "question_to_guest": "",
+        "prompts": "zundamon waving goodbye,  bright and cheerful background,  simple and clean design,  warm and inviting color palette"
+    }
+]
