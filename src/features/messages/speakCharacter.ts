@@ -48,7 +48,10 @@ const createSpeakCharacter = () => {
         ss.voicevoxPitch,
         ss.voicevoxIntonation
       ).catch(
-        () => null
+        () => {
+          alert("voicevoxでエラーが発生しました。voicevoxのサーバーが起動しているか確認してください。");
+          homeStore.setState({welcomeTourDone: false })
+        }
       );
       lastTime = Date.now();
       return buffer;
