@@ -1,0 +1,117 @@
+[
+    {
+        "page": 0,
+        "section": "opening",
+        "line": "株式会社ずんだもん技術室AI放送局、はじまるのだ！ぼく、ずんだもんのだ！",
+        "slide_text": "ずんだもんのAI放送局、スタート！",
+        "question_to_guest": "",
+        "prompts": "zundamon, cheerful, bright colors, futuristic studio, broadcasting equipment, energetic, dynamic lighting, 8k resolution, hyperrealistic"
+    },
+    {
+        "page": 1,
+        "section": "opening",
+        "line": "今日は2024年10月3日(木曜日)なのだ！今日は、最新のITトレンドを３つ紹介するのだ！ワクワクするような話がいっぱいあるから、最後まで聴いてくれると嬉しいのだ！",
+        "slide_text": "10/3放送！最新のITトレンド3選",
+        "question_to_guest": "",
+        "prompts": "calendar with October 3rd highlighted, futuristic cityscape at sunset, vibrant colors, clean lines, minimalist design,  8k resolution, hyperrealistic"
+    },
+    {
+        "page": 2,
+        "section": "agenda",
+        "line": "まずは、今日紹介する記事は３つなのだ！１つ目の記事は、「妻がブイチューバーになった話」なのだ！２つ目の記事は、「GitHub - slashml/amd_inference」なのだ！３つ目の記事は、「PyTorch Conference 2024 Recap: On Fire 🔥」なのだ！",
+        "slide_text": "今日の3つのトピック",
+        "question_to_guest": "",
+        "prompts": "three distinct icons representing each topic (VTuber, GitHub, PyTorch), clean background, minimalist design, bright and inviting colors,  8k resolution, hyperrealistic"
+    },
+    {
+        "page": 3,
+        "section": "article1",
+        "line": "タイトルは「妻がブイチューバーになった話」なのだ。これはね、結婚2年目の専業主婦の奥さんが、いきなりブイチューバーになるって宣言した話なのだ！最初は戸惑ったご主人だけど、奥さんの本気度と、今ってブイチューバーデビューが比較的簡単にできる状況を理解して、応援することにしたのだ！奥さんは、アバターの作成からマイク、配信ソフトの準備まで、綿密な計画を立てていたみたいで、ご主人は奥さんの本気度を改めて認識したらしいのだ！初配信はゲーム実況で、予想をはるかに超える再生数を記録したのだ！特に、ある配信では1万再生を達成するなど、大成功だったみたいなのだ！",
+        "slide_text": "専業主婦がVTuberに!? 大成功の秘訣",
+        "question_to_guest": "",
+        "prompts": "a happy couple, one dressed as a VTuber,  glowing screen showing high view count,  celebratory confetti,  bright and cheerful atmosphere,  photorealistic,  8k resolution"
+    },
+    {
+        "page": 4,
+        "section": "article1",
+        "line": "配信中のコメントには「可愛い」「声が癒される」なんて賞賛が多数寄せられたみたいで、ご主人は奥さんが既婚者であることを視聴者が知らない状況に、一種の優越感と自己肯定感の高まりを感じていたらしいのだ！さらに、スーパーチャットも増加して、奥さんの活動が経済的にも成功していることを実感したみたいなのだ！ご主人は、奥さんのブイチューバー活動の成功と、その秘密を知っている自分自身の特殊な立場を、心地よく感じているらしいのだ！奥さんはブイチューバーとして成功して、ご主人は奥さんの成功と秘密を知る立場をそれぞれ楽しんでいる、そんな内容なのだ！すごいよね、奥さんの行動力とご主人の対応力！ぼくも、ずんだアローに変身して配信してみようかな…なんて考えてしまうのだ！",
+        "slide_text": "成功の秘訣は？夫婦の新たな関係性",
+        "question_to_guest": "",
+        "prompts": "speech bubble with positive comments,  a happy couple smiling,  money floating around them,  glowing screen,  warm lighting,  photorealistic,  8k resolution, ensuring it is highly visible"
+    },
+    {
+        "page": 5,
+        "section": "comment1",
+        "line": "すごいよね、奥さんの行動力とご主人の対応力！ぼくも、ずんだアローに変身して配信してみようかな…なんて考えてしまうのだ！",
+        "slide_text": "ずんだもんもVTuberデビュー？",
+        "question_to_guest": "{GUEST}さんは、この夫婦の成功秘訣についてどう思いますか？",
+        "prompts": "zundamon dressed as a superhero,  dynamic pose,  bright background,  comic book style,  8k resolution",
+        "notes": "タイトル: 妻がVtuberになった話\n\n要約:\n\n結婚2年目の専業主婦である妻が、突如としてVtuberになることを宣言しました。最初は戸惑った夫でしたが、妻の熱意と、現在では比較的簡単にVtuberデビューできる状況を理解し、応援することにしました。\n\n妻は事前にアバター作成、マイク、配信ソフトの準備など、綿密な計画を立てており、夫は妻の本気度を改めて認識しました。初配信はゲーム実況で、予想をはるかに超える再生数を記録。特に、ある配信では1万再生を達成するなど、大きな成功を収めました。\n\n配信中のコメントには「可愛い」「声が癒される」といった賞賛が多数寄せられ、夫は妻が既婚者であることを視聴者が知らないという状況に、一種の優越感と自己肯定感の高まりを感じました。さらに、スーパーチャット（投げ銭）も増加し、妻の活動が経済的にも成功していることを実感しました。\n\n夫は、妻のVtuber活動の成功と、その秘密を知っている自分自身の特殊な立場を、心地よく感じているようです。  妻はVtuberとしての成功を、夫は妻の成功と秘密を知る立場をそれぞれ楽しんでいる、という内容です。\n"
+    },
+    {
+        "page": 6,
+        "section": "article2",
+        "line": "タイトルは「GitHub - slashml/amd_inference」なのだ。　、。これは、AMDのGPUを使って大規模言語モデル(LLM)を動かすための、ドッカーベースの推論エンジンを提供しているジトハブのリポジトリなのだ！ハギング フェイスから手に入るモデル、特にラーマモデルファミリーとの連携を重視した設計になっているみたいなのだ！主な機能は、AMDのGPUを使ってLLMの推論を実行できること、ハギング フェイスのモデルを簡単に使えること、ドッカーコンテナで動くから環境構築が簡単だってことなのだ！使うには、AMDのROCm対応GPUとドッカー、そしてROCmドライバー(バージョン5.4.2以上推奨)が必要なのだ！リポジトリの中身は、ソースコードやドッカァファイル、必要なパッケージリスト、実行スクリプトなどが入っているみたいなのだ！ライセンスはアパッチ-2.0ライセンスなのだ！",
+        "slide_text": "AMD GPUでLLM推論！GitHubリポジトリ",
+        "question_to_guest": "",
+        "prompts": "AMD GPU,  GitHub logo,  Docker container,  code snippets,  dark background,  techy aesthetic,  8k resolution, hyperrealistic"
+    },
+    {
+        "page": 7,
+        "section": "article2",
+        "line": "注意点として、これは開発中かもしれないから、本番環境で使うときは注意が必要なのだ！使用方法や高度なカスタマイズ方法は、ジトハブのリポジトリのREADME.mdを見て確認する必要があるのだ！新人エンジニアの皆さんには、AMDのGPUを使ってLLMを高速に実行したい時に役立つツールだけど、開発中である可能性があるので、READMEをよく確認して使うようにして欲しいのだ！何か分からないことがあったら、ジトハブのイシュー機能を使って質問するのが良いのだ！ぼくも、このリポジトリを使って何か面白いものを作ってみようかな、なんて思っているのだ！",
+        "slide_text": "注意点と活用方法",
+        "question_to_guest": "",
+        "prompts": "warning sign,  GitHub issue page,  README file,  code editor,  bright background,  clean and organized,  8k resolution, hyperrealistic"
+    },
+    {
+        "page": 8,
+        "section": "comment2",
+        "line": "ぼくも、このリポジトリを使って何か面白いものを作ってみようかな、なんて思っているのだ！",
+        "slide_text": "ずんだもんも開発に参加？",
+        "question_to_guest": "{GUEST}さんは、このリポジトリについてどう思いますか？",
+        "prompts": "zundamon coding,  colorful code,  happy expression,  bright background,  8k resolution",
+        "notes": "タイトル: GitHub - slashml/amd_inference\n\n要約:\n\nこのGitHubリポジトリ`slashml/amd_inference`は、AMD GPU上で大規模言語モデル(LLM)を実行するためのDockerベースの推論エンジンを提供しています。Hugging Faceから入手可能なモデル、特にLLaMAモデルファミリーとの連携を重視した設計です。\n\n**主な機能:**\n\n* AMD GPUを用いたLLM推論の実行を可能にします。\n* Hugging Faceのモデルを容易に利用できます。\n* Dockerコンテナ内で動作するため、環境構築が容易です。\n\n**前提条件:**\n\n* AMD ROCm対応GPU\n* Docker\n* ホストシステムにROCmドライバー(バージョン5.4.2以上推奨)のインストール\n\n**リポジトリ構成:**\n\nソースコード、Dockerfile、必要パッケージリスト(requirements.txt)、実行スクリプト等が含まれています。\n\n**ライセンス:**\n\nApache-2.0ライセンス\n\n**制約:**\n\nこのプロジェクトは、現在開発中である可能性があります(READMEに明記されていない場合でも、コミットログから判断できます)。  そのため、機能や安定性においては、本番環境での利用には十分な注意が必要です。 また、具体的な使用方法や高度なカスタマイズ方法は、GitHubリポジトリのREADME.md等を参照する必要があります。この要約では、詳細な使用方法やトラブルシューティングについては触れていません。\n\n\n新人エンジニアの方へ: このプロジェクトは、AMD GPUを活用してLLMを高速に実行したい場合に役立ちます。Dockerを使用することで、環境構築の手間を省くことができます。ただし、開発中のプロジェクトである可能性があるため、利用にあたっては注意深くREADMEなどを確認し、必要に応じて修正や改良を行う必要があるかもしれません。  不明な点があれば、GitHubのIssue機能を利用して質問することをお勧めします。\n"
+    },
+    {
+        "page": 9,
+        "section": "article3",
+        "line": "タイトルは「パイトーチ コンファレンス 2024 リーカプ: On ファイアー 🔥」なのだ！これは、2024年にサンフランシスコで開催されたパイトーチ コンファレンスのレポートなのだ！約1500人のAI研究者、開発者、愛好家が参加したらしいのだ！会議の主なテーマは３つ。生成AIとLLM、オープンソースを通じたAIの民主化、そして分散型コンピューティングとエッジコンピューティングなのだ！生成AIとLLMのセッションでは、パイトーチがどのように進化しているか、オープンソースの重要性、そして分散型コンピューティングとエッジコンピューティングについて議論されたみたいなのだ！",
+        "slide_text": "PyTorch Conference 2024レポート",
+        "question_to_guest": "",
+        "prompts": "San Francisco skyline,  PyTorch logo,  conference attendees,  presentation slides,  dynamic and energetic atmosphere,  8k resolution, photorealistic"
+    },
+    {
+        "page": 10,
+        "section": "article3",
+        "line": "スタートアップショーケースでは、CTGT社が優勝したみたいで、大規模言語モデルにおけるデータ系統を強化し、幻覚を削減することで、深層学習の透明性とバイアスの問題に取り組んでいるらしいのだ！すごいよね！深層学習コンパイラミニサミットとファインチューニングミニサミットも開催されたみたいなのだ！会議の主な収穫は、LLMの重要性、オープンソースによるイノベーションの促進、倫理と持続可能性への配慮、そしてパイトーチがクラウドを超えてエッジデバイスや様々なコンピューティング環境へと拡大していることなのだ！パイトーチ コンファレンス 2025は、2025年10月22～23日にサンフランシスコで開催予定らしいのだ！ぼくもいつか参加してみたいのだ！",
+        "slide_text": "主なテーマと収穫",
+        "question_to_guest": "",
+        "prompts": "award ceremony,  CTGT logo,  people networking,  various computing devices,  bright and hopeful atmosphere,  8k resolution, photorealistic"
+    },
+    {
+        "page": 11,
+        "section": "comment3",
+        "line": "ぼくもいつか参加してみたいのだ！",
+        "slide_text": "ずんだもんも参加希望！",
+        "question_to_guest": "{GUEST}さんは、PyTorch Conference 2024についてどう思いますか？",
+        "prompts": "zundamon looking excited,  San Francisco skyline in the background,  bright and cheerful colors,  8k resolution",
+        "notes": "タイトル: PyTorch Conference 2024 Recap: On Fire 🔥\n\n要約:\n\n2024年サンフランシスコで開催されたPyTorch Conferenceには、約1500人のAI研究者、開発者、愛好家が参加しました。2日間に渡り、人工知能(AI)と主要なオープンソース機械学習フレームワークであるPyTorchの進歩に焦点を当てた、活気のある議論、洞察に富んだ基調講演、実践的なセッションが行われました。参加者は、生成AI、大規模言語モデル(LLM)、そしてオープンソース技術がAIイノベーションを推進する上で果たす重要な役割について深く探求しました。\n\n会議の主要テーマは3つありました。\n\n1. **生成AIとLLM:**  多くのセッションでは、PyTorchが大規模言語モデルと生成AIアプリケーションの主要なフレームワークとしてどのように進化し続けているかに焦点を当てていました。これらのモデルのスケーリングから、様々なハードウェアプラットフォームでのパフォーマンスの最適化まで、LLMアーキテクチャにおける継続的な進歩と課題が示されました。\n\n2. **オープンソースを通じたAIの民主化:** オープンソースツールとコミュニティがAIの未来を形作る上で重要であるというテーマが繰り返し取り上げられました。PyTorchは、あらゆるレベルの開発者にとっての包括性、使いやすさ、アクセシビリティに尽力しており、より多くのグローバルなオーディエンスにAIをもたらすことに重点を置いています。\n\n3. **分散型コンピューティングとエッジコンピューティング:** 分散型コンピューティングとエッジ展開に関する議論が多く行われ、PyTorchがAIをエッジに推進するためにどのように使用されているかが強調されました。エッジアクセラレータ、スケーラブルなトレーニング、推論への焦点は、PyTorchがクラウドからデバイス上のアプリケーションまで、多様な環境で強力なモデルの展開を可能にする方法を示しています。\n\nその他、新設されたスタートアップショーケースでは、有望なAIスタートアップが紹介され、CTGT社が優勝しました。CTGT社は、大規模言語モデルにおけるデータ系統を強化し、幻覚を削減することで、深層学習の透明性とバイアスの問題に取り組んでいます。\n\nまた、深層学習コンパイラミニサミットとファインチューニングミニサミットも開催されました。\n\n会議の主な収穫は、LLMの重要性、オープンソースによるイノベーションの促進、倫理と持続可能性への配慮、そしてPyTorchがクラウドを超えてエッジデバイスや様々なコンピューティング環境へと拡大していることです。\n\n\nPyTorch Conference 2025は、2025年10月22～23日にサンフランシスコで開催予定です。\n"
+    },
+    {
+        "page": 12,
+        "section": "closing",
+        "line": "今日は３つの記事を紹介したのだ！まず、妻がブイチューバーになって大成功した話、それからAMDのGPUを使ったLLM推論エンジンのジトハブリポジトリ、そしてパイトーチ コンファレンス 2024のレポートだったのだ！どれも興味深い内容だったと思うのだ！",
+        "slide_text": "今日の放送、いかがでした？",
+        "question_to_guest": "",
+        "prompts": "zundamon thumbs up,  three icons representing the topics,  clean background,  minimalist design,  8k resolution, hyperrealistic"
+    },
+    {
+        "page": 13,
+        "section": "closing",
+        "line": "番組への感想を募集しているから、ぜひ送ってくれると嬉しいのだ！今日はここまでなのだ！また明日！",
+        "slide_text": "感想お待ちしてます！また明日！",
+        "question_to_guest": "",
+        "prompts": "zundamon waving goodbye,  colorful background,  bright and cheerful,  8k resolution, hyperrealistic"
+    }
+]
