@@ -50,6 +50,7 @@ const createSpeakCharacter = () => {
       ).catch(
         () => {
           alert("voicevoxでエラーが発生しました。voicevoxのサーバーが起動しているか確認してください。");
+          homeStore.setState({welcomeTourDone: false })
           homeStore.setState({settingTourDone: false })
         }
       );
