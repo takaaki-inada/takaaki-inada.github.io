@@ -9,7 +9,6 @@
     "20240827": "marp --html --no-stdin public/slides/20240827/slides.md -o public/slides/20240827/index.html",
     "20240903": "marp --html --no-stdin public/slides/20240903/slides.md -o public/slides/20240903/index.html",
     "20240911": "marp --html --no-stdin public/slides/20240911/slides.md -o public/slides/20240911/index.html",
-    "20241002ex": "marp --html --no-stdin public/slides/20241002ex/slides.md -o public/slides/20241002ex/index.html",
     "20241004ex": "marp --html --no-stdin public/slides/20241004ex/slides.md -o public/slides/20241004ex/index.html",
     "dev": "next dev",
     "buildmarp": "npm run -s LT_podcast && npm run -s 20240827 && npm run -s 20240903 && npm run -s 20240911",
