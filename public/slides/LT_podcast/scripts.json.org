@@ -29,8 +29,7 @@
     "section": "comment",
     "line": "株式会社ずんだもん技術室AI放送局という架空の組織が運営しています。実際に放送されている様子を紹介します。AIが様々な技術トレンドを紹介しています。",
     "slide_text": "AIラジオ放送局：株式会社ずんだもん技術室AI放送局",
-    "question_to_guest": "LTではここでHumanによるデモが入り、タイムリーにエンジニア向けのトレンド記事が拾えていること、例えば9月25日の放送ではgemini pro 1.5のアップデート内容が拾えていたり、RAGの新しい論文がちゃんと拾えていたりすることが紹介されます。",
-    "_question_to_guest": "それではHuman、配信ページを紹介するのだ。",
+    "question_to_guest": "それではHuman、配信ページを紹介するのだ。",
     "vrmdisable": true,
     "prompts": "zundamon, a radio studio, a microphone, a broadcast control panel, a futuristic radio station, anime style, concept art, clean lines"
   },
