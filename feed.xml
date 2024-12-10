@@ -39,8 +39,15 @@
         <itunes:author>{{ site.author }}</itunes:author>
         <itunes:subtitle>{{ post.description }}</itunes:subtitle>
         <itunes:duration>{{ post.duration }}</itunes:duration>
+        {% if post.image_url %} 
+          <itunes:image href="{{ post.image_url }}"/>
+        {% endif %}
         <itunes:explicit>no</itunes:explicit>
-        <media:thumbnail url="{{ site.github.url }}/images/zundarmon_titlebar2.jpg"/>
+        {% if post.thumbnail_url %} 
+          <media:thumbnail url="{{ post.thumbnail_url }}"/>
+        {% else %}
+          <media:thumbnail url="{{ site.github.url }}/images/zundarmon_titlebar2.jpg"/>
+        {% endif %}
       </item>
     {% endfor %}
   </channel>
