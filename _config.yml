@@ -8,6 +8,10 @@ actors:
     image_url: /images/actors/zundadon.jpg
     name: ずんだどん
     url: https://zund-arm-on.com/
+  春日部つむぎ:
+    image_url: /images/actors/春日部つむぎ立ち絵_公式_v1.1.1.png
+    name: 春日部つむぎ
+    url: https://zund-arm-on.com/
 author: 株式会社ずんだもん技術室AI放送局
 description: AIやテクノロジーのトレンドを届けるPodcast。平日毎朝6時配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。
 description_long: AIやテクノロジーのトレンドを届けるPodcast。平日毎朝6時配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。
