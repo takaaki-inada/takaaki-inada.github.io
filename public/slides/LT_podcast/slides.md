@@ -2,6 +2,7 @@
 marp: true
 theme: custom
 paginate: true
+image: https://zund-arm-on.com/images/zund_arm_on_100_notice.png
 ---
 
 <!-- _class: title -->
