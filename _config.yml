@@ -4,6 +4,10 @@ actors:
     name: ずんだもん
     url: https://zund-arm-on.com/
     # url: https://takaaki-inada.github.io/
+  お嬢様ずんだもん:
+    image_url: /images/actors/ojousama_zundamon_transparent.png
+    name: お嬢様ずんだもん
+    url: https://zund-arm-on.com/
   ずんだどん:
     image_url: /images/actors/zundadon.jpg
     name: ずんだどん
