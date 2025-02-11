@@ -46,7 +46,7 @@
         {% if post.thumbnail_url %} 
           <media:thumbnail url="{{ post.thumbnail_url }}"/>
         {% else %}
-          <media:thumbnail url="{{ site.github.url }}/images/zundarmon_titlebar2.jpg"/>
+          <media:thumbnail url="{{ site.github.url }}/images/zundamon_thumbnail.jpg"/>
         {% endif %}
       </item>
     {% endfor %}
