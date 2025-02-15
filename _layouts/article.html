@@ -23,7 +23,7 @@
                 controls=""
                 data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
                 preload="auto"
-                {% if page.audio_file_path contains "https://" %}
+                {% if 'https://' in page.audio_file_path contains %}
                   src="{{ page.audio_file_path }}"
                 {% else %}
                   src="{{ site.github.url }}{{ post.audio_file_path }}"
@@ -34,7 +34,7 @@
             </p>
             <p class="text-right">
               <small>
-                {% if page.audio_file_path contains "https://" %}
+                {% if 'https://' in page.audio_file_path %}
                   <a href="{{ page.audio_file_path }}">MP3ファイルをダウンロード</a>
                 {% else %}
                   <a href="{{ site.github.url }}{{ post.audio_file_path }}">MP3ファイルをダウンロード</a>
