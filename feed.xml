@@ -36,7 +36,7 @@
         </description>
         <guid isPermaLink="true">{{ site.github.url }}{{ post.url }}</guid>
         <enclosure
-          {% if page.audio_file_path contains "https://" %}
+          {% if 'https://' in page.audio_file_path %}
             url="{{ page.audio_file_path }}"
           {% else %}
             url="{{ site.github.url }}{{ post.audio_file_path }}"
