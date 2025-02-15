@@ -18,7 +18,7 @@ actors:
     url: https://zund-arm-on.com/
 author: 株式会社ずんだもん技術室AI放送局
 description: AIやテクノロジーのトレンドを届けるPodcast。平日毎朝6時配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。
-description_long: AIやテクノロジーのトレンドを届けるPodcast。平日毎朝6時配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。
+description_long: AIやテクノロジーのトレンドを届けるPodcast。平日毎朝6時配信。朝の通勤時間や支度中に情報キャッチアップとして聞いてほしいのだ。(MC 月:春日部つむぎ、火水木:ずんだもん、金:お嬢様ずんだもん)
 email: takaaki.inada@gmail.com
 exclude:
   - docker
