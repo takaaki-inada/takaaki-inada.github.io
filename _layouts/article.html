@@ -18,18 +18,25 @@
           </header>
           <section class="card-body markdown">
             <p>
+              {% if page.audio_file_path contains "https://" %}
               <audio
                 class="mejs-player"
                 controls=""
                 data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
                 preload="auto"
-                {% if page.audio_file_path contains "https://" %}
-                  src="{{ page.audio_file_path }}"
-                {% else %}
-                  src="{{ post.audio_file_path | prepend:site.github.url }}"
-                {% endif %}
+                src="{{ page.audio_file_path }}"
                 width="100%"
               >
+              {% else %}
+              <audio
+                class="mejs-player"
+                controls=""
+                data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
+                preload="auto"
+                src="{{ post.audio_file_path | prepend:site.github.url }}"
+                width="100%"
+              >
+              {% endif %}
               </audio>
             </p>
             <p class="text-right">
