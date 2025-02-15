@@ -18,16 +18,6 @@
           </header>
           <section class="card-body markdown">
             <p>
-              {% if page.audio_file_path contains "https://" %}
-              <audio
-                class="mejs-player"
-                controls=""
-                data-mejsoptions='{"alwaysShowControls": true, "alwaysShowHours": true, "enableAutosize": true, "features": ["playpause", "progress", "current", "duration", "volume", "speed"]}'
-                preload="auto"
-                src="{{ page.audio_file_path }}"
-                width="100%"
-              >
-              {% else %}
               <audio
                 class="mejs-player"
                 controls=""
@@ -36,16 +26,11 @@
                 src="{{ post.audio_file_path | prepend:site.github.url }}"
                 width="100%"
               >
-              {% endif %}
               </audio>
             </p>
             <p class="text-right">
               <small>
-                {% if page.audio_file_path contains "https://" %}
-                  <a href="{{ page.audio_file_path }}">MP3ファイルをダウンロード</a>
-                {% else %}
-                  <a href="{{ post.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
-                {% endif %}
+                <a href="{{ post.audio_file_path | prepend:site.github.url }}">MP3ファイルをダウンロード</a>
               </small>
             </p>
             {% if page.information %}
