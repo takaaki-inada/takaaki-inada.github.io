@@ -35,9 +35,9 @@
           {{ post.content | xml_escape }}
         </description>
         <guid isPermaLink="true">{{ site.github.url }}{{ post.url }}</guid>
-        {% if page.audio_file_path contains "https://" %}
+        {% if post.audio_file_path contains "https://" %}
         <enclosure
-          url="{{ page.audio_file_path }}"
+          url="{{ post.audio_file_path }}"
           length="{{ post.audio_file_size }}" type="audio/mp3"
         />
         {% else %}
