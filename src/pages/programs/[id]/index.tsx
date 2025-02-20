@@ -1,3 +1,4 @@
+import { Meta } from '@/components/meta';
 import slideStore from '@/features/stores/slide';
 import { useRouter } from 'next/router';
 import { useEffect } from 'react';
@@ -13,7 +14,11 @@ export default function DynamicPage({ id }: { id: string }) {
     router.push('/programs/');
   }, []);
 
-  return null;
+  return (
+    <div>
+      <Meta />
+    </div>
+  );
 }
 
 export async function getStaticPaths() {
