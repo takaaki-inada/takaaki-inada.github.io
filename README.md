@@ -5,9 +5,13 @@
 # 静的サイト生成
 jekyll
 
-# tips
+# memo
 
-_includes/notice.html
+## public/slides
+現在、github actionsで自動でbuildしていない（手動でbuildしてpushしないと反映されない）
+./scripts/build_marp_all.sh
+
+## _includes/notice.html
 ```
                 <b>AI放送局の年末年始の放送について</b>
                 <br/>

@@ -32,6 +32,7 @@ exclude:
   - package.json
   - package-lock.json
   - public
+  - scripts
   - src
   - node_modules
   - tmp
