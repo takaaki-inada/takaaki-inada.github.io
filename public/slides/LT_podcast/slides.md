@@ -3,6 +3,8 @@ marp: true
 theme: custom
 paginate: true
 image: https://zund-arm-on.com/images/zund_arm_on_100_notice.png
+title: LTテーマ [個人開発]エンジニア向けpodcast放送の紹介～AI使って全自動でやってるよ～
+description: エンジニア向けpodcast放送のご紹介。使っている技術の簡単な説明。スライドショーデモ。
 ---
 
 <!-- _class: title -->

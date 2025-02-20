@@ -8,5 +8,5 @@ for dir in `ls public/slides`; do
   fi
   marp --html --no-stdin public/slides/$dir/slides.md --theme public/slides/$dir/theme.css -o public/slides/$dir/index.html
   # index.htmlの中身のtwitter:cardの値をsummary_large_imageに変更する
-  sed -i -e 's/twitter:card" content="summary">/twitter:card" content="summary_large_image"><meta name="twitter:title" content="XXX">/g' public/slides/$dir/index.html
+  sed -i -e 's/twitter:card" content="summary">/twitter:card" content="summary_large_image">/g' public/slides/$dir/index.html
 done
