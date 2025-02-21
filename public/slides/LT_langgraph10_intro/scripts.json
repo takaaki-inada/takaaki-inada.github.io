@@ -1,0 +1,107 @@
+[
+  {
+    "page": 0,
+    "section": "opening",
+    "line": "LangChainとLangGraphによるRAG・AIエージェント実践入門 輪読会へようこそ！本日は10章「要件ドキュメント生成AIエージェント」を輪読します。皆様どうぞよろしくお願いいたします。",
+    "slide_text": "RAG・AIエージェント輪読会、10章スタート！",
+    "question_to_guest": "",
+    "prompts": "A futuristic library filled with glowing books and AI robots, LangGraph, knowledge, elegant, digital art, soft lighting"
+  },
+  {
+    "page": 1,
+    "section": "agenda",
+    "line": "本日のアジェンダは、導入LT(6分)、Elicitronフレームワーク概要説明(6分)、10章輪読(28分)、事務連絡(5分)です。時間配分を守り、有意義な会にしましょう。",
+    "slide_text": "本日の流れを確認！時間配分を守りましょう",
+    "question_to_guest": "",
+    "prompts": "A clean and modern agenda slide for a LangChain and LangGraph workshop, minimalist design, pastel color, focus on clarity"
+  },
+  {
+    "page": 2,
+    "section": "article",
+    "line": "最初のLTは「ユースケースを明確にして要件定義をしよう」です。システム開発でありがちな落とし穴を回避し、ユーザのニーズに合ったシステムを作るための要件定義の重要性について解説します。",
+    "slide_text": "要件定義の重要性！ニーズに合ったシステム開発",
+    "question_to_guest": "",
+    "prompts": "A software architect designing a system, use case diagrams, brainstorming session, modern office, bright and airy, whiteboard with notes, digital painting"
+  },
+  {
+    "page": 3,
+    "section": "article",
+    "line": "システム開発でよくある問題は、ユーザが期待したものと違うものが出来上がることです。この原因は要件定義が曖昧なこと、関係者へのレビュー不足などが考えられます。",
+    "slide_text": "開発の落とし穴！ユーザとの認識のずれ",
+    "question_to_guest": "",
+    "prompts": "Cartoon illustration of a system development failure, different interpretations of requirements, funny, focus on communication breakdown, lighthearted"
+  },
+  {
+    "page": 4,
+    "section": "article",
+    "line": "要件定義は最初が肝心です。そもそも要件定義をしたのか？V字モデルを用いて、開発プロセスにおける要件定義の重要性を意識し、上流工程をおろそかにしないようにしましょう。",
+    "slide_text": "要件定義は最初が肝心！V字モデルで確認",
+    "question_to_guest": "",
+    "prompts": "V-shaped development model diagram, focus on requirements gathering and validation, clean infographic style, pastel color"
+  },
+  {
+    "page": 5,
+    "section": "article",
+    "line": "要件定義はレビューしましたか？開発者だけで判断せず、ユーザや関係者からのフィードバックをもらいましょう。手戻りを防ぐためにレビューは必須です。",
+    "slide_text": "要件はレビュー必須！手戻りを防ぐために",
+    "question_to_guest": "",
+    "prompts": "A group of people reviewing a document, feedback session, whiteboard with notes, collaborative environment, modern office"
+  },
+  {
+    "page": 6,
+    "section": "article",
+    "line": "要件を出す人は実際に使う人ですか？AWSやOpenAIのようなシステムを作って！という抽象的な要求では、具体的な開発に進めません。実際に使う人の意見を聞きましょう。",
+    "slide_text": "要件を出すのは誰？実際に使う人の声を聞こう",
+    "question_to_guest": "",
+    "prompts": "Frustrated developer receiving vague requirements, confused expression, whiteboard with abstract diagrams, humorous, speech bubble with question marks, ensuring it is highly visible"
+  },
+  {
+    "page": 7,
+    "section": "article",
+    "line": "機能要件のドキュメントを埋めて満足していませんか？誰が、どういうユースケースで使うのか？を具体的にイメージできるまで落とし込みましょう。ブランコ機能の例を参考に、具体的に考える重要性を説明します。",
+    "slide_text": "ユースケースを明確に！誰が何に使うのか？",
+    "question_to_guest": "",
+    "prompts": "Illustration of a swing set, people using it in different ways, focus on user scenarios, children playing, park scene, daylight"
+  },
+  {
+    "page": 8,
+    "section": "article",
+    "line": "ユーザにユースケースを確認しましょう。ユーザのニーズを捉え、具体的なイメージを共有することで、手戻りの少ない、本当に必要なシステム開発に繋がります。",
+    "slide_text": "ユーザに確認！手戻り少ない開発へ",
+    "question_to_guest": "",
+    "prompts": "Users happily using a system that meets their needs, positive feedback, smiling faces, modern interface, user-centered design, bright and cheerful"
+  },
+  {
+    "page": 9,
+    "section": "article",
+    "line": "続いて、Elicitronフレームワークの概要を説明します。要件定義を効率化し、より正確な要件を導き出すためのフレームワークです。",
+    "slide_text": "Elicitron概要！効率的な要件定義",
+    "question_to_guest": "",
+    "prompts": "Abstract representation of the Elicitron framework, interconnected nodes, data flow, AI concept, modern and futuristic"
+  },
+  {
+    "page": 10,
+    "section": "article",
+    "line": "自己紹介です。ACESでソフトウェアエンジニアとして、インフラからアプリまで幅広く担当しています。",
+    "slide_text": "自己紹介：ACES 稲田高明",
+    "question_to_guest": "",
+    "prompts": "Professional headshot of Takaaki Inada, software engineer, ACES logo in background, confident expression, clean background"
+  },
+  {
+    "page": 11,
+    "section": "article",
+    "line": "ここでちょっと個人開発サービスの宣伝です。「ずんだもんAI放送局」で検索してください。LangGraph, LangSmithなどの技術を使って全自動でエンジニア向け技術トレンドのpodcast配信をしています。案件お待ちしております！",
+    "slide_text": "ずんだもんAI放送局！案件募集中！",
+    "question_to_guest": "",
+    "prompts": "zundamon, AI broadcaster, promoting his personal project, langgraph, langsmith, with speech bubble in english 'job offer welcome ensuring it is highly visible', colorful background"
+  },
+  {
+    "page": 12,
+    "section": "closing",
+    "line": "本日のLTはここまでです。続きは輪読会で！参加申し込みはこちらからお願いします。皆様のご参加をお待ちしております。",
+    "slide_text": "続きは輪読会で！参加申し込みはこちら",
+    "question_to_guest": "{GUEST}さん、本日のLTはいかがでしたでしょうか？",
+    "vrmdisable": true,
+    "prompts": "A call to action slide, inviting viewers to join the reading group, website link, QR code, modern design, pastel color"
+  }
+]

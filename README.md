@@ -11,6 +11,8 @@ jekyll
 現在、github actionsで自動でbuildしていない（手動でbuildしてpushしないと反映されない）
 ./scripts/build_marp_all.sh
 
+※ slideの実装はmarp部分はslides.mdではなくindex.htmlを直接読みに言っているので、npm run devも ./scripts/build_marp_all.sh をしないと反映されない
+
 ## _includes/notice.html
 ```
                 <b>AI放送局の年末年始の放送について</b>
