@@ -404,9 +404,9 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
       <div
         className="absolute"
         style={{
-          width: '80vw',
-          height: 'calc(80vw * (9 / 16))',
-          top: 'calc((100vh - 80vw * (9 / 16)) / 2)',
+          width: '75vw',
+          height: 'calc(76vw * (9 / 16))',
+          top: 'calc((95vh - 76vw * (9 / 16)) / 2)',
           right: 0,
           left: 0,
           margin: 'auto',

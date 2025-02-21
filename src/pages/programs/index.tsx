@@ -37,6 +37,8 @@ export default function Home() {
   const [assistantMessage, setAssistantMessage] = useState("");
   const [getStatusTimerId, setGetStatusTimerId] = useState<any | null>(null);
   const [autoStatusPolling, setAutoStatusPolling] = useState(false);
+  const [title, setTitle] = useState<string | null>(null);
+  const [description, setDescription] = useState<string | null>(null);
 
   useEffect(() => {
   // system promptはここで保存しないように変更
@@ -49,8 +51,35 @@ export default function Home() {
   //   }
     if (!slideStore.getState().selectedSlideDocs) {
       console.log('set default slide.')
-      slideStore.setState({ selectedSlideDocs: '20240911' })
+      slideStore.setState({ selectedSlideDocs: 'LT_podcast' })
     }
+    const id = slideStore.getState().selectedSlideDocs;
+    fetch(`/slides/${id}/slides.md`)
+    .then(res => res.text())
+    .then(md => {
+      const frontmatterMatch = md.match(/^---([\s\S]*?)---/);
+      let newTitle = null;
+      let newDescription = null;
+      if (frontmatterMatch) {
+        const lines = frontmatterMatch[1].split('\n');
+        let recordingDesc = false;
+        for (const line of lines) {
+          if (line.startsWith('title:')) {
+            newTitle = line.replace(/^title:\s*/, '').replace(/^['"]|['"]$/g, '');
+            recordingDesc = false;
+          } else if (line.startsWith('description:')) {
+            newDescription = line.replace(/^description:\s*/, '');
+            recordingDesc = true;
+          } else if (recordingDesc && /^[a-zA-Z0-9_-]+:\s/.test(line)) {
+            recordingDesc = false;
+          } else if (recordingDesc) {
+            newDescription += '\n' + line;
+          }
+        }
+      }
+      setTitle(newTitle);
+      setDescription(newDescription);
+    });
   }, []);
 
   // system promptはここで保存しないように変更
@@ -415,7 +444,7 @@ export default function Home() {
 
   return (
     <div className={"font-M_PLUS_2"}>
-      <Meta />
+      <Meta title={title} description={description} />
       {/* <Introduction
         openAiKey={openAiKey}
         onChangeAiKey={setOpenAiKey}

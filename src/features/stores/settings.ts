@@ -23,7 +23,7 @@ const settingsStore = create<SettingsState>()(
       voicevoxPitch: 0.0,
       voicevoxIntonation: 1.0,
       characterName: 'ずんだもん',
-      guestName: 'ゲストさん',
+      guestName: 'ゲスト',
     }),
     {
       name: 'chatvrm-settings',
