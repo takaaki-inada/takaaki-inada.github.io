@@ -58,7 +58,7 @@
   {
     "page": 7,
     "section": "article",
-    "line": "機能要件のドキュメントを埋めて満足していませんか？誰が、どういうユースケースで使うのか？を具体的にイメージできるまで落とし込みましょう。ブランコ機能の例を参考に、具体的に考える重要性を説明します。",
+    "line": "機能要件のドキュメントを埋めて満足していませんか？誰が、どういうユースケースで使うのか？を具体的にイメージできるまで落とし込みましょう。実際に作られるシステムのイメージが作りてと読み手で違ったり、イメージ出来ない場合は危険です。ユーザも忙しくて、ふーんそうなんだー、いいんじゃないってレビューではOKしてくれるかもですが、実際にあがってきたシステムを使ってこう言うでしょう「あーこれじゃないんだよなー。ちょっと違う。」。そしてあなたはこう思う「いや、要件定義で確認しましたよね？」。多分このケースの場合、要件定義はやっていて、それなりに時間かけてると思います。これが望んだ結果でしょうか？",
     "slide_text": "ユースケースを明確に！誰が何に使うのか？",
     "question_to_guest": "",
     "prompts": "Illustration of a swing set, people using it in different ways, focus on user scenarios, children playing, park scene, daylight"
@@ -66,7 +66,7 @@
   {
     "page": 8,
     "section": "article",
-    "line": "ユーザにユースケースを確認しましょう。ユーザのニーズを捉え、具体的なイメージを共有することで、手戻りの少ない、本当に必要なシステム開発に繋がります。",
+    "line": "ユーザにユースケースを確認しましょう。良い要件定義はレビュワー、レビュイーどちらも何が作られるか、だいたい同じものが思い浮かべられるのが理想です。違えば、要件定義の段階で違うと言ってくれます。使われない無駄なシステムを開発しなくてすみます。ユーザのニーズを捉え、具体的なイメージを共有することで、手戻りの少ない、本当に必要なシステム開発に繋がります。",
     "slide_text": "ユーザに確認！手戻り少ない開発へ",
     "question_to_guest": "",
     "prompts": "Users happily using a system that meets their needs, positive feedback, smiling faces, modern interface, user-centered design, bright and cheerful"
@@ -90,13 +90,21 @@
   {
     "page": 11,
     "section": "article",
-    "line": "ここでちょっと個人開発サービスの宣伝です。「ずんだもんAI放送局」で検索してください。LangGraph, LangSmithなどの技術を使って全自動でエンジニア向け技術トレンドのpodcast配信をしています。案件お待ちしております！",
+    "line": "ここでちょっと個人開発サービスの宣伝です。LangGraph, LangSmithなどの技術を使って全自動でエンジニア向け技術トレンドのpodcast配信をしています。「ずんだもんAI放送局」で検索してみてください。また、案件もお待ちしております！",
     "slide_text": "ずんだもんAI放送局！案件募集中！",
     "question_to_guest": "",
     "prompts": "zundamon, AI broadcaster, promoting his personal project, langgraph, langsmith, with speech bubble in english 'job offer welcome ensuring it is highly visible', colorful background"
   },
   {
     "page": 12,
+    "section": "article",
+    "line": "論文が取り組む研究課題です。要件分析におけるユーザインタビュー、従来の手法では、多様なユーザーニーズや潜在的な要求を十分に捉えきれず、また実施に時間やコストがかかるという課題がありました。近年、巨大言語モデル（LLM）の発展により、自然言語理解能力を活かしてユーザーシナリオをシミュレーションすることが可能となり、より幅広いユーザー視点や予期せぬ利用状況を効率的に抽出できる可能性が見出されました。",
+    "slide_text": "論文の研究課題",
+    "question_to_guest": "",
+    "prompts": "zundamon, AI broadcaster, promoting his personal project, langgraph, langsmith, with speech bubble in english 'job offer welcome ensuring it is highly visible', colorful background"
+  },
+  {
+    "page": 13,
     "section": "closing",
     "line": "本日のLTはここまでです。続きは輪読会で！参加申し込みはこちらからお願いします。皆様のご参加をお待ちしております。",
     "slide_text": "続きは輪読会で！参加申し込みはこちら",

@@ -2,7 +2,7 @@
 marp: true
 theme: custom
 paginate: true
-image: https://zund-arm-on.com/images/zundamon_thumbnail.jpg
+image: https://zund-arm-on.com/slides/LT_langgraph10/images/LT_langgraph10_thumbnail.jpg
 title: LangChainとLangGraphによるRAG・AIエージェント実践入門10章輪読会
 description: 1. 導入LT:ユースケースを明確にして要件定義をしよう 2. Elicitronフレームワークの概要説明 3. 動かして理解を深める＆コードをひたすら読む
 author: Takaaki Inada
@@ -17,9 +17,9 @@ keywords: langgraph,requirements engineering
 10章「要件ドキュメント生成AIエージェント」
 </h2>
 
-2025/3/xx
+2025/3/27
 
-プレビュー版
+イベント告知版
 
 ![blur bg cover opacity:.3](/slides/LT_podcast/images/4.jpg)
 
@@ -29,7 +29,7 @@ keywords: langgraph,requirements engineering
 
 - 導入LT: ユースケースを明確にして要件定義をしよう(6分)
 
-- Elicitronフレームワークの概要説明(6分)
+- Elicitronフレームワーク 論文概要(6分)
 
 - 10章「要件ドキュメント生成AIエージェント」(28分)
 動かして理解を深める＆コードをひたすら読む
@@ -63,7 +63,7 @@ keywords: langgraph,requirements engineering
 
 <div style="flex: 5; text-align:center">
 
-![height:400px](/slides/LT_langgraph10/images/510580.png)
+![height:400px center](/slides/LT_langgraph10/images/510580.png)
 顧客が本当に必要だったもの
 
 </div>
@@ -144,7 +144,7 @@ OpenAIみたいなシステム作って！<br/>
 
 <div style="flex: 4; text-align:right">
 
-![height:440px center](/slides/LT_langgraph10/images/507948.png)
+![height:440px center](/slides/LT_langgraph10/images/511609.png)
 
 </div>
 
@@ -183,7 +183,7 @@ OpenAIみたいなシステム作って！<br/>
 <!-- _class: title -->
 
 <h1>
-Elicitronフレームワークの概要説明
+Elicitronフレームワーク 論文概要
 </h1>
 
 ![blur bg cover opacity:.3](/slides/LT_podcast/images/4.jpg)
@@ -196,7 +196,7 @@ Elicitronフレームワークの概要説明
 
 <div style="flex: 5; text-align:right">
 
-![height:400px](/slides/LT_langgraph10/images/icon.jpg)
+![height:400px center](/slides/LT_langgraph10/images/icon.jpg)
 
 </div>
 
@@ -248,6 +248,37 @@ ACES ソフトウェアエンジニア
 </div>
 
 </div>
+
+---
+
+# 論文の研究課題
+
+<div class="columns">
+
+<div style="flex: 7;">
+
+「ユーザにユースケースを確認しよう」
+
+- 適切なユーザが見つからない
+
+- ユーザインタビュー
+コストと時間めっちゃかからない？
+
+- 多用なニーズ、潜在要求の把握
+
+<br/>
+<h2>それ、AIでいい感じに出来ない？</h2>
+
+</div>
+
+<div style="flex: 5; text-align:center">
+
+![height:400px](/slides/LT_langgraph10/images/12.jpg)
+
+</div>
+
+</div>
+
 
 ---
 
