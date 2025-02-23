@@ -55,9 +55,14 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
   const fs = require('fs');
   const path = require('path');
   const filePath = path.join(process.cwd(), `public/slides/${params.id}/slides.md`);
-  const md = fs.readFileSync(filePath, 'utf8');
   let title: string | null = null;
   let description: string | null = null;
+  let md = '';
+  try {
+    md = fs.readFileSync(filePath, 'utf8');
+  } catch (error) {
+    console.error('Error reading file:', filePath);
+  }
   const frontmatterMatch = md.match(/^---([\s\S]*?)---/);
   if (frontmatterMatch) {
     const lines = frontmatterMatch[1].split('\n');

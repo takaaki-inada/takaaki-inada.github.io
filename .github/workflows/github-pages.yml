@@ -65,6 +65,7 @@ jobs:
       # ChatVRM
       - name: Build with Next.js
         run: |
+          ./scripts/build_marp_all.sh
           npx --no-install next build
       - name: Static HTML export with Next.js
         run: |
