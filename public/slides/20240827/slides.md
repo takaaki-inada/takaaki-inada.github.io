@@ -2,7 +2,7 @@
 marp: true
 theme: custom
 paginate: true
-image: https://zund-arm-on.com/images/zundamon_thumbnail.jpg
+image: https://zund-arm-on.com/images/zund_arm_on_100_notice.png
 title: 株式会社ずんだもん技術室AI放送局 20240827
 description: 【増補改訂版】集まれ！世界の「初音ミク」～各国ご当地衣装を着たミクイラスト制作がブームに。古代文明のロボットに主人公が乗り込もうとしたら元パイロットがまだコックピットにいたシーンがトラウマになって続きを見れなかった話。世界観や設定をきちんと踏まえていない多様性は，コンテンツを不自然なものにしかねない。ゲームにおけるDEI表現の意義と重要性，そして導入する際の留意点［CEDEC 2024］。
 ---

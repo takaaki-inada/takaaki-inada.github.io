@@ -2,7 +2,7 @@
 marp: true
 theme: custom
 paginate: true
-image: https://zund-arm-on.com/images/zundamon_thumbnail.jpg
+image: https://zund-arm-on.com/images/zund_arm_on_100_notice.png
 title: 株式会社ずんだもんAI放送局まもなく放送100回記念！
 description: あなたも番組に参加して気分はコメンテーター！？<br/>配信ネタに困っているVTuberさんもネタを提供してくれてコメントするだけで良い最終兵器として大助かり！<br/>Webブラウザだけでずんだもんとの会話を、マイクやテキスト入力、音声合成を用いて楽しめます。
 ---

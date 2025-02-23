@@ -7,10 +7,12 @@ export default function DynamicPage({
   id,
   title,
   description,
+  image,
 }: {
   id: string;
   title?: string;
   description?: string;
+  image?: string;
 }) {
   const router = useRouter();
 
@@ -27,7 +29,7 @@ export default function DynamicPage({
 
   return (
     <div>
-      <Meta title={title} description={description} />
+      <Meta title={title} description={description} image={image} />
     </div>
   );
 }
@@ -57,6 +59,7 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
   const filePath = path.join(process.cwd(), `public/slides/${params.id}/slides.md`);
   let title: string | null = null;
   let description: string | null = null;
+  let image: string | null = null;
   let md = '';
   try {
     md = fs.readFileSync(filePath, 'utf8');
@@ -71,6 +74,9 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
       if (line.startsWith('title:')) {
         title = line.replace(/^title:\s*/, '').replace(/^['"]|['"]$/g, '');
         recordingDesc = false;
+      } else if (line.startsWith('image:')) {
+        image = line.replace(/^image:\s*/, '').replace(/^['"]|['"]$/g, '');
+        recordingDesc = false
       } else if (line.startsWith('description:')) {
         description = line.replace(/^description:\s*/, '');
         recordingDesc = true;
@@ -86,11 +92,13 @@ export async function getStaticProps({ params }: { params: { id: string } }) {
   console.log('id:', params.id);
   console.log('title:', title);
   console.log('description:', description);
+  console.log('image:', image);
   return {
     props: {
       id: params.id,
       title,
       description,
+      image,
     },
   };
 }

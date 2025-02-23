@@ -2,7 +2,9 @@
 marp: true
 theme: custom
 paginate: true
-image: https://zund-arm-on.com/images/zundamon_thumbnail.jpg
+image: https://zund-arm-on.com/images/zund_arm_on_100_notice.png
+title: 株式会社ずんだもん技術室AI放送局 20240911
+description: PlayStation®5 Proを発表！ PlayStation®史上最高の映像美の実現へ。Amazon EC2 P5e instances are generally available | Amazon Web Services。Align Meta Llama 3 to human preferences with DPO, Amazon SageMaker Studio, and Amazon SageMaker Ground Truth | Amazon Web Services。「これは傑作。ゾクゾク来た」重いけど、嫌いじゃない、ある意味リアリティな話「アイドルを輝かせ“ようとした”ものの物語」
 ---
 
 <!-- _class: title -->
