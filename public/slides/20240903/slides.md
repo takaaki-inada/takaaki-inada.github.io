@@ -2,7 +2,9 @@
 marp: true
 theme: custom
 paginate: true
-image: https://zund-arm-on.com/images/zundamon_thumbnail.jpg
+image: https://zund-arm-on.com/images/zund_arm_on_100_notice.png
+title: 株式会社ずんだもん技術室AI放送局 20240903
+description: 「私、碧依さくらは事務所を作ります！」。個人勢のVTuber・碧依さくらさん、新グループ“re;BON（リボン）”設立を発表。「AI生成キャラクター」はいまどのレベルまで進んでいるのか？バンダイナムコ研究所が語るAIテキスト生成の光と影【CEDEC 2024】。インターンの二週間で社内APIを新しく建て本番リリースまで何でもやった話【ソフトウェアエンジニアインターン参戦記】。母「自衛隊のアニメを観たけど、あんまりよくなかったよ」私「自衛隊のアニメなんてあるんだね」母「ロボットが気持ち悪くて…」→あっ。
 ---
 
 <!-- _class: title -->
