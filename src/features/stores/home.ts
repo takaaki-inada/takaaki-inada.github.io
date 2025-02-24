@@ -26,7 +26,7 @@ const homeStore = create<HomeState>()(
     (set, get) => ({
       // persisted states
       chatLog: [],
-      welcomeTourDone: false,
+      welcomeTourDone: true,
       settingTourDone: false,
 
       // transient states

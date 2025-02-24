@@ -1,5 +1,6 @@
 import { Message, textsToScreenplay } from '@/features/messages/messages'
 import { speakCharacter } from '@/features/messages/speakCharacter'
+import { speakCharacterWav } from '@/features/messages/speakCharacterWav'
 import homeStore from '@/features/stores/home'
 
 /**
@@ -13,6 +14,7 @@ import homeStore from '@/features/stores/home'
  */
 export const processReceivedMessage = async (
   receivedMessage: string,
+  audiourl: string | null = null,
   sentences: string[] = [],
   aiTextLog: Message[] = [],
   tag: string = '',
@@ -30,13 +32,42 @@ export const processReceivedMessage = async (
     receivedMessage = receivedMessage.slice(tag.length)
   }
 
+  let currentAssistantMessage: string = ''
+  let sentence: string = ''
+
+  const onSpeechStart = () => {
+    homeStore.setState({
+      assistantMessage: currentAssistantMessage,
+    })
+    hs.incrementChatProcessingCount()
+    // スライド用のメッセージを更新
+    currentSlideMessages.push(sentence)
+    homeStore.setState({
+      slideMessages: currentSlideMessages,
+    })
+  }
+
+  const onSpeechEnd = () => {
+    hs.decrementChatProcessingCount()
+    currentSlideMessages.shift()
+    homeStore.setState({
+      slideMessages: currentSlideMessages,
+    })
+  }
+
+  if (audiourl) {
+    sentence = receivedMessage
+    speakCharacterWav(audiourl, onSpeechStart, onSpeechEnd)
+    return
+  }
+
   // 返答を一文単位で切り出して処理する
   while (receivedMessage.length > 0) {
     const sentenceMatch = receivedMessage.match(
       /^(.+?[。．.!?！？\n]|.{20,}[、,])/
     )
     if (sentenceMatch?.[0]) {
-      let sentence = sentenceMatch[0]
+      sentence = sentenceMatch[0]
       // 区切った文字をsentencesに追加
       sentences.push(sentence)
       // 区切った文字の残りでreceivedMessageを更新
@@ -90,29 +121,8 @@ export const processReceivedMessage = async (
       aiTextLog.push({ role: 'assistant', content: sentence })
 
       // 文ごとに音声を生成 & 再生、返答を表示
-      const currentAssistantMessage = sentences.join(' ')
-
-      speakCharacter(
-        aiTalks[0],
-        () => {
-          homeStore.setState({
-            assistantMessage: currentAssistantMessage,
-          })
-          hs.incrementChatProcessingCount()
-          // スライド用のメッセージを更新
-          currentSlideMessages.push(sentence)
-          homeStore.setState({
-            slideMessages: currentSlideMessages,
-          })
-        },
-        () => {
-          hs.decrementChatProcessingCount()
-          currentSlideMessages.shift()
-          homeStore.setState({
-            slideMessages: currentSlideMessages,
-          })
-        }
-      )
+      currentAssistantMessage = sentences.join(' ')
+      speakCharacter(aiTalks[0], onSpeechStart, onSpeechEnd)
     } else {
       // マッチする文がない場合、ループを抜ける
       break

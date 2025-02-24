@@ -34,7 +34,7 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
   const chatProcessingCount = homeStore((home) => home.chatProcessingCount)
   const guestName = settingsStore((s) => s.guestName)
   const [slideCount, setSlideCount] = useState(0)
-  const [scripts, setScripts] = useState<Array<{ page: number, line: string, section: string, notes: string, question_to_guest?: string, vrmdisable?: Boolean, bgmpath?: string }>>([])
+  const [scripts, setScripts] = useState<Array<{ page: number, line: string, section: string, notes: string, question_to_guest?: string, vrmdisable?: Boolean, audiourl?: string, bgmpath?: string }>>([])
 
   // const audioContext = new AudioContext()
   // const source = audioContext.createBufferSource();
@@ -201,11 +201,16 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
         ];
         homeStore.setState({ chatLog: messageLog })
         if (!homeStore.getState().settingTourDone) {
+          // FIXME: settingTourが終わっていない場合は、このタイミングでsettingTourを実行(トリガをセット)する
           setSettingTourRun(true)
         }
       }
       // console.log(currentScript.line + q)
-      processReceivedMessage(currentScript.line + q)
+      if (currentScript.audiourl) {
+        processReceivedMessage(currentScript.line + q, currentScript.audiourl)
+      } else {
+        processReceivedMessage(currentScript.line + q)
+      }
     },
     [scripts, guestName]
   )
@@ -223,10 +228,18 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
       }
       const currentScript = getCurrentScript()
       if (currentScript) {
+        // NOTE: currentContextはscripts.jsonのnotesの内容(セットされていなければ全部)が元になり、AIとのchatで使われ、nextとprevのタイミングでセットされる
         const isGuestTurn = currentScript.section.startsWith("comment")
         slideStore.setState({ isGuestTurn: isGuestTurn })
-        slideStore.setState({ currentContext: currentScript.notes })
-        setDisableVRM(!!currentScript.vrmdisable)
+        if (currentScript.notes) {
+          // console.log(currentScript.notes)
+          slideStore.setState({ currentContext: currentScript.notes })
+        } else {
+          // scriptsのlineを全て改行コードで連結して表示
+          const currentContext = scripts.map((script) => script.line).join('\n')
+          slideStore.setState({ currentContext: currentContext })
+        }
+          setDisableVRM(!!currentScript.vrmdisable)
       } else {
         slideStore.setState({ isGuestTurn: false })
         slideStore.setState({ currentContext: '' })
@@ -277,7 +290,15 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
     if (currentScript) {
       const isGuestTurn = currentScript.section.startsWith("comment")
       slideStore.setState({ isGuestTurn: isGuestTurn })
-      slideStore.setState({ currentContext: currentScript.notes })
+        // NOTE: currentContextはscripts.jsonのnotesの内容(セットされていなければ全部)が元になり、AIとのchatで使われ、nextとprevのタイミングでセットされる
+        if (currentScript.notes) {
+        // console.log(currentScript.notes)
+        slideStore.setState({ currentContext: currentScript.notes })
+      } else {
+        // scriptsのlineを全て改行コードで連結して表示
+        const currentContext = scripts.map((script) => script.line).join('\n')
+        slideStore.setState({ currentContext: currentContext })
+      }
       setDisableVRM(!!currentScript.vrmdisable)
     } else {
       slideStore.setState({ isGuestTurn: false })

@@ -2,6 +2,7 @@ import { create } from 'zustand'
 import { persist } from 'zustand/middleware'
 
 interface ModelProvider {
+  useVoicevox: boolean
   voicevoxSpeaker: string
   voicevoxSpeed: number
   voicevoxPitch: number
@@ -18,6 +19,7 @@ export type SettingsState = ModelProvider & Character
 const settingsStore = create<SettingsState>()(
   persist(
     (set, get) => ({
+      useVoicevox: false,
       voicevoxSpeaker: '3',
       voicevoxSpeed: 1.0,
       voicevoxPitch: 0.0,
@@ -28,6 +30,7 @@ const settingsStore = create<SettingsState>()(
     {
       name: 'chatvrm-settings',
       partialize: (state) => ({
+        useVoicevox: state.useVoicevox,
         voicevoxSpeaker: state.voicevoxSpeaker,
         voicevoxSpeed: state.voicevoxSpeed,
         voicevoxPitch: state.voicevoxPitch,
