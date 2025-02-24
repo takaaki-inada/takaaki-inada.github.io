@@ -2,7 +2,7 @@ import { Menu } from "@/components/menu";
 import VrmViewer from "@/components/vrmViewer";
 import { getLocalStatusGPT4VResponseStream, resetLocalChat } from "@/features/chat/localLLMChat";
 import { getChatAIResponseStream } from "@/features/chat/openAiChat";
-import { SYSTEM_PROMPT, VISION_PROMPT } from "@/features/constants/systemPromptConstantsYouri";
+import { SYSTEM_PROMPT, VISION_PROMPT } from "@/features/constants/systemPromptConstants";
 import {
   Message,
   Screenplay,
@@ -177,6 +177,8 @@ export default function Home() {
         const aiTalks = textsToScreenplay([aiText]);
         aiTextLog += aiText;  // ログの表示は汚くなるけど、表情を会話で継続的に出力するためには仕方ない
         handleSpeakAi(aiTalks[0], () => { setAssistantMessage(aiText);}, () => {});
+        // TODO: ここをhandleSpeakAiではなくprocessReceivedMessageに変更したい
+        // processReceivedMessage(aiTalks[0].talk.message);
         viewer.moveCamera(-1.2, 0, 0);
         viewer.loadVrma(buildUrl("/TaiSp03_Tatsumaki.vrma"));
       } else {
@@ -257,6 +259,8 @@ export default function Home() {
                 setChatSpeaking(false);
               }
             );
+            // TODO: ここをhandleSpeakAiではなくprocessReceivedMessageに変更したい
+            // processReceivedMessage(aiTalks[0].talk.message);
           }
         }
       } catch (e) {
@@ -388,6 +392,8 @@ export default function Home() {
               setChatSpeaking(false);
             }
           );
+          // TODO: ここをhandleSpeakAiではなくprocessReceivedMessageに変更したい
+          // processReceivedMessage(aiTalks[0].talk.message);
         }
       }
     } catch (e) {

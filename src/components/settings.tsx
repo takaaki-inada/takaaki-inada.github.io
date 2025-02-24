@@ -27,6 +27,7 @@ export const Settings = ({
   const chatLog = homeStore((s) => s.chatLog)
   const characterName = settingsStore((s) => s.characterName)
   const guestName = settingsStore((s) => s.guestName)
+  const useVoicevox = settingsStore((s) => s.useVoicevox)
   const welcomeTourDone = homeStore((s) => s.welcomeTourDone)
   const settingTourDone = homeStore((s) => s.settingTourDone)
   
@@ -102,6 +103,17 @@ export const Settings = ({
               className="px-16 py-8  bg-surface1 hover:bg-surface1-hover h-168 rounded-8 w-full"
             ></textarea>
           </div> */}
+          <div className="my-8">
+            <div className="my-16 typography-20 font-bold">チャットVoice再生にVoicevoxを使う</div>
+            <TextButton
+              onClick={() => {
+                settingsStore.setState({ useVoicevox: !useVoicevox })
+                homeStore.setState({ welcomeTourDone: useVoicevox })
+              }}
+            >
+              {useVoicevox ? 'On' : 'Off'}
+            </TextButton>
+          </div>
           <div className="my-8">
             <div className="my-16 typography-20 font-bold">Tour Mode</div>
             <TextButton

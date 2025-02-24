@@ -30,6 +30,15 @@ const createSpeakCharacter = () => {
     const { viewer } = homeStore.getState()
     onStart?.()
 
+    if (!ss.useVoicevox) {
+      // screenplay.talkのlengthの秒数待機してonCompleteを実行する
+      const waitTime = screenplay.talk.message.length * 350
+      setTimeout(() => {
+        onComplete?.()
+      }, waitTime)
+      return
+    }
+
     // 英単語を日本語で読み上げる
     screenplay.talk.message = convertEnglishToJapaneseReading(
       screenplay.talk.message

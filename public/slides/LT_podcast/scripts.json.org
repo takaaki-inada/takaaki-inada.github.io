@@ -83,7 +83,6 @@
     "slide_text": "",
     "question_to_guest": "",
     "vrmdisable": true,
-    "prompts": "",
-    "notes": ""
+    "prompts": ""
   }
 ]

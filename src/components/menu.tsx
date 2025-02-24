@@ -5,7 +5,9 @@ import { Settings } from "./settings";
 // import { AssistantText } from "./assistantTextBlack";
 // import { AssistantText } from "./assistantText";
 import homeStore from "@/features/stores/home";
+import settingsStore from "@/features/stores/settings";
 import slideStore from "@/features/stores/slide";
+import { AssistantText } from "./assistantText";
 import Slides from "./slides";
 
 type Props = {
@@ -32,6 +34,7 @@ export const Menu = ({
   const chatLog = homeStore((s) => s.chatLog)
   const selectedSlideDocs = slideStore((state) => state.selectedSlideDocs)
   const [markdownContent, setMarkdownContent] = useState('');
+  const useVoicevox = settingsStore((s) => s.useVoicevox)
 
   useEffect(() => {
     if (!selectedSlideDocs) return
@@ -127,9 +130,11 @@ export const Menu = ({
           onClickResetSystemPrompt={handleClickResetSystemPrompt}
         />
       )}
-      {/* {!showChatLog && assistantMessage && (
+      {
+        /* NOTE: AssistantTextではなくprocessReceivedMessageを使うようにしたい */
+        !showChatLog && assistantMessage && !useVoicevox && (
         <AssistantText message={assistantMessage} />
-      )} */}
+      )}
       <input
         type="file"
         className="hidden"
