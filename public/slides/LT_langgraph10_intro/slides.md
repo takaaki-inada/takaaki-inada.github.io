@@ -29,23 +29,23 @@ keywords: langgraph,requirements engineering
 
 - 導入LT: ユースケースを明確にして要件定義をしよう(6分)
 
-- Elicitronフレームワーク 論文概要(6分)
+- Elicitronフレームワーク 論文概要(12分)
 
-- 10章「要件ドキュメント生成AIエージェント」(28分)
+- 質問＆中休憩(3分)
+
+- 10章「要件ドキュメント生成AIエージェント」(21分)
 動かして理解を深める＆コードをひたすら読む
 
-- 運営からの事務連絡等 (5分)
+- 運営からの事務連絡等 (3分)
 
 ---
 
 <!-- _class: title -->
 
-<h1>
-導入LT:<br/>
-ユースケースを明確にして要件定義をしよう
-</h1>
+# 導入LT: ユースケースを明確にして要件定義をしよう
+(6分)
 
-![blur bg cover opacity:.3](/slides/LT_podcast/images/4.jpg)
+![blur bg cover opacity:.3](/slides/LT_podcast/images/7.jpg)
 
 ---
 
@@ -182,11 +182,13 @@ OpenAIみたいなシステム作って！<br/>
 
 <!-- _class: title -->
 
-<h1>
-Elicitronフレームワーク 論文概要
-</h1>
+# Elicitronフレームワーク 論文概要
 
-![blur bg cover opacity:.3](/slides/LT_podcast/images/4.jpg)
+<div style="font-size: 70%">Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation (2024)</div>
+<br/>
+(12分)
+
+![blur bg cover opacity:.2](/slides/LT_podcast/images/5.jpg)
 
 ---
 
@@ -222,7 +224,7 @@ ACES ソフトウェアエンジニア
 
 <div style="flex: 8;">
 
-![height:560px](/images/zundamon_thumbnail.jpg)
+![center](/images/zundamon_thumbnail.jpg)
 
 </div>
 
@@ -240,7 +242,6 @@ ACES ソフトウェアエンジニア
 - 全自動配信
 
 <br/>
-<br/>
 <div style="text-align:center; font-size: 90%">
 案件ください！！
 </div>
@@ -251,7 +252,7 @@ ACES ソフトウェアエンジニア
 
 ---
 
-# 論文の研究課題
+# 本日の問い
 
 <div class="columns">
 
@@ -259,7 +260,7 @@ ACES ソフトウェアエンジニア
 
 「ユーザにユースケースを確認しよう」
 
-- 適切なユーザが見つからない
+- 適切なユーザがすぐつかまらない
 
 - ユーザインタビュー
 コストと時間めっちゃかからない？

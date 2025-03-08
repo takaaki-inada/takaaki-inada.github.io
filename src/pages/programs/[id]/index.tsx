@@ -24,8 +24,16 @@ export default function DynamicPage({
   }, [id]);
 
   useEffect(() => {
-    router.push('/programs/');
-  }, [router]);
+    const isMobile = /iPhone|iPad|iPod|Android/i.test(
+      typeof navigator !== 'undefined' ? navigator.userAgent : ''
+    );
+    
+    if (isMobile) {
+      router.push(`/slides/${id}`);
+    } else {
+      router.push('/programs/');
+    }
+  }, [router, id]);
 
   return (
     <div>
