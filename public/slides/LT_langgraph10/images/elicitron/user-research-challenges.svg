@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f5f5f5"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="50" font-family="Arial, sans-serif" font-size="24" text-anchor="middle" font-weight="bold" fill="#333">ユーザーリサーチの主要課題</text>
+  
+  <!-- 中央の円 -->
+  <circle cx="400" cy="250" r="150" fill="#e0e0e0" stroke="#666" stroke-width="2"/>
+  <text x="400" y="250" font-family="Arial, sans-serif" font-size="20" text-anchor="middle" font-weight="bold" fill="#333">ユーザーリサーチ</text>
+  
+  <!-- 課題1: 多様なユーザー視点の不足 -->
+  <circle cx="200" cy="200" r="100" fill="#91c7e8" stroke="#2980b9" stroke-width="2"/>
+  <text x="200" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold" fill="#333">多様なユーザー視点</text>
+  <text x="200" y="210" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold" fill="#333">の不足</text>
+  
+  <!-- 課題1の詳細 -->
+  <text x="200" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">・偏ったサンプリング</text>
+  <text x="200" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">・少数派の意見が反映されない</text>
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">・文化的背景の考慮不足</text>
+  
+  <!-- 課題2: 潜在的要求の抽出困難 -->
+  <circle cx="600" cy="200" r="100" fill="#f9d5a7" stroke="#e67e22" stroke-width="2"/>
+  <text x="600" y="190" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold" fill="#333">潜在的要求の</text>
+  <text x="600" y="210" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold" fill="#333">抽出困難</text>
+  
+  <!-- 課題2の詳細 -->
+  <text x="600" y="240" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">・ユーザー自身が気づいていない</text>
+  <text x="600" y="260" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">・言語化できないニーズ</text>
+  <text x="600" y="280" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">・観察と解釈の難しさ</text>
+  
+  <!-- 課題3: 時間やコストの問題 -->
+  <circle cx="400" cy="380" r="100" fill="#aed6b3" stroke="#27ae60" stroke-width="2"/>
+  <text x="400" y="370" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold" fill="#333">実施にかかる</text>
+  <text x="400" y="390" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold" fill="#333">時間・コスト問題</text>
+  
+  <!-- 課題3の詳細 -->
+  <text x="400" y="420" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">・専門人材の確保</text>
+  <text x="400" y="440" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">・スケジュール調整の複雑さ</text>
+  <text x="400" y="460" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">・分析作業の負担</text>
+</svg>

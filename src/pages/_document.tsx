@@ -22,7 +22,11 @@ export default function Document() {
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
-              gtag('config', 'G-NY89QHXWFX');
+              if (location.hostname === 'localhost' || location.hostname === '127.0.0.1') {
+                window['ga-disable-G-NY89QHXWFX'] = true;
+              } else {
+                gtag('config', 'G-NY89QHXWFX');
+              }
             `,
           }}
         />

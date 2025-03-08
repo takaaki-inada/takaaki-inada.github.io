@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <!-- 背景 -->
+  <rect width="800" height="500" fill="#f8f9fa" rx="10" ry="10"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#333">質問設計プロセス</text>
+  
+  <!-- メインコンポーネント -->
+  <g>
+    <!-- 質問の種類と目的 -->
+    <rect x="50" y="80" width="220" height="140" rx="10" ry="10" fill="#e6f3ff" stroke="#4a86e8" stroke-width="2"/>
+    <text x="160" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">質問の種類と目的</text>
+    <text x="160" y="135" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">インタビュー質問の作成</text>
+    <text x="160" y="155" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">（人間またはLLM）</text>
+    <text x="160" y="180" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">・自由形式の質問</text>
+    <text x="160" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">・カテゴリ別の質問</text>
+  </g>
+  
+  <g>
+    <!-- コンテキストを活用した質問 -->
+    <rect x="290" y="80" width="220" height="140" rx="10" ry="10" fill="#fffde7" stroke="#bdb76b" stroke-width="2"/>
+    <text x="400" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">コンテキストを活用した質問</text>
+    <text x="400" y="140" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">過去のQA履歴の活用</text>
+    <text x="400" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">シミュレーション体験の反映</text>
+    <text x="400" y="180" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">実践的で具体的な回答を</text>
+    <text x="400" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">引き出す設計</text>
+  </g>
+  
+  <g>
+    <!-- 適応的なカテゴリ選択 -->
+    <rect x="530" y="80" width="220" height="140" rx="10" ry="10" fill="#e6ffe6" stroke="#0f9d58" stroke-width="2"/>
+    <text x="640" y="110" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#333">適応的なカテゴリ選択</text>
+    <text x="640" y="140" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">製品の種類に応じた</text>
+    <text x="640" y="160" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">質問カテゴリの選択</text>
+    <text x="640" y="180" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">エージェントの役割に応じた</text>
+    <text x="640" y="200" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#555">情報収集の最適化</text>
+  </g>
+  
+  <!-- 中央のプロセスフロー -->
+  <rect x="100" y="280" width="600" height="140" rx="10" ry="10" fill="#f5f5f5" stroke="#666" stroke-width="2" stroke-dasharray="5,5"/>
+  <text x="400" y="310" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">質問設計プロセスフロー</text>
+  
+  <!-- プロセスの流れ -->
+  <g>
+    <circle cx="160" cy="350" r="30" fill="#4a86e8" opacity="0.8"/>
+    <text x="160" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">1</text>
+    <text x="160" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">質問作成</text>
+  </g>
+  
+  <g>
+    <circle cx="280" cy="350" r="30" fill="#bdb76b" opacity="0.8"/>
+    <text x="280" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">2</text>
+    <text x="280" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">コンテキスト活用</text>
+  </g>
+  
+  <g>
+    <circle cx="400" cy="350" r="30" fill="#0f9d58" opacity="0.8"/>
+    <text x="400" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">3</text>
+    <text x="400" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">カテゴリ選択</text>
+  </g>
+  
+  <g>
+    <circle cx="520" cy="350" r="30" fill="#f4b400" opacity="0.8"/>
+    <text x="520" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">4</text>
+    <text x="520" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">質問の最適化</text>
+  </g>
+  
+  <g>
+    <circle cx="640" cy="350" r="30" fill="#9334e6" opacity="0.8"/>
+    <text x="640" y="355" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#fff">5</text>
+    <text x="640" y="400" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">インタビュー</text>
+  </g>
+  
+  <!-- 矢印 -->
+  <g>
+    <line x1="190" y1="350" x2="250" y2="350" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="310" y1="350" x2="370" y2="350" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="430" y1="350" x2="490" y2="350" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+    <line x1="550" y1="350" x2="610" y2="350" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)"/>
+  </g>
+  
+  <!-- 上部コンポーネントから下部プロセスへの接続線 -->
+  <g>
+    <line x1="160" y1="220" x2="160" y2="320" stroke="#4a86e8" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="400" y1="220" x2="280" y2="320" stroke="#db4437" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="400" y1="220" x2="400" y2="320" stroke="#db4437" stroke-width="2" stroke-dasharray="5,5"/>
+    <line x1="640" y1="220" x2="400" y2="320" stroke="#0f9d58" stroke-width="2" stroke-dasharray="5,5"/>
+  </g>
+  
+  <!-- 矢印定義 -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
