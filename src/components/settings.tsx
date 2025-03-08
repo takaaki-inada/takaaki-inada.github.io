@@ -113,6 +113,7 @@ export const Settings = ({
             >
               {useVoicevox ? 'On' : 'Off'}
             </TextButton>
+            <div>一度画面をリロードしツアーに従い設定して下さい</div>
           </div>
           <div className="my-8">
             <div className="my-16 typography-20 font-bold">Tour Mode</div>
@@ -123,6 +124,7 @@ export const Settings = ({
             >
               {welcomeTourDone ? 'Tour Off' : 'Tour On'}
             </TextButton>
+            <div>もう一度ツアーを見たい場合はOnにして画面をリロードして下さい</div>
           </div>
           {chatLog.length > 0 && (
             <div className="my-40">

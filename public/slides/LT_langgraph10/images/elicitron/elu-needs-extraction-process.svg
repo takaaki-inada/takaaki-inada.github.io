@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200">
+  <!-- 背景と枠 -->
+  <rect width="800" height="200" fill="#f8f9fa" rx="10" ry="10" stroke="#d0d7de" stroke-width="2"/>
+  
+  <!-- ステップ1: ELUエージェントの作成 -->
+  <rect x="30" y="40" width="160" height="120" fill="#e6f7ff" stroke="#1890ff" stroke-width="2" rx="8" ry="8"/>
+  <text x="110" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">ステップ1</text>
+  <text x="110" y="85" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">ELUエージェントの作成</text>
+  <text x="110" y="110" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" width="140">典型的なユーザからの</text>
+  <text x="110" y="125" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" width="140">逸脱に基づいて</text>
+  <text x="110" y="140" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" width="140">複数のエージェントを作成</text>
+  <text x="110" y="155" font-family="Arial, sans-serif" font-size="10" text-anchor="middle" width="140">(実験では20人作成)</text>
+  
+  <!-- ステップ2: 特別な条件のシミュレーション -->
+  <rect x="230" y="40" width="160" height="120" fill="#f6ffed" stroke="#52c41a" stroke-width="2" rx="8" ry="8"/>
+  <text x="310" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">ステップ2</text>
+  <text x="310" y="85" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">特別な条件の</text>
+  <text x="310" y="100" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">シミュレーション</text>
+  <text x="310" y="120" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">年齢、健康状態、</text>
+  <text x="310" y="135" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">使用環境などの</text>
+  <text x="310" y="150" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">特殊条件を想定</text>
+  
+  <!-- ステップ3: インタビューの実施 -->
+  <rect x="430" y="40" width="160" height="120" fill="#fff2e8" stroke="#fa8c16" stroke-width="2" rx="8" ry="8"/>
+  <text x="510" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">ステップ3</text>
+  <text x="510" y="85" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">インタビューの実施</text>
+  <text x="510" y="115" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">シミュレートされた</text>
+  <text x="510" y="130" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">状況下でユーザに</text>
+  <text x="510" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">インタビューを実施</text>
+  
+  <!-- ステップ4: 潜在ニーズの特定 -->
+  <rect x="630" y="40" width="160" height="120" fill="#f9f0ff" stroke="#722ed1" stroke-width="2" rx="8" ry="8"/>
+  <text x="710" y="65" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" font-weight="bold">ステップ4</text>
+  <text x="710" y="85" font-family="Arial, sans-serif" font-size="12" text-anchor="middle">潜在ニーズの特定</text>
+  <text x="710" y="115" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">インタビュー回答を</text>
+  <text x="710" y="130" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">分析し、基準に基づいて</text>
+  <text x="710" y="145" font-family="Arial, sans-serif" font-size="10" text-anchor="middle">潜在ニーズをラベル付け</text>
+  
+  <!-- 矢印 -->
+  <path d="M 195 100 L 225 100" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="223,96 230,100 223,104" fill="#666"/>
+  
+  <path d="M 395 100 L 425 100" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="423,96 430,100 423,104" fill="#666"/>
+  
+  <path d="M 595 100 L 625 100" stroke="#666" stroke-width="2" fill="none"/>
+  <polygon points="623,96 630,100 623,104" fill="#666"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="25" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" font-weight="bold">潜在ニーズの抽出方法プロセス</text>
+</svg>

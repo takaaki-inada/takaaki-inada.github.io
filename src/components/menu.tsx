@@ -35,6 +35,7 @@ export const Menu = ({
   const selectedSlideDocs = slideStore((state) => state.selectedSlideDocs)
   const [markdownContent, setMarkdownContent] = useState('');
   const useVoicevox = settingsStore((s) => s.useVoicevox)
+  const isGuestTurn = slideStore((state) => state.isGuestTurn)
 
   useEffect(() => {
     if (!selectedSlideDocs) return
@@ -132,7 +133,7 @@ export const Menu = ({
       )}
       {
         /* NOTE: AssistantTextではなくprocessReceivedMessageを使うようにしたい */
-        !showChatLog && assistantMessage && !useVoicevox && (
+        !showChatLog && assistantMessage && !useVoicevox && isGuestTurn && (
         <AssistantText message={assistantMessage} />
       )}
       <input
