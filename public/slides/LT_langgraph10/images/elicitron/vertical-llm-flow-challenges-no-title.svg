@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 520">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 380">
   <!-- 背景 -->
-  <rect width="700" height="520" fill="#f8f9fa" />
+  <rect width="700" height="380" fill="#f8f9fa" />
   
   <!-- フロー図の要素 (グレーカラー) - 上部スペースを詰める -->
   <rect x="150" y="60" width="120" height="60" rx="10" fill="#f0f0f0" stroke="#666666" stroke-width="2" />

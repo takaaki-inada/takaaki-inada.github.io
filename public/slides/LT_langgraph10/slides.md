@@ -593,7 +593,7 @@ You must create non-typical users based on the following description of a typica
 
 # [Elicitron] 論文の提案する方法の限界または制約
 
-![](https://zund-arm-on.com/slides/LT_langgraph10/images/elicitron/vertical-llm-flow-challenges-no-title.svg)
+![height:550px](https://zund-arm-on.com/slides/LT_langgraph10/images/elicitron/vertical-llm-flow-challenges-no-title.svg)
 
 ---
 
@@ -621,7 +621,7 @@ langgraphで要件定義にElicitronを活用して実装している本が出�
 
 <div style="flex: 5; text-align:center">
 
-![height:500px center](https://zund-arm-on.com/slides/LT_langgraph10/images/bookcover.jpeg)
+![height:500px center](https://zund-arm-on.com/slides/LT_langgraph10/images/bookcover.jpg)
 
 </div>
 
@@ -712,8 +712,6 @@ poetry run python -m documentation_agent.main --task "スマートフォン向�
 </div>
 
 </div>
-
-![]()
 
 ---
 
