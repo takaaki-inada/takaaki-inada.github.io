@@ -17,7 +17,7 @@ keywords: langgraph,requirements engineering
 10章「要件ドキュメント生成AIエージェント」
 </h2>
 
-2025/3/27
+2025/4/10
 
 イベント告知版
 
@@ -180,78 +180,6 @@ OpenAIみたいなシステム作って！<br/>
 
 ---
 
-<!-- _class: title -->
-
-# Elicitronフレームワーク 論文概要
-
-<div style="font-size: 70%">Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation (2024)</div>
-<br/>
-(12分)
-
-![blur bg cover opacity:.2](/slides/LT_podcast/images/5.jpg)
-
----
-
-# 最初に自己紹介
-
-<div class="columns">
-
-<div style="flex: 5; text-align:right">
-
-![height:400px center](/slides/LT_langgraph10/images/icon.jpg)
-
-</div>
-
-<div style="flex: 7; text-align:center">
-
-<br/>
-<h2>稲田 高明</h2>
-<br/>
-ACES ソフトウェアエンジニア
-<br/>
-～ インフラからアプリまで手広く
-
-</div>
-
-</div>
-
-
----
-
-# 個人開発サービスの宣伝
-
-<div class="columns">
-
-<div style="flex: 8;">
-
-![center](/images/zundamon_thumbnail.jpg)
-
-</div>
-
-<div style="flex: 4;">
-
-<br/>
-“ずんだもん AI放送局“
-<br/>
-で検索
-<br/>
-<br/>
-
-- langgraph
-- langsmith
-- 全自動配信
-
-<br/>
-<div style="text-align:center; font-size: 90%">
-案件ください！！
-</div>
-
-</div>
-
-</div>
-
----
-
 # 本日の問い
 
 <div class="columns">
@@ -292,6 +220,6 @@ ACES ソフトウェアエンジニア
 <div style="text-align:center">
 
 参加申し込みはこちらから
-https://acesinc.connpass.com/event/343446/
+https://acesinc.connpass.com/event/350397/
 
 </div>

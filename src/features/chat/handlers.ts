@@ -2,6 +2,7 @@ import { Message, textsToScreenplay } from '@/features/messages/messages'
 import { speakCharacter } from '@/features/messages/speakCharacter'
 import { speakCharacterWav } from '@/features/messages/speakCharacterWav'
 import homeStore from '@/features/stores/home'
+import settingsStore from '../stores/settings'
 
 /**
  * 文字列を処理する関数
@@ -24,6 +25,7 @@ export const processReceivedMessage = async (
   // const ss = settingsStore.getState()
   const hs = homeStore.getState()
   const currentSlideMessages: string[] = []
+  const useVoicevox = settingsStore.getState().useVoicevox
 
   // 返答内容のタグ部分と返答部分を分離
   const tagMatch = receivedMessage.match(/^\[(.*?)\]/)
@@ -55,7 +57,7 @@ export const processReceivedMessage = async (
     })
   }
 
-  if (audiourl) {
+  if (!useVoicevox && audiourl) {
     sentence = receivedMessage
     speakCharacterWav(audiourl, onSpeechStart, onSpeechEnd)
     return

@@ -23,7 +23,7 @@ keywords: langgraph,requirements engineering
 10章「要件ドキュメント生成AIエージェント」
 </h2>
 
-2025/3/27
+2025/4/10
 
 ![blur bg cover opacity:.3](https://zund-arm-on.com/slides/LT_podcast/images/4.jpg)
 
@@ -33,12 +33,14 @@ keywords: langgraph,requirements engineering
 
 - 導入LT: ユースケースを明確にして要件定義をしよう(6分)
 
+- 「要件ドキュメント生成AIエージェント」動かしてみる(6分)
+
 - Elicitronフレームワーク 論文概要(12分)
 
 - 質問＆中休憩(3分)
 
-- 10章「要件ドキュメント生成AIエージェント」(21分)
-動かして理解を深める＆コードをひたすら読む
+- 「要件ドキュメント生成AIエージェント」(15分)
+コードを読んで理解を深める
 
 - 運営からの事務連絡等 (3分)
 
@@ -184,78 +186,6 @@ OpenAIみたいなシステム作って！<br/>
 
 ---
 
-<!-- _class: title -->
-
-# Elicitronフレームワーク 論文概要
-
-<div style="font-size: 70%">Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation (2024)</div>
-<br/>
-(12分)
-
-![blur bg cover opacity:.2](https://zund-arm-on.com/slides/LT_podcast/images/5.jpg)
-
----
-
-# 最初に自己紹介
-
-<div class="columns">
-
-<div style="flex: 5; text-align:right">
-
-![height:400px center](https://zund-arm-on.com/slides/LT_langgraph10/images/icon.jpg)
-
-</div>
-
-<div style="flex: 7; text-align:center">
-
-<br/>
-<h2>稲田 高明</h2>
-<br/>
-ACES ソフトウェアエンジニア
-<br/>
-～ インフラからアプリまで手広く
-
-</div>
-
-</div>
-
-
----
-
-# 個人開発サービスの宣伝
-
-<div class="columns">
-
-<div style="flex: 8;">
-
-![center](https://zund-arm-on.com/images/zundamon_thumbnail.jpg)
-
-</div>
-
-<div style="flex: 4;">
-
-<br/>
-“ずんだもん AI放送局“
-<br/>
-で検索
-<br/>
-<br/>
-
-- langgraph
-- langsmith
-- 全自動配信
-
-<br/>
-<div style="text-align:center; font-size: 90%">
-案件ください！！
-</div>
-
-</div>
-
-</div>
-
----
-
 # 本日の問い
 
 <div class="columns">
@@ -284,6 +214,138 @@ ACES ソフトウェアエンジニア
 
 </div>
 
+---
+
+<!-- _class: title -->
+
+<h1>
+10章「要件ドキュメント生成AIエージェント」
+
+動かしてみる
+</h1>
+
+(6分)
+
+![blur bg cover opacity:.2](https://zund-arm-on.com/slides/20240911/images/12.jpg)
+
+---
+
+# 最初に自己紹介
+
+<div class="columns">
+
+<div style="flex: 5; text-align:right">
+
+![height:400px center](https://zund-arm-on.com/slides/LT_langgraph10/images/icon.jpg)
+
+</div>
+
+<div style="flex: 7; text-align:center">
+
+<br/>
+<h2>稲田 高明</h2>
+<br/>
+ACES ソフトウェアエンジニア
+<br/>
+～ インフラからアプリまで手広く
+
+</div>
+
+</div>
+
+---
+
+# 個人開発サービスの宣伝
+
+<div class="columns">
+
+<div style="flex: 8;">
+
+[![center](https://zund-arm-on.com/images/zundamon_thumbnail.jpg)](https://zund-arm-on.com/)
+
+</div>
+
+<div style="flex: 4;">
+
+<br/>
+“ずんだもん AI放送局“
+<br/>
+で検索
+<br/>
+<br/>
+
+- langgraph
+- langsmith
+- 全自動配信
+
+<br/>
+<div style="text-align:center; font-size: 90%">
+案件ください！！
+</div>
+
+</div>
+
+</div>
+
+---
+
+# まずは動かしてみる
+
+「要件ドキュメント生成AIエージェント」を動かしてみる
+
+[https://github.com/GenerativeAgents/agent-book](https://github.com/GenerativeAgents/agent-book)
+
+chapter10
+```markdown
+poetry run python -m documentation_agent.main --task "スマートフォン向けの健康管理アプリを開発したい"
+```
+
+実行すると、
+- 途中経過のログは出ない(動いているのかちょっと心配になる)
+- 1分程で結果が返ってくる
+
+---
+
+# 実行結果の確認
+
+(実行結果を確認し、コードをチラ見する)
+
+---
+
+# どういう仕組み？
+
+この「要件ドキュメント生成AIエージェント」は、Elicitronという論文を元に実装されている
+
+![width:1200px](https://zund-arm-on.com/slides/LT_langgraph10/images/elicitron/image_re_elecitron_compare.jpg)
+
+<div style="font-size: 40%">引用元: LangChainとLangGraphによるRAG・AIエージェント実践入門 p278</div>
+
+---
+
+<!-- _class: title -->
+
+# Elicitronフレームワーク 論文概要
+
+<div style="font-size: 70%">Elicitron: An LLM Agent-Based Simulation Framework for Design Requirements Elicitation (2024)</div>
+<br/>
+(12分)
+
+![blur bg cover opacity:.2](https://zund-arm-on.com/slides/LT_podcast/images/5.jpg)
+
+
+---
+
+# 論文概要の構成
+
+- 背景と主要問題
+- 論文の提供する解決策
+- 論文の技術的優位性
+- 論文の先行研究 (Empathic Lead User (ELU)インタビューの説明)
+- Elicitoronフレームワークの各構成ブロックの解説
+- Elicitoronフレームワークのおさらい
+- 論文の制約と今後の課題
+
+この論文概要の説明はそれなりに重いパート。頑張ってついてきて！
 
 ---
 
@@ -293,7 +355,7 @@ ACES ソフトウェアエンジニア
 
 <div style="text-align:center">
 
-![height:500px](https://zund-arm-on.com/slides/LT_langgraph10/images/elicitron/user-research-challenges.svg)
+![height:460px](https://zund-arm-on.com/slides/LT_langgraph10/images/elicitron/user-research-challenges.svg)
 
 </div>
 
@@ -306,7 +368,7 @@ CoT(Chain of Thought)でユーザの多様性と潜在ニーズの抽出精度�
 
 <div style="text-align:center">
 
-![height:500px](https://zund-arm-on.com/slides/LT_langgraph10/images/elicitron/llm-agent-user-research2.svg)
+![height:460px](https://zund-arm-on.com/slides/LT_langgraph10/images/elicitron/llm-agent-user-research2.svg)
 
 </div>
 
@@ -597,39 +659,6 @@ You must create non-typical users based on the following description of a typica
 
 ---
 
-# 最初の問いに立ち戻る
-
-要件定義で「<b>ユーザにユースケースを確認する</b>」という課題に、Elicitronの潜在ニーズ抽出の手法を応用できるのでは？
-
-![width:1200px](https://zund-arm-on.com/slides/LT_langgraph10/images/elicitron/image_re_elecitron_compare.jpg)
-
-<div style="font-size: 40%">引用元: LangChainとLangGraphによるRAG・AIエージェント実践入門 p278</div>
-
----
-
-# そして輪読会がはじまる
-
-<div class="columns">
-
-<div style="flex: 7; text-align:left">
-
-langgraphで要件定義にElicitronを活用して実装している本が出ている！
-
-<b>そうだ、輪読会をしたらいいのでは！？</b>
-
-</div>
-
-<div style="flex: 5; text-align:center">
-
-![height:500px center](https://zund-arm-on.com/slides/LT_langgraph10/images/bookcover.jpg)
-
-</div>
-
-</div>
-
-
----
-
 <!-- _class: title -->
 
 # 質問＆中休憩
@@ -664,21 +693,6 @@ langgraphで要件定義にElicitronを活用して実装している本が出�
 
 - 完璧を求めない：
 ざっくり理解でOK。わからない部分はみんなで考える。
-
----
-
-# まずは動かしてみる
-
-[https://github.com/GenerativeAgents/agent-book](https://github.com/GenerativeAgents/agent-book)
-
-chapter10
-```markdown
-poetry run python -m documentation_agent.main --task "スマートフォン向けの健康管理アプリを開発したい"
-```
-
-実行すると、
-- 途中経過のログは出ない(動いているのかちょっと心配になる)
-- 1分程で結果が返ってくる
 
 ---
 
@@ -742,15 +756,18 @@ LLMまとめ
 
 # 個人的な気付き、ふと思ったこと
 
-- ターゲットユーザがある程度絞れるケースでは以下も有効？
-  - 会議やslackでの発言、人事データからペルソナを作成
-  - 購買履歴と閲覧履歴から仮想ペルソナを作成
-  - 医療診療履歴等から仮想ペルソナを作成
+![](https://zund-arm-on.com/slides/LT_langgraph10/images/elicitron/llm-process-flow.svg)
 
-- 特定のドメイン特化のソリューションの要件定義
-ユーザインタビューで業務個別の知識を渡す必要がありそう
+---
 
-- 他のシステムに依存するシステムの要件定義を作る場合どうすると良い？
+# 個人的な気付き、ふと思ったこと
+
+- 作るものに応じたペルソナ作成も大事そう
+  - 新規のSaaSプロダクト: ターゲットマーケット、自社の競争優位性から導いたターゲットユーザのペルソナ設定
+  - コンシューマー向け: Elicitron同様潜在ニーズを探るアプローチでの多様なペルソナ設定（購買履歴、カスタマーの声の活用）
+  - DX: 現場ユーザのペルソナ設定（実在の人物を設定しつつ、課題ヒアリングをコンテキストとしてペルソナを作成する等）
+- cursorやclineがモックを自動で作ってインタビューを行うとcool
+- **結局、要件定義の元になる要求の質が大事**
 
 ---
 
@@ -776,6 +793,6 @@ LLMまとめ
 <br/>
 
 [宣伝]
-![height:300px center](https://zund-arm-on.com/images/zundamon_thumbnail.jpg)
+[![height:300px center](https://zund-arm-on.com/images/zundamon_thumbnail.jpg)](https://zund-arm-on.com/)
 
 </div>

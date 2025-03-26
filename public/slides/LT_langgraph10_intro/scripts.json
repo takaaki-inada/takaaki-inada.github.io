@@ -83,41 +83,14 @@
   {
     "page": 9,
     "section": "article",
-    "line": "続いて、Elicitronフレームワークの概要を説明します。要件定義を効率化し、より正確な要件を導き出すためのフレームワークです。",
-    "slide_text": "Elicitron概要！効率的な要件定義",
+    "line": "本日の問いは、「ユーザにユースケースを確認しよう」という課題に対して、AIでいい感じに出来ないか？ということです。ユーザーインタビューはコストがかかります。",
+    "slide_text": "AIでいい感じに出来ない？",
     "question_to_guest": "",
     "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_9.mp3",
-    "prompts": "Abstract representation of the Elicitron framework, interconnected nodes, data flow, AI concept, modern and futuristic"
+    "prompts": "A futuristic cityscape at night, with glowing lines connecting buildings, representing data flow, a large holographic AI symbol hovering above, dark blue and purple color scheme, cyberpunk style, --ar 16:9"
   },
   {
     "page": 10,
-    "section": "article",
-    "line": "自己紹介です。ACESでソフトウェアエンジニアとして、インフラからアプリまで幅広く担当しています。",
-    "slide_text": "自己紹介：ACES 稲田高明",
-    "question_to_guest": "",
-    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_10.mp3",
-    "prompts": "Professional headshot of Takaaki Inada, software engineer, ACES logo in background, confident expression, clean background"
-  },
-  {
-    "page": 11,
-    "section": "article",
-    "line": "ここでちょっと個人開発サービスの宣伝です。LangGraph, LangSmithなどの技術を使って全自動でエンジニア向け技術トレンドのpodcast配信をしています。「ずんだもんAI放送局」で検索してみてください。また、案件もお待ちしております！",
-    "slide_text": "ずんだもんAI放送局！案件募集中！",
-    "question_to_guest": "",
-    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_11.mp3",
-    "prompts": "zundamon, AI broadcaster, promoting his personal project, langgraph, langsmith, with speech bubble in english 'job offer welcome ensuring it is highly visible', colorful background"
-  },
-  {
-    "page": 12,
-    "section": "article",
-    "line": "論文が取り組む研究課題です。要件分析におけるユーザインタビュー、従来の手法では、多様なユーザーニーズや潜在的な要求を十分に捉えきれず、また実施に時間やコストがかかるという課題がありました。近年、巨大言語モデル（LLM）の発展により、自然言語理解能力を活かしてユーザーシナリオをシミュレーションすることが可能となり、より幅広いユーザー視点や予期せぬ利用状況を効率的に抽出できる可能性が見出されました。",
-    "slide_text": "論文の研究課題",
-    "question_to_guest": "",
-    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_12.mp3",
-    "prompts": "zundamon, AI broadcaster, promoting his personal project, langgraph, langsmith, with speech bubble in english 'job offer welcome ensuring it is highly visible', colorful background"
-  },
-  {
-    "page": 13,
     "section": "closing",
     "line": "本日のLTはここまでです。続きは輪読会で！参加申し込みはこちらからお願いします。皆様のご参加をお待ちしております。",
     "slide_text": "続きは輪読会で！参加申し込みはこちら",
