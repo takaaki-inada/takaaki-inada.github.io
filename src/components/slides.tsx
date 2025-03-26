@@ -115,7 +115,6 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
         //`https://zund-arm-on.com/slides/${selectedSlideDocs}/index.html`,
         `/slides/${selectedSlideDocs}/index.html`,
       )
-      // const css_response = await fetch(`/css/marp/theme.css`, {headers: {'Content-Type': 'text/css'}})
       const script_response = await fetch(`/slides/${selectedSlideDocs}/scripts.json`)
       setScripts(await script_response.json())
 
@@ -141,14 +140,30 @@ const Slides: React.FC<SlidesProps> = ({ markdown }) => {
         })
       }
 
-      // CSSを動的に適用
-      // const styleElement = document.createElement('style')
-      // styleElement.textContent = await css_response.text()
-      const styleElement = doc.querySelectorAll('style')[1]
-      document.head.appendChild(styleElement)
+      // CSSを適用
+      // NOTE: この方法だとうまく表示できない場合がある。
+      // const css_response = await fetch(`/slides/${selectedSlideDocs}/theme.css`, {headers: {'Content-Type': 'text/css'}})
+      // const css_response = await fetch(`/css/marp/theme.css`, {headers: {'Content-Type': 'text/css'}})
+      // // css_responseが存在したら、style要素を作成してheadに追加
+      // if (css_response.ok) {
+      //   const styleElement = document.createElement('style')
+      //   styleElement.textContent = await css_response.text()
+      //   document.head.appendChild(styleElement)
+      //   // コンポーネントのアンマウント時にスタイルを削除
+      //   return () => {
+      //     document.head.removeChild(styleElement)
+      //   }
+      // }
 
-      return () => {
-        document.head.removeChild(styleElement)
+      // TODO: ```で囲まれたコードブロックのfontサイズがcssで設定されていない
+      if (doc.querySelectorAll('style').length > 1) {
+        const styleElement = doc.querySelectorAll('style')[1]
+        document.head.appendChild(styleElement)
+
+        // コンポーネントのアンマウント時にスタイルを削除
+        return () => {
+          document.head.removeChild(styleElement)
+        }
       }
     }
 

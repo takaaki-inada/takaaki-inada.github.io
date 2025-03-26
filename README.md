@@ -17,13 +17,24 @@ jekyll
 ### 過去memo
 ```
               <h1 class="card-heading">
-                langgraph本 輪読会 イベント告知
+                【告知】4/10 18:30- LangChainとLangGraphによるRAG・AIエージェント［実践］入門 10章 要件ドキュメント生成AIエージェントの輪読会やります
               </h1>
-              <a href="/programs/LT_langgraph10_intro"><img src="/images/LT_langgraph10/LT_langgraph10_thumbnail.jpg" alt="お知らせ" style="width: 100%;"></a>
+              <a href="/programs/LT_langgraph10_intro"><img src="/images/LT_langgraph10/LT_langgraph10_thumbnail.jpg" alt="こちらのサイトでイベント告知配信中！" style="width: 100%;"></a>
               <div class="article-header-note">
-                運営の人が輪読会の進行やります<br/>
-                <a href="/programs/LT_langgraph10_intro">こちらのサイトでイベント告知配信中！</a>是非PCから遊んでみて！<br/>
-                興味が沸いたら、お気軽にご参加を！
+                輪読会で使うスライドの最初の部分をあげておきます。<br/>
+                PCでクリックするとずんだもんがLTしはじめます！<br/>
+                お気軽にご参加ください（なお、当日はずんだもん出てきません）
+              </div>
+```
+
+```
+              <div class="article-header-note">
+                <b>番組改編のお知らせ</b>
+                <br/>
+                月曜日は春日部つむぎ、金曜日はお嬢様ずんだもん、その他の曜日は今までどおりずんだもんでお届けします。
+                <br/>
+                今後ともよろしくお願いいたします。
+                <br/>
               </div>
 ```
 

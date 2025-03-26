@@ -7,7 +7,7 @@
   <text x="210" y="95" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">入力</text>
   
   <rect x="150" y="180" width="120" height="60" rx="10" fill="#f0f0f0" stroke="#666666" stroke-width="2" />
-  <text x="210" y="215" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">LLM</text>
+  <text x="210" y="215" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">処理</text>
   
   <rect x="150" y="300" width="120" height="60" rx="10" fill="#f0f0f0" stroke="#666666" stroke-width="2" />
   <text x="210" y="335" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">出力</text>

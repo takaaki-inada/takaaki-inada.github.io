@@ -1,0 +1,363 @@
+
+[
+  {
+    "page": 0,
+    "section": "opening",
+    "line": "",
+    "slide_text": "LangGraph10章輪読会",
+    "question_to_guest": "",
+    "prompts": "presentation, speaker, on stage, large screen, zundamon, bokeh, cinematic lighting, dark background, stage lighting --ar 16:9"
+  },
+  {
+    "page": 1,
+    "section": "opening",
+    "line": "",
+    "slide_text": "LangGraph10章輪読会",
+    "question_to_guest": "",
+    "prompts": "presentation, speaker, on stage, large screen, zundamon, bokeh, cinematic lighting, dark background, stage lighting --ar 16:9"
+  },
+  {
+    "page": 2,
+    "section": "agenda",
+    "line": "本日のアジェンダはこちらです。まず導入LTとして、ユースケースを明確にした要件定義の重要性について解説します。次に、要件ドキュメント生成AIエージェントを実際に動かし、Elicitronフレームワークの論文概要を説明します。その後、質疑応答と休憩を挟み、コードリーディングを通して理解を深めます。最後に事務連絡等を行います。",
+    "slide_text": "本日のアジェンダ",
+    "question_to_guest": "",
+    "prompts": "agenda, list, items, checkmarks, colorful, vibrant, dynamic, clear, concise, modern design --ar 16:9"
+  },
+  {
+    "page": 3,
+    "section": "article",
+    "line": "システム開発でよくある落とし穴として、「ユーザーが思っていたのと違うシステムができてしまう」ことがあります。",
+    "slide_text": "システム開発の落とし穴",
+    "question_to_guest": "",
+    "prompts": "illustration, pitfall, trap, system development, metaphor, abstract, problem, challenge, colorful, vibrant, dynamic --ar 16:9"
+  },
+  {
+    "page": 4,
+    "section": "article",
+    "line": "顧客が本当に必要だったものは、要件定義の段階でしっかりと確認する必要があります。スライドの絵のように、顧客の本当に必要なものは、要求定義、要件定義をしっかりとして、顧客との認識齟齬がないようにしないといけません。",
+    "slide_text": "顧客が本当に必要だったもの",
+    "question_to_guest": "",
+    "prompts": "a customer, a developer, a finished product, discrepancy, misunderstanding, frustration, cartoon, humor, light-hearted, colorful --ar 16:9"
+  },
+  {
+    "page": 5,
+    "section": "article",
+    "line": "そもそも、まず要件定義をしたのか、要件はレビューしてもらったのか、という基本的なプロセスが重要です。要件定義はシステム開発のV字モデルの最初のステップです",
+    "slide_text": "要件定義の確認",
+    "question_to_guest": "",
+    "prompts": "V-model, system development, process, diagram, steps, requirements, design, implementation, testing, colorful, clear, concise --ar 16:9"
+  },
+  {
+    "page": 6,
+    "section": "article",
+    "line": "要件定義をしても、レビューをしてもらわないと、「聞いてない！」と後で問題になることがあります。",
+    "slide_text": "要件レビュー",
+    "question_to_guest": "",
+    "prompts": "office worker, angry, scream, complain, claim, a speech bubble saying 'I didn't hear that!', misunderstanding, frustration, cartoon, humor, light-hearted, colorful --ar 16:9"
+  },
+  {
+    "page": 7,
+    "section": "article",
+    "line": "その要件定義は誰が出したのか、要件を出した人は実際に使う人なのか、という点が重要です。オーナがAWSやOpenAIのようなシステムを作って！と要求をだしても、実現が難しいです。",
+    "slide_text": "要件定義の担当者",
+    "question_to_guest": "",
+    "prompts": "office worker, angry, scream, complain, claim, a speech bubble saying 'Build a system like AWS!', impossible requests, frustration, cartoon, humor, light-hearted, colorful --ar 16:9"
+  },
+  {
+    "page": 8,
+    "section": "article",
+    "line": "実際に使うユーザーのユースケースに落とし、何ができるかイメージできるまで具体的に確認することが大切です。例えば、ブランコを作る場合、誰が、どういう状況で使うのかを明確にします",
+    "slide_text": "ユースケースの確認",
+    "question_to_guest": "",
+    "prompts": "a user, use case, scenario, specific, concrete, image, clear, understanding, communication, cartoon, colorful, light-hearted --ar 16:9"
+  },
+  {
+    "page": 9,
+    "section": "article",
+    "line": "ユーザーにユースケースを確認し、要件定義を明確にすることで、顧客が本当に必要だったものを作ることを目指します。顧客が本当に必要だったものは、システム開発でよく問題になります。",
+    "slide_text": "ユーザーとユースケース",
+    "question_to_guest": "",
+    "prompts": "customer, really, needed, product, user, use case, confirmation, requirement definition, clear, understanding, communication, cartoon, colorful, light-hearted --ar 16:9"
+  },
+  {
+    "page": 10,
+    "section": "article",
+    "line": "しかし、適切なユーザーがすぐに見つからない、ユーザーインタビューにはコストと時間がかかる、多様なニーズや潜在要求を把握するのが難しい、といった課題があります。これらの課題、実はAIで解決できるかもしれません。",
+    "slide_text": "ユーザインタビューの課題をAIで解決",
+    "question_to_guest": "",
+    "prompts": "user, interview, challenge, problem, cost, time, diverse, needs, latent, demand, AI, solution, robot, futuristic, colorful, vibrant --ar 16:9"
+  },
+  {
+    "page": 11,
+    "section": "article",
+    "line": "この章では、「要件ドキュメント生成AIエージェント」を実際に動かしてみます。",
+    "slide_text": "AIエージェントを試す",
+    "question_to_guest": "",
+    "prompts": "hands-on, try, experiment, AI, agent, requirement, document, generation, futuristic, technology, abstract, colorful, vibrant --ar 16:9"
+  },
+  {
+    "page": 12,
+    "section": "article",
+    "line": "まず自己紹介をします。稲田高明と申します。ACESでソフトウェアエンジニアをしており、インフラからアプリまで幅広く担当しています。",
+    "slide_text": "自己紹介",
+    "question_to_guest": "",
+    "prompts": "self-introduction, profile, engineer, photo, name, affiliation, experience, skills, friendly, approachable, professional --ar 16:9"
+  },
+  {
+    "page": 13,
+    "section": "article",
+    "line": "個人開発サービスの宣伝です。「ずんだもんAI放送局」というサービスを運営しており、LangGraphやLangSmithを活用して全自動で番組を配信しています。ぜひ検索してみてください。案件も募集中です。",
+    "slide_text": "個人開発サービスの紹介",
+    "question_to_guest": "",
+    "prompts": "zundamon, AI, broadcasting station, personal, development, service, promotion, advertisement, LangGraph, LangSmith, fully automated, colorful, vibrant --ar 16:9"
+  },
+  {
+    "page": 14,
+    "section": "article",
+    "line": "「要件ドキュメント生成AIエージェント」を実際に動かしてみましょう。GitHubからコードを入手し、指定されたコマンドを実行すると、約1分で結果が返ってきます。実行中はログが出ないため、少し不安になるかもしれません。",
+    "slide_text": "AIエージェントの実行",
+    "question_to_guest": "",
+    "prompts": "running, code, command, terminal, AI, agent, requirement, document, generation, progress, result, futuristic, technology --ar 16:9"
+  },
+  {
+    "page": 15,
+    "section": "article",
+    "line": "実行結果を確認し、コードを少し見てみましょう。生成された要件定義書は、プロジェクト概要、主要機能、非機能要件、制約条件、ターゲットユーザー、優先順位、リスクと軽減策といった項目で構成されています。",
+    "slide_text": "実行結果とコードの確認",
+    "question_to_guest": "",
+    "prompts": "check, result, code, requirement, document, AI, agent, generation, structure, items, list, confirm, review --ar 16:9"
+  },
+  {
+    "page": 16,
+    "section": "article",
+    "line": "この「要件ドキュメント生成AIエージェント」は、Elicitronという論文を元に実装されています。このスライドは、ElicitronがLangChainとLangGraphによるRAG・AIエージェント実践入門の書籍で紹介されている部分です。",
+    "slide_text": "Elicitronとは",
+    "question_to_guest": "",
+    "prompts": "Elicitron, paper, framework, AI, agent, requirement, document, generation, diagram, structure, process, colorful, clear --ar 16:9"
+  },
+  {
+    "page": 17,
+    "section": "article",
+    "line": "ここからは、Elicitronフレームワークの論文概要について説明します。この論文では、LLMエージェントベースのシミュレーションフレームワークを用いて、設計要件の獲得を目指しています。",
+    "slide_text": "Elicitron論文概要",
+    "question_to_guest": "",
+    "prompts": "summary, overview, Elicitron, paper, framework, AI, agent, requirement, elicitation, design, abstract, colorful, vibrant --ar 16:9"
+  },
+  {
+    "page": 18,
+    "section": "article",
+    "line": "論文概要の構成は、背景と主要問題、解決策、技術的優位性、先行研究、Elicitoronフレームワークの各構成ブロックの解説、おさらい、制約と今後の課題、となっています。少し難しい内容ですが、頑張ってついてきてください。",
+    "slide_text": "論文概要の構成",
+    "question_to_guest": "",
+    "prompts": "structure, outline, composition, Elicitron, paper, summary, sections, contents, guide, roadmap, clear, concise --ar 16:9"
+  },
+  {
+    "page": 19,
+    "section": "article",
+    "line": "従来の要求獲得手法には、多様なユーザー視点の不足、潜在的要求の抽出困難、時間やコストの問題といった課題がありました。",
+    "slide_text": "背景と主要問題",
+    "question_to_guest": "",
+    "prompts": "background, main, problem, challenge, traditional, requirement, elicitation, user, perspective, latent, demand, time, cost --ar 16:9"
+  },
+  {
+    "page": 20,
+    "section": "article",
+    "line": "Elicitronは、LLMを用いたエージェントインタビューと分析により、潜在ニーズを抽出します。CoT(Chain of Thought)を活用することで、ユーザーの多様性と潜在ニーズの抽出精度を向上させています。",
+    "slide_text": "論文の提供する解決策",
+    "question_to_guest": "",
+    "prompts": "solution, Elicitron, LLM, agent, interview, analysis, latent, needs, extraction, CoT, Chain of Thought, diversity, accuracy --ar 16:9"
+  },
+  {
+    "page": 21,
+    "section": "article",
+    "line": "Elicitronの技術的優位性は、潜在ニーズ抽出数を１．８倍に向上させ、実施時間を８０時間から２．３時間に短縮できる点です。　先行研究でのEmpathic Lead User (ELU)インタビューに対する潜在ニーズ抽出数(5.6)を実験のbaselineとして設定しています",
+    "slide_text": "論文の技術的優位性",
+    "question_to_guest": "",
+    "prompts": "technical, advantage, Elicitron, latent, needs, extraction, improvement, time, reduction, comparison, baseline, performance --ar 16:9"
+  },
+  {
+    "page": 22,
+    "section": "article",
+    "line": "Elicitronの先行研究として、Empathic Lead User (ELU)インタビューがあります。これは、通常のユーザーに特別な状況をシミュレートしてインタビューを行い、潜在ニーズを抽出する手法です。",
+    "slide_text": "論文の先行研究",
+    "question_to_guest": "",
+    "prompts": "previous, research, Empathic, Lead, User, ELU, interview, special, situation, simulation, latent, needs, extraction --ar 16:9"
+  },
+  {
+    "page": 23,
+    "section": "article",
+    "line": "ELUインタビューの例として、キャンプ用テントに関する調査があります。暗い部屋でオーブンミットを着用してテントを組み立てる状況を再現し、潜在的なニーズを明らかにしました。この潜在ニーズを元に、空気注入式の支柱を持つテントが製品化されました。",
+    "slide_text": "ELUインタビューの例",
+    "question_to_guest": "",
+    "prompts": "example, ELU, interview, camping, tent, research, simulation, special, condition, latent, needs, product, development --ar 16:9"
+  },
+  {
+    "page": 24,
+    "section": "article",
+    "line": "Elicitronフレームワークは、ユーザーエージェント生成、製品体験生成、ユーザーインタビュー、ユーザーニーズ抽出の4つのブロックで構成されています。",
+    "slide_text": "Elicitronフレームワーク概要",
+    "question_to_guest": "",
+    "prompts": "overview, Elicitron, framework, user, agent, generation, product, experience, interview, needs, extraction, structure, blocks --ar 16:9"
+  },
+  {
+    "page": 25,
+    "section": "article",
+    "line": "ユーザーエージェント生成では、多様性が最大となるようにユーザーのペルソナを作成します。一つ前に作成したユーザーとは異なる典型的なユーザーを順番に作成し、さらに非典型的なユーザーをプロンプトで作成します",
+    "slide_text": "ユーザエージェント生成",
+    "question_to_guest": "",
+    "prompts": "user, agent, generation, persona, diversity, typical, non-typical, prompt, creation, Elicitron, framework --ar 16:9"
+  },
+  {
+    "page": 26,
+    "section": "article",
+    "line": "実際に生成されたユーザーの例としては、「アドベンチャーを求めるティーン」や「身体障害を持つ人」など、非典型的なユーザーが含まれます。これにより多様な視点を得られます",
+    "slide_text": "生成されたユーザの例",
+    "question_to_guest": "",
+    "prompts": "generated, user, example, persona, non-typical, diverse, perspective, Elicitron, framework, camping, tent, case --ar 16:9"
+  },
+  {
+    "page": 27,
+    "section": "article",
+    "line": "製品体験生成では、ユーザーインタビューで潜在的なニーズを特定するためのコンテキストとして、製品体験を生成します。セットアップ、特定機能の使用、トラブルシューティングなど、多様なインタラクションをシミュレーションします。",
+    "slide_text": "製品体験生成",
+    "question_to_guest": "",
+    "prompts": "product, experience, generation, context, user, interview, latent, needs, identification, simulation, interaction, Elicitron --ar 16:9"
+  },
+  {
+    "page": 28,
+    "section": "article",
+    "line": "「関節炎を患う高齢者」ユーザーにテント利用に関する製品体験を生成した例では、ジッパーの操作やポールの組み立てなど、具体的な課題が明らかになります。",
+    "slide_text": "製品体験生成の例",
+    "question_to_guest": "",
+    "prompts": "product, experience, generation, example, elderly, person, arthritis, tent, use, challenge, difficulty, Elicitron --ar 16:9"
+  },
+  {
+    "page": 29,
+    "section": "article",
+    "line": "ユーザーインタビューは、「質問プールの作成」と「ユーザーインタビュー」のタスクで構成されます。質問は、製品の多様な側面を網羅するように設計されています。",
+    "slide_text": "ユーザーインタビュー",
+    "question_to_guest": "",
+    "prompts": "user, interview, question, pool, creation, task, structure, design, diverse, aspect, product, Elicitron --ar 16:9"
+  },
+  {
+    "page": 30,
+    "section": "article",
+    "line": "生成されたユーザーへの質問の例としては、「理想的なテントに求める主な特徴は？」といった自由形式の質問や、「テントの設営について、あなたのニーズと革新的なアイデアは？」といったカテゴリ別の質問があります。",
+    "slide_text": "ユーザへの質問例",
+    "question_to_guest": "",
+    "prompts": "user, question, example, free, form, category, specific, tent, setup, needs, innovative, idea, Elicitron --ar 16:9"
+  },
+  {
+    "page": 31,
+    "section": "article",
+    "line": "ユーザーニーズ抽出では、ユーザーの回答を元に、LLMに潜在ニーズを考えさせます。製品設計への重要な変更を表しているか、革新的な洞察を反映しているか、といった条件で判定します。",
+    "slide_text": "ユーザーニーズ抽出",
+    "question_to_guest": "",
+    "prompts": "user, needs, extraction, answer, LLM, latent, detection, criteria, product, design, change, innovation, insight --ar 16:9"
+  },
+  {
+    "page": 32,
+    "section": "article",
+    "line": "「写真撮影のために広い視野を確保する」というニーズは、既存のカテゴリに当てはまらないため、潜在ニーズと判定されます。一方、「鋭利なものに強いテントの床」は、耐久性のカテゴリに該当するため、潜在ニーズではありません。",
+    "slide_text": "潜在ニーズの判定例",
+    "question_to_guest": "",
+    "prompts": "latent, needs, judgment, example, photography, wide, field, view, tent, floor, durable, category, Elicitron --ar 16:9"
+  },
+  {
+    "page": 33,
+    "section": "article",
+    "line": "Elicitronフレームワークのおさらいです。ELUエージェントを作成し、特別なリードユーザ条件をシミュレーションし、インタビューを実施し、潜在ニーズを特定します。",
+    "slide_text": "Elicitronフレームワークのまとめ",
+    "question_to_guest": "",
+    "prompts": "recap, summary, Elicitron, framework, ELU, agent, creation, simulation, interview, latent, needs, identification --ar 16:9"
+  },
+  {
+    "page": 34,
+    "section": "article",
+    "line": "Elicitronの限界としては、LLMの出力品質や与える文脈に依存すること、最終的な要求選定には専門家の介在が必要なこと、マルチモーダルな情報との連携が今後の課題であることなどが挙げられます。",
+    "slide_text": "論文の提案する方法の限界",
+    "question_to_guest": "",
+    "prompts": "limitations, constraints, Elicitron, proposal, method, LLM, output, quality, context, dependency, expert, involvement --ar 16:9"
+  },
+  {
+    "page": 35,
+    "section": "break",
+    "line": "ここで質問と休憩を挟みます。何か質問はありますか？",
+    "slide_text": "質問と休憩",
+    "question_to_guest": "",
+    "prompts": "Q&A, break, rest, question, discussion, coffee, tea, relax, pause, intermission, colorful, light-hearted --ar 16:9"
+  },
+  {
+    "page": 36,
+    "section": "article",
+    "line": "後半は、「要件ドキュメント生成AIエージェント」のコードを読み、理解を深めていきます。",
+    "slide_text": "コードを読んで理解を深める",
+    "question_to_guest": "",
+    "prompts": "code, reading, understanding, deep, dive, AI, agent, requirement, document, generation, programming, development --ar 16:9"
+  },
+  {
+    "page": 37,
+    "section": "article",
+    "line": "輪読会の進め方は、発言自由、質問歓迎で、気軽に意見や疑問を出し合い、学びを深める場にしたいと思います。スライドは不要で、準備も最小限で構いません。完璧を求めず、ざっくりとした理解で大丈夫です。",
+    "slide_text": "輪読会の進め方",
+    "question_to_guest": "",
+    "prompts": "reading, circle, method, way, free, speech, question, welcome, casual, opinion, doubt, learning, deepening, no, slides --ar 16:9"
+  },
+  {
+    "page": 38,
+    "section": "article",
+    "line": "コードの処理の流れは、スライドの図のようになっています。主要なエージェントとして、PersonaGenerator、InterviewConductor、InformationEvaluator、RequirementsDocumentGeneratorがあります。",
+    "slide_text": "コードの処理の流れ",
+    "question_to_guest": "",
+    "prompts": "code, process, flow, diagram, AI, agent, PersonaGenerator, InterviewConductor, InformationEvaluator, RequirementsDocumentGenerator --ar 16:9"
+  },
+  {
+    "page": 39,
+    "section": "article",
+    "line": "レポートの生成では、プロジェクト概要、主要機能、非機能要件、制約条件、ターゲットユーザー、優先順位、リスクと軽減策といった項目を、プロンプトで指定して出力します",
+    "slide_text": "レポート生成",
+    "question_to_guest": "",
+    "prompts": "report, generation, project, overview, main, function, non-functional, requirement, constraint, target, user, priority, risk --ar 16:9"
+  },
+  {
+    "page": 40,
+    "section": "article",
+    "line": "実装のポイントとしては、初期ペルソナを5セット作成し、情報の不足に応じて動的にペルソナを追加すること、AIエージェントによる包括的な要件収集、自動要件ドキュメント生成、LangGraphワークフロー、Pydanticによる構造化データモデリングなどが挙げられます。",
+    "slide_text": "実装のポイント",
+    "question_to_guest": "",
+    "prompts": "implementation, point, key, feature, persona, creation, dynamic, addition, AI, agent, comprehensive, requirement, collection --ar 16:9"
+  },
+  {
+    "page": 41,
+    "section": "article",
+    "line": "作るものに応じたペルソナ作成が重要であり、例えば、新規SaaSプロダクトの場合は、ターゲットマーケットや自社の競争優位性からターゲットユーザーのペルソナを設定する必要があります",
+    "slide_text": "個人的な気づき",
+    "question_to_guest": "",
+    "prompts": "personal, insights, thoughts, persona, creation, importance, target, market, competitive, advantage, SaaS, product --ar 16:9"
+  },
+  {
+    "page": 42,
+    "section": "article",
+    "line": "結局、要件定義の元になる要求の質が重要であり、AIを活用することで、多様なユーザー視点や潜在的要求をくみ取りつつ、ユーザーインタビューのコストや時間を抑えられる可能性があります。AIによる自動コーディングも進化しており、要件定義もまだまだ進化していくでしょう。",
+    "slide_text": "個人的な気づき2",
+    "question_to_guest": "",
+    "prompts": "personal, noticing, requirement, definition, quality, demand, AI, utilization, diverse, user, perspective, potential, possibility --ar 16:9"
+  },
+  {
+    "page": 43,
+    "section": "article",
+    "line": "この章では、ElicitronフレームワークをLangGraphで実装し、ユーザーインタビュー起点の要件定義プロセス、AI技術を活用した効率化、多様な仮想ペルソナからの潜在ニーズの掘り起こしを実現しました。",
+    "slide_text": "まとめ",
+    "question_to_guest": "",
+    "prompts": "recap, summary, Elicitron, framework, LangGraph, implementation, user, interview, requirement, definition, process, AI, technology --ar 16:9"
+  },
+  {
+    "page": 44,
+    "section": "closing",
+    "line": "ご参加ありがとうございました！最後に、個人開発サービスの「ずんだもんAI放送局」を再度宣伝させてください。LangGraphとLangSmithを活用した全自動配信を行っています。",
+    "slide_text": "ご清聴ありがとうございました",
+    "question_to_guest": "{GUEST}さん、今回の内容で、特に印象に残った点はどこですか？また、実務でAIを活用する上で、何か課題に感じていることはありますか？",
+    "prompts": "thank you, participation, appreciation, gratitude, zundamon, AI, broadcasting, station, promotion, advertisement, colorful --ar 16:9"
+  }
+]

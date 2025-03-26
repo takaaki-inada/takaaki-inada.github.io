@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 380">
+  <!-- 背景 -->
+  <rect width="780" height="380" fill="#f8f9fa" />
+  
+  <!-- フロー図の要素 (グレーカラー) - 全体的に左に80移動 -->
+  <rect x="110" y="60" width="120" height="60" rx="10" fill="#f0f0f0" stroke="#666666" stroke-width="2" />
+  <text x="170" y="95" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">入力</text>
+  
+  <rect x="110" y="180" width="120" height="60" rx="10" fill="#f0f0f0" stroke="#666666" stroke-width="2" />
+  <text x="170" y="215" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">処理</text>
+  
+  <rect x="110" y="300" width="120" height="60" rx="10" fill="#f0f0f0" stroke="#666666" stroke-width="2" />
+  <text x="170" y="335" font-family="Arial, sans-serif" font-size="16" text-anchor="middle">出力</text>
+  
+  <!-- 矢印 -->
+  <path d="M170 120 L170 180" stroke="#666666" stroke-width="2" fill="none" />
+  <polygon points="170,175 165,165 175,165" fill="#666666" />
+  
+  <path d="M170 240 L170 300" stroke="#666666" stroke-width="2" fill="none" />
+  <polygon points="170,295 165,285 175,285" fill="#666666" />
+  
+  <!-- 入力に関連する内容 - 左に80移動し、幅を400に拡大 -->
+  <rect x="310" y="20" width="400" height="65" rx="5" fill="#fffde7" stroke="#bdb76b" stroke-width="2" />
+  <text x="510" y="45" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">要求の品質への依存</text>
+  <text x="510" y="70" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">マルチモーダル入力への対応は今後の課題</text>
+  
+  <!-- 処理に関連する内容 - 左に80移動し、幅を400に拡大 -->
+  <rect x="310" y="140" width="400" height="140" rx="5" fill="#fffde7" stroke="#bdb76b" stroke-width="2" />
+  <text x="510" y="165" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">作るものに応じたペルソナ作成</text>
+  <text x="510" y="185" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">(新規SaaS、コンシューマ向け、DXではアプローチが違う)</text>
+  <text x="510" y="215" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">LLM品質への依存</text>
+  <text x="510" y="235" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">DeepResearchのように処理をどう計画立案するかも</text>
+  <text x="510" y="255" font-family="Arial, sans-serif" font-size="14" text-anchor="middle">AIがいずれ十分に頭が良くなって自分で考えるはず</text>
+  
+  <!-- 出力に関連する内容 - 左に80移動し、幅を400に拡大 -->
+  <rect x="310" y="300" width="400" height="60" rx="5" fill="#fffde7" stroke="#bdb76b" stroke-width="2" />
+  <text x="510" y="325" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">先行研究の実験結果からユーザインタビューは</text>
+  <text x="510" y="345" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">製品体験中に行うようシミュレートすると良さそう</text>
+  
+  <!-- 接続線 -->
+  <path d="M230 90 L310 52" stroke="#bdb76b" stroke-width="1.5" stroke-dasharray="5,3" fill="none" />
+  
+  <path d="M230 210 L310 210" stroke="#bdb76b" stroke-width="1.5" stroke-dasharray="5,3" fill="none" />
+  
+  <!-- 先行研究の実験結果のインタビューに関する線を処理につなげる -->
+  <path d="M310 320 L230 210" stroke="#bdb76b" stroke-width="1.5" stroke-dasharray="5,3" fill="none" />
+</svg>
