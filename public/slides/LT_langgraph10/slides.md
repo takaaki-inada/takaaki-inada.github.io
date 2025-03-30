@@ -612,7 +612,7 @@ You must create non-typical users based on the following description of a typica
 
 # Elicitron解説(ユーザニーズ抽出)
 
-ユーザ回答を元に"think step-by-step to detect the latent needs"で潜在ニーズをLLMに考えさせ、次の条件で潜在ニーズかを判定
+ユーザ回答を元に"think step-by-step to detect the latent needs"で潜在ニーズの条件に合致するかLLMに考えさせる
 
 <div class="columns">
 
@@ -637,13 +637,27 @@ You must create non-typical users based on the following description of a typica
 
 # Elicitron解説(ユーザニーズ抽出)
 
-潜在ニーズ:
+<div class="columns">
+
+<div style="flex: 6; text-align:left; font-size:70%">
+
+**潜在ニーズ:**
 「写真撮影のために広い視野を確保するために、指定された開口部を通してテントの内部構造を再設計する」
  → 既存のカテゴリに当てはまらない製品設計への重要な変更
 
-潜在ニーズではない:
+</div>
+
+<div style="flex: 6; text-align:left; font-size:70%">
+
+**潜在ニーズではない:**
 「鋭利なものや一般的な摩耗による裂けに強いテントの床にする」
  → 耐久性という既存のカテゴリに該当
+
+</div>
+
+</div>
+
+![center height:340px](https://zund-arm-on.com/slides/LT_langgraph10/images/elicitron/elicitron_latent_needs_labeling.jpg)
 
 ---
 
