@@ -1,0 +1,389 @@
+[
+  {
+    "page": 0,
+    "section": "opening",
+    "line": "LangChainとLangGraphによるRAG・AIエージェント実践入門 輪読会へようこそ！本日は10章「要件ドキュメント生成AIエージェント」を輪読します。皆様どうぞよろしくお願いいたします。",
+    "slide_text": "RAG・AIエージェント輪読会、10章スタート！",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_0.mp3",
+    "prompts": "A futuristic library filled with glowing books and AI robots, LangGraph, knowledge, elegant, digital art, soft lighting"
+  },
+  {
+    "page": 1,
+    "section": "opening",
+    "line": "",
+    "slide_text": "要件ドキュメント生成AIエージェント",
+    "question_to_guest": "",
+    "prompts": "Futuristic library, AI robots studying, neon lights, digital books, advanced technology, concept art, science fiction"
+  },
+  {
+    "page": 2,
+    "section": "agenda",
+    "line": "本日のアジェンダは、導入LT(6分)、エリシトロンフレームワーク概要説明(6分)、10章輪読(28分)、事務連絡(5分)です。時間配分を守り、有意義な会にしましょう。",
+    "slide_text": "本日の流れを確認！時間配分を守りましょう",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_2.mp3",
+    "prompts": "A clean and modern agenda slide for a LangChain and LangGraph workshop, minimalist design, pastel color, focus on clarity"
+  },
+  {
+    "page": 3,
+    "section": "article",
+    "line": "最初のLTは「ユースケースを明確にして要件定義をしよう」です。システム開発でありがちな落とし穴を回避し、ユーザのニーズに合ったシステムを作るための要件定義の重要性について解説します。",
+    "slide_text": "要件定義の重要性！ニーズに合ったシステム開発",
+    "question_to_guest": "",
+    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_2.mp3",
+    "prompts": "A software architect designing a system, use case diagrams, brainstorming session, modern office, bright and airy, whiteboard with notes, digital painting"
+  },
+  {
+    "page": 4,
+    "section": "article",
+    "line": "システム開発でよくある問題は、ユーザが期待したものと違うものが出来上がることです。この原因は要件定義が曖昧なこと、関係者へのレビュー不足などが考えられます。",
+    "slide_text": "開発の落とし穴！ユーザとの認識のずれ",
+    "question_to_guest": "",
+    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_3.mp3",
+    "prompts": "Cartoon illustration of a system development failure, different interpretations of requirements, funny, focus on communication breakdown, lighthearted"
+  },
+  {
+    "page": 5,
+    "section": "article",
+    "line": "要件定義は最初が肝心です。そもそも要件定義をしたのか？V字モデルを用いて、開発プロセスにおける要件定義の重要性を意識し、上流工程をおろそかにしないようにしましょう。",
+    "slide_text": "要件定義は最初が肝心！V字モデルで確認",
+    "question_to_guest": "",
+    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_4.mp3",
+    "prompts": "V-shaped development model diagram, focus on requirements gathering and validation, clean infographic style, pastel color"
+  },
+  {
+    "page": 6,
+    "section": "article",
+    "line": "要件定義はレビューしましたか？開発者だけで判断せず、ユーザや関係者からのフィードバックをもらいましょう。手戻りを防ぐためにレビューは必須です。",
+    "slide_text": "要件はレビュー必須！手戻りを防ぐために",
+    "question_to_guest": "",
+    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_5.mp3",
+    "prompts": "A group of people reviewing a document, feedback session, whiteboard with notes, collaborative environment, modern office"
+  },
+  {
+    "page": 7,
+    "section": "article",
+    "line": "要件を出す人は実際に使う人ですか？AWSやOpenAIのようなシステムを作って！という抽象的な要求では、具体的な開発に進めません。実際に使う人の意見を聞きましょう。",
+    "slide_text": "要件を出すのは誰？実際に使う人の声を聞こう",
+    "question_to_guest": "",
+    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_6.mp3",
+    "prompts": "Frustrated developer receiving vague requirements, confused expression, whiteboard with abstract diagrams, humorous, speech bubble with question marks, ensuring it is highly visible"
+  },
+  {
+    "page": 8,
+    "section": "article",
+    "line": "機能要件のドキュメントを埋めて満足していませんか？誰が、どういうユースケースで使うのか？を具体的にイメージできるまで落とし込みましょう。実際に作られるシステムのイメージが作りてと読み手で違ったり、イメージ出来ない場合は危険です。ユーザも忙しくて、ふーんそうなんだー、いいんじゃないってレビューではOKしてくれるかもですが、実際にあがってきたシステムを使ってこう言うでしょう「あーこれじゃないんだよなー。ちょっと違う。」。そしてあなたはこう思う「いや、要件定義で確認しましたよね？」。多分このケースの場合、要件定義はやっていて、それなりに時間かけてると思います。これが望んだ結果でしょうか？",
+    "slide_text": "ユースケースを明確に！誰が何に使うのか？",
+    "question_to_guest": "",
+    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_7.mp3",
+    "prompts": "Illustration of a swing set, people using it in different ways, focus on user scenarios, children playing, park scene, daylight"
+  },
+  {
+    "page": 9,
+    "section": "article",
+    "line": "ユーザにユースケースを確認しましょう。良い要件定義はレビュワー、レビュイーどちらも何が作られるか、だいたい同じものが思い浮かべられるのが理想です。違えば、要件定義の段階で違うと言ってくれます。使われない無駄なシステムを開発しなくてすみます。ユーザのニーズを捉え、具体的なイメージを共有することで、手戻りの少ない、本当に必要なシステム開発に繋がります。",
+    "slide_text": "ユーザに確認！手戻り少ない開発へ",
+    "question_to_guest": "",
+    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_8.mp3",
+    "prompts": "Users happily using a system that meets their needs, positive feedback, smiling faces, modern interface, user-centered design, bright and cheerful"
+  },
+  {
+    "page": 10,
+    "section": "article",
+    "line": "続いて、Elicitronフレームワークの概要を説明します。要求分析を効率化し、潜在ニーズを引き出すためのフレームワークです。",
+    "slide_text": "Elicitron概要！効率的な要件定義",
+    "question_to_guest": "",
+    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_9.mp3",
+    "prompts": "Abstract representation of the Elicitron framework, interconnected nodes, data flow, AI concept, modern and futuristic"
+  },
+  {
+    "page": 11,
+    "section": "article",
+    "line": "自己紹介です。ソフトウェアエンジニアとして、インフラからアプリまで幅広く担当しています。",
+    "slide_text": "自己紹介：ACES 稲田高明",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_11.mp3",
+    "prompts": "Professional headshot of Takaaki Inada, software engineer, ACES logo in background, confident expression, clean background"
+  },
+  {
+    "page": 12,
+    "section": "article",
+    "line": "ここでちょっと個人開発サービスの宣伝です。LangGraph, LangSmithなどの技術を使って全自動でエンジニア向け技術トレンドのpodcast配信をしています。「ずんだもんAI放送局」で検索してみてください。また、案件もお待ちしております！",
+    "slide_text": "ずんだもんAI放送局！案件募集中！",
+    "question_to_guest": "",
+    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_11.mp3",
+    "prompts": "zundamon, AI broadcaster, promoting his personal project, langgraph, langsmith, with speech bubble in english 'job offer welcome ensuring it is highly visible', colorful background"
+  },
+  {
+    "page": 13,
+    "section": "article",
+    "line": "本日の問いは、「ユーザにユースケースを確認しよう」という課題に対して、AIでいい感じに出来ないか？ということです。ユーザーインタビューはコストがかかります。",
+    "slide_text": "AIでいい感じに出来ない？",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_13.mp3",
+    "prompts": "Robot conducting a user interview, digital screen, animated characters, futuristic setting, artificial intelligence, clean design"
+  },
+  {
+    "page": 14,
+    "section": "article",
+    "line": "論文が取り組む研究課題です。要件分析におけるユーザインタビュー、従来の手法では、多様なユーザーニーズや潜在的な要求を十分に捉えきれず、また実施に時間やコストがかかるという課題がありました。近年、巨大言語モデル（LLM）の発展により、自然言語理解能力を活かしてユーザーシナリオをシミュレーションすることが可能となり、より幅広いユーザー視点や予期せぬ利用状況を効率的に抽出できる可能性が見出されました。",
+    "slide_text": "論文の研究課題",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_14.mp3",
+    "prompts": "zundamon, AI broadcaster, promoting his personal project, langgraph, langsmith, with speech bubble in english 'job offer welcome ensuring it is highly visible', colorful background"
+  },
+  {
+    "page": 15,
+    "section": "article",
+    "line": "Elicitronは、LLMを用いたエージェントインタビューと分析により潜在ニーズを抽出します。CoTでユーザの多様性と潜在ニーズの抽出精度を向上させます。",
+    "slide_text": "LLMで潜在ニーズを抽出",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_15.mp3",
+    "prompts": "Artificial intelligence extracting needs, data analysis, chain of thought, innovative technology, futuristic interface"
+  },
+  {
+    "page": 16,
+    "section": "article",
+    "line": "Elicitronは、潜在ニーズ抽出数を1.8倍にし、実施にかかる時間を80時間から2.3時間に短縮します。効率的な要件定義が可能です。",
+    "slide_text": "効率的な要件定義",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_16.mp3",
+    "prompts": "Comparison chart, increased efficiency, reduced time, bar graphs, business presentation, data analysis"
+  },
+  {
+    "page": 17,
+    "section": "article",
+    "line": "Elicitronの先行研究として、Empathic Lead User (ELU)インタビューがあります。ELUインタビューでは、特別な状況をシミュレートし潜在ニーズを抽出します。",
+    "slide_text": "Empathic Lead User",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_17.mp3",
+    "prompts": "Users in unique simulation, empathy, virtual reality, user research, innovative approach, modern style"
+  },
+  {
+    "page": 18,
+    "section": "article",
+    "line": "ELUインタビューの例として、週末にキャンプをする人に対して、二人用テントの製品インタビューを実施します。潜在ニーズを元に製品化されます。",
+    "slide_text": "ELUインタビューの例",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_18.mp3",
+    "prompts": "Camping scene, two-person tent, interview setting, customer feedback, product development, outdoor adventure"
+  },
+  {
+    "page": 19,
+    "section": "article",
+    "line": "Elicitronフレームワークは、ユーザエージェント生成、製品体験生成、ユーザインタビュー、ユーザニーズ抽出のブロックで構成されます。",
+    "slide_text": "Elicitronフレームワーク概要",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_19.mp3",
+    "prompts": "Flowchart of the Elicitron framework, interconnected blocks, data processing, artificial intelligence, system architecture"
+  },
+  {
+    "page": 20,
+    "section": "article",
+    "line": "ユーザエージェント生成では、多様性が最大となるようにユーザのペルソナを作成します。典型的なユーザと非典型的なユーザを作成します。",
+    "slide_text": "ユーザエージェント生成",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_20.mp3",
+    "prompts": "Diverse user personas, various backgrounds, artificial intelligence agents, digital avatars, inclusive design"
+  },
+  {
+    "page": 21,
+    "section": "article",
+    "line": "serial method promptとsteer promptを使って、典型的なユーザと非典型的なユーザを生成します。多様なユーザペルソナを作成。",
+    "slide_text": "多様なユーザペルソナ",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_21.mp3",
+    "prompts": "A group of diverse characters, standing together, representing different user personas, inclusive design, digital art"
+  },
+  {
+    "page": 22,
+    "section": "article",
+    "line": "製品体験生成では、ユーザインタビューで潜在的なニーズを特定するためのコンテキストとして製品体験を生成します。多様なインタラクションのシミュレーション。",
+    "slide_text": "製品体験生成",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_22.mp3",
+    "prompts": "Users interacting with a product, virtual simulation, user experience, testing environment, digital interface"
+  },
+  {
+    "page": 23,
+    "section": "article",
+    "line": "例として、関節炎を患う高齢者ユーザにテント利用に関する製品体験を生成します。具体的な利用シナリオを特定。",
+    "slide_text": "高齢者向けテント体験",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_23.mp3",
+    "prompts": "Elderly person using a tent, challenges, adaptive design, assistive technology, inclusive outdoor activities"
+  },
+  {
+    "page": 24,
+    "section": "article",
+    "line": "ユーザインタビューは、「質問プールの作成」と「ユーザインタビュー」のタスクで構成されます。コンテキストを活用した質問。",
+    "slide_text": "ユーザインタビュー",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_24.mp3",
+    "prompts": "User interview, question and answer session, feedback collection, interactive discussion, user-centered research"
+  },
+  {
+    "page": 25,
+    "section": "article",
+    "line": "生成されたユーザへの質問の例です。自由形式とカテゴリ別の質問を使い分け、具体的なニーズや改善策を引き出します。",
+    "slide_text": "質問の例",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_25.mp3",
+    "prompts": "Various questions floating in the air, user thinking, prompting, digital interface, interactive design"
+  },
+  {
+    "page": 26,
+    "section": "article",
+    "line": "ユーザニーズ抽出では、ユーザ回答を元にthink step-by-step to detect the latent needsで潜在ニーズをLLMに考えさせます。",
+    "slide_text": "ユーザニーズ抽出",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_26.mp3",
+    "prompts": "Artificial intelligence extracting user needs, data analysis, chain of thought, innovative technology, futuristic interface"
+  },
+  {
+    "page": 27,
+    "section": "article",
+    "line": "潜在ニーズの判定条件は、製品設計への重要な変更を表しており、既存のカテゴリに該当しない場合や革新的な洞察を反映している場合です。",
+    "slide_text": "潜在ニーズの判定条件",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_27.mp3",
+    "prompts": "Criteria for identifying latent needs, checklist, analysis, innovative design, product development, data analysis"
+  },
+  {
+    "page": 28,
+    "section": "article",
+    "line": "Elicitronフレームワークのおさらいです。ELUエージェントの作成から潜在ニーズの特定までの一連の流れを説明します。",
+    "slide_text": "Elicitronフレームワークのおさらい",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_28.mp3",
+    "prompts": "Flowchart of the Elicitron framework, review, summary, interconnected blocks, data processing, artificial intelligence"
+  },
+  {
+    "page": 29,
+    "section": "article",
+    "line": "Elicitron論文の提案する方法の限界または制約について説明します。LLMの出力品質や与える文脈に依存します。",
+    "slide_text": "Elicitronの限界",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_29.mp3",
+    "prompts": "Challenges in artificial intelligence, limitations, dependencies, analytical difficulties, system analysis"
+  },
+  {
+    "page": 30,
+    "section": "article",
+    "line": "要件定義で「ユーザにユースケースを確認する」という課題に、Elicitronの潜在ニーズ抽出の手法を応用できるのでは？",
+    "slide_text": "Elicitronの手法を応用？",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_30.mp3",
+    "prompts": "Comparing the Elicitron framework with the user case scenario, analysis, connections, system design, research"
+  },
+  {
+    "page": 31,
+    "section": "article",
+    "line": "langgraphで要件定義にElicitronを活用して実装している本が出ている！そうだ、輪読会をしたらいいのでは！？",
+    "slide_text": "輪読会をしよう！",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_31.mp3",
+    "prompts": "People gathering for book reading, group study, discussion, excited faces, intellectual conversation"
+  },
+  {
+    "page": 32,
+    "section": "agenda",
+    "line": "質問と休憩の時間です。",
+    "slide_text": "質問＆中休憩",
+    "question_to_guest": "ここまでで何か質問はありますか？",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_32.mp3",
+    "prompts": "Coffee break, casual setting, question marks, open discussion, networking event, relaxed atmosphere"
+  },
+  {
+    "page": 33,
+    "section": "agenda",
+    "line": "10章「要件ドキュメント生成AIエージェント」を動かして理解を深めます。コードをひたすら読みます。(21分)",
+    "slide_text": "コードをひたすら読む",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_33.mp3",
+    "prompts": "People reading code, coding environment, computer screens, intense focus, study group, software development"
+  },
+  {
+    "page": 34,
+    "section": "article",
+    "line": "輪読会の進め方：発言自由・質問歓迎、スライド不要・準備は最小限、完璧を求めない。ざっくり理解でOK。わからない部分はみんなで考える。",
+    "slide_text": "輪読会の進め方",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_34.mp3",
+    "prompts": "Open discussion, friendly environment, collaborative learning, relaxed atmosphere, group study, casual setting"
+  },
+  {
+    "page": 35,
+    "section": "article",
+    "line": "まずは動かしてみる。",
+    "slide_text": "まずは動かしてみる",
+    "question_to_guest": "動かしてみれましたか？",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_35.mp3",
+    "prompts": "Running a command in the terminal, computer screen, code execution, software development, trying new things"
+  },
+  {
+    "page": 36,
+    "section": "article",
+    "line": "コードスタディ：処理の流れ(全体)を説明します。主要エージェントは、PersonaGenerator, InterviewConductor, InformationEvaluator, RequirementsDocumentGeneratorです。",
+    "slide_text": "処理の流れ(全体)",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_36.mp3",
+    "prompts": "Flowchart of the process, agents involved, data flow, artificial intelligence, system architecture, software development"
+  },
+  {
+    "page": 37,
+    "section": "article",
+    "line": "レポートの生成では、プロジェクト概要、主要機能、非機能要件などの構成をpromptで指定して要件定義書を作成します。",
+    "slide_text": "レポートの生成",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_37.mp3",
+    "prompts": "Generating a report, data visualization, summary, artificial intelligence, automated reporting, software development"
+  },
+  {
+    "page": 38,
+    "section": "article",
+    "line": "実装のポイント：LLMまとめ、初期ペルソナ5セット作成、情報の不足に応じて動的にペルソナ追加。LangGraphワークフロー。",
+    "slide_text": "実装のポイント",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_38.mp3",
+    "prompts": "Key points of the implementation, important steps, code snippets, programming, software development, artificial intelligence"
+  },
+  {
+    "page": 39,
+    "section": "article",
+    "line": "個人的な気付き、ふと思ったこと。要件定義の元になる要求の質が大事です。作るものに応じたペルソナ作成も重要。",
+    "slide_text": "個人的な気付き",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_39.mp3",
+    "prompts": "Brainstorming session, personal insights, reflections, thought bubbles, thinking process, idea generation"
+  },
+  {
+    "page": 40,
+    "section": "article",
+    "line": "要件定義の元になる要求の質、作るものに応じたペルソナ作成、ユーザインタビューは製品体験シミュレート中に行えると良さそう",
+    "slide_text": "要求とペルソナが重要",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_40.mp3",
+    "prompts": "Person thinking with requirement document and persona in mind, dreamy atmosphere, soft pastel color, illustration"
+  },
+  {
+    "page": 41,
+    "section": "article",
+    "line": "この章では、Elicitronフレームワークをlanggraphで実装し、ユーザインタビュー起点の要件定義プロセスの実装などを実現しました。",
+    "slide_text": "Elicitronフレームワーク実装",
+    "question_to_guest": "",
+    "audiourl": "/slides/LT_langgraph10/audios/voice_41.mp3",
+    "prompts": "Langgraph implementation, abstract representation, interconnected nodes, artificial intelligence, system architecture"
+  },
+  {
+    "page": 42,
+    "section": "closing",
+    "line": "本日のLTはここまでです。続きは輪読会で！参加申し込みはこちらからお願いします。皆様のご参加をお待ちしております。",
+    "slide_text": "続きは輪読会で！参加申し込みはこちら",
+    "question_to_guest": "{GUEST}さん、本日のLTはいかがでしたでしょうか？",
+    "audiourl": "https://zund-arm-on.com/slides/LT_langgraph10_intro/audios/voice_13.mp3",
+    "vrmdisable": true,
+    "prompts": "A call to action slide, inviting viewers to join the reading group, website link, QR code, modern design, pastel color"
+  }
+]
