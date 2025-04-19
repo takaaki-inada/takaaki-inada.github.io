@@ -5,6 +5,12 @@
 # 静的サイト生成
 jekyll
 
+## localで確認(うまく動かなかった)
+bundle install
+gem install rexml
+bundle exec jekyll serve
+
+
 # memo
 
 ## public/slides
