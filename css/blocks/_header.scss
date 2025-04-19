@@ -1,8 +1,8 @@
 .header {
-  background-image: url(../images/zundarmon_titlebar_2025.jpg);
+  background-image: url(../images/zundarmon_titlebar_2025_2.jpg);
   background-size: cover;
   background-position: top;
-  min-height: 1000px;
+  min-height: 600px;
 
   &-description {
     color: $color-text-light-secondary;
@@ -30,6 +30,6 @@
     height: 100%;
     padding-bottom: 96px;
     padding-top: 96px;
-    min-height: 1000px;
+    min-height: 600px;
   }
 }
