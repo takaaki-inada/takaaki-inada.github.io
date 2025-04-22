@@ -18,7 +18,7 @@
       <itunes:name>{{ site.author }}</itunes:name>
       <itunes:email>{{ site.email }}</itunes:email>
     </itunes:owner>
-    <itunes:image href="{{ site.github.url }}/images/zundarmon_artwork_3000_2025.jpg" />
+    <itunes:image href="{{ site.github.url }}/images/zundarmon_artwork_3000_2025_2.jpg" />
     <itunes:category text="Technology"/>
     <itunes:explicit>no</itunes:explicit>
     {% for post in site.posts %}
