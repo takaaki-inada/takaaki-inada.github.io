@@ -13,6 +13,9 @@ bundle exec jekyll serve
 
 # memo
 
+## _posts
+dateが先日付のものはbuildされない
+
 ## public/slides
 現在、github actionsで自動でbuildしていない（手動でbuildしてpushしないと反映されない）
 ./scripts/build_marp_all.sh
