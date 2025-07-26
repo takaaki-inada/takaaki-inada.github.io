@@ -21,7 +21,16 @@ dateが先日付のものはbuildされない
 audio_file_path: /audio/
 audio_file_path: https://storage.googleapis.com/podcast-zund-arm-on-tech/audio/
 
-置き換えたmp3を削除
+置き換えたmp3を削除してリポジトリをpush
+一旦リポジトリをcloneして退避(git clone git@github.com:takaaki-inada/takaaki-inada.github.io.git)
+```
+git filter-branch --tree-filter "rm -f audio/マジカルラブリー☆つむぎのピュアピュアA.I.放送局_podcast_20250[1-6]*.mp3 audio/株式会社ずんだもん技術室AI放送局_podcast_20250[1-6]*.mp3 audio/私立ずんだもん女学園放送部_podcast_20250[1-6]*.mp3" HEAD
+git reflog expire --expire=now --all
+# ここから1時間かかる
+git gc --aggressive --prune=now
+git push -f --all
+```
+ローカルのサイズはcloneしなおさないと小さくならないのでリポジトリを消してcloneしなおす
 
 - 参考(cloud straoge bucket)
 https://console.cloud.google.com/storage/browser/podcast-zund-arm-on
