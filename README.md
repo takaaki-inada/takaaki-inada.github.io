@@ -16,6 +16,16 @@ bundle exec jekyll serve
 ## _posts
 dateが先日付のものはbuildされない
 
+### 過去mp3のcloud storageへのアーカイブ
+置き換え
+audio_file_path: /audio/
+audio_file_path: https://storage.googleapis.com/podcast-zund-arm-on-tech/audio/
+
+置き換えたmp3を削除
+
+- 参考(cloud straoge bucket)
+https://console.cloud.google.com/storage/browser/podcast-zund-arm-on
+
 ## public/slides
 現在、github actionsで自動でbuildしていない（手動でbuildしてpushしないと反映されない）
 ./scripts/build_marp_all.sh
@@ -67,3 +77,4 @@ dateが先日付のものはbuildされない
                 <a href="/programs/LT_podcast">こちらのサイトで配信中！</a>是非PCから遊んでみて！
               </div>
 ```
+
