@@ -19,7 +19,7 @@ dateが先日付のものはbuildされない
 ### 過去mp3のcloud storageへのアーカイブ
 置き換え
 audio_file_path: /audio/
-audio_file_path: https://storage.googleapis.com/podcast-zund-arm-on-tech/audio/
+audio_file_path: https://storage.googleapis.com/podcast-zund-arm-on/audio/
 
 置き換えたmp3を削除してリポジトリをpush
 一旦リポジトリをcloneして退避(git clone git@github.com:takaaki-inada/takaaki-inada.github.io.git)
