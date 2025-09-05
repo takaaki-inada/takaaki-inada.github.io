@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>Googleスライド埋め込み制御サンプル</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+    }
+    .slide-container {
+      width: 800px;
+      height: 479px; /* スライドのサイズに合わせて調整 */
+      margin: 0 auto 20px;
+      border: 1px solid #ccc;
+    }
+    .controls button {
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      margin: 0 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Googleスライド JavaScript制御</h1>
+
+  <div class="slide-container">
+    <iframe id="slideshow-frame" 
+            src="https://docs.google.com/presentation/d/1iaZ_iitI-5WzcWz-ek_7m51RLv4t9iMtjlEmlEr09GI/embed?start=false&loop=false&delayms=3000&enablejsapi=1" 
+            frameborder="0" 
+            width="800" 
+            height="479" 
+            allowfullscreen="true" 
+            mozallowfullscreen="true" 
+            webkitallowfullscreen="true">
+    </iframe>
+  </div>
+
+  <div class="controls">
+    <button id="prev-button">戻る</button>
+    <button id="next-button">次へ</button>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const iframe = document.getElementById('slideshow-frame');
+      const nextButton = document.getElementById('next-button');
+      const prevButton = document.getElementById('prev-button');
+      const slidesOrigin = 'https://zund-arm-on.com';
+
+      // "次へ" ボタンのクリックイベント
+      nextButton.addEventListener('click', function() {
+        if (iframe) {
+          iframe.contentWindow.postMessage({
+            'command': 'next'
+          }, slidesOrigin);
+        }
+      });
+
+      // "戻る" ボタンのクリックイベント
+      prevButton.addEventListener('click', function() {
+        if (iframe) {
+          iframe.contentWindow.postMessage({
+            'command': 'prev'
+          }, slidesOrigin);
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
