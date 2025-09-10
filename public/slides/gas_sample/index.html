@@ -1,7 +1,9 @@
+
 <!DOCTYPE html>
 <html lang="ja">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Googleスライド埋め込み制御サンプル</title>
   <style>
     body {
@@ -20,6 +22,12 @@
       font-size: 16px;
       cursor: pointer;
       margin: 0 10px;
+      border: 1px solid #ccc;
+      background-color: #f9f9f9;
+      border-radius: 4px;
+    }
+    .controls button:hover {
+      background-color: #e9e9e9;
     }
   </style>
 </head>
@@ -29,13 +37,14 @@
 
   <div class="slide-container">
     <iframe id="slideshow-frame" 
-            src="https://docs.google.com/presentation/d/1iaZ_iitI-5WzcWz-ek_7m51RLv4t9iMtjlEmlEr09GI/embed?start=false&loop=false&delayms=3000&enablejsapi=1" 
+            src="https://docs.google.com/presentation/d/1iaZ_iitI-5WzcWz-ek_7m51RLv4t9iMtjlEmlEr09GI/embed?start=false&loop=false&delayms=3000" 
             frameborder="0" 
             width="800" 
             height="479" 
             allowfullscreen="true" 
             mozallowfullscreen="true" 
-            webkitallowfullscreen="true">
+            webkitallowfullscreen="true"
+            loading="lazy">
     </iframe>
   </div>
 
@@ -49,25 +58,48 @@
       const iframe = document.getElementById('slideshow-frame');
       const nextButton = document.getElementById('next-button');
       const prevButton = document.getElementById('prev-button');
-      const slidesOrigin = 'https://zund-arm-on.com';
+      
+      // 現在のスライド番号を追跡
+      let currentSlide = 0;
 
       // "次へ" ボタンのクリックイベント
       nextButton.addEventListener('click', function() {
-        if (iframe) {
-          iframe.contentWindow.postMessage({
-            'command': 'next'
-          }, slidesOrigin);
-        }
+        currentSlide++;
+        updateSlide();
       });
 
       // "戻る" ボタンのクリックイベント
       prevButton.addEventListener('click', function() {
-        if (iframe) {
-          iframe.contentWindow.postMessage({
-            'command': 'prev'
-          }, slidesOrigin);
+        if (currentSlide > 0) {
+          currentSlide--;
+          updateSlide();
         }
       });
+
+      // スライドを更新する関数
+      function updateSlide() {
+        // Googleスライドの正しいURLパラメータを使用
+        // スライド番号は1から始まるため、currentSlide + 1を使用
+        const slideNumber = currentSlide + 1;
+        
+        // 複数のURL形式を試す
+        let newSrc;
+        if (currentSlide === 0) {
+          // 最初のスライドは特別に処理
+          newSrc = `https://docs.google.com/presentation/d/1iaZ_iitI-5WzcWz-ek_7m51RLv4t9iMtjlEmlEr09GI/embed?start=false&loop=false&delayms=3000`;
+        } else {
+          newSrc = `https://docs.google.com/presentation/d/1iaZ_iitI-5WzcWz-ek_7m51RLv4t9iMtjlEmlEr09GI/embed?start=false&loop=false&delayms=3000&slide=${slideNumber}`;
+        }
+        
+        iframe.src = newSrc;
+        
+        // デバッグ用のログ
+        console.log(`スライド ${currentSlide + 1} に移動 (URL: slide=${slideNumber})`);
+        console.log('URL:', newSrc);
+      }
+
+      // 初期化
+      updateSlide(); // 初期スライドを表示
     });
   </script>
 
