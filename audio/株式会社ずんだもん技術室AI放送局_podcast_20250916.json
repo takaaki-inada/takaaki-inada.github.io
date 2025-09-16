@@ -172,10 +172,11 @@
     {
         "type": "diagram",
         "title": "MoE（専門家の組み合わせ）モデルの仕組み",
+        "subhead": "多数の専門家（Experts）から最適なものを選択して処理を実行",
         "lanes": [
             {
                 "title": "入力 (タスク)",
-                "items": []
+                "items": ["..."]
             },
             {
                 "title": "ルーター",
