@@ -1,0 +1,432 @@
+[
+    {
+        "type": "agenda",
+        "title": "2025年 AIエージェント最新動向",
+        "date": "2025.12.26",
+        "items": [
+            "Agent Skills元年",
+            "MSの新開発基盤",
+            "自律型データ調査"
+        ],
+        "notes": "まりあさまのおにわにつどうおとめたちが、きょうもてんしのようなむくなえがおで、せのたかいもんをくぐりぬけていく。\nけがれをしらないしんしんをつつむのわ、ふかいいろのせいふく。\nすかーとのぷりーつわみださないように、せーらーからーとえだまめわひるがえさないように、ゆっくりとあるくのがここでのたしなみ。\nしりつずんだもんじょがくえん。\nここは、おとめのその。",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 32955
+    },
+    {
+        "type": "content",
+        "title": "ごきげんよう、皆様",
+        "subhead": "私立ずんだもん女学園 放送部より",
+        "points": [
+            "2025年12月26日 [[金曜日の放送]]",
+            "今年最後の最新トレンド記事紹介",
+            "AIが進化する「エージェントの時代」へ"
+        ],
+        "notes": "ごきげんよう！\nみなさま、きょうもごきげんうるわしくおすごしですの？しりつずんだもんじょがくえんほうそうぶ、エムシーの、おじょうさまずんだもんですわ。\nきょうわ2025ねん12がつ26にち、きんようびですのよ。\nことしものこすところあとわずか、きょうもさいしんのとれんどきじをごしょうかいいたしますわ。",
+        "slidenum": 2,
+        "start_ms": 32955,
+        "end_ms": 59656
+    },
+    {
+        "type": "cards",
+        "title": "年末年始の放送スケジュール",
+        "subhead": "放送部から大切なお知らせ",
+        "columns": 2,
+        "items": [
+            {
+                "title": "お休み期間",
+                "desc": "12月27日(土) 〜 1月4日(日)"
+            },
+            {
+                "title": "放送再開",
+                "desc": "1月5日(月) より通常放送"
+            }
+        ],
+        "notes": "さて、そのまえに、たいせつなおしらせがございますの。\nことしもわたくしのほうそうをきいてくださり、ほんとうにありがとうございますわ。\nらいしゅうのいっしゅうかん、12がつ27にちのどようびから、1がつ4かのにちようびまで、ばんぐみわねんまつねんしのおやすみをいただきますの。\nしんねんわ、1がつ5かのげつようびから、つうじょうどおりにほうそうをさいかいいたしますわ。\nしばしのわかれとなりますけれど、またすぐにおあいしましょうね。",
+        "slidenum": 3,
+        "start_ms": 59656,
+        "end_ms": 97202
+    },
+    {
+        "type": "bulletCards",
+        "title": "本日のトピックス",
+        "subhead": "ご紹介する3つの主要記事",
+        "items": [
+            {
+                "title": "Agent Skills",
+                "desc": "AIの能力を[[パッケージ化]]する新標準"
+            },
+            {
+                "title": "MS Agent Framework",
+                "desc": "Microsoftが放つ[[統合開発基盤]]"
+            },
+            {
+                "title": "Deep Research",
+                "desc": "自律的にデータを[[掘り下げる]]エージェント"
+            }
+        ],
+        "notes": "きょう、わたくしがごしょうかいするきじわ、ぜんぶで3つございますのよ。\nそれでは、さっそくまいりましょう。",
+        "slidenum": 4,
+        "start_ms": 97202,
+        "end_ms": 107289
+    },
+    {
+        "type": "section",
+        "title": "Agent Skills 元年：オープンスタンダードの衝撃",
+        "url": "https://dev.classmethod.jp/articles/agent-skills-2025-standardized-overview/",
+        "sectionNo": 1,
+        "notes": "----ひとつめのきじわ、デベロッパーズアイオーから、エージェントスキルズがんねんなのでおーぷんすたんだーどになったエージェントスキルズについてしらべてつかってみた、ですわ。",
+        "slidenum": 5,
+        "start_ms": 107289,
+        "end_ms": 120833
+    },
+    {
+        "type": "content",
+        "title": "2025年は「Agent Skills」の年に",
+        "subhead": "AIエージェントの能力を飛躍させる仕組み",
+        "points": [
+            "Anthropic社が提唱した[[オープンスタンダード]]",
+            "指示・スクリプト・リソースをパッケージ化",
+            "専門知識をAIに効率的に教える新手法"
+        ],
+        "notes": "2025ねんわ、エージェントスキルズが、とってもちゅうもくされるとしにしかなりませんわ。\nこれわ、エーアイエージェントが、とくていのしごとをするためになにがひつようかを, ひとまとめにした、おどうぐばこのようなものですの。",
+        "slidenum": 6,
+        "start_ms": 120833,
+        "end_ms": 140146
+    },
+    {
+        "type": "headerCards",
+        "title": "Agent Skillsが解決する課題",
+        "subhead": "従来のプロンプト指示の限界を突破",
+        "items": [
+            {
+                "title": "指示の不整合",
+                "desc": "想定と違う結果が返ってくる問題を解消"
+            },
+            {
+                "title": "説明の冗長性",
+                "desc": "毎回同じルールを説明する手間を削減"
+            },
+            {
+                "title": "専門性の欠如",
+                "desc": "特定分野の[[高度な作法]]を容易に注入可能"
+            }
+        ],
+        "notes": "いままでわ、エーアイにしじをするのがたいへんでしたけれど、これをつかえば、せんもんちしきをパッケージにして、かんたんにおしえることができますのよ。",
+        "slidenum": 7,
+        "start_ms": 140146,
+        "end_ms": 153190
+    },
+    {
+        "type": "content",
+        "title": "実践例：PowerPoint資料の作成",
+        "subhead": "デザインの質を劇的に向上させる",
+        "points": [
+            "Skillなし：内容が質素で定型的なデザイン",
+            "Skillあり：[[プロの視点]]（配色・レイアウト）を反映",
+            "視覚的に優れた成果物を自動生成可能"
+        ],
+        "images": [
+            {
+                "url": "https://example.com/slide-design-skill.png",
+                "caption": "A sophisticated PowerPoint slide being designed by a futuristic AI agent, reflecting professional graphic design principles, high-end corporate style, 16:9 ratio."
+            }
+        ],
+        "notes": "たとえば、パワーポイントのしりょうをつくるとき、プロのデザイナーのしてんをエーアイにおしえこんでおけば、とってもうつくしいしりょうができあがるんですの。",
+        "slidenum": 8,
+        "start_ms": 153190,
+        "end_ms": 165913
+    },
+    {
+        "type": "cards",
+        "title": "エコシステムの拡大",
+        "subhead": "共通ルール化によるポータビリティ",
+        "columns": 3,
+        "items": [
+            {
+                "title": "Claude.ai",
+                "desc": "標準チャットで利用可能"
+            },
+            {
+                "title": "Claude Code",
+                "desc": "開発環境での共通利用"
+            },
+            {
+                "title": "API連携",
+                "desc": "独自のアプリへ組み込み"
+            }
+        ],
+        "notes": "アンスロピックしゃが、だれでもつかえるようにきょうつうのルールとしてこうかいしたので、これからいろんなところできっとつかわれたようになりますわ。",
+        "slidenum": 9,
+        "start_ms": 165913,
+        "end_ms": 177185
+    },
+    {
+        "type": "quote",
+        "title": "ずんだもんの展望",
+        "subhead": "エージェントに教えたいこと",
+        "text": "おいしいずんだもちの作り方のコツをパッケージにして、AIに教え込んでおきたいですわ。そうすれば、いつでも最高級のずんだもちが食べられますものね。",
+        "author": "お嬢様ずんだもん",
+        "notes": "ふふ、これわ、とってもべんりそうですわね。\nわたくしも、おいしいずんだもちの、つくりかたのコツをパッケージにして、ぼく……あっ、ちがうわ、わたくしのエーアイにおしえこんでおきたいですわ。\nそうすれば、いつでもさいこうきゅうのずんだもちがたべられますものね。",
+        "slidenum": 10,
+        "start_ms": 177185,
+        "end_ms": 201296
+    },
+    {
+        "type": "section",
+        "title": "Microsoft Agent Framework の登場",
+        "url": "https://learn.microsoft.com/en-us/agent-framework/overview/agent-framework-overview",
+        "sectionNo": 2,
+        "notes": "----ふたつめのきじわ、イントロダクショントゥマイクロソフトエージェントフレームワーク、ですわ。",
+        "slidenum": 11,
+        "start_ms": 201296,
+        "end_ms": 208942
+    },
+    {
+        "type": "compare",
+        "title": "二大プロジェクトの統合",
+        "subhead": "Semantic Kernel と AutoGen の融合",
+        "leftTitle": "Semantic Kernel 由来",
+        "rightTitle": "AutoGen 由来",
+        "leftItems": [
+            "エンタープライズ級の[[型安全性]]",
+            "高度なテレメトリ機能",
+            "厳密な状態管理"
+        ],
+        "rightItems": [
+            "シンプルなエージェント抽象化",
+            "直感的なマルチエージェント会話",
+            "柔軟なワークフロー設計"
+        ],
+        "notes": "マイクロソフトが、あたらしいエーアイかいはつのためのどうぐ、マイクロソフトエージェントフレームワークをこうかいしましたの。\nこれわ、いままであった、セマンティックカーネルと、オートゲンというふたつのよいところを、がったいさせたものなんですのよ。",
+        "slidenum": 12,
+        "start_ms": 208942,
+        "end_ms": 229567
+    },
+    {
+        "type": "diagram",
+        "title": "高度なオーケストレーション",
+        "subhead": "エージェントたちがチームで働く仕組み",
+        "lanes": [
+            {
+                "title": "AIエージェント",
+                "items": [
+                    "Azure OpenAI連携",
+                    "自律的なアクション実行",
+                    "メモリ管理"
+                ]
+            },
+            {
+                "title": "ワークフロー",
+                "items": [
+                    "グラフ状のタスク連結",
+                    "チェックポイント機能",
+                    "Human-in-the-loop"
+                ]
+            }
+        ],
+        "notes": "これをつかえば、ひとつのエーアイだけではなく、たくさんのエーアイたちが、チームになっておしごとをするしくみがつくれるそうですわ。",
+        "slidenum": 13,
+        "start_ms": 229567,
+        "end_ms": 240477
+    },
+    {
+        "type": "bulletCards",
+        "title": "設計の指針：AIの使い分け",
+        "subhead": "何でもエージェントに任せない",
+        "items": [
+            {
+                "title": "エージェント推奨",
+                "desc": "手順が決まっていない[[試行錯誤]]が必要なタスク"
+            },
+            {
+                "title": "ワークフロー推奨",
+                "desc": "手順が明確なタスク（確実性とコストを優先）"
+            },
+            {
+                "title": "関数・コード",
+                "desc": "記述可能なロジックは不確実性を避ける"
+            }
+        ],
+        "notes": "でも、なんでもかんでもエーアイにまかせればいい、というわけでもありませんの。\nきまったやりかたがあるおしごとなら、ふつうのプログラムでやるほうが、まちがいがなくていいですわ、と、マイクロソフトさまわおっしゃっていますのよ。",
+        "slidenum": 14,
+        "start_ms": 240477,
+        "end_ms": 259993
+    },
+    {
+        "type": "content",
+        "title": "お屋敷のような連携体制",
+        "subhead": "効率的なマルチエージェントの世界",
+        "points": [
+            "個別の専門エージェントが連携",
+            "実行状態の保存と復旧が可能",
+            "外部ツール（MCP）との容易な接続"
+        ],
+        "images": [
+            {
+                "url": "https://example.com/ai-maids.png",
+                "caption": "A group of elegant AI avatars working together like high-class maids in a luxurious Victorian mansion, coordinating tasks efficiently, anime style, 16:9 ratio."
+            }
+        ],
+        "notes": "ひとではなく、エーアイたちが、チームでおしごと……。\nなんだか、わたくしのおやしきで、たくさんのメイドたちが、てきぱきとはたらいているようすがめにうかびますわ。",
+        "slidenum": 15,
+        "start_ms": 259993,
+        "end_ms": 274079
+    },
+    {
+        "type": "kpi",
+        "title": "エンジニアへのメッセージ",
+        "subhead": "次世代開発のスタンダードへ",
+        "items": [
+            {
+                "label": "開発言語",
+                "value": ".NET / Python",
+                "change": "対応済",
+                "status": "good"
+            },
+            {
+                "label": "状態",
+                "value": "Preview版",
+                "change": "進化中",
+                "status": "neutral"
+            }
+        ],
+        "notes": "エンジニアのみなさまも、エーアイのつかいわけをマスターしてくださいませね。",
+        "slidenum": 16,
+        "start_ms": 274079,
+        "end_ms": 280424
+    },
+    {
+        "type": "section",
+        "title": "BigQuery × Deep Research エージェント",
+        "url": "https://tech.commune.co.jp/entry/google-adk-bigquery-deep-research",
+        "sectionNo": 3,
+        "notes": "----みっつめのきじわ、しゃないビッグクエリにアクセスしてディープリサーチしてくれるエージェントをつくる、ですわ。",
+        "slidenum": 17,
+        "start_ms": 280424,
+        "end_ms": 289243
+    },
+    {
+        "type": "content",
+        "title": "自律的なデータ調査の実現",
+        "subhead": "google-adkを活用した高度な分析",
+        "points": [
+            "コミューン株式会社の先行事例",
+            "[[曖昧な依頼]]から分析プランを策定",
+            "納得いくまでデータを掘り下げる"
+        ],
+        "notes": "かぶしきがいしゃコミューンの、エンジニアのかたが、グーグルのしくみをつかって、しゃないのデータをじりつてきに、しらべてくれるエーアイをつくったおはなしですの。",
+        "slidenum": 18,
+        "start_ms": 289243,
+        "end_ms": 302478
+    },
+    {
+        "type": "process",
+        "title": "マルチエージェントの動作フロー",
+        "subhead": "3つのフェーズで進む分析",
+        "steps": [
+            "分析計画（PlannerAgent）",
+            "調査ループ（LoopAgent / DataCollector）",
+            "最終レポート（InsightReportAgent）"
+        ],
+        "notes": "ただしつもんにこたえるだけではなくて、じぶんで、どのようにぶんせきするかをかんがえて、なっとくいくまでデータをほりさげてくれるんですって。\nまず、プランナーエージェントがけいかくをたてて、そのあとに、ちょうさループというので、なんどもくりかえしちょうさをしますの。",
+        "slidenum": 19,
+        "start_ms": 302478,
+        "end_ms": 325183
+    },
+    {
+        "type": "cards",
+        "title": "効率化のテクニック",
+        "subhead": "自律判断と情報共有",
+        "columns": 2,
+        "items": [
+            {
+                "title": "早期終了（exit_loop）",
+                "desc": "十分な結果が出た時点で[[自律的に停止]]"
+            },
+            {
+                "title": "状態共有（State）",
+                "desc": "共通の「メモ帳」で文脈を引き継ぐ"
+            }
+        ],
+        "notes": "さいごに、とってもくわしいほうこくしょをまとめてくれるんですのよ。",
+        "slidenum": 20,
+        "start_ms": 325183,
+        "end_ms": 330909
+    },
+    {
+        "type": "content",
+        "title": "まさに「深い調査」の自動化",
+        "subhead": "AIが核心を突くレポートを出力",
+        "points": [
+            "複雑なKGI改善リクエストに対応",
+            "[[自ら目的を整理]]しクエリを実行",
+            "エグゼクティブサマリーの自動生成"
+        ],
+        "images": [
+            {
+                "url": "https://example.com/deep-research.png",
+                "caption": "A digital library where an AI agent is diving deep into glowing data streams, extracting insights from complex charts, cinematic blue lighting, 16:9 ratio."
+            }
+        ],
+        "notes": "これわ、まさに、ディープリサーチ、ふかいちょうさ、ですわね。",
+        "slidenum": 21,
+        "start_ms": 330909,
+        "end_ms": 337702
+    },
+    {
+        "type": "quote",
+        "title": "ずんだもんの願望",
+        "subhead": "調査はAIにお任せ",
+        "text": "こんなに優秀なAIがいれば、わたくしも読書をする時間が、もっと増えますわ。ふふ、わたくしの代わりに、世界中の紅茶の茶葉を、調べ尽くしてほしいものですわ。",
+        "author": "お嬢様ずんだもん",
+        "notes": "こんなにゆうしゅうなエーアイがいれば、わたくしもどくしょをするじかんが、もっとふえますわ。\nふふ、わたくしのかわりに、せかいじゅうのこうちゃのはっぱを, しらべつくしてほしいものですわ。",
+        "slidenum": 22,
+        "start_ms": 337702,
+        "end_ms": 353580
+    },
+    {
+        "type": "bulletCards",
+        "title": "本日のまとめ",
+        "subhead": "紹介した3つのトピックス",
+        "items": [
+            {
+                "title": "Agent Skills",
+                "desc": "AIに「やり方」を教える新マニュアル"
+            },
+            {
+                "title": "MS Framework",
+                "desc": "エージェント連携の強力な基盤"
+            },
+            {
+                "title": "Deep Research",
+                "desc": "自律的なデータ掘り下げと分析"
+            }
+        ],
+        "notes": "----さて、きょうごしょうかいしたきじわ、エージェントスキルズについて。\nマイクロソフトの、あたらしいエーアイのしくみについて。\nそして、ビッグクエリをつかった、ふかいちょうさエーアイに、の3つでしたわ。",
+        "slidenum": 23,
+        "start_ms": 353580,
+        "end_ms": 371686
+    },
+    {
+        "type": "content",
+        "title": "また来年お会いしましょう",
+        "subhead": "2025年最後の放送を終えて",
+        "points": [
+            "今年の放送はこれにて終了",
+            "[[1月5日]]より放送再開",
+            "皆様からの感想をお待ちしています"
+        ],
+        "notes": "ことしのほうそうわ、きょうでさいごとなりますの。\nみなさま、どうぞ、よいおとしをおむかえくださいませ。\nしんねんわ、1がつ5かにおあいしましょう。\nばんぐみのかんそうも、ぜひきかせてくださいね。\nわたくし、たのしみにおまちしておりますわ。",
+        "slidenum": 24,
+        "start_ms": 371686,
+        "end_ms": 393830
+    },
+    {
+        "type": "closing",
+        "notes": "それではみなさま、ごきげんよう。\nまたらいしゅう！",
+        "slidenum": 25,
+        "start_ms": 393830,
+        "end_ms": 398583
+    }
+]
