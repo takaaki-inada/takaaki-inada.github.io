@@ -1,0 +1,463 @@
+[
+    {
+        "type": "agenda",
+        "title": "株式会社ずんだもん技術室エーアイ放送局",
+        "date": "2026.01.06",
+        "items": [
+            "2025 JavaScript Rising Stars",
+            "ハイブリッド構成のFalcon-H1-Arabic",
+            "強化学習のみのArrowIdeative-13b"
+        ],
+        "notes": "やっほー。\nぼくわ、ずんだもんなのだ。\n今日わ、2026年1月6日の火曜日なのだ。\n「株式会社ずんだもん技術室エーアイ放送局」へようこそなのだ。\nこの番組でわ、エンジニアのぼくが、イマワダイの技術ニュースやトレンドを気さくに紹介していくのだ。\n今日もわくわくするような記事を3本持ってきたから、楽しみにしててほしいのだ。",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 31833
+    },
+    {
+        "type": "content",
+        "title": "本日のトピックス",
+        "subhead": "紹介する最新技術ニュースのラインナップ",
+        "points": [
+            "JSエコシステムの2025年振り返り",
+            "Mamba融合のアラビア語特化LLM",
+            "SFTなし強化学習のみの国産モデル"
+        ],
+        "notes": "紹介する記事の本数わ、全部で3本なのだ。",
+        "slidenum": 2,
+        "start_ms": 31833,
+        "end_ms": 36353
+    },
+    {
+        "type": "section",
+        "title": "2025 JavaScript Rising Stars",
+        "url": "https://risingstars.js.org/2025/en",
+        "sectionNo": 1,
+        "notes": "さっそく、1つ目の記事からいくのだ。\nタイトルわ、「2025 ジャバスクリプトライジングスターズ」なのだ。",
+        "slidenum": 3,
+        "start_ms": 36353,
+        "end_ms": 46088
+    },
+    {
+        "type": "content",
+        "title": "GitHubスター数で見るトレンド",
+        "subhead": "JSエコシステムの「今」を映し出すランキング",
+        "points": [
+            "JavaScript Rising Stars 第10回記念版",
+            "GitHubスター獲得数に基づくランキング",
+            "フロントエンドとバックエンドの潮流を把握"
+        ],
+        "images": [
+            {
+                "url": "https://risingstars.js.org/2025/en",
+                "caption": "A futuristic digital galaxy representing JavaScript libraries as glowing stars in a night sky, data visualization style."
+            }
+        ],
+        "notes": "2025年のジャバスクリプトの世界を振り返る、毎年こうれいのランキングが公開されたのだ。\nギットハブでどれだけスターをかくとくしたかで、今勢いのあるプロジェクトが丸わかりなのだ。",
+        "slidenum": 4,
+        "start_ms": 46088,
+        "end_ms": 61070
+    },
+    {
+        "type": "kpi",
+        "title": "2025年 総合第1位",
+        "subhead": "ワークフロー自動化の爆発的人気",
+        "items": [
+            {
+                "label": "獲得スター数",
+                "value": "11万+",
+                "change": "異例の記録",
+                "status": "good"
+            },
+            {
+                "label": "プロジェクト名",
+                "value": "[[n8n]]",
+                "change": "1位獲得",
+                "status": "neutral"
+            }
+        ],
+        "notes": "今年のそうごう1位わ、ワークフローじどうかプラットフォームの「エヌエイトエヌ」だったのだ。\n1年間で11まん以上のスターをかくとくしたっていうから、とんでもない人気なのだ。",
+        "slidenum": 5,
+        "start_ms": 61070,
+        "end_ms": 75754
+    },
+    {
+        "type": "bulletCards",
+        "title": "AIエージェントの時代へ",
+        "subhead": "単なるチャットボットからの進化",
+        "items": [
+            {
+                "title": "自律的な遂行",
+                "desc": "AIが自ら考えタスクを完了する[[AIエージェント]]が注目"
+            },
+            {
+                "title": "制御の要",
+                "desc": "それらを制御するワークフローエンジンへの関心増大"
+            }
+        ],
+        "notes": "今わ単なるチャットボットの時代が終わって、エーアイが自分で考えてタスクをこなす「エーアイエージェント」にかんしんが移っているのがよくわかるのだ。",
+        "slidenum": 6,
+        "start_ms": 75754,
+        "end_ms": 87741
+    },
+    {
+        "type": "compare",
+        "title": "フレームワークとツールの動向",
+        "subhead": "Reactの復権と新鋭Bunの台頭",
+        "leftTitle": "Frontend",
+        "rightTitle": "Tooling",
+        "leftItems": [
+            "[[React]]が首位を奪還",
+            "shadcn/uiの不動の人気",
+            "アニメーションのReact Bits"
+        ],
+        "rightItems": [
+            "[[Bun]]が1位を獲得",
+            "高速な実行環境への期待",
+            "開発効率と速度の両立"
+        ],
+        "notes": "フロントエンドでわ「リアクト」がだっかんして、ツール部門でわ「ブン」が1位になったのだ。",
+        "slidenum": 7,
+        "start_ms": 87741,
+        "end_ms": 96272
+    },
+    {
+        "type": "content",
+        "title": "BunがAnthropic傘下へ",
+        "subhead": "AIとJavaScript実行環境の密接な関係",
+        "points": [
+            "Bun開発チームがAnthropicに買収",
+            "AIエージェント実行基盤としての重要性",
+            "エコシステム全体の地殻変動"
+        ],
+        "images": [
+            {
+                "url": "https://bun.sh/logo.png",
+                "caption": "A futuristic lab scene where a Bun character and an Anthropic AI brain are merging, high-tech neon lighting."
+            }
+        ],
+        "notes": "驚きなのが、「ブン」のかいはつチームがエーアイ企業の「アンソロピック」にばいしゅうされたことなのだ。",
+        "slidenum": 8,
+        "start_ms": 96272,
+        "end_ms": 105113
+    },
+    {
+        "type": "process",
+        "title": "TypeScriptの劇的進化",
+        "subhead": "TypeScript 7.0への布石",
+        "steps": [
+            "MicrosoftがGo言語で書き直しに着手",
+            "ビルド速度の劇的な向上を目指す",
+            "エンジニアの生産性を最大化"
+        ],
+        "notes": "他にも、マイクロソフトがタイプスクリプトを「ゴー」言語で書き直しているっていうニュースもあって、ビルドがめちゃくちゃ速くなることがきたいされているのだ。",
+        "slidenum": 9,
+        "start_ms": 105113,
+        "end_ms": 117036
+    },
+    {
+        "type": "content",
+        "title": "セキュリティへの警鐘",
+        "subhead": "利便性の裏に潜む脆弱性",
+        "points": [
+            "[[React2Shell]]の脆弱性が発覚",
+            "npmサプライチェーン攻撃の増加",
+            "依存関係の監査とセキュリティ意識"
+        ],
+        "notes": "ただ、便利になる一方で「リアクトツーシェル」みたいなぜいじゃくせいも見つかっているから、セキュリティのいしきわ忘れないようにしてほしいのだ。",
+        "slidenum": 10,
+        "start_ms": 117036,
+        "end_ms": 128298
+    },
+    {
+        "type": "quote",
+        "title": "ずんだもんの考察（JS）",
+        "subhead": "エンジニアとして押さえるべき点",
+        "text": "AIを動かすための土台として、JSの実行環境がますます大事になってきているのだ。この流れはしっかり押さえたいのだ。",
+        "author": "ずんだもん",
+        "notes": "----この記事を読んで、ぼくわ「ブン」のばいしゅうに一番びっくりしたのだ。\nエーアイを動かすための土台として、ジャバスクリプトの実行環境がますます大事になってきているしょうこなのだ。\nエンジニアとして、この流れわしっかり押さえておきたいところなのだ。",
+        "slidenum": 11,
+        "start_ms": 128298,
+        "end_ms": 148537
+    },
+    {
+        "type": "section",
+        "title": "Falcon-H1-Arabic",
+        "url": "https://huggingface.co/blog/tiiuae/falcon-h1-arabic",
+        "sectionNo": 2,
+        "notes": "次わ、2つ目の記事なのだ。\nタイトルわ、「イントロデューシングファルコンエイチワンアラビック：プッシングザバウンダリーズオブアラビックラングエッジエーアイウィズハイブリッドアーキテクチャ」なのだ。",
+        "slidenum": 12,
+        "start_ms": 148537,
+        "end_ms": 163690
+    },
+    {
+        "type": "content",
+        "title": "アラビア語特化の革新LLM",
+        "subhead": "TIIが発表したFalcon-H1-Arabicシリーズ",
+        "points": [
+            "アラブ首長国連邦（UAE）の研究機関が開発",
+            "アラビア語NLPの新たなスタンダード確立",
+            "最新理論を実用レベルで統合"
+        ],
+        "images": [
+            {
+                "url": "https://huggingface.co/blog/tiiuae/falcon-h1-arabic",
+                "caption": "A majestic golden falcon flying over a futuristic Dubai cityscape, integrated with glowing digital neural networks."
+            }
+        ],
+        "notes": "アラブしゅちょうこくれんぽうのけんきゅうじょが、アラビア語にとっかしたすごいエーアイモデルを発表したのだ。\nこれの何がすごいかっていうと...",
+        "slidenum": 13,
+        "start_ms": 163690,
+        "end_ms": 171197
+    },
+    {
+        "type": "diagram",
+        "title": "革新的なハイブリッド構成",
+        "subhead": "MambaとTransformerの融合",
+        "lanes": [
+            {
+                "title": "[[Mamba (SSM)]]",
+                "items": [
+                    "長いシーケンスの効率的処理",
+                    "高速なスケーラビリティ"
+                ]
+            },
+            {
+                "title": "[[Transformer]]",
+                "items": [
+                    "精密な推論能力",
+                    "高度なコンテキスト理解"
+                ]
+            }
+        ],
+        "notes": "これまでのしゅりゅうだった「トランスフォーマー」っていう仕組みと、最新の「マンバ」っていう仕組みを合体させた「ハイブリッドこうせい」をさいようしていることなのだ。",
+        "slidenum": 14,
+        "start_ms": 171197,
+        "end_ms": 187088
+    },
+    {
+        "type": "content",
+        "title": "長文処理と推論の両立",
+        "subhead": "複雑なアラビア語に対応する高い精度",
+        "points": [
+            "アテンション機構とSSMを並列実行",
+            "出力を融合させる最新アーキテクチャ",
+            "長文の一貫性を大幅に向上"
+        ],
+        "notes": "これによって、長い文章を速く、しかもせいかくに読み取ることができるようになったのだ。",
+        "slidenum": 15,
+        "start_ms": 187088,
+        "end_ms": 194361
+    },
+    {
+        "type": "kpi",
+        "title": "巨大なコンテキストウィンドウ",
+        "subhead": "情報の海を一括処理する能力",
+        "items": [
+            {
+                "label": "最大トークン数",
+                "value": "[[256K]]",
+                "change": "前作の8倍",
+                "status": "good"
+            },
+            {
+                "label": "処理可能量",
+                "value": "約20万語",
+                "change": "小説数冊分",
+                "status": "good"
+            }
+        ],
+        "notes": "なんと、一度に小説すうさつぶん、約20まんごもの情報をしょりできるのだ。",
+        "slidenum": 16,
+        "start_ms": 194361,
+        "end_ms": 201495
+    },
+    {
+        "type": "cards",
+        "title": "方言とデータ品質へのこだわり",
+        "subhead": "3000億トークンの学習データ",
+        "columns": 3,
+        "items": [
+            {
+                "title": "標準アラビア語",
+                "desc": "基礎となるMSAの学習"
+            },
+            {
+                "title": "主要な方言",
+                "desc": "エジプト・レバント・湾岸"
+            },
+            {
+                "title": "多言語データ",
+                "desc": "コードやSTEM領域の維持"
+            }
+        ],
+        "notes": "さらに、標準的なアラビア語だけじゃなくて、エジプトやわんがんしょこくのほうげんもしっかりカバーしているのが特徴なのだ。",
+        "slidenum": 17,
+        "start_ms": 201495,
+        "end_ms": 211007
+    },
+    {
+        "type": "statsCompare",
+        "title": "ベンチマークの実力",
+        "subhead": "特化モデルが汎用巨大モデルを凌駕",
+        "leftTitle": "Falcon-H1-Arabic 34B",
+        "rightTitle": "Llama-3.3 70B",
+        "stats": [
+            {
+                "label": "推論精度",
+                "leftValue": "Superior",
+                "rightValue": "Base",
+                "trend": "up"
+            },
+            {
+                "label": "処理効率",
+                "leftValue": "High",
+                "rightValue": "Standard",
+                "trend": "up"
+            }
+        ],
+        "notes": "ベンチマークの結果でわ、もっと巨大な「ラマ3.3 70ビー」っていうモデルを超えるせいのうを出しているっていうから、特定の言語にとっかしたモデルのパワーを感じるのだ。",
+        "slidenum": 18,
+        "start_ms": 211007,
+        "end_ms": 225682
+    },
+    {
+        "type": "quote",
+        "title": "ずんだもんの考察（Falcon）",
+        "subhead": "最新理論の実用化に驚愕",
+        "text": "Mambaという最新理論をこれほどの大規模で実用化するなんて、技術の進歩は速すぎるのだ。常に鋭くキャッチアップしたいのだ。",
+        "author": "ずんだもん",
+        "notes": "----「マンバ」っていう最新の理論を、こんなに大きなきぼでじつようかしちゃうなんて、技術のしんぽわ本当に早すぎるのだ。\nぼくも「ずんだアロー」みたいに、常に鋭く最新技術をキャッチアップしていきたいのだ。",
+        "slidenum": 19,
+        "start_ms": 225682,
+        "end_ms": 243225
+    },
+    {
+        "type": "section",
+        "title": "ArrowIdeative-13b-instruct-ZERO",
+        "url": "https://note.com/holy_fox/n/n976faac80012",
+        "sectionNo": 3,
+        "notes": "最後、3つ目の記事なのだ。\nタイトルわ、「アローアイデティブ13ビーインストラクトゼロエルエルエムジェーピーについて」なのだ。",
+        "slidenum": 20,
+        "start_ms": 243225,
+        "end_ms": 253770
+    },
+    {
+        "type": "compare",
+        "title": "SFTの「均質化」への挑戦",
+        "subhead": "AIの個性を守るための選択",
+        "leftTitle": "従来の学習 (SFT)",
+        "rightTitle": "新手法 (GRPO単独)",
+        "leftItems": [
+            "回答がテンプレート化",
+            "多様性や個性が失われる",
+            "均質化された出力"
+        ],
+        "rightItems": [
+            "ベースモデルの[[直感]]を保持",
+            "個性的で多様な回答",
+            "強化学習のみで指示追従"
+        ],
+        "notes": "これわ、日本で作られた最新のエーアイモデルのかいはつレポートなのだ。\n普通、エーアイを賢くするためにわ、人間が教える「エスエフティー」っていう学習をさせるんだけど、それだと回答が似たり寄ったりになって、個性がなくなっちゃうという悩みがあったのだ。",
+        "slidenum": 21,
+        "start_ms": 253770,
+        "end_ms": 275472
+    },
+    {
+        "type": "content",
+        "title": "世界初の意欲的な試み",
+        "subhead": "GRPO単独による日本語モデル",
+        "points": [
+            "SFTを一切行わない事後学習",
+            "DeepSeek-R1-Zeroの手法を参考",
+            "日本語ベースモデルのポテンシャルを解放"
+        ],
+        "images": [
+            {
+                "url": "https://note.com/holy_fox/n/n976faac80012",
+                "caption": "A lone digital arrow cutting through uniform gray waves, representing a unique AI model breaking through homogenization."
+            }
+        ],
+        "notes": "そこでこのモデルわ、あえて「エスエフティー」を使わずに、「ジーアールピーオー」っていうきょうかがくしゅうだけでしじを聞けるようにしたのだ。",
+        "slidenum": 22,
+        "start_ms": 275472,
+        "end_ms": 286724
+    },
+    {
+        "type": "bulletCards",
+        "title": "学習の仕組みと成果",
+        "subhead": "シンプルな報酬系が生む高品質な対話",
+        "items": [
+            {
+                "title": "報酬設計",
+                "desc": "チャットテンプレート遵守と回答品質のみで構築"
+            },
+            {
+                "title": "高品質データ",
+                "desc": "多様性フィルタリングを用いた合成データを活用"
+            },
+            {
+                "title": "完成度",
+                "desc": "RLHFに近い高い指示追従能力を実現"
+            }
+        ],
+        "notes": "これわ世界でも珍しい、めちゃくちゃ攻めたこころみなのだ。おかげで、ベースモデルが持っている「ちょっかん」や「たようせい」を残したまま、ちゃんとお話しできるモデルになったのだ。",
+        "slidenum": 23,
+        "start_ms": 286724,
+        "end_ms": 302293
+    },
+    {
+        "type": "content",
+        "title": "個人開発でのスケーラビリティ",
+        "subhead": "RTX 5090等を用いた学習の民主化",
+        "points": [
+            "NVIDIA RTX 5090 / 4060tiの構成",
+            "個人や小規模チームでも最新手法を実践可能",
+            "工夫次第で独自のモデル構築が可能"
+        ],
+        "notes": "しかも、個人で買えるようなグラフィックボードを使って学習させたっていうから、勇気をもらえる話なのだ。",
+        "slidenum": 24,
+        "start_ms": 302293,
+        "end_ms": 310760
+    },
+    {
+        "type": "quote",
+        "title": "ずんだもんの考察（Arrow）",
+        "subhead": "AIの「つまらなさ」への回答",
+        "text": "どこかで見たような回答に飽きている人には最高。個人レベルでも最新アルゴリズムを使いこなせるのは、エンジニアにとって最高の刺激なのだ。",
+        "author": "ずんだもん",
+        "notes": "----「どこかで見たような回答」ばかりのエーアイに飽きている人にとって、わくわくするニュースなのだ。\nくふうしだいで、個人レベルでも最新のアルゴリズムを使いこなせるっていうのわ、ぼくたちエンジニアにとって最高のしげきになるのだ。",
+        "slidenum": 25,
+        "start_ms": 310760,
+        "end_ms": 328590
+    },
+    {
+        "type": "cards",
+        "title": "本日のまとめ",
+        "subhead": "紹介した3つのトピックス",
+        "items": [
+            {
+                "title": "JS Rising Stars",
+                "desc": "2025年のトレンドとAIエージェントへのシフト"
+            },
+            {
+                "title": "Falcon-H1-Arabic",
+                "desc": "Mamba×Transformerのハイブリッド革新"
+            },
+            {
+                "title": "ArrowIdeative",
+                "desc": "SFTなし強化学習による多様な日本語モデル"
+            }
+        ],
+        "notes": "今日わ、2025年のジャバスクリプトのトレンド、アラビア語の最新ハイブリッドモデル、そして日本発のユニークなきょうかがくしゅうモデルの3つを紹介したのだ。\n駆け足だったけど、気になるニュースわあったかな。",
+        "slidenum": 26,
+        "start_ms": 328590,
+        "end_ms": 345557
+    },
+    {
+        "type": "closing",
+        "notes": "エーアイの世界わ毎日新しいことが起きていて、本当に飽きないのだ。\n番組の感想も募集しているから、気軽に送ってほしいのだ。\n次回の放送も楽しみにしててほしいのだ。\nそれじゃあ、今日わこのへんで。\nまた明日、会おうなのだ。",
+        "slidenum": 27,
+        "start_ms": 345557,
+        "end_ms": 365898
+    }
+]
