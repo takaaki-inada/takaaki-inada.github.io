@@ -1,0 +1,401 @@
+[
+    {
+        "type": "agenda",
+        "title": "しりつずんだもんじょがくえん ほうそうぶ",
+        "date": "2026.01.16",
+        "items": [
+            "🌸 ごあいさつとおしらせ",
+            "🤖 Google Antigravity「Skills」",
+            "⚛️ Vercel React Best Practices",
+            "⚙️ Cursor AIエージェントの並列運用",
+            "☕ おわりのごあいさつ"
+        ],
+        "notes": "マリアさまのおにわにつどうおとめたちが、きょうもてんしのようなむくなえがおで、せたかいもんをくぐりぬけていく。よごれをしらないしんしんをつつむのわ、ふかいいろのせいふく。すかーとのぷりーつわみださないように、せーらーからーとえだまめわひるがえさないように、ゆっくりとあるくのがここでのたしなみ。しりつずんだもんじょがくえん。",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 30205
+    },
+    {
+        "type": "content",
+        "title": "ここわおとめのその",
+        "subhead": "2026年1月16日 金曜日のテクノロジーニュース",
+        "points": [
+            "[[おじょうさまずんだもん]]が贈る最新技術情報",
+            "今週も最後におしとやかなニュースをお届け",
+            "厳選した3つの注目記事を徹底解説"
+        ],
+        "images": [
+            {
+                "url": "https://dummy.url/intro.png",
+                "caption": "Elegant anime-style girl with green hair and soybean pods hair accessories, wearing a high-class school uniform, sitting in a lush rose garden drinking tea with a tablet computer, soft lighting, 16:9 ratio."
+            }
+        ],
+        "notes": "『ここわおとめのその』ごきげんよう！みなさま。しりつずんだもんじょがくえんほうそうぶ、おじょうさまずんだもんですわ。きょうわ2026ねん1がつ16にち、きんようびですのよ。こんしゅうもさいごまでおしとやかに、いまわだいのテクノロジーニュースをおとどけいたしますわね。",
+        "slidenum": 2,
+        "start_ms": 30205,
+        "end_ms": 58011
+    },
+    {
+        "type": "section",
+        "title": "Google Antigravity、エージェント拡張機能「Skills」の搭載を発表",
+        "url": "https://codezine.jp/news/detail/22977",
+        "sectionNo": 1,
+        "notes": "きょうわ3つのきじをしょうかいいたしますわ。それでは、ひとつめのきじをごらんくださいまし。たいとるわ「グーグルアンチグラビティ、エージェントかくちょうきのうスキルズのとうさいをはっぴょう」ですわ。",
+        "slidenum": 3,
+        "start_ms": 58011,
+        "end_ms": 71446
+    },
+    {
+        "type": "content",
+        "title": "AIエージェントの「おしごとのはんどぶっく」",
+        "subhead": "新オープン標準パッケージ「Skills」の登場",
+        "points": [
+            "AIエージェントの能力を拡張・定義する新規格",
+            "エージェントの[[知識の共通化]]という課題を解決",
+            "特定のタスク手順、ベストプラクティスをパッケージ化"
+        ],
+        "images": [
+            {
+                "url": "https://dummy.url/skills_overview.png",
+                "caption": "A glowing digital toolbox containing scrolls of ancient wisdom and futuristic microchips, floating in a clean white laboratory space, cinematic lighting, 16:9 ratio."
+            }
+        ],
+        "notes": "グーグルさまわ、エーアイエージェントののうりょくをひろげるための、あたらしいきかく「スキルズ」をはっぴょうなさいましたの。いま、せかいじゅうで、じぶんでかんがえてうごくプログラム「エージェント」のかいたくがすすんでいますけれど、ふくざつなことをおねがいすると、ときどきまよってしまうことがありましたの。",
+        "slidenum": 4,
+        "start_ms": 71446,
+        "end_ms": 107579
+    },
+    {
+        "type": "bulletCards",
+        "title": "「Skills」がもたらす革新",
+        "subhead": "AI専用の業務マニュアル兼道具箱",
+        "items": [
+            {
+                "title": "動的な知識参照",
+                "desc": "指示を[[動的に参照]]することで、プロンプトへの依存度を低減"
+            },
+            {
+                "title": "高度なタスク遂行",
+                "desc": "構造化された知識を基に、より確実で複雑な作業を可能に"
+            },
+            {
+                "title": "再利用性",
+                "desc": "一度定義したスキルを他のエージェントでも[[簡単に再利用]]可能"
+            }
+        ],
+        "notes": "この「スキルズ」わ、エーアイに「おしごとのはんどぶっく」をもたせるようなものですわ。まるで、しんじんのえんじにあのさまに、せんぱいのちえがつまった「マニュアル」をわたすようなものですわね。",
+        "slidenum": 5,
+        "start_ms": 107579,
+        "end_ms": 131713
+    },
+    {
+        "type": "headerCards",
+        "title": "技術的な構成と宣言的管理",
+        "subhead": "エンジニアに優しいMarkdown形式での定義",
+        "items": [
+            {
+                "title": "SKILL.md",
+                "desc": "Markdownファイルでスキルを定義。YAMLフロントマターを活用"
+            },
+            {
+                "title": "リソース同梱",
+                "desc": "実行用スクリプトや実装例、出力テンプレートを一つに集約"
+            },
+            {
+                "title": "柔軟な運用",
+                "desc": "指定フォルダへの配置のみで作成。複雑な意思決定も記述可能"
+            }
+        ],
+        "notes": "「スクールドットエムディー」というふぁいるに、おしごとのてじゅんや、ひつようなどうぐをまとめておくだけで、エーアイわよりかしこく、せいかくにうごけるようになりますのよ。",
+        "slidenum": 6,
+        "start_ms": 131713,
+        "end_ms": 143713
+    },
+    {
+        "type": "content",
+        "title": "質の高い「Skill」作成の指針",
+        "subhead": "Googleが推奨する設計ポイント",
+        "points": [
+            "[[焦点の明確化]]: 一つのSkillに役割を持たせすぎない",
+            "[[具体的な記述]]: エージェントが迷わない極めて具体的な指示",
+            "ロジックをコードから切り離し「知識資産」として管理"
+        ],
+        "images": [
+            {
+                "url": "https://dummy.url/zundamon_agent.png",
+                "caption": "A cute green character teaching a small flying robot how to make traditional Japanese sweets, tea room background, detailed wood textures, 16:9 ratio."
+            }
+        ],
+        "notes": "わたくしも、ずんだもちをたべるためだけに、ずんだをすりつぶすエージェントを、この「スキルズ」でそだててみたいですわ。おいしいおちゃをいれるためのてじゅんも、しっかりとおしえこまなくてわ。それがわたくしの、しごくなのだ……あっ、なのだですわ！",
+        "slidenum": 7,
+        "start_ms": 143713,
+        "end_ms": 155046
+    },
+    {
+        "type": "quote",
+        "title": "エンジニアにとっての意義",
+        "subhead": "AIエージェント時代の新しい標準技術",
+        "text": "優れた手順をエージェントに読み込ませるだけで、高度な開発支援を受けられる。開発体験を劇的に向上させる可能性を秘めている。",
+        "author": "Google Antigravityチーム",
+        "notes": "おほほ、ついこころがはずんでしまいましたわ。エーアイのせかいにも「おしほう」がひつようなじだいになりましたのね。",
+        "slidenum": 8,
+        "start_ms": 155046,
+        "end_ms": 165260
+    },
+    {
+        "type": "section",
+        "title": "Introducing: React Best Practices - Vercel",
+        "url": "https://vercel.com/blog/introducing-react-best-practices",
+        "sectionNo": 2,
+        "notes": "----ふたつめのきじわ、こちらですわ。たいとるわ「イントロデューシング：リアクトベストプラクティス－ヴァーセル」ですのよ。",
+        "slidenum": 9,
+        "start_ms": 165260,
+        "end_ms": 176722
+    },
+    {
+        "type": "content",
+        "title": "Vercelが贈るフロントエンドの聖典",
+        "subhead": "10年間の最適化ノウハウを凝縮したリポジトリ",
+        "points": [
+            "人間だけでなく[[AIエージェントにも最適化]]された設計",
+            "「後追い」になりがちなパフォーマンス改善を根本から解決",
+            "現場ですぐに活用できる40以上の具体的なルール"
+        ],
+        "images": [
+            {
+                "url": "https://dummy.url/vercel_sacred.png",
+                "caption": "A glowing holographic book displaying React code, floating above a sleek black desk with a futuristic laptop, corporate high-tech atmosphere, 16:9 ratio."
+            }
+        ],
+        "notes": "ヴァーセルさまが、リアクトとネクストジェーエスの、じゅうねんぶんのノウハウをぎゅっとまとめた「リアクトベストプラクティス」をこうかいされましたわ。これわ、にんげんだけでなく、エーアイもよみやすいようにくふうされているのがとくちょうですの。",
+        "slidenum": 10,
+        "start_ms": 176722,
+        "end_ms": 196718
+    },
+    {
+        "type": "process",
+        "title": "パフォーマンス改善の黄金順序",
+        "subhead": "影響の大きいボトルネックから解消する",
+        "steps": [
+            "[[ウォーターフォールの排除]]: ネットワーク待ち時間を最小化",
+            "[[バンドルサイズの削減]]: JSダウンロード量を徹底削減",
+            "サーバー性能・データフェッチ・再レンダリングの最適化"
+        ],
+        "notes": "とくに「ウォーターフォール」という、むだなまちじかんをなくすことや、ふぁいるのサイズをちいさくすることを、なによりもさきにやりなさい、とおしえてくださっていますわ。",
+        "slidenum": 11,
+        "start_ms": 196718,
+        "end_ms": 211361
+    },
+    {
+        "type": "cards",
+        "title": "8カテゴリに分類された40のルール",
+        "columns": 2,
+        "items": [
+            {
+                "title": "非同期処理",
+                "desc": "データの取得効率を最大化"
+            },
+            {
+                "title": "JS実行性能",
+                "desc": "ブラウザ負荷を極限まで抑制"
+            },
+            {
+                "title": "レンダリング",
+                "desc": "不要な再描画を完全に排除"
+            },
+            {
+                "title": "サーバーサイド",
+                "desc": "サーバー側での処理効率向上"
+            }
+        ],
+        "notes": "「アジェンツドットエムディー」というふぁいるを、エーアイにみせるだけで、ヴァーセルさまのきじゅんで、コードをきれいにしあげてくれるようになりますの。",
+        "slidenum": 12,
+        "start_ms": 211361,
+        "end_ms": 223572
+    },
+    {
+        "type": "bulletCards",
+        "title": "AIエージェントとの完璧な連携",
+        "subhead": "「AGENTS.md」が実現するAIコードレビュー",
+        "items": [
+            {
+                "title": "ルールの単一化",
+                "desc": "CursorやClaude Codeが即座に読解可能な形式"
+            },
+            {
+                "title": "的確な指摘",
+                "desc": "Vercel基準に基づいた[[リファクタリング案]]の提示"
+            },
+            {
+                "title": "ベストな教材",
+                "desc": "正しい例と誤った例の比較で新人の学びを加速"
+            }
+        ],
+        "notes": "ぼく……あっ、ちがう、わたくし。わたくしも、おじょうさまとしてのベストプラクティスを、まいにちまもっておりますわよ。コードをきれいにたもつのわ、おへやをそうじするのとおなじくらい、だいじなことですわね。しんじんのえんじにあのさまわ、まずこの「ただしいかきかた」をまなんで、おしとやかなコードをかけるようになってくださいまし。",
+        "slidenum": 13,
+        "start_ms": 223572,
+        "end_ms": 253868
+    },
+    {
+        "type": "section",
+        "title": "Scaling long-running autonomous coding",
+        "url": "https://cursor.com/blog/scaling-agents",
+        "sectionNo": 3,
+        "notes": "----さいごのきじわ、こちらですわ。たいとるわ「スケーリングロングランニングオートノマスコーディング」ですわね。",
+        "slidenum": 14,
+        "start_ms": 253868,
+        "end_ms": 263816
+    },
+    {
+        "type": "content",
+        "title": "数週間にわたる「自律稼働」の挑戦",
+        "subhead": "Cursor開発チームによる大規模プロジェクト完遂の知見",
+        "points": [
+            "単一エージェントの限界を超えた並列運用",
+            "本来数ヶ月かかる開発を、AIの力で数週間に短縮",
+            "[[個から組織へ]]：エージェントの役割分担が鍵"
+        ],
+        "images": [
+            {
+                "url": "https://dummy.url/cursor_scaling.png",
+                "caption": "A vast network of glowing blue nodes and connections representing hundreds of AI agents working together on a single massive project, hyper-detailed, tech blue aesthetics, 16:9 ratio."
+            }
+        ],
+        "notes": "カーソルのわかいかたが、エーアイにすうしゅうかん, ひとりでにおしごとをさせて、ひゃくまんぎょうものコードをかかせることにせいこうした、というとてつもないおはなしですの。",
+        "slidenum": 15,
+        "start_ms": 263816,
+        "end_ms": 277542
+    },
+    {
+        "type": "compare",
+        "title": "単一エージェント vs 組織的エージェント",
+        "subhead": "並列運用で発生する課題と解決策",
+        "leftTitle": "単一・非階層の限界",
+        "rightTitle": "階層構造による解決",
+        "leftItems": [
+            "作業のロック待ちが発生",
+            "責任の所在が曖昧になる",
+            "困難なタスクを回避する傾向"
+        ],
+        "rightItems": [
+            "役割を明確に分けるパイプライン",
+            "計画と実行の完全な分離",
+            "[[並列化による高速化]]の実現"
+        ],
+        "notes": "いままでは、ひとつのエーアイにすべてをまかせていましたけれど、それだとげんかいがあったのですわ。",
+        "slidenum": 16,
+        "start_ms": 277542,
+        "end_ms": 285700
+    },
+    {
+        "type": "diagram",
+        "title": "「Planner」と「Worker」の階層構造",
+        "subhead": "AIエージェントの組織設計",
+        "lanes": [
+            {
+                "title": "Planner (計画)",
+                "items": [
+                    "コードベースの探索",
+                    "タスクの生成・分割",
+                    "サブプランナーの生成"
+                ]
+            },
+            {
+                "title": "Worker (実行)",
+                "items": [
+                    "特定タスクの完遂に集中",
+                    "他ワーカーとの調整を排除",
+                    "100万行以上のコード生成"
+                ]
+            }
+        ],
+        "notes": "そこで「プランナー」というけいかくをたてるやくと、「ワーカー」というじっさいにおしごとをするやくに、おしごとをわけたのですわ。これで、たくさんのエーアイたちが、ひとつのチームのようにきょうりょくして、とてもおおきなプログラムを、あっというまにつくれるようになったそうですのよ。",
+        "slidenum": 17,
+        "start_ms": 285700,
+        "end_ms": 310015
+    },
+    {
+        "type": "statsCompare",
+        "title": "驚異的な開発実績",
+        "subhead": "AIエージェント組織が成し遂げた野心的な成果",
+        "leftTitle": "従来手法 (想定期間)",
+        "rightTitle": "新手法 (実績期間)",
+        "stats": [
+            {
+                "label": "ブラウザのスクラッチ開発",
+                "leftValue": "数ヶ月",
+                "rightValue": "1週間 (100万行)",
+                "trend": "up"
+            },
+            {
+                "label": "SolidからReactへの移行",
+                "leftValue": "数ヶ月",
+                "rightValue": "3週間 (26万行)",
+                "trend": "up"
+            },
+            {
+                "label": "Rust動画レンダリング高速化",
+                "leftValue": "数ヶ月",
+                "rightValue": "25倍速向上",
+                "trend": "up"
+            }
+        ],
+        "notes": "エーアイも、ひとりでがんばるのではなく、チームワークがだいじなのですわね。",
+        "slidenum": 18,
+        "start_ms": 310015,
+        "end_ms": 316701
+    },
+    {
+        "type": "bulletCards",
+        "title": "エンジニアが知っておくべき教訓",
+        "subhead": "エージェント組織設計の重要性",
+        "items": [
+            {
+                "title": "モデルの適材適所",
+                "desc": "計画か実行か、役割に応じて[[最適なLLM]]を使い分ける"
+            },
+            {
+                "title": "シンプルさの維持",
+                "desc": "制約を取り除き、ワーカーに競合解決を任せる合理性"
+            },
+            {
+                "title": "プロンプトの力",
+                "desc": "長期的な集中力と異常検知は[[プロンプト設計]]に依存"
+            }
+        ],
+        "notes": "わたくしも、ずんだもちをまるめるかかりと、えだまめをむくかかりで、メイドたちとれんけいしておりますの。エーアイたちが「そしき」としてうごくみらいわ、もうすぐそこまできているのですわね。",
+        "slidenum": 19,
+        "start_ms": 316701,
+        "end_ms": 333454
+    },
+    {
+        "type": "progress",
+        "title": "本日のおさらいとおまとめ",
+        "subhead": "紹介した3つのトピックス",
+        "items": [
+            {
+                "label": "Google「Skills」：AIの道具箱",
+                "percent": 100
+            },
+            {
+                "label": "Vercel「React BP」：最高水準の規約",
+                "percent": 100
+            },
+            {
+                "label": "Cursor「Scaling」：AIのチームワーク",
+                "percent": 100
+            }
+        ],
+        "notes": "おそれいりますが、わたくしも、そのようなかしこいエーアイに、おへやのどくしょのおてつだいを、たのみたいとおもっておりますのよ。そろそろおわかれのおじかんですわね。きょうわ、エーアイの「おどうぐばこ」となる「スキルズ」、ヴァーセルさまの「リアクト」のせいかい、そしてエーアイの「チームワーク」についておはなしいたしましたわ。",
+        "slidenum": 20,
+        "start_ms": 333454,
+        "end_ms": 364093
+    },
+    {
+        "type": "closing",
+        "notes": "きんようびのよるわ、ゆっくりとおちゃをのみながら、これからのテクノロジーのしんぽに、おもいをはせてみてわ、いかがかしら？ばんぐみの、かんそうも、いつでもおまちしておりますのよ。それでは、またらいしゅう、このおにわでおあいいたしましょう。ごきげんよう！",
+        "slidenum": 21,
+        "start_ms": 364093,
+        "end_ms": 387020
+    }
+]
