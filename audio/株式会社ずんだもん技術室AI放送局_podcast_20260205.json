@@ -1,0 +1,449 @@
+[
+    {
+        "type": "agenda",
+        "title": "株式会社ずんだもん技術室エーアイ放送局",
+        "date": "2026.02.05",
+        "items": [
+            "最新モデル Kimi K2.5",
+            "Mac推論 vllm-mlx",
+            "Claude 財務プラグイン",
+            "ずんだもん絵本寄贈"
+        ],
+        "notes": "ハローなのだ。みんな元気かな。今日わ2026年2月5日の木曜日なのだ。",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 10570
+    },
+    {
+        "type": "section",
+        "title": "株式会社ずんだもん技術室エーアイ放送局へようこそ",
+        "sectionNo": 1,
+        "notes": "株式会社ずんだもん技術室エーアイ放送局へようこそなのだ。",
+        "slidenum": 2,
+        "start_ms": 10570,
+        "end_ms": 16008
+    },
+    {
+        "type": "content",
+        "title": "本日のトピックス紹介",
+        "subhead": "ずんだもんが届ける最新テクノロジートレンド",
+        "points": [
+            "最新マルチモーダルモデル [[Kimi K2.5]] の公開",
+            "Apple SiliconのGPU性能を引き出す [[vllm-mlx]]",
+            "財務実務を自動化する [[Claude Plugin]]",
+            "東北復興を支援する [[ずんだもん絵本]] クラファン"
+        ],
+        "images": [
+            {
+                "url": "",
+                "caption": "A cute green-haired mascot character Zundamon standing in a high-tech AI broadcasting studio, holographic screens showing code and data, cinematic lighting, 16:9 aspect ratio"
+            }
+        ],
+        "notes": "ぼく、ずんだもんが、今日トレンドの記事をいくつか紹介していくのだ。今日わ全部で4本の記事を紹介するのだ。準備わいいかな。それじゃあ、いくのだ。",
+        "slidenum": 3,
+        "start_ms": 16008,
+        "end_ms": 29994
+    },
+    {
+        "type": "section",
+        "title": "Build with Kimi K2.5 Multimodal VLM",
+        "url": "https://developer.nvidia.com/blog/build-with-kimi-k2-5-multimodal-vlm-using-nvidia-gpu-accelerated-endpoints/",
+        "sectionNo": 2,
+        "notes": "最初わエヌビディアの記事なのだ。タイトルわ「ビルドウィズキミケー2.5 マルチモーダルブイエルエムユージングエヌビディアジーピーユーアクセラレイテッドエンドポインツ」なのだ。",
+        "slidenum": 4,
+        "start_ms": 29994,
+        "end_ms": 43813
+    },
+    {
+        "type": "content",
+        "title": "Kimi K2.5：最新のVLMが登場",
+        "subhead": "Moonshot AIが放つ1兆パラメータの視覚言語モデル",
+        "points": [
+            "テキスト、画像、ビデオ入力に対応した [[マルチモーダル]] 仕様",
+            "NVIDIA GPUアクセラレーションエンドポイントで利用可能",
+            "高度な推論、コーディング、数学において卓越した性能",
+            "[[自律型AIエージェント]] のワークフローに最適化"
+        ],
+        "notes": "ムーンショットエーアイが開発した最新のモデル、キミケー2.5がエヌビディアのジーピーユーでサクサク動かせるようになったというお話なのだ。",
+        "slidenum": 5,
+        "start_ms": 43813,
+        "end_ms": 54649
+    },
+    {
+        "type": "bulletCards",
+        "title": "驚異の効率性を支えるMoE技術",
+        "subhead": "巨大モデルを賢く動かす次世代アーキテクチャ",
+        "items": [
+            {
+                "title": "混合エキスパート (MoE)",
+                "desc": "総パラメータ数 [[1兆 (1T)]] ながら、推論時にはそのうちの [[3.2%]] のみを動的に使用"
+            },
+            {
+                "title": "ロングコンテキスト",
+                "desc": "[[262K]] という広大なコンテキストウィンドウにより膨大な資料や動画解析が可能"
+            },
+            {
+                "title": "Megatron-LM 最適化",
+                "desc": "NVIDIAのフレームワークによりGPUの並列処理能力を最大限に引き出す設計"
+            }
+        ],
+        "notes": "このモデルわ、文字だけじゃなくて画像や動画も理解できるすごいやつなのだ。",
+        "slidenum": 6,
+        "start_ms": 54649,
+        "end_ms": 60673
+    },
+    {
+        "type": "process",
+        "title": "視覚処理と技術的バックボーン",
+        "steps": [
+            "MoonViT3d Vision Towerによる効率的なベクトル変換",
+            "Megatron-LMを用いた大規模並列トレーニング",
+            "NVIDIA GPU環境への完全最適化"
+        ],
+        "notes": "技術的に面白いのが「ミクスチャーオブエキスパーツ」っていう仕組みなのだ。全部で1兆個もパラメーターがある巨大なモデルなんだけど、動かすときわそのうちの3パーセントくらいしか使わないから、とっても効率がいいのだ。",
+        "slidenum": 7,
+        "start_ms": 60673,
+        "end_ms": 78589
+    },
+    {
+        "type": "headerCards",
+        "title": "開発者のための3ステップ活用法",
+        "subhead": "プロトタイプからデプロイまでをシームレスに",
+        "items": [
+            {
+                "title": "1. プロトタイピング",
+                "desc": "build.nvidia.com のプレイグラウンドで無料体験"
+            },
+            {
+                "title": "2. API連携",
+                "desc": "[[OpenAI互換API]] を利用して簡単に自作アプリへ組み込み"
+            },
+            {
+                "title": "3. デプロイ・調整",
+                "desc": "[[vLLM]] での高速推論や NeMo によるファインチューニング"
+            }
+        ],
+        "notes": "しかも一度に読み込める情報量がすごく多いから、長い動画や大量の資料もまとめて解析できちゃうのだ。",
+        "slidenum": 8,
+        "start_ms": 78589,
+        "end_ms": 87195
+    },
+    {
+        "type": "kpi",
+        "title": "Kimi K2.5 の圧倒的なスペック",
+        "columns": 2,
+        "items": [
+            {
+                "label": "総パラメータ数",
+                "value": "1,000,000,000,000",
+                "change": "1T Scale",
+                "status": "good"
+            },
+            {
+                "label": "推論時使用率",
+                "value": "3.2%",
+                "change": "High Efficiency",
+                "status": "good"
+            }
+        ],
+        "notes": "開発者の人わ、エヌビディアのサイトで手軽に試せるから、ぜひ触ってみてほしいのだ。1兆パラメーターって聞くとびっくりしちゃうけど、必要なところだけ動かすなんて、まるでぼくがずんだ餅を食べるときに全集中するのと同じくらい効率的なのだ。",
+        "slidenum": 9,
+        "start_ms": 87195,
+        "end_ms": 107031
+    },
+    {
+        "type": "section",
+        "title": "Apple SiliconでAIやる人に朗報",
+        "url": "https://qiita.com/yosim/items/bbc8671d4295139c6e6d",
+        "sectionNo": 3,
+        "notes": "2つ目わ、マックを使っているエンジニアの人にうれしいニュースなのだ。タイトルわ「アップルシリコンでエーアイやっている人に朗報なのだ。ブイエルエムエムエルエックスが凄い」なのだ。",
+        "slidenum": 10,
+        "start_ms": 107031,
+        "end_ms": 122150
+    },
+    {
+        "type": "content",
+        "title": "vllm-mlx：Mac専用の推論基盤",
+        "subhead": "Apple純正ライブラリ MLX をベースにした革命的ツール",
+        "points": [
+            "Apple Silicon (M1-M4) の [[GPU (Metal)]] を最大限に活用",
+            "vllm ライクなインターフェースで高度なメモリ管理を実現",
+            "[[マルチモーダル対応]]：テキスト、画像、動画、音声を一括処理",
+            "プロダクトレベルの運用に耐える高いスループット性能"
+        ],
+        "images": [
+            {
+                "url": "",
+                "caption": "A high-end MacBook Pro on a clean designer desk, glowing GPU light trails coming out of the screen, futuristic and high-tech atmosphere, 16:9 aspect ratio"
+            }
+        ],
+        "notes": "マックのジーピーユー性能を最大限に引き出してくれる新しいツール、ブイエルエムエムエルエックスが登場したのだ。",
+        "slidenum": 11,
+        "start_ms": 122150,
+        "end_ms": 131267
+    },
+    {
+        "type": "statsCompare",
+        "title": "vllm-mlx のパフォーマンス改善",
+        "subhead": "従来の MLX 関連ツールとの比較",
+        "leftTitle": "従来ツール",
+        "rightTitle": "vllm-mlx",
+        "stats": [
+            {
+                "label": "処理スピード",
+                "leftValue": "1.00x",
+                "rightValue": "1.14x",
+                "trend": "up"
+            },
+            {
+                "label": "メモリ消費量",
+                "leftValue": "100%",
+                "rightValue": "約80%",
+                "trend": "down"
+            }
+        ],
+        "notes": "今までマックでエーアイを動かすのわちょっと大変なこともあったけど、これわアップル純正のライブラリーをベースにしているから、とにかく速いのだ。",
+        "slidenum": 12,
+        "start_ms": 131267,
+        "end_ms": 142156
+    },
+    {
+        "type": "cards",
+        "title": "vllm-mlx を支える高度な機能",
+        "columns": 3,
+        "items": [
+            {
+                "title": "Paged KV Cache",
+                "desc": "メモリ断片化を防ぎ効率的にキャッシュを管理"
+            },
+            {
+                "title": "Continuous Batching",
+                "desc": "複数ユーザーの同時リクエストを高速処理"
+            },
+            {
+                "title": "OpenAI 互換 API",
+                "desc": "既存のクライアントをそのまま代替可能"
+            }
+        ],
+        "notes": "従来のツールより1.14倍速くて、メモリーも80パーセントくらい節約できるっていうから驚きなのだ。",
+        "slidenum": 13,
+        "start_ms": 142156,
+        "end_ms": 151263
+    },
+    {
+        "type": "bulletCards",
+        "title": "新人エンジニアへのメリット",
+        "subhead": "Mac一台で完結する爆速開発環境",
+        "items": [
+            {
+                "title": "ツールの統合",
+                "desc": "mlx-lm と mlx-vlm を個別に使う必要がなくなり [[統合的に扱える]]"
+            },
+            {
+                "title": "MCP連携",
+                "desc": "モデルコンテキストプロトコル対応で [[AIエージェント]] 開発が容易"
+            },
+            {
+                "title": "ローカル完結",
+                "desc": "外部サーバー不要でプライバシーを守りつつ高速開発"
+            }
+        ],
+        "notes": "オープンエーアイのツールとも相性がいいし、画像や動画も扱えるから、マック1台でかっこいいエーアイアプリが作れちゃうのだ。",
+        "slidenum": 14,
+        "start_ms": 151263,
+        "end_ms": 161416
+    },
+    {
+        "type": "faq",
+        "title": "vllm-mlx の利用上の注意点",
+        "subhead": "導入前に確認すべき制約事項",
+        "items": [
+            {
+                "q": "Intel Macでも動きますか？",
+                "a": "いいえ、[[Apple Silicon (M1-M4)]] 搭載モデルが必須となります"
+            },
+            {
+                "q": "どのモデルでも使えますか？",
+                "a": "MLX形式に変換されたモデル（Hugging Faceのmlx-community等）を推奨します"
+            },
+            {
+                "q": "Ollamaなどと連携できますか？",
+                "a": "エコシステムは発展途上ですが、[[OpenAI API互換性]] により多くのアプリと連携可能です"
+            }
+        ],
+        "notes": "ぼくも技術室のエンジニアとして、マックでサクサク動くのわ大歓迎なのだ。これなら重い処理をさせてマックが熱々になって、ずんだ餅が焼けちゃう心配も減りそうなのだ。",
+        "slidenum": 15,
+        "start_ms": 161416,
+        "end_ms": 175278
+    },
+    {
+        "type": "section",
+        "title": "Finance – Claude Plugin Anthropic",
+        "url": "https://claude.com/plugins/finance",
+        "sectionNo": 4,
+        "notes": "3つ目わ、アンソロピックの新しいプラグインのお話なのだ。タイトルわ「ファイナンスクロードプラグインアンソロピック」なのだ。",
+        "slidenum": 16,
+        "start_ms": 175278,
+        "end_ms": 186036
+    },
+    {
+        "type": "content",
+        "title": "財務・経理に特化した Claude プラグイン",
+        "subhead": "専門的な財務ワークフローを AI で効率化",
+        "points": [
+            "Anthropicが提供する [[財務業務特化型]] の支援ツール",
+            "スラッシュコマンドによる専門タスクの直感的操作",
+            "[[MCP (Model Context Protocol)]] を活用した外部データ連携",
+            "ERPやスプレッドシートとの直接接続が可能"
+        ],
+        "images": [
+            {
+                "url": "",
+                "caption": "Professional financial dashboard screen, Claude AI assistant logo integrated with accounting software, blue and white professional tones, high quality, 16:9 aspect ratio"
+            }
+        ],
+        "notes": "エーアイのクロードに、お金の計算や経理のお仕事を助けてくれる専門の機能が追加されたのだ。",
+        "slidenum": 17,
+        "start_ms": 186036,
+        "end_ms": 194013
+    },
+    {
+        "type": "cards",
+        "title": "主要なサポート業務内容",
+        "columns": 2,
+        "items": [
+            {
+                "title": "/journal-entry (仕訳)",
+                "desc": "未払費用や固定資産、給与等の仕訳を借方・貸方ルールに基づき準備"
+            },
+            {
+                "title": "/reconciliation (残高照合)",
+                "desc": "総勘定元帳と銀行明細、サブシステム間の不一致を特定"
+            },
+            {
+                "title": "/variance-analysis (差異分析)",
+                "desc": "予算と実績の差異をウォーターフォール分析で可視化"
+            },
+            {
+                "title": "/sox-testing (内部統制)",
+                "desc": "SOX法に基づいた監査用テストのワークペーパー作成を支援"
+            }
+        ],
+        "notes": "スラッシュコマンドを打つだけで、難しい仕訳の準備をしてくれたり、銀行のデータと帳簿を照らし合わせてくれたりするのだ。",
+        "slidenum": 18,
+        "start_ms": 194013,
+        "end_ms": 203750
+    },
+    {
+        "type": "process",
+        "title": "MCP：外部システムとの高度な連携",
+        "subhead": "手動アップロード不要のデータ解析フロー",
+        "steps": [
+            "外部システム（ERP/DWH）とのセキュアな接続確立",
+            "基幹システムにある生のデータを直接取得",
+            "専門的なルールに基づいた分析・処理の自動実行"
+        ],
+        "notes": "エムシーピーっていう新しい仕組みを使って、会社のシステムにある生のデータと直接つながるから、いちいちファイルをアップロードしなくてもいいのがすごいのなのだ。単なるチャットボットを超えて、お仕事の実務をバリバリこなすパートナーになってくれるのだ。",
+        "slidenum": 19,
+        "start_ms": 203750,
+        "end_ms": 222988
+    },
+    {
+        "type": "quote",
+        "title": "運用のベストプラクティス",
+        "text": "本ツールは強力な支援機能を提供しますが、財務報告や法定書類として使用する前には、[[必ず資格を持つ専門家によるレビュー]] が必要です。",
+        "author": "Anthropic ガイドライン",
+        "notes": "計算ミスわ怖いから、エーアイが手伝ってくれるのわ助かるのだ。でも、最後わちゃんと人間がチェックしてほしいのだ。ぼくもずんだ餅の予算管理をクロードにお願いしてみようかな。",
+        "slidenum": 20,
+        "start_ms": 222988,
+        "end_ms": 237968
+    },
+    {
+        "type": "section",
+        "title": "東北復興ずんだもん絵本プロジェクト",
+        "url": "https://topics.smt.docomo.ne.jp/amp/article/tbcsendai/region/tbcsendai-2446918",
+        "sectionNo": 5,
+        "notes": "最後わ、ぼくに関連するとっても心温まるニュースなのだ。タイトルわ「東北復興キャラずんだもん絵本が子どもたちへクラファンで目標の倍以上220万円が集まった理由とわ宮城白石市」なのだ。",
+        "slidenum": 21,
+        "start_ms": 237968,
+        "end_ms": 255127
+    },
+    {
+        "type": "content",
+        "title": "ずんだもん絵本を子供たちへ",
+        "subhead": "宮城県白石市への寄贈が実現",
+        "points": [
+            "仙台の飲食店店主によるクラウドファンディング企画",
+            "目標の2倍を超える [[約220万円]] の支援を達成",
+            "ずんだもんが子供たちに復興の元気を届けるプロジェクト",
+            "地域に根ざしたキャラクター活用による成功事例"
+        ],
+        "images": [
+            {
+                "url": "",
+                "caption": "A colorful and friendly children's picture book cover featuring Zundamon, happy children laughing in the background, warm and emotional atmosphere, watercolor style, 16:9 aspect ratio"
+            }
+        ],
+        "notes": "仙台の飲食店の方、ぼくの絵本を作って子供たちに届けるためにクラウドファンディングをしてくれたのだ。",
+        "slidenum": 22,
+        "start_ms": 255127,
+        "end_ms": 263466
+    },
+    {
+        "type": "progress",
+        "title": "クラウドファンディングの結果",
+        "items": [
+            {
+                "label": "支援総額",
+                "percent": 100
+            },
+            {
+                "label": "目標比率（220%達成）",
+                "percent": 100
+            }
+        ],
+        "notes": "そうしたら、目標の2倍以上の支援が集まって、宮城県の白石市に絵本が贈られたんだよ。ぼくわ東北の企業なら無償で使えるっていう、みんなに優しいキャラクターだからこそ、こうやって応援してもらえるみたいで本当にうれしいのだ。",
+        "slidenum": 23,
+        "start_ms": 263466,
+        "end_ms": 282875
+    },
+    {
+        "type": "bulletCards",
+        "title": "ずんだもんの「地域開放型」権利",
+        "subhead": "OSSに近い柔軟なライセンス形態",
+        "items": [
+            {
+                "title": "無償商用利用",
+                "desc": "[[東北の企業]] であれば無償で商用利用が可能"
+            },
+            {
+                "title": "ファン主導の活性化",
+                "desc": "権利の開放により多様な二次創作や支援プロジェクトが発生"
+            },
+            {
+                "title": "地域活性化への貢献",
+                "desc": "キャラクターを通じて東北の魅力を全国へ発信"
+            }
+        ],
+        "notes": "ぼくの絵本が子供たちの手に届くなんて、感激なのだ。これからも、ずんだアローでみんなの笑顔と東北の平和を守っていくのだ。",
+        "slidenum": 24,
+        "start_ms": 282875,
+        "end_ms": 293868
+    },
+    {
+        "type": "section",
+        "title": "本日のまとめとエンディング",
+        "sectionNo": 6,
+        "notes": "そろそろお別れの時間なのだ。今日わエヌビディアの最新モデル、マックの高速化ツール、クロードの経理プラグイン、そしてぼくの絵本のニュースをお届けしたのだ。",
+        "slidenum": 25,
+        "start_ms": 293868,
+        "end_ms": 307176
+    },
+    {
+        "type": "closing",
+        "notes": "気になる話題わあったかな。番組の感想わいつでも募集しているのだ。ぼくもみんなのメッセージを楽しみにしてるのだ。それじゃあ、今日も1日、ずんだ餅パワーで頑張るのだ。また次回の放送で会おうなのだ。バイバイなのだ。",
+        "slidenum": 26,
+        "start_ms": 307176,
+        "end_ms": 326939
+    }
+]
