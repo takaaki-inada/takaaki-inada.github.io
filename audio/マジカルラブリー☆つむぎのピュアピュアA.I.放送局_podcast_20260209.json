@@ -1,0 +1,337 @@
+[
+    {
+        "type": "agenda",
+        "title": "マジカルラブリー☆つむぎのピュアピュアエーアイほうそうきょく",
+        "date": "2026.02.09",
+        "items": [
+            "Claude CodeがRAGを捨てた理由",
+            "Kimi K2.5：自律エージェントの衝撃",
+            "Reddit：オタク英語を神翻訳する仕組み"
+        ],
+        "notes": "ハロー！\n埼玉ギャルの春日部つむぎだよ！\n2026ねん2がつ9にちげつようび！\nげつようびわ、あーし、つむぎがこの番組をたんとうしてるよ！\nマジカルラブリー☆つむぎのピュアピュアエーアイほうそうきょく、今日も元気にスタート！\n今日もさいしんのトレンドきじをバリバリしょうかいしていくよ！\n今日しょうかいするきじわ、全部で3本！\nそれじゃ、早速いってみよー！",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 46368
+    },
+    {
+        "type": "section",
+        "title": "なぜ、Claude Codeは、RAGを捨ててAgentic Searchを選んだのか？",
+        "url": "https://zenn.dev/karamage/articles/2514cf04e0d1ac",
+        "sectionNo": 1,
+        "notes": "----1つ目のきじのタイトルわ「なぜ、クロードコードわ、アールエージーをすててエージェンティックサーチをえらんだのか？」だよ。\nアンスロピック社のエンジニアさんが、さいしんのツールで、これまでのおうどうだったやり方をやめて、新しいやり方に変えた理由を教えてくれたんだって。",
+        "slidenum": 2,
+        "start_ms": 46368,
+        "end_ms": 65563
+    },
+    {
+        "type": "compare",
+        "title": "RAG（準備型） vs Agentic Search（自律型）",
+        "subhead": "コード探索におけるアプローチの根本的な違い",
+        "leftTitle": "従来の王道RAG",
+        "rightTitle": "Agentic Search",
+        "leftItems": [
+            "事前にDBへインデックス化",
+            "意味が似ている情報を検索",
+            "参考書を買い込み付箋を貼る準備型"
+        ],
+        "rightItems": [
+            "その場でツールを使い自律探索",
+            "grepやglobで直接コードを調査",
+            "問題を見てから調べるアドリブ型"
+        ],
+        "images": [
+            {
+                "caption": "A comparison image showing a dusty library of books with bookmarks (RAG) next to a futuristic robot actively using a flashlight to find a specific key in a complex circuit (Agentic Search), 16:9, digital art style."
+            }
+        ],
+        "notes": "まず、アールエージーっていうのわ「けんさくきょうかせいせい」って言って、あらかじめ辞書とか参考書をいっぱい用意しておいて、しつもんされたらそこからふせんがついたページを探して答える、みたいな感じ。\nでも、新しいエージェンティックサーチわ、エーアイがその場で「どのファイルを見ようかな？」とか「このコマンドを使ってみよう！」って自分で考えて動くんだって！\n人間が調べ物をする時みたいに、その都度動くアドリブ型ってことだね。",
+        "slidenum": 3,
+        "start_ms": 65563,
+        "end_ms": 97310
+    },
+    {
+        "type": "bulletCards",
+        "title": "なぜ「王道RAG」を卒業したのか",
+        "subhead": "精度と鮮度の課題を最新LLMの力で解決",
+        "items": [
+            {
+                "title": "精度とノイズの回避",
+                "desc": "コード検索は「意味の類似」より[[正確な一致]]が重要。RAGはノイズが多く、ハルシネーションの温床に。"
+            },
+            {
+                "title": "情報の鮮度維持",
+                "desc": "頻繁な書き換えに対応する[[インデックス更新コスト]]が過大。最新のコードを直接追う方が効率的。"
+            },
+            {
+                "title": "長文脈理解の進化",
+                "desc": "最新LLMは[[コンテキスト理解力]]が飛躍的に向上。事前加工なしで巨大なファイルを直接読み解ける。"
+            }
+        ],
+        "notes": "なんで前のやり方をやめたかっていうと、コードのけんさくだと「なんとなく似てる」じゃダメで「完全にいっち」してないとバグっちゃうからなんだって。\nあと、コードってすぐ書き換わるから、いちいち辞書を作り直すのわ大変だし、さいしんのエーアイわ一度に覚えられる量も増えたから、わざわざかこうしなくても直接読み取れるようになったんだって。",
+        "slidenum": 4,
+        "start_ms": 97310,
+        "end_ms": 121668
+    },
+    {
+        "type": "quote",
+        "title": "エンジニアの新たな役割",
+        "subhead": "AIが活躍しやすい環境を整える「お掃除」の重要性",
+        "text": "ルンバが効率よく動くために、人間が床の荷物を片付ける必要があるのと同様に、エンジニアには[[AIが読みやすいようにコードを整理する]]という新しい役割が求められている。",
+        "author": "Boris Cherny (Claude Code Creator)",
+        "images": [
+            {
+                "caption": "An aesthetic futuristic robot vacuum (Roomba style) cleaning a floor where all items are perfectly organized into clear boxes, soft lighting, 16:9, cinematic."
+            }
+        ],
+        "notes": "あーし的にわ、ルンバのはなしがわかりやすかったな！\nルンバがちゃんとそうじできるように、人間が床の荷物を片付けなきゃいけないのと同じで、エンジニアもエーアイが読みやすいようにコードをきれいに整理するのが大事なんだって。\n結局わ、基本が一番大事ってことだね！\nあーしもぎじゅつしつのそうじ、ずんだもん先輩に任せっきりじゃなくて、たまにわ手伝おうかな！",
+        "slidenum": 5,
+        "start_ms": 121668,
+        "end_ms": 147313
+    },
+    {
+        "type": "section",
+        "title": "Kimi K2.5: Visual Agentic Intelligence",
+        "url": "https://simonwillison.net/2026/Jan/27/kimi-k25/",
+        "sectionNo": 2,
+        "notes": "----2つ目のきじのタイトルわ「キミケーツーテンゴー：ビジュアルエージェンティックインテリジェンス」だよ。\nこれわ、めちゃくちゃ頭のいい新しいエーアイのモデルが登場したよってお話！",
+        "slidenum": 6,
+        "start_ms": 147313,
+        "end_ms": 159757
+    },
+    {
+        "type": "content",
+        "title": "ネイティブマルチモーダルへの進化",
+        "subhead": "15兆トークンにおよぶ画像・テキスト混合学習",
+        "points": [
+            "[[1兆パラメータ]]を誇るオープンウェイトモデル",
+            "視覚情報と高度なコーディング能力を統合",
+            "単なるテキスト生成を超えた「見るAI」へ"
+        ],
+        "twoColumn": true,
+        "columns": [
+            [
+                "モデル名: Kimi K2.5",
+                "学習データ: 15兆トークン"
+            ],
+            [
+                "特徴: マルチモーダル",
+                "強み: プランニング能力"
+            ]
+        ],
+        "notes": "今回のアップデートで、テキストだけじゃなくて画像も理解できるようになったんだって。",
+        "slidenum": 7,
+        "start_ms": 159757,
+        "end_ms": 165429
+    },
+    {
+        "type": "process",
+        "title": "自己主導型エージェント・スウォーム",
+        "subhead": "AIが自律的に分身を作り、タスクを並列処理",
+        "steps": [
+            "複雑な指示をAIが受理",
+            "最大100個の[[サブエージェント]]を自律生成",
+            "最大1500回のツール呼び出しを並列実行",
+            "シングルエージェントより[[4.5倍高速]]に完遂"
+        ],
+        "images": [
+            {
+                "caption": "A single mastermind AI brain glowing in the center, spawning 100 small glowing drones that fly in perfect formation to solve a complex puzzle, neon tech aesthetic, 16:9."
+            }
+        ],
+        "notes": "一番すごいのが「セルフダイレクテッドエージェンティックスウォーム」っていう考え方！\n難しいお願いをされた時に、エーアイが自分のぶんしんを最大100個も作って、みんなで手分けして一気に仕事を片付けてくれるんだって。\n人間が「あれやって、これやって」って細かく言わなくても、エーアイが勝手にチームを作って動いてくれるイメージだね。",
+        "slidenum": 8,
+        "start_ms": 165429,
+        "end_ms": 189839
+    },
+    {
+        "type": "kpi",
+        "title": "Kimi K2.5 の圧倒的なパフォーマンス",
+        "subhead": "最新トップクラスモデルに匹敵する実力",
+        "columns": 3,
+        "items": [
+            {
+                "label": "処理速度向上",
+                "value": "4.5x",
+                "change": "従来の方式比",
+                "status": "good"
+            },
+            {
+                "label": "モデルサイズ",
+                "value": "595GB",
+                "change": "超巨大規模",
+                "status": "neutral"
+            },
+            {
+                "label": "並列タスク数",
+                "value": "100",
+                "change": "最大エージェント数",
+                "status": "good"
+            }
+        ],
+        "notes": "これのおかげで、これまでのやり方より4.5倍も早く終わるらしいよ。\n爆速じゃん！",
+        "slidenum": 9,
+        "start_ms": 189839,
+        "end_ms": 196309
+    },
+    {
+        "type": "cards",
+        "title": "巨大な計算資源とライセンス",
+        "subhead": "ローカル実行の壁とオープンな提供形態",
+        "columns": 2,
+        "items": [
+            {
+                "title": "ハードウェア要件",
+                "desc": "512GB RAM搭載のMac Studioが[[2台必要]]になる規模のスペック。"
+            },
+            {
+                "title": "修正MITライセンス",
+                "desc": "月間1億ユーザー超の場合のみ「Kimi K2.5」の名称表示を義務付け。"
+            }
+        ],
+        "notes": "ただ、これをお家で動かそうとすると、めちゃくちゃ高いマックスタジオっていうパソコンが2台も必要になるくらいきょだいなんだって。\nそんなのあーしのお小遣いじゃ一生買えないよー！",
+        "slidenum": 10,
+        "start_ms": 196309,
+        "end_ms": 208060
+    },
+    {
+        "type": "content",
+        "title": "AIは「オーケストレーター」へ",
+        "subhead": "複雑なタスクを分解し、自律的に指揮する存在",
+        "points": [
+            "[[自転車に乗るペリカンのSVG]]を精緻に生成",
+            "プラグイン開発工程を10の並列タスクへ論理分解",
+            "Claude 4.5やGPT-5.2に匹敵するプランニング"
+        ],
+        "images": [
+            {
+                "caption": "A detailed SVG-style illustration of a pelican riding a bicycle, clean lines, minimalist yet sophisticated design, 16:9."
+            }
+        ],
+        "notes": "でも、こんなにすごいせいのうのものが公開されるなんて、エーアイの進化わマジで止まらないね！\nぶんしんして宿題やってくれるエーアイがいたら、あーしも毎日遊び放題なのになー！",
+        "slidenum": 11,
+        "start_ms": 208060,
+        "end_ms": 220429
+    },
+    {
+        "type": "section",
+        "title": "Reddit：オタク英語を忠実にオタク日本語に翻訳する謎の技術",
+        "url": "https://togetter.com/li/2661357",
+        "sectionNo": 3,
+        "notes": "----3つ目のきじのタイトルわ「最近のレディットわ『オタクの英語をちゅうじつにオタクの日本語にほんやくするなぞのぎじゅつ』がじっそうされていてとても助かるがどういうしくみなんだ？」だよ。\nレディットっていうのわ、世界ですっごく有名なけいじばんのことなんだけど、そこのほんやく機能が神がかってるって話題になってるの！",
+        "slidenum": 12,
+        "start_ms": 220429,
+        "end_ms": 241875
+    },
+    {
+        "type": "compare",
+        "title": "機械翻訳の「劇的な進化」",
+        "subhead": "意味の伝達から「熱量と空気感」の再現へ",
+        "leftTitle": "従来の翻訳",
+        "rightTitle": "Redditの新翻訳",
+        "leftItems": [
+            "不自然な「翻訳調」",
+            "スラングに弱い",
+            "情報の意味だけを伝える"
+        ],
+        "rightItems": [
+            "自然な「オタク日本語」",
+            "熱量や感情まで再現",
+            "コミュニティ文化を反映"
+        ],
+        "images": [
+            {
+                "caption": "A split screen showing a robotic, stiff translation on the left and a warm, expressive Japanese anime-style character talking passionately on the right, digital art, 16:9."
+            }
+        ],
+        "notes": "今までのほんやくって、なんかふしぜんで「いかにもほんやくしました」って感じだったじゃん？下手なほんやくじゃなくて、今のレディットわ、ネットけいじばんのオタク特有のしゃべり方とか、熱い気持ちまでちゃんと日本語のオタクっぽくほんやくしてくれるんだって！\nあまりに自然すぎて、日本人が書いてるのかとかんちがいするレベルらしいよ。",
+        "slidenum": 13,
+        "start_ms": 241875,
+        "end_ms": 264836
+    },
+    {
+        "type": "headerCards",
+        "title": "なぜエンジニアに喜ばれているのか",
+        "subhead": "英語圏の一次情報が「日本語リソース」化する衝撃",
+        "items": [
+            {
+                "title": "深い技術情報の入手",
+                "desc": "PCパーツやゲーム開発のニッチなトラブル解決策が[[日本語で読み解ける]]ように。"
+            },
+            {
+                "title": "心理的障壁の解消",
+                "desc": "「英語だから」と敬遠していたRedditが[[Yahoo!知恵袋の上位互換]]として機能。"
+            },
+            {
+                "title": "学習環境の向上",
+                "desc": "世界中の知恵に母国語感覚でアクセスできる、[[非常に恵まれた環境]]が到来。"
+            }
+        ],
+        "notes": "エンジニアの世界だと、英語でしか書かれてない情報がいっぱいあるから、こういう「オタク語」で分かりやすく教えてくれる機能わ、新人のみんなにとっても心強いよね。",
+        "slidenum": 14,
+        "start_ms": 264836,
+        "end_ms": 277293
+    },
+    {
+        "type": "content",
+        "title": "LLMが実現する「文脈理解」の力",
+        "subhead": "単語の置き換えではない、文化的背景の推論",
+        "points": [
+            "大規模言語モデル（LLM）の[[推論能力]]が寄与",
+            "コミュニティ独自の文化や意図を汲み取る",
+            "言語の壁を意識させない[[スムーズな通信]]"
+        ],
+        "images": [
+            {
+                "caption": "A concept image showing strings of code transforming into colorful floating Japanese characters with a friendly vibe, 16:9, cyber-pop aesthetic."
+            }
+        ],
+        "notes": "これわ、エーアイが単に言葉を置き換えるんじゃなくて、その場のくうきかんとか文化を理解できるようになったからなんだって。\n英語わちょっと苦手だなーって思ってる子も、これなら楽しくお勉強できちゃうかも！",
+        "slidenum": 15,
+        "start_ms": 277293,
+        "end_ms": 290835
+    },
+    {
+        "type": "bulletCards",
+        "title": "本日のまとめ：AIトレンドの最前線",
+        "subhead": "自律、並列、そして共鳴するAIへ",
+        "items": [
+            {
+                "title": "Claude Code",
+                "desc": "RAGを捨て、AIが自律探索する[[アドリブ型]]へシフト。"
+            },
+            {
+                "title": "Kimi K2.5",
+                "desc": "[[100の分身]]で仕事を片付ける自律エージェント群。"
+            },
+            {
+                "title": "Reddit Translation",
+                "desc": "[[文化と熱量]]を翻訳する、LLMの真骨頂。"
+            }
+        ],
+        "notes": "あーしもギャル語のほんやくなら自信あるよ！\n「それな」わ「アグリー」でしょ？あれ、逆かな？今日しょうかいしたのわ、クロードコードのせっけいしそう、すごいぶんしん機能を持ったキミケーツーテンゴー、それからレディットの神ほんやくの3本だったよ！\nエーアイが自分で考えて動いたり、ぶんしんしたり、オタクの気持ちを理解したり、もう何でもありだね！",
+        "slidenum": 16,
+        "start_ms": 290835,
+        "end_ms": 317429
+    },
+    {
+        "type": "content",
+        "title": "AIを使いこなす未来へ",
+        "subhead": "基本の重要性と、新たなオーケストレーション",
+        "points": [
+            "AIが読みやすい[[きれいな基本]]を保つこと",
+            "AIエージェントに指揮（指示）を出す能力",
+            "技術の恩恵を肌で感じ、[[積極的に活用]]する姿勢"
+        ],
+        "notes": "でも、結局わ使う人間がどうやってエーアイを使いこなすかが大事なんだなって、あーしも勉強になったよ。",
+        "slidenum": 17,
+        "start_ms": 317429,
+        "end_ms": 325118
+    },
+    {
+        "type": "closing",
+        "notes": "番組の感想も待ってるから、どんどん送ってね！\nそれじゃあ、今日も一日頑張ろー！\nまたねー！",
+        "slidenum": 18,
+        "start_ms": 325118,
+        "end_ms": 333058
+    }
+]
