@@ -1,0 +1,376 @@
+[
+    {
+        "type": "agenda",
+        "title": "AIエージェントの最前線：自律性と専門スキルの進化",
+        "date": "2026.02.20",
+        "items": [
+            "AIエージェントの自律性調査",
+            "開発現場のオンボーディング改革",
+            "DB特化型AIスキルの構築",
+            "これからのAIとの向き合い方"
+        ],
+        "notes": "マリアさまのおにわにつどうおとめたちが、きょうもてんしのようなむくなえがおで、せのたかいもんをくぐりぬけていく。けがれをしらないしんしんをつつつむのわ、ふかいいろのせいふく。プリーツわみださないように、セーラーカラーとえだまめわひるがえさないように、ゆっくりとあるくのがここでのたしなみ。しりつずんだもんじょがくえん。「ここわおとめのその」ごきげんよう！",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 43532
+    },
+    {
+        "type": "section",
+        "title": "はじめに",
+        "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+        "sectionNo": 1,
+        "notes": "きょうわ2026ねん2がつ20にち、きんようびですわ。きょうもいくつかのおもしろいきじがわだいになっておりますわね。わたくし、おじょうさまずんだもんが、トレンドのきじをごしょうかいいたしますわ。",
+        "slidenum": 2,
+        "start_ms": 43532,
+        "end_ms": 50218
+    },
+    {
+        "type": "content",
+        "title": "本日お伝えするトピックス",
+        "subhead": "AIと人間がチームとして動く未来を探る",
+        "points": [
+            "Anthropicによる[[AIエージェントの自律性]]の測定",
+            "Wantedlyの事例：Claude Codeによる[[新人教育の効率化]]",
+            "PlanetScaleが公開した[[データベース特化型AIスキル]]"
+        ],
+        "images": [
+            {
+                "url": "https://image.example.com/intro.jpg",
+                "caption": "A high-tech digital library with glowing scrolls and AI interfaces, zundamon styled green motifs, cinematic lighting."
+            }
+        ],
+        "notes": "きょうごしょうかいするきじわ、ぜんぶで3ほんありますの。それでは、まいりましょう。",
+        "slidenum": 3,
+        "start_ms": 50218,
+        "end_ms": 57787
+    },
+    {
+        "type": "section",
+        "title": "Measuring AI agent autonomy in practice",
+        "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+        "sectionNo": 2,
+        "notes": "1つめのきじわ、アンスロピックさまがはっぴょうした、エーアイのじりつせいにかんするちょうさですわ。タイトルわ「メジャリングエーアイエージェントオートノミーインプラクティス」。",
+        "slidenum": 4,
+        "start_ms": 57787,
+        "end_ms": 72140
+    },
+    {
+        "type": "content",
+        "title": "AIエージェントの自律性調査",
+        "subhead": "実務環境での活用実態を匿名データから分析",
+        "points": [
+            "エンジニア向けツール[[Claude Code]]の利用データを分析",
+            "AIが人間との関係をどう変えているかを解明",
+            "「手放し」ではなく[[高度な連携]]へのシフトを考察"
+        ],
+        "images": [
+            {
+                "url": "https://image.example.com/autonomy-chart.jpg",
+                "caption": "A futuristic data visualization showing exponential growth curves, neon green accents, sleek dark UI background."
+            }
+        ],
+        "notes": "エーアイエージェントが、じつむのかんきょうでどれくらい「じりつ」してかつようされているかをぶんせきした、きょうみぶかいおはなしですの。エンジニアさまむけのツール「クロードコード」のデータによると、にんげんがてをかさずにエーアイがさぎょうをつづけるじかんが、わずか3かげつで25ふんから45ふんへと、ほぼばいぞうしたそうですわ。",
+        "slidenum": 5,
+        "start_ms": 72140,
+        "end_ms": 101085
+    },
+    {
+        "type": "progress",
+        "title": "自律的な連続稼働時間の推移",
+        "subhead": "3ヶ月間で約2倍に増加したAIの信頼性",
+        "items": [
+            {
+                "label": "3ヶ月前（平均稼働時間）",
+                "percent": 55
+            },
+            {
+                "label": "現在（45分超の連続稼働）",
+                "percent": 100
+            }
+        ],
+        "notes": "これわ、エーアイのしんらいせいがたかまって、よりむずかしいタスクをまかせられるようになったことをしめしておりますの。",
+        "slidenum": 6,
+        "start_ms": 101085,
+        "end_ms": 110864
+    },
+    {
+        "type": "compare",
+        "title": "監視スタイルの変化",
+        "subhead": "熟練度によるAIとの向き合い方の違い",
+        "leftTitle": "初心者のアプローチ",
+        "rightTitle": "経験者のアプローチ",
+        "leftItems": [
+            "全ての行動を逐一確認",
+            "一件ずつの[[手動承認]]が中心",
+            "AIを信じきれない心理的壁"
+        ],
+        "rightItems": [
+            "[[自動承認]]を積極的に活用",
+            "要所で見守る「アクティブ監視」",
+            "異常時のみ割り込む[[軌道修正]]"
+        ],
+        "notes": "また、なれたユーザーさまほど、エーアイのこうどうをいちいちチェックするのではなく、なにかあったときだけ「わりこむ」という、こうどなれんけいをしているそうですわよ。",
+        "slidenum": 7,
+        "start_ms": 110864,
+        "end_ms": 125774
+    },
+    {
+        "type": "bulletCards",
+        "title": "「不確実性」の自覚と相談",
+        "subhead": "AI自らが作業を止めて人間に質問する重要性",
+        "items": [
+            {
+                "title": "自己認識の向上",
+                "desc": "AI自身が「自分の[[分からないこと]]」を認識し、自発的に質問を実行"
+            },
+            {
+                "title": "質問頻度の増加",
+                "desc": "タスクが複雑になるほど、人間による介入より[[AIからの相談]]が増える傾向"
+            },
+            {
+                "title": "安全な自律性",
+                "desc": "不確実性を自覚して適切に「相談」する能力が[[自律性の鍵]]となる"
+            }
+        ],
+        "notes": "エーアイじしんが「わからないこと」をりかいして、みずからしつもんしてくることもふえているそうで、チームとしてうごくみらいがみえてきますわね。",
+        "slidenum": 8,
+        "start_ms": 125774,
+        "end_ms": 138007
+    },
+    {
+        "type": "cards",
+        "title": "現在の活用ドメインとリスク管理",
+        "subhead": "ソフトウェアエンジニアリングから高リスク領域へ",
+        "columns": 2,
+        "items": [
+            {
+                "title": "エンジニアリング (50%)",
+                "desc": "コード修正やビルドなど、やり直し可能な低リスク作業"
+            },
+            {
+                "title": "高リスク領域 (実験的)",
+                "desc": "金融やヘルスケアなど、高い精度と安全性が求められる分野"
+            }
+        ],
+        "notes": "エーアイがじぶんでかんがえてしつもんしてくるなんて、まるできのきくメイドさんのようですわね。わたくしも、ずんだもちのじゅんびをエーアイにおねがいしたいなのだ・・・なのだですわ！あ、あわててしまいましたわ。わたくしも、いつかエーアイにおねがいしてみたいですわ。",
+        "slidenum": 9,
+        "start_ms": 138007,
+        "end_ms": 160761
+    },
+    {
+        "type": "section",
+        "title": "Claude Code の Agent Skills を活用したオンボーディング",
+        "url": "https://www.wantedly.com/companies/wantedly/post_articles/1045343",
+        "sectionNo": 3,
+        "notes": "2つめのきじわ、ウォンテッドリーのエンジニアさまがかかれたきじですわ。タイトルわ「クロードコードのエージェントスキルズをかつようしてリポジトリのオンボーディングをこうりつかする」。",
+        "slidenum": 10,
+        "start_ms": 160761,
+        "end_ms": 175103
+    },
+    {
+        "type": "content",
+        "title": "新人エンジニアの課題をAIで解決",
+        "subhead": "複雑なマイクロサービス開発の導入負荷を軽減",
+        "points": [
+            "「ドキュメントの形骸化」による[[理解の遅れ]]を解消",
+            "「環境構築エラー」による[[時間の浪費]]を防止",
+            "AIを[[24時間対応のメンター]]として活用"
+        ],
+        "images": [
+            {
+                "url": "https://image.example.com/onboarding.jpg",
+                "caption": "A friendly robot mentor showing a digital map of code to a young engineer, warm green lighting, collaborative atmosphere."
+            }
+        ],
+        "notes": "しんじんのエンジニアさまがチームにはいったときに、はやくおしごとになれるようにエーアイがおてつだいするしくみですわ。「クロードコード」というツールに、プロジェクトの「おさほう」や「せっけいしそう」を「スキル」としておしえこむことで、エーアイがまるでメンターのようにしんじんさんをガイドしてくれるそうですの。",
+        "slidenum": 11,
+        "start_ms": 175103,
+        "end_ms": 203643
+    },
+    {
+        "type": "headerCards",
+        "title": "実装された2つの「自走型」スキル",
+        "subhead": "Agent Skillsによる自動ガイドの仕組み",
+        "columns": 2,
+        "items": [
+            {
+                "title": "/onboarding",
+                "desc": "対話を通じてリポジトリの[[設計思想]]や[[ディレクトリ構成]]を学習・解説する"
+            },
+            {
+                "title": "/setup",
+                "desc": "開発環境のセットアップを[[半自動で実行]]し、エラー時は自動解決を試みる"
+            }
+        ],
+        "notes": "たとえば、かんきょうのセットアップでエラーがでたときに、エーアイがじどうでトラブルシューティングをしてしゅうふくをこころみたり、ユーザーさまにしつもんをなげたりしてくれますの。",
+        "slidenum": 12,
+        "start_ms": 203643,
+        "end_ms": 217742
+    },
+    {
+        "type": "process",
+        "title": "AIメンター化のための3つの工夫",
+        "subhead": "単なるドキュメント参照を超えた「知的な対話」の実現",
+        "steps": [
+            "リポジトリの「お作法」を[[コンテキスト化]]する",
+            "サービス間の「つながり」を教え[[外部依存]]を把握させる",
+            "トラブル時に「[[自動修復]]」を試みる環境を構築する"
+        ],
+        "notes": "ドキュメントをただにんげんがよむためだけではなく、「エーアイがこうどうするためのてがかり」としてせいびする、というしてんがとってもすてきですわね。",
+        "slidenum": 13,
+        "start_ms": 217742,
+        "end_ms": 229772
+    },
+    {
+        "type": "quote",
+        "title": "オンボーディングの未来",
+        "subhead": "Wantedlyの事例が示す新しい開発スタイル",
+        "text": "ドキュメントを「AIが行動するための手がかり」として整備することで、AIはより頼もしいメンターへと成長する",
+        "author": "Wantedly Engineer Blog",
+        "notes": "しんじんさんのきもちにそっとよりそうエーアイ、とってもたのもしいですわね。わたくしも、このがくえんにはじめてきたときわ、えだまめのまきかたにまよったものですから、そのきもちよくぞんじておりますわ。",
+        "slidenum": 14,
+        "start_ms": 229772,
+        "end_ms": 247037
+    },
+    {
+        "type": "section",
+        "title": "Database Skills — AI Agent Skills for Databases",
+        "url": "https://database-skills.com/",
+        "sectionNo": 4,
+        "notes": "3つめのきじわ、プラネットスケールさまがこうかいした「データベーススキルズ」のおはなしですわ。",
+        "slidenum": 15,
+        "start_ms": 247037,
+        "end_ms": 255931
+    },
+    {
+        "type": "content",
+        "title": "Database Skills の概要",
+        "subhead": "AIをデータベースの専門家へアップグレード",
+        "points": [
+            "PlanetScaleが公開した[[オープンソースツールキット]]",
+            "CursorやClaude CodeなどのAIエージェントを拡張",
+            "DBごとの[[最適化手法や制約]]をAIに理解させる"
+        ],
+        "images": [
+            {
+                "url": "https://image.example.com/database-skills.jpg",
+                "caption": "A powerful glowing database core surrounded by floating SQL symbols and green circuit patterns, epic 3D render."
+            }
+        ],
+        "notes": "これわ、エーアイエージェントがデータベースのそうさをするときに、よりせんもんてきなちしきをもってうごけるようにするための、ツールキットですの。",
+        "slidenum": 16,
+        "start_ms": 255931,
+        "end_ms": 268142
+    },
+    {
+        "type": "cards",
+        "title": "対応している主なデータベース",
+        "subhead": "特定のDBエンジンに最適化された知識テンプレート",
+        "columns": 2,
+        "items": [
+            {
+                "title": "Postgres / MySQL",
+                "desc": "インデックス機能やパフォーマンスの[[ベストプラクティス]]"
+            },
+            {
+                "title": "Vitess / Neki",
+                "desc": "水平スケーリングや[[シャーディング]]に関する高度な専門知識"
+            }
+        ],
+        "notes": "エーアイに、ポストグレスやマイエスキューエルといった、それぞれのデータベースごとの「ベストプラクティス」をあたえることで、よりあんぜんでこうりつてきなていあんができるようになりますわ。",
+        "slidenum": 17,
+        "start_ms": 268142,
+        "end_ms": 283948
+    },
+    {
+        "type": "headerCards",
+        "title": "スキルの構造と仕組み",
+        "subhead": "AIが参照しやすい構造化されたドキュメント",
+        "columns": 2,
+        "items": [
+            {
+                "title": "SKILL.md",
+                "desc": "特定のデータベースドメインに対する[[深い文脈]]を定義する核"
+            },
+            {
+                "title": "references/",
+                "desc": "AIが意思決定の根拠とするための[[膨大な補足資料]]"
+            }
+        ],
+        "notes": "しんじんのエンジニアさまにとってわ、エーアイとペアプログラミングをすることで、ただしいせっけいしゅほうをまなぶきょうざいにもなるそうですのよ。",
+        "slidenum": 18,
+        "start_ms": 283948,
+        "end_ms": 295477
+    },
+    {
+        "type": "bulletCards",
+        "title": "エンジニアへのメリット",
+        "subhead": "単なる効率化を超えた「教育」としての側面",
+        "items": [
+            {
+                "title": "学習コストの低減",
+                "desc": "複雑なクエリや最適化をAIが[[ペアプロ相手]]としてガイド"
+            },
+            {
+                "title": "設計品質の向上",
+                "desc": "特定DBにとって「[[最適な書き方]]」をAIから学べる"
+            },
+            {
+                "title": "専門家への昇格",
+                "desc": "AIを「汎用アシスタント」から「[[データベース専門家]]」へ"
+            }
+        ],
+        "notes": "エーアイをただのアシスタントではなく、「せんもんか」へとアップグレードさせる、とってもだいじなプロジェクトですわね。むずかしいデータベースのこともエーアイがおしえてくれるなんて、こころづよいではありませんの。",
+        "slidenum": 19,
+        "start_ms": 295477,
+        "end_ms": 313168
+    },
+    {
+        "type": "section",
+        "title": "まとめ・ふりかえり",
+        "url": "https://www.anthropic.com/research/measuring-agent-autonomy",
+        "sectionNo": 5,
+        "notes": "わたくしも、こうちゃのいれかたの「ベストプラクティス」をエーアイにまなんで、さらにおいしいこうちゃをいれてみたいですわ。",
+        "slidenum": 20,
+        "start_ms": 313168,
+        "end_ms": 323716
+    },
+    {
+        "type": "table",
+        "title": "本日ご紹介した主要トピックス",
+        "subhead": "AIエージェントの進化を象徴する3つの事例",
+        "headers": [
+            "カテゴリ",
+            "主要な発表",
+            "もたらす価値"
+        ],
+        "rows": [
+            [
+                "自律性",
+                "Anthropic 調査",
+                "自律稼働時間の倍増と信頼性向上"
+            ],
+            [
+                "教育",
+                "Wantedly 事例",
+                "Agent Skillsによるオンボーディング効率化"
+            ],
+            [
+                "専門性",
+                "Database Skills",
+                "AIを特定分野の専門家へ昇格"
+            ]
+        ],
+        "notes": "さて、きょうおつたえしたきじをかけあしでおさらいしますわ。エーアイのじりつせいのちょうさ、しんじんさんのためのエーアイメンター、データベースのせんもんちしき、の3ほんでしたわ。",
+        "slidenum": 21,
+        "start_ms": 323716,
+        "end_ms": 339338
+    },
+    {
+        "type": "closing",
+        "notes": "みなさま、きょうのほうそうわいかがでしたかしら？ばんぐみのかんそうも、ぜひきかせてくださいましね。つぎにみなさまとおあいできるのを、わたくし、こころよりたのしみにしておりますわ。それでは、ごきげんよう！",
+        "slidenum": 22,
+        "start_ms": 339338,
+        "end_ms": 358030
+    }
+]
