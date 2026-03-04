@@ -1,0 +1,380 @@
+[
+    {
+        "type": "agenda",
+        "title": "株式会社ずんだもん技術室エーアイ放送局",
+        "date": "2026.03.05",
+        "items": [
+            "LangChain Skillsの解説",
+            "Pilot-Tower開発思想",
+            "Phi-4の技術的知見",
+            "ギャル語による契約書",
+            "本日のまとめ"
+        ],
+        "notes": "やっほー！\nみんな元気かな？株式会社ずんだもん技術室エーアイ放送局へようこそなのだ！\nぼくわエムシーのずんだもんなのだ。\n今日わ2026年3月5日、木曜日なのだ。\n今日も技術のトレンドを追いかけて、面白い記事をいくつか持ってきたのだ。\n最新のテクノロジーを知って、みんなでワクワクしようなのだ！\n今日紹介する記事わ、全部で4本なのだ。\nどれも面白い内容だから、最後までゆっくり聞いていってほしいのだ。\nそれじゃあ、さっそく1つ目の記事からいくのだ！",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 43592
+    },
+    {
+        "type": "section",
+        "title": "LangChain Skills",
+        "url": "https://blog.langchain.com/langchain-skills/",
+        "sectionNo": 1,
+        "notes": "----1つ目の記事わ、ラングチェーン社が発表した「ラングチェーンスキルズ」についての話題なのだ。エーアイにコードを書かせるエージェントが、もっと正確に動けるようにするための専門知識のパッケージがリリースされたのだ。",
+        "slidenum": 2,
+        "start_ms": 43592,
+        "end_ms": 60718
+    },
+    {
+        "type": "content",
+        "title": "AIエージェントの専門知識パッケージ",
+        "subhead": "AIコーディングエージェントの精度を劇的に向上させる新機能",
+        "points": [
+            "LangChainエコシステムをより正確に扱うための[[「Skills（スキル）」]]をリリース",
+            "Claude CodeなどのAIエージェントがコード生成・修正を強力にサポート",
+            "AIエージェントが「使い方のコツ」を習得した状態で開発に参加可能"
+        ],
+        "images": [
+            {
+                "url": "https://placehold.jp/16x9.png",
+                "caption": "A high-tech digital toolbox glowing with neon light, containing icons of microchips and Python code, representing specialized AI knowledge packages."
+            }
+        ],
+        "notes": "最近わ「クロードコード」みたいに、エーアイが自分でコードを直してくれる場面が増えてるのだ。でも、エーアイも人間と同じで、一度にたくさんのことを言われると混乱しちゃうのだ。",
+        "slidenum": 3,
+        "start_ms": 60718,
+        "end_ms": 76330
+    },
+    {
+        "type": "statsCompare",
+        "title": "タスク成功率の劇的な向上",
+        "subhead": "従来の手法とSkills導入後のパフォーマンス比較",
+        "leftTitle": "従来のエージェント",
+        "rightTitle": "Skills導入後",
+        "stats": [
+            {
+                "label": "タスク成功率",
+                "leftValue": "29%",
+                "rightValue": "95%",
+                "trend": "up"
+            }
+        ],
+        "notes": "そこでこの「スキルズ」の出番なのだ！これを使うと、ラングチェーンに関係する作業の成功率が、今までの29パーセントから、なんと95パーセントまで劇的に上がるらしいのだ。",
+        "slidenum": 4,
+        "start_ms": 76330,
+        "end_ms": 92432
+    },
+    {
+        "type": "process",
+        "title": "Skillsの動作メカニズム",
+        "subhead": "「ツールの過負荷」を解消するインテリジェントな設計",
+        "steps": [
+            "動的ロード（Progressive Disclosure）による必要最小限の読み込み",
+            "タスクに関係のあるスキルだけを都度取り出し",
+            "Markdownやスクリプトで構成されたポータブルな形式で運用"
+        ],
+        "images": [
+            {
+                "url": "https://placehold.jp/16x9.png",
+                "caption": "A futuristic flowchart showing data being selectively loaded into a robotic brain from a modular shelf, clean and efficient visual style."
+            }
+        ],
+        "notes": "仕組みわとってもシンプルで、必要なときだけ必要な知識を読み込む「動的ロード」っていう方法を使ってるのだ。これならエーアイもパンクせずに、高いパフォーマンスが出せるのだ。",
+        "slidenum": 5,
+        "start_ms": 92432,
+        "end_ms": 107297
+    },
+    {
+        "type": "bulletCards",
+        "title": "提供される3つの主要カテゴリー",
+        "subhead": "11個のスキルで広範な開発シーンをカバー",
+        "items": [
+            {
+                "title": "LangChain",
+                "desc": "クラシックなエージェント構成や[[ツール呼び出しのパターン]]に関するガイド"
+            },
+            {
+                "title": "LangGraph",
+                "desc": "状態管理や[[Human-in-the-loop]]など、高度なエージェント制御"
+            },
+            {
+                "title": "DeepAgents",
+                "desc": "ファイルシステム操作や[[事前定義されたミドルウェア]]の活用ガイド"
+            }
+        ],
+        "notes": "ギットハブで公開されてるから、誰でもチェックできるのだ。ぼくも技術室のエンジニアとして、こういう効率化にわ目がないのだ。エーアイがどんどん賢くなって、ぼくたちを助けてくれるのわ本当に心強いのだ！でも、ずんだ餅を食べるのわぼくの役目なのだ。そこわ譲れないのだ！",
+        "slidenum": 6,
+        "start_ms": 107297,
+        "end_ms": 131031
+    },
+    {
+        "type": "section",
+        "title": "Pilot-Tower開発の設計思想",
+        "url": "https://tech.acesinc.co.jp/entry/2026/03/04/083000",
+        "sectionNo": 2,
+        "notes": "----2つ目の記事わ「エーアイが自走し、人間わ管制する、パイロットタワー開発の設計思想」というお話なのだ。これわ、これからの開発のやり方を「航空管制」に例えて考えているのだ。",
+        "slidenum": 7,
+        "start_ms": 131031,
+        "end_ms": 148584
+    },
+    {
+        "type": "compare",
+        "title": "AI駆動開発の世代交代",
+        "subhead": "Phase 2からPhase 3へのパラダイムシフト",
+        "leftTitle": "Phase 2：人間が「運転」",
+        "rightTitle": "Phase 3：AIが「自走」",
+        "leftItems": [
+            "人間が運転席で個別指示",
+            "人間の活動時間にAIが縛られる",
+            "AIは単なるコード生成ツール"
+        ],
+        "rightItems": [
+            "AIを「パイロット」と定義",
+            "人間を「管制塔（タワー）」と定義",
+            "自律的な計画・実装・検証を実現"
+        ],
+        "notes": "今までのエーアイ活用わ、人間が運転席に座ってエーアイに指示を出してたのだ。でもこれだと、人間が起きている時間しか開発が進まないのだ。新しい「パイロットタワー」っていう考え方でわ、エーアイを「パイロット」、人間を「管制塔」にするのだ。",
+        "slidenum": 8,
+        "start_ms": 148584,
+        "end_ms": 172129
+    },
+    {
+        "type": "process",
+        "title": "探索的ループによる開発プロセス",
+        "subhead": "要件定義・設計・実装を同時並行で回す",
+        "steps": [
+            "plan-refine：対話による計画の詳細化",
+            "plan-spike：仮実装による迅速な技術検証",
+            "plan-execute：検証済み計画に基づく本実装"
+        ],
+        "images": [
+            {
+                "url": "https://placehold.jp/16x9.png",
+                "caption": "An abstract infinite loop icon made of glowing code lines, representing continuous planning and execution cycle in software development."
+            }
+        ],
+        "notes": "エーアイが自分で計画を立てて、コードを書いて、テストもするのだ。人間わ、要所要所で「それでいいよ」とか「こっちの案にして」って判断するだけでいいのだ。",
+        "slidenum": 9,
+        "start_ms": 172129,
+        "end_ms": 186429
+    },
+    {
+        "type": "headerCards",
+        "title": "自走と統制を両立する仕組み",
+        "subhead": "AIの自律性を担保しつつ安全性を維持する",
+        "columns": 3,
+        "items": [
+            {
+                "title": "ループ構造",
+                "desc": "計画・実行・ログ記録を[[AIが自律的に繰り返す]]サイクル"
+            },
+            {
+                "title": "Decision Required",
+                "desc": "判断に迷う箇所で停止し[[人間にA/B案を提示]]する"
+            },
+            {
+                "title": "ガードレール",
+                "desc": "セキュリティ等の重要領域で[[強制的に人間の判断]]を仰ぐ"
+            }
+        ],
+        "notes": "エーアイが判断に迷ったときだけ「ディシジョンリクワイアド」、つまり「判断が必要なのだ！\n」って止まる仕組みもあるのだ。これって、エンジニアの仕事が「コードを書くこと」から「エーアイという部下を指揮すること」に変わっていくってことなのだ。",
+        "slidenum": 10,
+        "start_ms": 186429,
+        "end_ms": 206668
+    },
+    {
+        "type": "content",
+        "title": "エンジニアの役割の進化",
+        "subhead": "コードを書く人から「システムの管制官」へ",
+        "points": [
+            "AIに正しい「ゴール」と「制約」を与える能力が重要",
+            "不確実性を段階的に排除する[[プロセス設計者]]への変貌",
+            "AIを「自律的な開発パートナー」として扱い共創する"
+        ],
+        "images": [
+            {
+                "url": "https://placehold.jp/16x9.png",
+                "caption": "A modern airport control tower where screens show software code instead of planes, a human silhouette looking out into a digital horizon."
+            }
+        ],
+        "notes": "ぼくもずんだアローに変身して戦うときわ、自分で狙いを定めるけど、開発のときわエーアイに任せて、ぼくわゆっくりずんだ餅を食べていたいのだ。そんな未来がすぐそこまで来ているのかもしれないのだ。",
+        "slidenum": 11,
+        "start_ms": 206668,
+        "end_ms": 222888
+    },
+    {
+        "type": "section",
+        "title": "Phi-4-reasoning-vision",
+        "url": "https://www.microsoft.com/en-us/research/blog/phi-4-reasoning-vision-and-the-lessons-of-training-a-multimodal-reasoning-model/",
+        "sectionNo": 3,
+        "notes": "----3つ目の記事わ、マイクロソフトが発表した新しいモデル「ファイフォーリーズニングビジョン」についてなのだ。これわ150億パラメータっていう、このクラスにしてわとっても効率がいいマルチモーダル推論モデルなのだ。",
+        "slidenum": 12,
+        "start_ms": 222888,
+        "end_ms": 240324
+    },
+    {
+        "type": "content",
+        "title": "画像理解と論理推論の融合",
+        "subhead": "150億パラメータで実現する圧倒的な「効率性」",
+        "points": [
+            "数学・科学の難問解決やドキュメント読み取りに特化",
+            "コンピュータの[[画面操作（UI理解）]]において優れた性能",
+            "既存のオープンモデルを凌駕するコストパフォーマンス"
+        ],
+        "images": [
+            {
+                "url": "https://placehold.jp/16x9.png",
+                "caption": "A sleek robot eye scanning a complex mathematical equation on a paper, glowing with blue logic patterns, futuristic laboratory background."
+            }
+        ],
+        "notes": "画像を見て、それが何を意味しているのかを論理的に考えるのがすごく得意なのだ。例えば、手書きの数学の宿題をチェックしたり、領収書の計算をしたり、パソコンの画面を見て「ここをクリックして」って指示を理解したりできるのだ。",
+        "slidenum": 13,
+        "start_ms": 240324,
+        "end_ms": 259839
+    },
+    {
+        "type": "kpi",
+        "title": "「量」より「質」へのこだわり",
+        "subhead": "学習データの厳選による高精度化の実現",
+        "columns": 2,
+        "items": [
+            {
+                "label": "学習データ量",
+                "value": "2,000億トークン",
+                "change": "他社比 1/5以下",
+                "status": "good"
+            },
+            {
+                "label": "ビジョンエンコーダー",
+                "value": "SigLIP-2採用",
+                "change": "動的解像度対応",
+                "status": "good"
+            }
+        ],
+        "notes": "すごいのが、データの「量」より「質」にこだわって作られていることなのだ。他の大きなモデルが1兆以上のデータを読み込むなか、このモデルわ厳選された2000億のデータだけで、ものすごい性能を出しているのだ。",
+        "slidenum": 14,
+        "start_ms": 259839,
+        "end_ms": 278043
+    },
+    {
+        "type": "headerCards",
+        "title": "開発から得られた3つの教訓",
+        "subhead": "マルチモーダル推論モデル構築の最適解",
+        "items": [
+            {
+                "title": "アーキテクチャ",
+                "desc": "SigLIP-2と[[動的解像度]]により小さなボタンも正確に認識"
+            },
+            {
+                "title": "データの品質",
+                "desc": "低品質を排除し[[合成データ]]で特定ドメインを強化"
+            },
+            {
+                "title": "推論の切替",
+                "desc": "タスクに応じて[[思考モード（CoT）]]と即答を使い分け"
+            }
+        ],
+        "notes": "データの「質」を上げるために、エーアイを使って回答を直したり、合成データを作ったりしてるんだって。効率がいいってことわ、ぼくたちのパソコンでもサクサク動く可能性があるってことなのだ。",
+        "slidenum": 15,
+        "start_ms": 278043,
+        "end_ms": 294508
+    },
+    {
+        "type": "cards",
+        "title": "想定される利用シナリオ",
+        "subhead": "「小さく、速く、賢い」モデルが切り拓く用途",
+        "items": [
+            {
+                "title": "教育支援",
+                "desc": "手書きの数学の宿題チェック"
+            },
+            {
+                "title": "経理DX",
+                "desc": "領収書の自動読み取りと計算"
+            },
+            {
+                "title": "UIエージェント",
+                "desc": "PC画面操作の自動化基盤"
+            }
+        ],
+        "notes": "「小さくて、速くて、賢い」っていうのわ、技術的にわ理想的なのだ。ぼくのずんだアローも、小さくて小回りがきくから最強なのだ！それと同じなのだ。",
+        "slidenum": 16,
+        "start_ms": 294508,
+        "end_ms": 308848
+    },
+    {
+        "type": "section",
+        "title": "ギャル語で読み解く契約書",
+        "url": "https://togetter.com/li/2670932",
+        "sectionNo": 4,
+        "notes": "----最後、4つ目の記事わ、ちょっと面白い話題なのだ。タイトルわ「契約書って甲と乙だと読む気失せるので、あーしとオタクくんにしていただけませんか？」なのだ。",
+        "slidenum": 17,
+        "start_ms": 308848,
+        "end_ms": 322988
+    },
+    {
+        "type": "quote",
+        "title": "「甲乙」から「あーしとオタクくん」へ",
+        "subhead": "難解な法的文章を口語調に変換した試み",
+        "text": "あーしわ、オタクくんが漏らした秘密を絶対誰にも言わないし",
+        "author": "ギャル風契約書の例",
+        "notes": "難しい契約書に出てくる「甲」とか「乙」っていう言葉、たしかに読みにくいのだ。それを有志の人が、ギャル語の「あーし」と「オタクくん」に置き換えてみたらしいのだ。そしたら、機密保持とかトラブルの時の対応とか、複雑な決まりごとが驚くほど直感的にわかるようになったんだって！",
+        "slidenum": 18,
+        "start_ms": 322988,
+        "end_ms": 349446
+    },
+    {
+        "type": "content",
+        "title": "「伝わりやすさ」の本質",
+        "subhead": "ドキュメント作成とLLM活用のヒント",
+        "points": [
+            "難解な用語を[[直感的な言葉]]に変換する重要性",
+            "LLMにおける[[ペルソナ設定]]の有効性の証明",
+            "相手に合わせた言葉選びが仕様書の質を高める"
+        ],
+        "images": [
+            {
+                "url": "https://placehold.jp/16x9.png",
+                "caption": "A visual split showing a dusty ancient scroll with kanji and a bright colorful smartphone screen with emoji and friendly text."
+            }
+        ],
+        "notes": "例えば「あーしわ、オタクくんが漏らした秘密を絶対誰にも言わないし」みたいな感じになるのかな。これわ笑えるけど、実は「ドキュメントをわかりやすくする」っていう意味でわ、すごく本質的なことなのだ。エンジニアも仕様書を書くとき、相手に伝わりやすい言葉を選ぶのわ大事なことなのだ。ペルソナ設定して言葉を変えるのわ、エーアイに指示を出すときにも役立つテクニックなのだ。ぼくも今度から、契約書を書くときわ「ずんだもん」と「みんな」にするのだ。それなら楽しく読めそうなのだ！",
+        "slidenum": 19,
+        "start_ms": 349446,
+        "end_ms": 391950
+    },
+    {
+        "type": "headerCards",
+        "title": "本日のトピックスまとめ",
+        "subhead": "未来を感じさせる4つの最新トレンド",
+        "items": [
+            {
+                "title": "Skills",
+                "desc": "AIエージェントの成功率を劇的に向上"
+            },
+            {
+                "title": "P&T開発",
+                "desc": "人間は「管制官」としてAIを指揮する"
+            },
+            {
+                "title": "Phi-4",
+                "desc": "質を極めた効率的な推論モデルの誕生"
+            },
+            {
+                "title": "ギャル語契約書",
+                "desc": "伝わる言葉とペルソナの重要性を再認識"
+            }
+        ],
+        "notes": "というわけで、今日わ4つのトレンドを紹介したのだ。エーアイの成功率を上げる「スキルズ」の話、人間が管制官になる「パイロットタワー」の話、賢くて効率的なモデル「ファイフォー」の話、そしてギャル語の契約書の話だったのだ。今日紹介した技術わ、どれも未来を感じさせるものばかりだったのだ。",
+        "slidenum": 20,
+        "start_ms": 391950,
+        "end_ms": 419549
+    },
+    {
+        "type": "closing",
+        "notes": "この番組では、みんなからの感想をお待ちしているのだ！「こんなことが知りたい」とか「ずんだもん、ずんだ餅どうぞ」っていうメッセージも大歓迎なのだ。明日もまた面白いニュースを届けるから、楽しみにしていてほしいのだ。それじゃあ、今日わこのへんで。また明日会えるのを楽しみにしてるのだ！バイバイなのだ！",
+        "slidenum": 21,
+        "start_ms": 419549,
+        "end_ms": 446481
+    }
+]
