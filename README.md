@@ -16,7 +16,27 @@ bundle exec jekyll serve
 ## _posts
 dateが先日付のものはbuildされない
 
-### 過去mp3のcloud storageへのアーカイブ
+## 固定episode
+
+qiitaからリンクあり
+18
+
+twitterのdev_inadaで紹介した記事
+1,5-18,21,40,45,73,100,141-145,177
+
+youtube
+42,68
+
+エイプリルフール
+212
+
+一周年
+248
+
+公式リツイート
+433
+
+## 過去mp3のcloud storageへのアーカイブ
 置き換え
 audio_file_path: /audio/
 audio_file_path: https://storage.googleapis.com/podcast-zund-arm-on/audio/
