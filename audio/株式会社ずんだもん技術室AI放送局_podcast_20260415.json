@@ -1,0 +1,433 @@
+[
+    {
+        "type": "agenda",
+        "title": "ずんだもん技術室 AI放送局\n最新テックトレンド紹介",
+        "date": "2026.04.15",
+        "items": [
+            "🚀 Cloudflare × OpenAI エージェント連携",
+            "🔍 Azure AI Search 思考するRAG",
+            "🧠 Claude Mythos 最上位モデル登場",
+            "🐱 癒やしの猫マンガ「ごんた」"
+        ],
+        "notes": "やっほー!ぼくわずんだもんなのだ!2026ねん4がつ15にちのすいようび、きょうも「かぶしきがいしゃずんだもんぎじゅつしつエーアイほうそうきょく」がはじまったのだ!きょうわ、さいしんのテクノロジーきじからちょっといやされるニュースまで、トレンドのきじをしょうかいしていくのだ。きょうわぜんぶで4ほんのきじをしょうかいするのだ。どれもエンジニアのみんなにわみのがせないないようだから、さいごまでゆっくりきいていってほしいのだ。",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 34922
+    },
+    {
+        "type": "section",
+        "title": "Cloudflare Agent Cloud with OpenAI",
+        "url": "https://openai.com/index/cloudflare-openai-agent-cloud",
+        "sectionNo": 1,
+        "notes": "それじゃあ、さっそくひとつめのきじをしょうかいするのだ。タイトルわ「エンタープライズパワーエージェンティックワークフローズインクラウドフレアエージェントクラウドウィズオープンエーアイ」なのだ。",
+        "slidenum": 2,
+        "start_ms": 34922,
+        "end_ms": 49168
+    },
+    {
+        "type": "content",
+        "title": "企業の自動化を加速する強力な提携",
+        "subhead": "CloudflareとOpenAIが「Agent Cloud」で統合",
+        "points": [
+            "Cloudflare Agent Cloudで[[GPT-5.4が利用可能]]に",
+            "業務自動化（エージェント・ワークフロー）の次世代フェーズ",
+            "実験的ツールから企業の標準的なインフラへ進化"
+        ],
+        "images": [
+            {
+                "url": "https://example.com/image1.jpg",
+                "caption": "A futuristic high-tech data center with glowing orange and blue light paths representing Cloudflare and OpenAI's collaboration, 16:9 aspect ratio."
+            }
+        ],
+        "notes": "クラウドフレアとオープンエーアイがきょうりょくなタッグをくんで、きぎょうのぎょうむじどうかがつぎのステージにすすんだというニュースなのだ。クラウドフレアのプラットフォーム「エージェントクラウド」で、オープンエーアイのさいしんモデル「ジーピーティー5.4」がちょくせつつかえるようになったのだ。",
+        "slidenum": 3,
+        "start_ms": 49168,
+        "end_ms": 71244
+    },
+    {
+        "type": "bulletCards",
+        "title": "押さえておくべき3つのポイント",
+        "subhead": "AIエージェントによる「実業務」の自動化",
+        "items": [
+            {
+                "title": "実業務の自動化",
+                "desc": "質問応答に留まらず[[実際の仕事（更新・応答）を遂行]]"
+            },
+            {
+                "title": "超低遅延エッジAI",
+                "desc": "Workers AIにより世界中のサーバーで[[高速動作を実現]]"
+            },
+            {
+                "title": "開発者ツールCodex",
+                "desc": "セキュアなサンドボックスで[[構築からデプロイまで完結]]"
+            }
+        ],
+        "notes": "これのすごいポイントわ3つあるのだ。まずひとつめわ、エーアイが「じっさいのしごと」をしてくれることなのだ。いままでのエーアイわしつもんにこたえるだけだったけど、これわこきゃくへのじどうおうとうとかシステムのこうしん、レポートさくせいみたいなふくざつなタスクを、あんぜんにじっこうできるエージェントをつくれるのだ。",
+        "slidenum": 4,
+        "start_ms": 71244,
+        "end_ms": 95376
+    },
+    {
+        "type": "content",
+        "title": "Workers AI による高速化のメリット",
+        "subhead": "知能とユーザーの物理的距離を縮める仕組み",
+        "points": [
+            "世界中に分散されたサーバー（エッジ）でAIを駆動",
+            "複雑なインフラ構築なしに[[グローバル規模のアプリ]]を実現",
+            "新人エンジニアでも扱えるスピーディーな環境"
+        ],
+        "notes": "ふたつめわ、エッジコンピューティングでめちゃくちゃはやいことなのだ。せかいじゅうにぶんさんされたクラウドフレアのサーバーでエーアイをうごかすから、ユーザーのちかくでスピーディーにどうさするのだ。インフラこうちくのてまもいらないのがうれしいのだ。",
+        "slidenum": 5,
+        "start_ms": 95376,
+        "end_ms": 113119
+    },
+    {
+        "type": "process",
+        "title": "Codex による開発ワークフロー",
+        "subhead": "構築から本番デプロイまでのシームレスな流れ",
+        "steps": [
+            "Codex harness 統合環境の起動",
+            "セキュアなサンドボックスでの構築・テスト",
+            "実環境へのワンクリック・デプロイ"
+        ],
+        "notes": "みっつめわ、かいはつしゃむけのツール「コーデックス」がとうごうされたことなのだ。あんぜんなテストかんきょうでエージェントをこうちくして、そのままじつかんきょうへデプロイできるワークフローがととのっているのだ。",
+        "slidenum": 6,
+        "start_ms": 113119,
+        "end_ms": 128784
+    },
+    {
+        "type": "quote",
+        "title": "次世代スタックへの展望",
+        "subhead": "Cloudflare CTO Dane Knecht氏の見解",
+        "text": "この提携は[[AIネイティブな次世代スタック]]を構築するための基盤になる。API処理量は毎分150億トークンを超えている。",
+        "author": "Dane Knecht (Cloudflare CTO)",
+        "notes": "これわ、エーアイがじっけんてきなツールから、きぎょうのせいさんせいをささえる「ひょうじゅんてきなインフラ」にかわったことをしょうちょうするニュースなのだ。",
+        "slidenum": 7,
+        "start_ms": 128784,
+        "end_ms": 140099
+    },
+    {
+        "type": "content",
+        "title": "ずんだもんのワクワクAI構想",
+        "subhead": "エージェントを自分で作ってみる時代",
+        "points": [
+            "最新モデルGPT-5.4の活用",
+            "日常業務の相棒となるエージェント構築",
+            "ずんだもち補充エージェントの可能性"
+        ],
+        "images": [
+            {
+                "url": "https://example.com/zundamon.jpg",
+                "caption": "A cute green anime character looking at a high-tech console with a digital AI agent reflected in their eyes, glowing icons of mochi and arrows, 16:9."
+            }
+        ],
+        "notes": "----このきじをよんで、ぼくわワクワクがとまらないのだ!ジーピーティー5.4がいよいよじつむでバリバリうごくじだいになったのだね。ぼくもずんだアローをじどうでみがいて、ずんだもちをほじゅうしてくれるエージェントをクラウドフレアでつくってみたいのだ。みんなも、じぶんのしごとをたすけてくれるあいぼうをつくってみるといいのだ!",
+        "slidenum": 8,
+        "start_ms": 140099,
+        "end_ms": 163880
+    },
+    {
+        "type": "section",
+        "title": "Azure AI Search で Agentic RAG 実現",
+        "url": "https://acro-engineer.hatenablog.com/entry/2026/04/14/120000",
+        "sectionNo": 2,
+        "notes": "つづいてふたつめのきじをしょうかいするのだ。タイトルわ「アジュールエーアイサーチのアジェンティックリトリーバルをつかってアジェンティックラグじつげん」なのだ。",
+        "slidenum": 9,
+        "start_ms": 163880,
+        "end_ms": 175609
+    },
+    {
+        "type": "diagram",
+        "title": "Agentic Retrieval の自律的プロセス",
+        "subhead": "AIが自ら考え、情報を探しに行く挙動",
+        "lanes": [
+            {
+                "title": "意図分析",
+                "items": [
+                    "ユーザーの質問を解析",
+                    "複雑なタスクを分解"
+                ]
+            },
+            {
+                "title": "クエリ計画",
+                "items": [
+                    "自律的に複数クエリ作成",
+                    "最適な検索戦略の立案"
+                ]
+            },
+            {
+                "title": "集約・回答",
+                "items": [
+                    "各検索結果を統合",
+                    "最終的な回答を生成"
+                ]
+            }
+        ],
+        "notes": "マイクロソフトの「アジュールエーアイサーチ」に、じりつてきなけんさくをおこなう「アジェンティックリトリーバル」というしんきのうがつついかされたのだ。これをつかって、よりこうどな「ラグ」をじつげんするほうほうについてのかいせつなのだ。いままでのラグわ、ユーザーのしつもんをそのままけんさくにつかうシンプルなものだったのだ。でも、このあたらしいきのうわ、エーアイがユーザーのいとをぶんせきして「じぶんでかんがえて」ひつようなけんさくキーワードをいくつもつくって、じょうほうをあつめてくれるのだ。",
+        "slidenum": 10,
+        "start_ms": 175609,
+        "end_ms": 214523
+    },
+    {
+        "type": "table",
+        "title": "制御の鍵となる重要な設定",
+        "subhead": "出力モードと思考の深さの選択",
+        "headers": [
+            "設定項目",
+            "オプション",
+            "期待される動作"
+        ],
+        "rows": [
+            [
+                "Output Mode",
+                "ANSWER_SYNTHESIS",
+                "自然な回答文を生成する"
+            ],
+            [
+                "Output Mode",
+                "EXTRACTIVE_DATA",
+                "データの断片のみを返す"
+            ],
+            [
+                "Reasoning Effort",
+                "minimal / low",
+                "直接的または簡単な検索"
+            ],
+            [
+                "Reasoning Effort",
+                "medium",
+                "目的達成まで深く広範囲を探索"
+            ]
+        ],
+        "notes": "せっていですこしだいじなわ「しこうのふかさ」なのだ。「ロー」せっていだと、しつもんをぶんかいしてけんさくするくらいだけど、「ミディアム」にすると、もくてきのじょうほうがえられるまで、よりふかくこうはんいにたんさくをくりかえすのだ。",
+        "slidenum": 11,
+        "start_ms": 214523,
+        "end_ms": 232983
+    },
+    {
+        "type": "statsCompare",
+        "title": "実証実験による精度の比較",
+        "subhead": "Reasoning Effort の設定によるトレードオフ",
+        "leftTitle": "Reasoning Effort: low",
+        "rightTitle": "Reasoning Effort: medium",
+        "stats": [
+            {
+                "label": "生成クエリ数",
+                "leftValue": "3個",
+                "rightValue": "10個",
+                "trend": "up"
+            },
+            {
+                "label": "実行時間",
+                "leftValue": "高速",
+                "rightValue": "約50秒",
+                "trend": "down"
+            },
+            {
+                "label": "回答の質",
+                "leftValue": "冗長",
+                "rightValue": "高精度・要点凝縮",
+                "trend": "up"
+            }
+        ],
+        "notes": "じっけんのけっかだと、「ミディアム」にするとせいどのたかいかんぺきなかいとうがかえってくるけど、そのぶん、じっこうじかんに50びょうくらいかかったり、コストがふえたりするみたいだね。",
+        "slidenum": 12,
+        "start_ms": 232983,
+        "end_ms": 247039
+    },
+    {
+        "type": "cards",
+        "title": "新人エンジニアへのアドバイス",
+        "subhead": "Azure AI Search を使いこなす第一歩",
+        "columns": 2,
+        "items": [
+            {
+                "title": "まずは low 設定から",
+                "desc": "クエリ展開のログを観察してAIの分解能力を学ぶ"
+            },
+            {
+                "title": "バランスの見極め",
+                "desc": "要件に応じてコスト・速度・精度の最適解を探る"
+            }
+        ],
+        "notes": "----エーアイがじぶんでかんがえてさがしまわるなんて、まるでぼくがぎじゅつしつでさがしものをしてるときみたいだね。せいどをあげたいけど、あんまりかんがえすぎるとじかんがかかっちゃうのわ、にんげんもエーアイもおなじなのだ。コストとそくどのバランスをみきわめるのが、エンジニアのうでのみせどころなのだ!",
+        "slidenum": 13,
+        "start_ms": 247039,
+        "end_ms": 269198
+    },
+    {
+        "type": "section",
+        "title": "Claude Mythos Preview on Vertex AI",
+        "url": "https://cloud.google.com/blog/ja/products/ai-machine-learning/claude-mythos-preview-on-vertex-ai",
+        "sectionNo": 3,
+        "notes": "みっつめのきじにいくのだ。タイトルわ「クロードミトスプレビュー：バーテックスエーアイでげんていこうかいプレビューばんをていきょうかいし」なのだ。",
+        "slidenum": 14,
+        "start_ms": 269198,
+        "end_ms": 280661
+    },
+    {
+        "type": "bulletCards",
+        "title": "Anthropic社の最高峰モデル登場",
+        "subhead": "Project Glasswing の全貌",
+        "items": [
+            {
+                "title": "過去最高性能",
+                "desc": "Opus 4.6を凌駕する[[強力な汎用推論能力]]"
+            },
+            {
+                "title": "セキュリティ特化",
+                "desc": "サイバーセキュリティリスクの低減にフォーカス"
+            },
+            {
+                "title": "Vertex AI 統合",
+                "desc": "Google Cloudの[[強固なインフラ管理機能]]を利用可能"
+            }
+        ],
+        "notes": "グーグルクラウドが、アンソロピックしゃのさいしんかつさいこうほうのモデル「クロードミトスプレビュー」をいちぶのユーザーむけにこうかいしたのだ。この「クロードミトス」わ、いままでの「オーパス4.6」とかをうわまわる、もっともきょうりょくなモデルとされているのだ。ふくざつなろんりすいろんがとくいなのはもちろん、とくに「サイバーセキュリティリスクのていげん」にちからをいれているのがとくちょうなのだ。",
+        "slidenum": 15,
+        "start_ms": 280661,
+        "end_ms": 312249
+    },
+    {
+        "type": "content",
+        "title": "エンタープライズ向けの強力なバックアップ",
+        "subhead": "管理・スケーリング・管理の効率化",
+        "points": [
+            "Vertex AIによるエンタープライズグレードの管理",
+            "実務レベルのインフラへの即時組み込みが可能",
+            "最新モデルを安心・安全に利用できる環境"
+        ],
+        "images": [
+            {
+                "url": "https://example.com/cloud_secure.jpg",
+                "caption": "A shimmering translucent glass wing butterfly fluttering over a glowing motherboard, symbolizing security and the high performance of Project Glasswing, 16:9."
+            }
+        ],
+        "notes": "グーグルの「バーテックスエーアイ」のうえでうごくから、きぎょうがおおきなシステムでつかうためのかんりきのうもバッチリなのだ。",
+        "slidenum": 16,
+        "start_ms": 312249,
+        "end_ms": 321889
+    },
+    {
+        "type": "kpi",
+        "title": "Claude シリーズの進化の系譜",
+        "subhead": "Mythos への期待値",
+        "columns": 3,
+        "items": [
+            {
+                "label": "Sonnet 4.6",
+                "value": "効率・速度",
+                "change": "Standard",
+                "status": "neutral"
+            },
+            {
+                "label": "Opus 4.6",
+                "value": "高度推論",
+                "change": "High",
+                "status": "good"
+            },
+            {
+                "label": "Mythos",
+                "value": "最高峰・安全",
+                "change": "Next Gen",
+                "status": "good"
+            }
+        ],
+        "notes": "----ミトスって,なまえからしてつよそうなのだ!「しんわ」っていういみだよね。ぼくもいつか「ずんだミトス」とかよばれるくらい、すごいようせいになりたいのだ。さいしんのエーアイをあんぜんにつかえるのわ、かいはつしゃにとってほんとうにこころづよいことなのだ。",
+        "slidenum": 17,
+        "start_ms": 321889,
+        "end_ms": 342139
+    },
+    {
+        "type": "section",
+        "title": "元野良猫「ごんた」の癒やしマンガ",
+        "url": "https://togetter.com/li/2685909",
+        "sectionNo": 4,
+        "notes": "----さいご、よっつめのきじわ、ちょっとひといきつくのだ。タイトルわ「ねこせいぶんにうえていたおやがあなのあいたバケツのようなもとのらねこによってすべてのあいをしぼりとられていたマンガ」なのだ。",
+        "slidenum": 18,
+        "start_ms": 342139,
+        "end_ms": 356887
+    },
+    {
+        "type": "content",
+        "title": "「穴の空いたバケツ」のような愛",
+        "subhead": "元野良猫ごんたと飼い主の交流",
+        "points": [
+            "誰にでも無限に甘える人懐っこい性格",
+            "猫成分に飢えていた親御さんの愛を搾り取る",
+            "コミカルで温かい「無限の愛」のループ"
+        ],
+        "images": [
+            {
+                "url": "https://example.com/cat_gonta.jpg",
+                "caption": "A cute, fluffy cat resembling a bucket being filled with hearts and light, a warm and cozy living room background, anime watercolor style, 16:9."
+            }
+        ],
+        "notes": "これわもとのらねこの「ごんた」くんがいえねこになって、かいぬしさんのあいをいっしんにうけるにちじょうをえがいたマンガなのだ。ごんたくんわ、だれにでもむげんにあまえる「あなのあいたバケツ」のようなせいかくで、かいぬしさんのあいをさいげんなくすいつくしていくのだ。そのようすがとってもコミカルであたたかいのだ。",
+        "slidenum": 19,
+        "start_ms": 356887,
+        "end_ms": 380390
+    },
+    {
+        "type": "cards",
+        "title": "エンジニアに必要な「癒やし」",
+        "subhead": "リフレッシュで生産性を向上",
+        "items": [
+            {
+                "title": "愛の搾取で幸せに",
+                "desc": "ごんたの無限の甘えに癒やされる体験"
+            },
+            {
+                "title": "業務の合間に一息",
+                "desc": "最新技術を追う頭脳をリフレッシュ"
+            }
+        ],
+        "notes": "----エンジニアわまいにちあたまをつかうから、こういういやしがひつ必要なのだ。ぼくもずんだもちをたべているときわ、あいをすいとられているようなしあわせなきぶんになるのだ。みんなも、おしごとのあいまにこのマンガをよんでリフレッシュしてほしいのだ。",
+        "slidenum": 20,
+        "start_ms": 380390,
+        "end_ms": 398666
+    },
+    {
+        "type": "table",
+        "title": "本日の放送内容まとめ",
+        "subhead": "紹介した4つのトピック",
+        "headers": [
+            "分野",
+            "トピック",
+            "注目ワード"
+        ],
+        "rows": [
+            [
+                "Cloud Infrastructure",
+                "Cloudflare × OpenAI",
+                "GPT-5.4 / Agent Cloud"
+            ],
+            [
+                "AI Search",
+                "Azure Agentic RAG",
+                "Agentic Retrieval / 思思考"
+            ],
+            [
+                "AI Model",
+                "Claude Mythos",
+                "最高峰 / セキュリティ"
+            ],
+            [
+                "Healing",
+                "猫マンガ「ごんた」",
+                "無限の愛 / 癒やし"
+            ]
+        ],
+        "notes": "----きょうわ、クラウドフレアとオープンエーアイのれんけい、アジュールのかしこいけんさくきのう、さいしんモデルのクロードミトス、そしていやしのねこちゃんマンガの4ほんをおとどけしたのだ。どれもこれからのぎじゅつトレンドをつかむのにだいじなトピックだったのだ。",
+        "slidenum": 21,
+        "start_ms": 398666,
+        "end_ms": 417179
+    },
+    {
+        "type": "closing",
+        "notes": "ばんぐみのかんそうやおたよりもまってるのだ!「こんなきじをしょうかいしてほしい」とか、ぼくへのしつもんとか、なんでもおくってほしいのだ。それじゃあ、きょうわこのへんで。あしたもまたこのほうそうきょくであえるのをたのしみにしているのだ!かぜをひかないようにきをつけるのだ。バイバイなのだ!",
+        "slidenum": 22,
+        "start_ms": 417179,
+        "end_ms": 439731
+    }
+]
