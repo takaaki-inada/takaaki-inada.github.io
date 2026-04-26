@@ -1,0 +1,355 @@
+[
+    {
+        "type": "agenda",
+        "title": "マジカルラブリーつむぎのピュアピュアAI放送局",
+        "date": "2026.04.27",
+        "items": [
+            "AIによる開発を支援「agents-cli」",
+            "驚異の100万トークン「DeepSeek-V4」",
+            "PDFをLLMの糧に「PDF4LLM」",
+            "ニコニコ動画のAIほっこりニュース"
+        ],
+        "notes": "やっほー！さいたまギャルのかすかべつむぎだよ。きょうわにせんにじゅうろくねんしがつにじゅうななにち、げつようび！げつようびわ、あーしがつむぎがたんとうするひだよ。このばんぐみわ、マジカルラブリーつむぎのピュアピュアエーアイほうそうきょく！きょうもあーしといっしょに、さいしんのトレンドをチェックしていこうね！きょうわ、よっつのきじをしょうかいするよ。",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 43415
+    },
+    {
+        "type": "section",
+        "title": "agents-cliの中身を見てみよう",
+        "url": "https://zenn.dev/makocchan/articles/whats_agents_cli",
+        "sectionNo": 1,
+        "notes": "まずひとつめ！タイトルわ、エージェンツシーエルアイのなかみをみてみよう。",
+        "slidenum": 2,
+        "start_ms": 43415,
+        "end_ms": 48798
+    },
+    {
+        "type": "content",
+        "title": "agents-cliとは何か",
+        "subhead": "AIエージェント開発を統合管理する新世代CLI",
+        "points": [
+            "Google Cloud Next '26で発表された新ツール",
+            "実装・評価・デプロイを一つのツールで完結",
+            "[[AI自身がAIを開発する]]ための設計思想",
+            "人間だけでなくコーディングエージェントも操作可能"
+        ],
+        "images": [
+            {
+                "url": "https://example.com/agents_cli_concept.png",
+                "caption": "A futuristic terminal screen showing 'agents-cli' commands, neon cyan aesthetics, holographic AI agent avatars working in a digital environment, 16:9 cinematic view."
+            }
+        ],
+        "notes": "これわ、グーグルクラウドネクストにじゅうろくでわはっぴょうされた、エージェンツシーエルアイっていうツールのことだよ。エーアイエージェントをつくるのをたすけてくれる、コマンドラインインターフェース、えーっと、まっくろながめんにもじをうってそうさするやつだね。",
+        "slidenum": 3,
+        "start_ms": 48798,
+        "end_ms": 65188
+    },
+    {
+        "type": "bulletCards",
+        "title": "現代的な開発アプローチ",
+        "subhead": "AIがAIを育てるための専用スキルセット",
+        "items": [
+            {
+                "title": "自律的な開発",
+                "desc": "Gemini CLIやClaude Codeがこのツールを介して開発を主導可能"
+            },
+            {
+                "title": "スキルの提供",
+                "desc": "AIがエージェント構築を効率化するための「武器」として機能"
+            },
+            {
+                "title": "開発ライフサイクル",
+                "desc": "構築から評価、本番デプロイまでの流れを[[完全に自動化]]"
+            }
+        ],
+        "notes": "このツールのすごいところわ、にんげんがそうさするだけじゃなくて、ジェミニシーエルアイとかクロードコードみたいな「エーアイ」がこのツールをつかって、ほかのエーアイをつくれるようにせっけいされてるんだって。エーアイがエーアイをそだてるためのどうぐ、みたいなかんじかな？ちょっとややこしいけど、ギャルがこうはいにメイクをおしえるのを、さらにそのうえのせんぱいがてつだうみたいな？あはは、よけいこんらんしちゃった！",
+        "slidenum": 4,
+        "start_ms": 65188,
+        "end_ms": 93280
+    },
+    {
+        "type": "process",
+        "title": "agents-cliの主要ワークフロー",
+        "subhead": "雛形作成から本番デプロイまでの3ステップ",
+        "steps": [
+            "[[scaffold]]: 言語（Python/Go/Java）を選んで雛形を作成",
+            "[[lint / run / eval]]: コード品質の担保と自動精度評価を実行",
+            "[[deploy]]: Cloud RunやGKEへのデプロイ（Terraform連携可）"
+        ],
+        "notes": "このツールわ、プロジェクトのひながたをパパッとつくったり、コードがきれいかチェックしたり、じっさいにうごかしてテストしたりできるんだって。",
+        "slidenum": 5,
+        "start_ms": 93280,
+        "end_ms": 102547
+    },
+    {
+        "type": "cards",
+        "title": "エンジニアにとっての導入メリット",
+        "subhead": "現場に合わせた柔軟な部分利用が可能",
+        "columns": 2,
+        "items": [
+            {
+                "title": "優れたモジュール性",
+                "desc": "各コマンドが独立しており必要な工程だけを選んで導入できる"
+            },
+            {
+                "title": "環境への適合性",
+                "desc": "評価だけ、あるいはデプロイだけ既存環境に組み込むことが可能"
+            }
+        ],
+        "notes": "エンジニアのせんぱいたちにとっても、ぜんぶこのツールにまかせなくていいから、すきなところだけつまみぐいできるのがいいらしいよ。カレーのトッピングをえらぶみたいで、たのしそうじゃん！",
+        "slidenum": 6,
+        "start_ms": 102547,
+        "end_ms": 115404
+    },
+    {
+        "type": "section",
+        "title": "DeepSeek V4 Preview Release",
+        "url": "https://api-docs.deepseek.com/news/news260424",
+        "sectionNo": 2,
+        "notes": "つぎわふたつめ！タイトルわ、ディープシークブイフォープレビューリリース。",
+        "slidenum": 7,
+        "start_ms": 115404,
+        "end_ms": 120053
+    },
+    {
+        "type": "content",
+        "title": "DeepSeek-V4の衝撃",
+        "subhead": "100万トークンのコンテキストウィンドウを標準化",
+        "points": [
+            "最大[[100万トークン]]（1M）の文脈長をサポート",
+            "驚異的なコストパフォーマンスで提供開始",
+            "DSA（DeepSeek Sparse Attention）による技術革新",
+            "既存の商用クローズドモデルに匹敵する推論能力"
+        ],
+        "images": [
+            {
+                "url": "https://example.com/deepseek_v4.png",
+                "caption": "A deep sea ocean visualization with glowing bioluminescent pulses of data representing 1M tokens flowing like currents, minimalist and high-tech, 16:9 ratio."
+            }
+        ],
+        "notes": "ディープシークっていう、いまいきおいのあるところからあたらしいモデルがでたんだって。これ、なにがすごいかっていうと、ひゃくまんトークンっていうめちゃくちゃながいぶんみゃくをよみこめるらしいよ。",
+        "slidenum": 8,
+        "start_ms": 120053,
+        "end_ms": 132422
+    },
+    {
+        "type": "quote",
+        "title": "100万トークンでできること",
+        "subhead": "新人エンジニアを強力にサポートする知識量",
+        "text": "大規模なプロジェクトのソースコード全体や、数冊分の技術書を一度にAIに読み込ませて、文脈を完璧に理解した上でのサポートを受けられるようになる",
+        "author": "DeepSeek API Docs 解説",
+        "notes": "ひゃくまんトークンっていわれてもピンとこないけど、たぶんじしょとか、あついぎじゅつしょをなんさつもいっぺんにエーアイにわたして「これ、ぜんぶふまえていいかんじにおしえて！」ってできるレベル。これわやばいね！",
+        "slidenum": 9,
+        "start_ms": 132422,
+        "end_ms": 146634
+    },
+    {
+        "type": "statsCompare",
+        "title": "展開される2つのモデル",
+        "subhead": "ProモデルとFlashモデルの特性比較",
+        "leftTitle": "DeepSeek-V4-Pro",
+        "rightTitle": "DeepSeek-V4-Flash",
+        "stats": [
+            {
+                "label": "パラメータ数（総計）",
+                "leftValue": "1.6兆",
+                "rightValue": "284B"
+            },
+            {
+                "label": "アクティブパラメータ",
+                "leftValue": "49B",
+                "rightValue": "13B"
+            },
+            {
+                "label": "推論能力（STEM）",
+                "leftValue": "最高水準",
+                "rightValue": "Proに近い性能"
+            },
+            {
+                "label": "主要用途",
+                "leftValue": "高度な推論",
+                "rightValue": "高速・低価格API"
+            }
+        ],
+        "notes": "モデルわふたつのしゅるいがあって、プロわすっごくあたまがいいし、フラッシュわはやくて、おさいふにもやさしいんだって。",
+        "slidenum": 10,
+        "start_ms": 146634,
+        "end_ms": 154963
+    },
+    {
+        "type": "content",
+        "title": "AIエージェントへの最適化",
+        "subhead": "開発現場での実戦投入とツール連携",
+        "points": [
+            "Claude CodeやOpenClawとのシームレスな統合",
+            "[[AIエージェント]]としての利用に特化したチューニング",
+            "開発エンジニアの「カンニング」ツールとして有用",
+            "OpenAI/Anthropic形式のAPI互換性を維持"
+        ],
+        "notes": "しんじんエンジニアのみんなも、これをしごとにっかえば、むずかしいプロジェクトのコードをぜんぶエーアイによませて、カンニングしほうだいかも？あーしもカレーパンたべながら、これくらいパパッとものおぼえがよくなりたいなー。",
+        "slidenum": 11,
+        "start_ms": 154963,
+        "end_ms": 170391
+    },
+    {
+        "type": "timeline",
+        "title": "移行のスケジュール",
+        "subhead": "V4への移行と旧モデルの廃止",
+        "milestones": [
+            {
+                "label": "DeepSeek-V4 Preview リリース",
+                "date": "2026.04.24",
+                "state": "done"
+            },
+            {
+                "label": "API一般提供開始（順次拡大）",
+                "date": "2026.05.01",
+                "state": "next"
+            },
+            {
+                "label": "旧モデル（deepseek-chat等）廃止",
+                "date": "2026.07.24",
+                "state": "todo"
+            }
+        ],
+        "notes": "APIは既に利用可能で、OpenAIやAnthropicの形式をサポートしているため、既存のコードのモデル指定を書き換えるだけで簡単に試すことができます。なお、旧モデルは2026年7月24日に廃止予定となっているため、今のうちからこの強力なV4への移行を検討しておくのが賢明です。",
+        "slidenum": 12,
+        "start_ms": 170391,
+        "end_ms": 170564
+    },
+    {
+        "type": "section",
+        "title": "PDF4LLM：LLM前処理レイヤー",
+        "url": "https://qiita.com/jamie-lemon/items/1b4a5c771cd8c1638915",
+        "sectionNo": 3,
+        "notes": "みっつめわこれ！タイトルわ、ピーディーエフフォーエーエルエム、エーエルエムぜんしょりドキュメントしょりレイヤー。",
+        "slidenum": 13,
+        "start_ms": 170564,
+        "end_ms": 176535
+    },
+    {
+        "type": "compare",
+        "title": "PDFが抱える構造的問題",
+        "subhead": "描画命令の集まりから論理構造の抽出へ",
+        "leftTitle": "従来の単純抽出",
+        "rightTitle": "PDF4LLMによる変換",
+        "leftItems": [
+            "段組の読み順が狂う",
+            "表が数字の羅列になる",
+            "RAGの精度が著しく低下",
+            "図解情報が欠落する"
+        ],
+        "rightItems": [
+            "人間が読む順序を再構築",
+            "[[クリーンなMarkdown]]に変換",
+            "表やリストの構造を維持",
+            "LLMが理解しやすい形式へ"
+        ],
+        "notes": "これわね、ピーディーエフっていうファイルをエーアイによみやすくするためのツールのこと。ピーディーエフって、にんげんがみるにわいいけど、エーアイからすると「どこからよめばいいの？」ってまよっちゃうらしいんだよね。ひょうとかがぞうがあると、もうパニック！",
+        "slidenum": 14,
+        "start_ms": 176535,
+        "end_ms": 194182
+    },
+    {
+        "type": "kpi",
+        "title": "圧倒的な効率化とコスト削減",
+        "subhead": "VLM（ビジョンモデル）解析との比較",
+        "items": [
+            {
+                "label": "解析コスト（1,000ページ）",
+                "value": "$0.06",
+                "change": "99.5% 削減",
+                "status": "good"
+            },
+            {
+                "label": "処理速度",
+                "value": "数百分の一",
+                "change": "大幅短縮",
+                "status": "good"
+            },
+            {
+                "label": "データサイズ",
+                "value": "軽量化",
+                "change": "最適化",
+                "status": "neutral"
+            }
+        ],
+        "notes": "それをエーアイにやさしいマークダウンっていう、きれいなもじのけいしきにへんかんしてくれるんだって。しかもこれをつかうと、コストがひゃくぶんのいちくらいになることもあるらしいよ！じゅうよんドルだったのがぜろてんぜろろくドルになるって、めちゃくちゃおとくじゃん！コンビニのカレーパンがいちえんになるくらいのしょうげきだよ！",
+        "slidenum": 15,
+        "start_ms": 194182,
+        "end_ms": 214238
+    },
+    {
+        "type": "headerCards",
+        "title": "信頼性を高める独自機能",
+        "subhead": "WebViewer 4LLMが提供する体験",
+        "items": [
+            {
+                "title": "AIサイテーション",
+                "desc": "回答の根拠となる箇所をPDF上で[[直接ハイライト表示]]"
+            },
+            {
+                "title": "トレーサビリティ",
+                "desc": "法務・金融業務で不可欠な「根拠」の追跡可能性を確保"
+            },
+            {
+                "title": "マルチプラットフォーム",
+                "desc": "Python/ .NETに加え、JavaScript(WASM)版も展開予定"
+            }
+        ],
+        "notes": "あと、エーアイがこたえたときに「もとのファイルのここにかいてあったよ！」ってハイライトしてくれるきのうもあるんだって。これならエーアイがウソをついてもすぐバレちゃうね。しんらいせいバツグンだよ！",
+        "slidenum": 16,
+        "start_ms": 214238,
+        "end_ms": 227541
+    },
+    {
+        "type": "section",
+        "title": "ニコニコ動画のAIほっこりニュース",
+        "url": "https://togetter.com/li/2689432",
+        "sectionNo": 4,
+        "notes": "さいごによっつめ！タイトルわ、ニコニコどうがでぬしがいった、エーアイがコメントするきのうをためしにオンにしてます、にたいしてエーアイが、そんなきのうあるんか、っていって、それににんげんのツッコミがはいってておもしろかった。",
+        "slidenum": 17,
+        "start_ms": 227541,
+        "end_ms": 243014
+    },
+    {
+        "type": "quote",
+        "title": "AIが図らずも「ボケ」を担当",
+        "subhead": "AIキャラクター新機能での微笑ましい珍事",
+        "text": "投稿者「AIコメントをONにしたよ」\nAI「そんな機能あるんか」\n人間「お前のことだよ！」",
+        "author": "ニコニコ動画 ユーザーコメント",
+        "notes": "これわ、ニコニコどうがのしんきのうで、エーアイがボケちゃったっておはなし。どうがのとうこうしゃさんが「エーアイのコメントをオンにしたよ」っていったら、エーアイじしんが「えっ、そんなきのうあるの？」って、たにんごとみたいにかえしてきたんだって。そこにすかさず、にんげんが「おまえのことだよ！」ってツッコミをいれるっていう。",
+        "slidenum": 18,
+        "start_ms": 243014,
+        "end_ms": 267464
+    },
+    {
+        "type": "content",
+        "title": "技術が提供する新しい遊びの形",
+        "subhead": "人間とAIの交流を促す「潤滑油」としての役割",
+        "points": [
+            "AIの失敗が[[親近感とコミュニケーション]]を醸成",
+            "場を盛り上げるエンターテインメント要素の発見",
+            "開発のヒントになるユーザー体験の好例",
+            "新しい「AIとの共生」の在り方を提示"
+        ],
+        "images": [
+            {
+                "url": "https://example.com/niconico_ai.png",
+                "caption": "A friendly anime-style AI character looking surprised and slightly confused in a digital video player interface, surrounded by flying text comments (danmaku), warm and cheerful atmosphere, 16:9."
+            }
+        ],
+        "notes": "なんかエーアイもたまにわとぼけたりして、かわいいところあるよね。こういうしっぱいって、ぎゃくにしんきんかんがわいちゃうじゃん？あーしもぎじゅつしつのずんだもんせんぱいに、たまにカレーパンをさしいれしてボケたりするけど、エーアイとにんげんがこうやってなかよくおしゃべりできるのわ、すてきなことだなっておもうよ！",
+        "slidenum": 19,
+        "start_ms": 267464,
+        "end_ms": 267464
+    },
+    {
+        "type": "closing",
+        "notes": "はい！というわけで、きょうわ、エージェンツシーエルアイ、ディープシークブイフォー、ピーディーエフフォーエーエルエム、それからニコニコどうがのほっこりニュースのよっつをおおくりしたよ。みんな、きょうのほうそうわどうだったかな？あーしもちょっとだけエンジニアのことにくわしくなれたきがする！このばんぐみわ、みんなからのめっせーじをまってるよ。どんなことでもいいから、きがるにおくってね！それじゃあ、つぎのほうそうもたのしみにしててね。バイバイ！",
+        "slidenum": 20,
+        "start_ms": 267464,
+        "end_ms": 319296
+    }
+]
