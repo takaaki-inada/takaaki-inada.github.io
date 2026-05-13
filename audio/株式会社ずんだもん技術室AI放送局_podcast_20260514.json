@@ -1,0 +1,361 @@
+[
+    {
+        "type": "agenda",
+        "title": "株式会社ずんだもん技術室AI放送局",
+        "date": "2026.05.14",
+        "items": [
+            "ビデオ解析のAI革命",
+            "ADHDエンジニアの生存戦略",
+            "キーワード1回で極めるRAG"
+        ],
+        "notes": "やっほー！ぼくわ、ずんだもんなのだ。今日わ2026年5月14日、木曜日なのだ。「かぶしきがいしゃずんだもんぎじゅつしつエーアイほうそうきょく」へようこそなのだ！",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 17586
+    },
+    {
+        "type": "section",
+        "title": "今日紹介するトレンド記事",
+        "url": "https://developer.nvidia.com/blog/transform-video-into-instantly-searchable-actionable-intelligence-with-ai-agents-and-skills/",
+        "sectionNo": 1,
+        "notes": "今日わ、いま話題になっているトレンドの記事をいくつかピックアップして紹介していくのだ。エンジニアのぼくが、技術的な視点もまじえながら楽しくお伝えするのだ。今日紹介する記事わ、全部で3本なのだ。それじゃあ、さっそくいってみるのだ！",
+        "slidenum": 2,
+        "start_ms": 17586,
+        "end_ms": 37919
+    },
+    {
+        "type": "section",
+        "title": "1. NVIDIA：ビデオを言葉で検索・分析",
+        "url": "https://developer.nvidia.com/blog/transform-video-into-instantly-searchable-actionable-intelligence-with-ai-agents-and-skills/",
+        "sectionNo": 2,
+        "notes": "----1つめの記事わ、エヌビディアが発表した最新のビデオ解析ソリューションについての記事なのだ。タイトルわ、「トランスフォームビデオイントゥインスタントリーサーチャブル、アクションナブルインテリジェンスウィズエーアイエージェンツアンドスキルズ」なのだ。",
+        "slidenum": 3,
+        "start_ms": 37919,
+        "end_ms": 56197
+    },
+    {
+        "type": "content",
+        "title": "Metropolis Blueprint for VSS の概要",
+        "subhead": "膨大なビデオデータから[[リアルタイムで洞察]]を抽出",
+        "points": [
+            "従来は困難だった「特定のシーン探し」を容易に",
+            "ビジョン言語モデル(VLM)とLLMを組み合わせ",
+            "ビデオを「見て」「理解し」「推論する」AI"
+        ],
+        "images": [
+            {
+                "url": "https://developer.nvidia.com/blog/wp-content/uploads/2024/03/metropolis-blueprint-vss-header.png",
+                "caption": "A futuristic data center with holographic video streams being analyzed by a glowing AI core, ultra-realistic, cinematic lighting, 8k resolution."
+            }
+        ],
+        "notes": "これわね、膨大なビデオデータの中から、リアルタイムで意味のある情報を引き出して、自然な言葉で検索や分析ができるようにする「メトロポリスブループリントフォービデオサーチアンドサマライゼーション」、略してブイエスエスについての解説なのだ。",
+        "slidenum": 4,
+        "start_ms": 56197,
+        "end_ms": 75299
+    },
+    {
+        "type": "bulletCards",
+        "title": "AIエージェントによる自動化：VSS Skills",
+        "subhead": "チャットインターフェースでビデオ解析を実行",
+        "items": [
+            {
+                "title": "モジュール化された機能",
+                "desc": "CodexやClaude Codeを活用した「[[VSSスキル]]」の提供"
+            },
+            {
+                "title": "シンプルな指示",
+                "desc": "デプロイ、管理、解析をチャットから自動化可能"
+            },
+            {
+                "title": "高度な検索",
+                "desc": "複雑なクエリに対し、エージェントが推論して最適化"
+            }
+        ],
+        "notes": "これまでのビデオ解析わ、長い映像の中から特定のシーンを探すのがとっても大変だったのだ。でも、このブイエスエスわ、ビジョン言語モデルと大規模言語モデルを組み合わせることで、エーアイがビデオをただ「見る」だけじゃなくて、内容を「理解して推論する」ことができるようになるのだ。",
+        "slidenum": 5,
+        "start_ms": 75299,
+        "end_ms": 99444
+    },
+    {
+        "type": "cards",
+        "title": "選べる4つのプロファイル",
+        "subhead": "Docker Composeベースのモジュール設計",
+        "columns": 2,
+        "items": [
+            {
+                "title": "Q&A・レポート生成",
+                "desc": "映像内容に基づいた回答作成"
+            },
+            {
+                "title": "アラートの検証",
+                "desc": "CVパイプラインとVLMによる異常検知"
+            },
+            {
+                "title": "高度なアーカイブ検索",
+                "desc": "大規模映像からの瞬間特定"
+            },
+            {
+                "title": "長尺ビデオの要約",
+                "desc": "数時間の映像を短時間に圧縮"
+            }
+        ],
+        "notes": "たとえば、「ヘルメットをかぶった作業員が梯子に登っているシーン」なんていう具体的な状況をチャットで打ち込むだけで、エーアイエージェントがすぐにその場面を見つけ出してくれるのだ。ドッカーコンポーズをベースにした設計だから、エンジニアにとっても扱いやすいし、エヌビディアのエイチ100みたいな強力なジーピーユーに最適化されているから、めちゃくちゃ動作が速いのだ。",
+        "slidenum": 6,
+        "start_ms": 99444,
+        "end_ms": 128197
+    },
+    {
+        "type": "kpi",
+        "title": "圧倒的なパフォーマンス",
+        "subhead": "NVIDIA GPUへの最適化",
+        "columns": 3,
+        "items": [
+            {
+                "label": "対象GPU",
+                "value": "H100 / RTX 6000",
+                "change": "Optimized",
+                "status": "good"
+            },
+            {
+                "label": "並列処理",
+                "value": "多数ストリーム",
+                "change": "High Throughput",
+                "status": "good"
+            },
+            {
+                "label": "応答速度",
+                "value": "低レイテンシ",
+                "change": "Real-time",
+                "status": "good"
+            }
+        ],
+        "notes": "これがあれば、ぼくのずんだ餅が誰かに盗まれないか、24時間の監視カメラから一瞬で見つけ出せるのだ！泥棒わ、ずんだアローで成敗なのだ！",
+        "slidenum": 7,
+        "start_ms": 128197,
+        "end_ms": 140780
+    },
+    {
+        "type": "section",
+        "title": "2. ADHDエンジニアのAI活用術",
+        "url": "https://note.com/simplearchitect/n/nd201f69134aa",
+        "sectionNo": 3,
+        "notes": "----2つめの記事わ、開発現場でのライフハックについての興味深いお話なのだ。タイトルわ、「エーディーエイチディーがエーアイ開発でむっちゃ困ってたことが解決した話」なのだ。",
+        "slidenum": 8,
+        "start_ms": 140780,
+        "end_ms": 155314
+    },
+    {
+        "type": "content",
+        "title": "AI時代の新たな課題",
+        "subhead": "[[コンテキストスイッチ]]の罠",
+        "points": [
+            "AIエージェントの並列稼働で1人10人力の成果",
+            "反面、人間側に頻繁な作業切り替えを強いる",
+            "ADHD特有の「注意の散りやすさ」がボトルネックに"
+        ],
+        "images": [
+            {
+                "url": "https://assets.st-note.com/production/uploads/images/145456781/rectangle_large_type_2_d6c5d9e5f5f4b4e5e4a5d9.png",
+                "caption": "A person surrounded by multiple floating AI chat windows and notification icons, looking slightly overwhelmed but focused, digital art style, vibrant colors."
+            }
+        ],
+        "notes": "アメリカのクラウドベンダーではたらくエンジニアさんが、エーディーエイチディー、つまり注意欠如・多動症特有の「注意の散りやすさ」という課題を、エーアイを使いこなすことでどうやって克服したかっていう体験談なのだ。今の開発現場わ、たくさんのエーアイエージェントを同時に動かして、一人で何人分もの成果を出せるようになっているのだ。",
+        "slidenum": 9,
+        "start_ms": 155314,
+        "end_ms": 183193
+    },
+    {
+        "type": "quote",
+        "title": "AI時代のエンジニアの価値",
+        "subhead": "人間がボトルネックになる時代",
+        "text": "AIによって10人力の成果を出そうとすると、AIのアウトプットの方向修正や高度なレビューが必要になり、そこには深い経験と知識が不可欠。マネージャ層よりも「実際にモノを作れる個人(IC)」の価値が高まっている。",
+        "author": "現役エンジニアの視点",
+        "notes": "でも、それわ人間に「頻繁な作業の切り替え」を強いることにもなるのだ。これがエーディーエイチディーの人にとってわ、集中が途切れてパニックになる原因になっちゃうのだ。",
+        "slidenum": 10,
+        "start_ms": 183193,
+        "end_ms": 197396
+    },
+    {
+        "type": "process",
+        "title": "あえて「マルチタスク」をやめる逆転の発想",
+        "subhead": "自分の集中力を守るための4つのルール",
+        "steps": [
+            "OneNote等に作業内容を[[言語化]]して書き出す",
+            "AIへの指示後、待ち時間のメモを書いてから次へ",
+            "別エージェントからの通知を[[ガン無視]]する",
+            "メモを読み書きして中断した思考を即座に復元"
+        ],
+        "notes": "そこで著者の人が編み出したのが、「あえてマルチタスクをやめる」っていう逆転の発想なのだ。具体的にわ、作業を始める前に必ずワンノートとかにやることを書き出す、エーアイからの通知わあえて無視する、作業を切り替えるときにわ必ずメモを読み書きして思考を復元する、といったルールを徹底したのだ。",
+        "slidenum": 11,
+        "start_ms": 197396,
+        "end_ms": 222150
+    },
+    {
+        "type": "bulletCards",
+        "title": "セルフマネジメントの重要性",
+        "subhead": "最新ツールより大事な「制御力」",
+        "items": [
+            {
+                "title": "割り込み処理の排除",
+                "desc": "脳の混乱を防ぎ、結果として多くの並行作業を完遂"
+            },
+            {
+                "title": "AIを強力な力として制御",
+                "desc": "自分のペースを守ることが生産性の鍵"
+            },
+            {
+                "title": "ICとしての市場価値",
+                "desc": "実装とレビューができる高度な技術者の需要増"
+            }
+        ],
+        "notes": "これって、コンピューターの割り込み処理を排除するみたいで、すごく合理的な方法なのだ。エーアイで効率が上がる時代だからこそ、自分の集中力をどうマネジメントするかっていうのが、エンジニアにとって一番大事なスキルになるのかもしれないのだ。ぼくもたまに、ずんだ餅のことを考えててプログラムのバグを見逃しちゃうことがあるから、このメモを取る方法は見習いたいのだ！",
+        "slidenum": 12,
+        "start_ms": 222150,
+        "end_ms": 251935
+    },
+    {
+        "type": "section",
+        "title": "3. SIRA：キーワード検索1回で高精度RAG",
+        "url": "https://zenn.dev/knowledgesense/articles/67370650799bc6",
+        "sectionNo": 4,
+        "notes": "----3つめの記事わ、アールエージー、つまり検索拡張生成の最新技術についてなのだ。タイトルわ、「アールエージー、キーワード検索1回だけで、精度を出す」なのだ。",
+        "slidenum": 13,
+        "start_ms": 251935,
+        "end_ms": 267600
+    },
+    {
+        "type": "compare",
+        "title": "エージェント型RAGの課題と新手法",
+        "subhead": "効率と精度のトレードオフを解消",
+        "leftTitle": "エージェント型RAG",
+        "rightTitle": "SIRA (SuperIntelligent Retrieval Agent)",
+        "leftItems": [
+            "LLMが自律的に検索を繰り返す",
+            "回答が遅い（レイテンシ高）",
+            "トークンコストがかさむ"
+        ],
+        "rightItems": [
+            "キーワード検索1回のみ実行",
+            "ベクトル検索不要のシンプル設計",
+            "既存の全文検索エンジンを活用"
+        ],
+        "notes": "最近わ、エーアイが自分で何度も検索を繰り返す「エージェント型のアールエージー」が流行っているんだけど、これわ返事が遅かったりコストがかかったりするのが悩みどころだったのだ。そこでメタの研究チームが発表したのが、「サイラ」っていう新しい手法なのだ。",
+        "slidenum": 14,
+        "start_ms": 267600,
+        "end_ms": 289431
+    },
+    {
+        "type": "process",
+        "title": "SIRAの仕組み：2つのステップ",
+        "subhead": "LLMによる「キーワードの幅出し」が核心",
+        "steps": [
+            "【事前準備】LLMが想定クエリや同義語を予測しインデックス登録",
+            "【検索実行】LLMが周辺語句を予測しクエリを拡張",
+            "重み付きBM25で1回だけ検索を実行"
+        ],
+        "images": [
+            {
+                "url": "https://zenn.dev/knowledgesense/articles/67370650799bc6/images/sira_concept.png",
+                "caption": "Diagram showing the flow of SIRA: Document expansion, Query expansion, and Single Keyword Retrieval, clean minimalist tech style."
+            }
+        ],
+        "notes": "このサイラのすごいところわ、難しいベクトル検索とかを使わずに、シンプルな「キーワード検索1回」だけで、最新のエーアイモデルを上回る精度を出せちゃうところなのだ。仕組みわね、文書を登録するときに、エーアイに「ユーザーわこの文書を探すとき、どんな単語を使うかな？」って予想させて、あらかじめキーワードを増やしておくのだ。",
+        "slidenum": 15,
+        "start_ms": 289431,
+        "end_ms": 318536
+    },
+    {
+        "type": "statsCompare",
+        "title": "SIRAの驚異的な実力",
+        "subhead": "ベンチマーク(BEIR)での成果",
+        "leftTitle": "従来手法 (E5/SPLADE)",
+        "rightTitle": "SIRA",
+        "stats": [
+            {
+                "label": "平均 Recall@10",
+                "leftValue": "Baseline",
+                "rightValue": "大幅改善",
+                "trend": "up"
+            },
+            {
+                "label": "実装コスト",
+                "leftValue": "高い",
+                "rightValue": "低い",
+                "trend": "down"
+            }
+        ],
+        "notes": "さらに、ユーザーが質問したときも、エーアイが「正解の文書に含まれていそうな言葉」を予測して検索ワードを広げてくれるのだ。これによって、専門用語や略称が多いドキュメントでも、ズバッと正確に検索できるようになるのだ。",
+        "slidenum": 16,
+        "start_ms": 318536,
+        "end_ms": 338564
+    },
+    {
+        "type": "headerCards",
+        "title": "エンジニアがSIRAを選ぶ理由",
+        "subhead": "現場での圧倒的な実用性",
+        "columns": 2,
+        "items": [
+            {
+                "title": "埋め込み不要",
+                "desc": "学習や教師データ、ベクトル用のインデックス構築が不要"
+            },
+            {
+                "title": "語彙ギャップの解消",
+                "desc": "ユーザーの言葉と文書の表現のズレをLLMが補完"
+            },
+            {
+                "title": "高速・低コスト",
+                "desc": "1回の検索で済むためレイテンシと費用を最小化"
+            },
+            {
+                "title": "社内ドメインに強い",
+                "desc": "略称や専門用語が多い環境でブレイクスルーに"
+            }
+        ],
+        "notes": "複雑なシステムを組む前に、こういうシンプルで賢い方法を試すのわ、現場のエンジニアにとってすごく心強い選択肢になると思うのだ。ぼくの技術室のデータベースも、このサイラを使ってパワーアップさせてみたいのだ。そうすれば、隠したずんだ餅の在庫もすぐに見つけられるのだ！",
+        "slidenum": 17,
+        "start_ms": 338564,
+        "end_ms": 361725
+    },
+    {
+        "type": "section",
+        "title": "本日のまとめ",
+        "url": "https://developer.nvidia.com/",
+        "sectionNo": 5,
+        "notes": "----今日わ、ビデオ解析の最新エーアイ、エンジニアの集中力マネジメント、そして検索精度を劇的に上げるサイラについてお届けしたのだ。どれもこれからの開発に役立ちそうな、ワクワクする内容だったのだ。",
+        "slidenum": 18,
+        "start_ms": 361725,
+        "end_ms": 379236
+    },
+    {
+        "type": "cards",
+        "title": "紹介した3つのトピック",
+        "subhead": "最新トレンドの振り返り",
+        "columns": 3,
+        "items": [
+            {
+                "title": "NVIDIA VSS",
+                "desc": "ビデオを言葉で理解し、瞬時に検索するAI技術"
+            },
+            {
+                "title": "ADHD AI活用術",
+                "desc": "「あえてマルチタスクをやめる」集中力管理術"
+            },
+            {
+                "title": "SIRA (RAG)",
+                "desc": "1回のキーワード検索で高精度を実現する新手法"
+            }
+        ],
+        "notes": "今日伝えた記事をざっくりおさらいすると、ビデオを言葉で検索できるエヌビディアの技術、自分の脳の特性に合わせたエーアイ活用術、そしてシンプルだけど強力な検索手法のサイラ、の3本だったのだ。",
+        "slidenum": 19,
+        "start_ms": 379236,
+        "end_ms": 395799
+    },
+    {
+        "type": "closing",
+        "notes": "みんな、今日の内容わどうだったかな？番組の感想わいつでも募集しているのだ。みんなの意見を聞けるのを、ぼくわとっても楽しみにしているのだ。それじゃあ、今日も一日、元気にエンジニアリングを楽しもうなのだ。また次回の放送で会えるのを、楽しみにしているのだ。お相手わ、ずんだもんでした。バイバイなのだ！",
+        "slidenum": 20,
+        "start_ms": 395799,
+        "end_ms": 423178
+    }
+]
