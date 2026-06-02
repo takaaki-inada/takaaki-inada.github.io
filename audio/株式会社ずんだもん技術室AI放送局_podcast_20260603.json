@@ -1,0 +1,387 @@
+[
+    {
+        "type": "agenda",
+        "title": "株式会社ずんだもん技術室エーアイ放送局",
+        "date": "2026.06.03",
+        "items": [
+            "🔍 検索の再定義：Search as Code",
+            "🛡️ セキュリティの盾：Project Glasswing",
+            "🤖 超速ローカルAI：Holo3.1",
+            "🃏 休憩：ポルトガルの学会と遊戯王"
+        ],
+        "notes": "ヤッホー！みんな元気にしてるかな？株式会社ずんだもん技術室エーアイ放送局へようこそなのだ！ぼくわ、この番組のメインパーソナリティーを務める、ずんだ餅の精、ずんだもんなのだ！今日わ２０２６年６月３日、水曜日なのだ。週の真ん中、ちょっと疲れが溜まってくる頃だけど、今日もとびきりハッピーで、ためになる最新のテック系トレンド情報をお届けするのだ！ぼくわ技術室のエンジニアでもあるからね、小難しい技術の話も、ずんだ餅みたいに柔らかくほぐして、みんなに分かりやすく語っちゃうのだ！今日わ、インターネットで話題の超面白いテック系の記事を、全部で３本、紹介するのだ！それじゃあ、さっそく行ってみようなのだ！",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 59112
+    },
+    {
+        "type": "section",
+        "title": "Rethinking Search as Code Generation",
+        "url": "https://research.perplexity.ai/articles/rethinking-search-as-code-generation",
+        "sectionNo": 1,
+        "notes": "最初のお話わ、パープレキシティの「Rethinking Search as Code Generation」。これわね、エーアイの検索システムを根本から変えちゃう、すごいアイデアについての記事なのだ！",
+        "slidenum": 2,
+        "start_ms": 59112,
+        "end_ms": 70307
+    },
+    {
+        "type": "compare",
+        "title": "従来のRAG vs Search as Code (SaC)",
+        "subhead": "モノリシックな一括処理から動的なプログラム制御へ",
+        "leftTitle": "従来のRAG（一括処理）",
+        "rightTitle": "Search as Code (動的制御)",
+        "leftItems": [
+            "固定されたクエリ送信",
+            "不要な情報の混入によるコスト増",
+            "検索条件の変更が困難"
+        ],
+        "rightItems": [
+            "AIによる[[Pythonコード生成]]",
+            "最適な検索パイプラインの構築",
+            "情報の細分化された制御"
+        ],
+        "images": [
+            "https://www.google.com/s2/favicons?domain=research.perplexity.ai"
+        ],
+        "notes": "今までのエーアイって、例えばラグっていう仕組みを使って、検索エンジンにキーワードを投げて、返ってきた結果をそのまま読み込むっていう、ちょっと融通の効かないやり方をしていたのだ。でも、これだと関係ない情報がいっぱい入って、コストが高くなったり、処理が遅くなったりする課題があったのだ。",
+        "slidenum": 3,
+        "start_ms": 70307,
+        "end_ms": 94303
+    },
+    {
+        "type": "process",
+        "title": "SaCの実行プロセス",
+        "subhead": "AIが自ら検索プログラムを組み立てる手順",
+        "steps": [
+            "モデルがタスクを分解し司令塔となる",
+            "SDKの部品を使いPythonコードを生成",
+            "サンドボックス環境で安全に実行",
+            "中間データを保存し次の処理へ継承"
+        ],
+        "notes": "そこで、パープレキシティっていう会社が「サーチアズコード」、略してエスエーシーっていう新しいやり方を提案したのだ！これわ、検索のプロセスそのものを、エーアイが自分でプログラムのコードを書いてコントロールしちゃうっていう仕組みなのだ！",
+        "slidenum": 4,
+        "start_ms": 94303,
+        "end_ms": 113339
+    },
+    {
+        "type": "bulletCards",
+        "title": "SaCを支える3つのコアレイヤー",
+        "subhead": "検索をアトミックに制御する新アーキテクチャ",
+        "items": [
+            {
+                "title": "Models (司令塔)",
+                "desc": "タスクを分解し、[[SDKを用いて最適な検索手順]]を実行するPythonコードを生成します。"
+            },
+            {
+                "title": "Sandboxes (実行環境)",
+                "desc": "コードを安全に実行し、中間データをファイル保存することで長時間のタスクを完遂します。"
+            },
+            {
+                "title": "Agentic Search SDK",
+                "desc": "検索プロセスを最小単位で制御できる部品集。AIが[[最も書きやすい形]]へ自動最適化されます。"
+            }
+        ],
+        "notes": "検索の部品をエスディーケーとしてエーアイに渡しておくと、エーアイがその場で最適なパイソンのコードを自分で作って、実行するのだ。",
+        "slidenum": 5,
+        "start_ms": 113339,
+        "end_ms": 124067
+    },
+    {
+        "type": "kpi",
+        "title": "圧倒的な実績とパフォーマンス",
+        "subhead": "セキュリティ情報調査（CVE）における検証結果",
+        "columns": 3,
+        "items": [
+            {
+                "label": "タスク精度",
+                "value": "100%",
+                "change": "最高記録",
+                "status": "good"
+            },
+            {
+                "label": "トークン消費量",
+                "value": "85.1%減",
+                "change": "コスト大幅削減",
+                "status": "good"
+            },
+            {
+                "label": "ベンチマーク比",
+                "value": "2.5倍",
+                "change": "他社比スコア",
+                "status": "good"
+            }
+        ],
+        "notes": "セキュリティー情報の調査タスクで試したところ、なんと精度１００パーセントを達成しながら、消費するトークンの量を８５パーセント以上も減らせたらしいのだ！すごすぎるのだ！",
+        "slidenum": 6,
+        "start_ms": 124067,
+        "end_ms": 138228
+    },
+    {
+        "type": "content",
+        "title": "検索自体をプログラミングする時代へ",
+        "subhead": "AIの推論力と決定論的コード実行の融合",
+        "points": [
+            "検索APIを呼び出すだけの時代が終了",
+            "検索パイプラインを[[動的に組み立て]]",
+            "次世代AIシステム開発の重要パラダイム"
+        ],
+        "images": [
+            {
+                "url": "https://www.google.com/s2/favicons?domain=research.perplexity.ai",
+                "caption": "A futuristic AI agent writing luminous Python code to build a complex search pipeline, holographic data streams, cyberpunk aesthetic, high detail, 16:9 cinematic ratio."
+            }
+        ],
+        "notes": "感想としてわ、検索エーピーアイをただ叩くだけの時代から、検索そのものをエーアイがプログラミングする時代になるなんて、技術の進歩わ早すぎるのだ！ぼくもずんだアローを放つときの最適な角度を、エーアイに計算させたいのだ！みんなも自分でコードを書くエーアイに、仕事を任せてみたくないかな？",
+        "slidenum": 7,
+        "start_ms": 138228,
+        "end_ms": 163182
+    },
+    {
+        "type": "section",
+        "title": "Expanding Project Glasswing",
+        "url": "https://www.anthropic.com/news/expanding-project-glasswing",
+        "sectionNo": 2,
+        "notes": "２つ目のお話わ、アンスロピック社の「Expanding Project Glasswing」。次わ、エーアイ開発で有名なアンスロピック社がやってる、ソフトウエアのセキュリティーを強化するプロジェクトのお話なのだ！",
+        "slidenum": 8,
+        "start_ms": 163182,
+        "end_ms": 176415
+    },
+    {
+        "type": "content",
+        "title": "Project Glasswingの概要と実績",
+        "subhead": "世界中の重要ソフトウェアの安全性を確保する",
+        "points": [
+            "約50のパートナー組織による初期フェーズ",
+            "[[Claude Mythos Preview]]の活用",
+            "1万件以上の深刻・致命的な脆弱性を発見"
+        ],
+        "images": [
+            "https://cdn.sanity.io/images/4zrzovbb/website/19e93d85e033d3f992b78cbce2c5a3f60709bd3b-3840x2160.jpg"
+        ],
+        "notes": "プロジェクトグラスウィングっていう、世界の重要なソフトウエアの安全を守るための共同の取り組みがあるのだ。初期の段階でわ、約５０のパートナー企業が、セキュリティーに強いエーアイモデルの「クロードミトスプレビュー」を使ってセキュリティーチェックをしたのだ。その結果、すでに１万件以上の「深刻」とか「致命的」なプログラムのバグ、つまりぜいじゃくせいを見つけたのだ！すごい実績なのだ！",
+        "slidenum": 9,
+        "start_ms": 176415,
+        "end_ms": 210049
+    },
+    {
+        "type": "headerCards",
+        "title": "150以上の新たな組織への拡大",
+        "subhead": "15カ国以上に及ぶ重要インフラの保護",
+        "columns": 3,
+        "items": [
+            {
+                "title": "社会重要インフラ",
+                "desc": "電力、水道、医療、通信、ハードウェア企業などの防衛。"
+            },
+            {
+                "title": "オープンソース(OSS)",
+                "desc": "世界中の開発者が依存するOSSのメンテナーを支援。"
+            },
+            {
+                "title": "1億人への影響",
+                "desc": "攻撃された際の影響範囲を考慮した[[事前防御の急務]]。"
+            }
+        ],
+        "notes": "そして今回、この安全の輪をさらに１５０もの組織に広げるそうなのだ！電力や水道、医療みたいな、みんなの生活を支えるインフラや、世界中の開発者が使っているオープンソースソフトウエア、いわゆるオーエスエスを守るために、このプロジェクトが使われるのだ。もしここが攻撃されたら、１億人以上の人に被害が出ちゃうかもしれないから、先回りして守るのわ、とっても大切なことなのだ。",
+        "slidenum": 10,
+        "start_ms": 210049,
+        "end_ms": 243419
+    },
+    {
+        "type": "table",
+        "title": "AIによる防御側の支援策",
+        "subhead": "脆弱性の発見から修正パッチの自動生成まで",
+        "headers": [
+            "支援内容",
+            "活用されるAIモデル・製品"
+        ],
+        "rows": [
+            [
+                "コードスキャンとパッチ提案",
+                "Claude Security / Opus 4.8"
+            ],
+            [
+                "脆弱性の発見と自動修正",
+                "Claude Mythos Preview"
+            ],
+            [
+                "メモリ安全な言語への書き換え",
+                "Claude Mythos Preview"
+            ]
+        ],
+        "notes": "アンスロピック社わ、ただバグを探すだけじゃなくて、最新の「クロードオーパスよんてんはち」とかを使った「クロードセキュリティ」っていうツールで、バグを直すパッチを自動で作って提案したり、安全なプログラム言語に書き換えたりする支援もしているのだ！",
+        "slidenum": 11,
+        "start_ms": 243419,
+        "end_ms": 264067
+    },
+    {
+        "type": "content",
+        "title": "防御側が常に有利に立てる世界の構築",
+        "subhead": "すべてのソフトウェアをより安全にするゴール",
+        "points": [
+            "悪用を防ぐ強固なセーフガードの開発",
+            "[[セキュリティ機能の一般公開]]を目指す",
+            "AIによる対策の加速と変革"
+        ],
+        "images": [
+            {
+                "url": "https://cdn.sanity.io/images/4zrzovbb/website/19e93d85e033d3f992b78cbce2c5a3f60709bd3b-3840x2160.jpg",
+                "caption": "A giant digital translucent wing shielding a futuristic city power grid and hospital, glowing blue security patterns, Anthropic branding style, high-tech protection, 16:9 cinematic ratio."
+            }
+        ],
+        "notes": "感想としてわ、エーアイがハッカーに悪用される心配ばかりされるけど、こうやって防衛側がエーアイをフル活用して、先回りして世界を安全にしていくのわ、本当に心強いのだ！ぼくのずんだ餅の秘密レシピも、クロードセキュリティでガチガチに守ってもらうのだ！",
+        "slidenum": 12,
+        "start_ms": 264067,
+        "end_ms": 285589
+    },
+    {
+        "type": "section",
+        "title": "Holo3.1: Fast & Local Computer Use Agents",
+        "url": "https://huggingface.co/blog/Hcompany/holo31",
+        "sectionNo": 3,
+        "notes": "３つ目のお話わ、ハギングフェイスの「Holo3.1: Fast & Local Computer Use Agents」。３つ目わ、パソコンやスマホの画面を自分で見て、人間みたいに操作しちゃうエーアイエージェント「ホロスリーポイントワン」のお話なのだ！",
+        "slidenum": 13,
+        "start_ms": 285589,
+        "end_ms": 298491
+    },
+    {
+        "type": "content",
+        "title": "モバイル・Android環境への適応",
+        "subhead": "評価指標 AndroidWorld における劇的な向上",
+        "points": [
+            "ブラウザ・デスクトップ以外の環境へ拡大",
+            "35B-A3Bモデルの成功率：[[67.0% → 79.3%]]",
+            "実用的なモバイル操作の自動化を実現"
+        ],
+        "images": [
+            "https://www.google.com/s2/favicons?domain=huggingface.co"
+        ],
+        "notes": "この最新ファミリーわ、前のバージョンからさらに進化して、ローカルなパソコンでも超高速で動くようになったのが目玉なのだ！ポイントをいくつか紹介するのだ。まず、ウェブブラウザーだけじゃなくて、アンドロイドスマホの自動操作もすごく上手になったのだ。アンドロイドワールドっていう評価テストで、成功率が約７９パーセントまで上がったのだ。",
+        "slidenum": 14,
+        "start_ms": 298491,
+        "end_ms": 326792
+    },
+    {
+        "type": "process",
+        "title": "システム連携の強化：関数呼び出し",
+        "subhead": "エージェントフレームワークへの組み込みを容易に",
+        "steps": [
+            "従来のJSON形式での出力",
+            "Native Function-callingプロトコル対応",
+            "外部ツールやAPI呼び出しの円滑化",
+            "高度な自動化システムの構築"
+        ],
+        "notes": "それから、他のシステムと繋ぎやすいように、関数呼び出し、いわゆるファンクションコーリングにネイティブ対応したのだ。",
+        "slidenum": 15,
+        "start_ms": 326792,
+        "end_ms": 336219
+    },
+    {
+        "type": "kpi",
+        "title": "NVFP4による「高速・プライベート」実行",
+        "subhead": "量子化対応によるローカルPCでの性能強化",
+        "columns": 3,
+        "items": [
+            {
+                "label": "処理高速化",
+                "value": "1.74倍",
+                "change": "対BF16形式",
+                "status": "good"
+            },
+            {
+                "label": "軽量化形式",
+                "value": "NVFP4",
+                "change": "NVIDIA技術活用",
+                "status": "neutral"
+            },
+            {
+                "label": "精度維持",
+                "value": "ほぼ同等",
+                "change": "量子化の影響最小",
+                "status": "good"
+            }
+        ],
+        "notes": "そして一番の注目ポイントわ、モデルを軽量化する「量子化」に本格対応したことなのだ！エヌビディアの技術を使った「エヌブイエフピーフォー」っていう形式を使うと、賢さを落とさずに、普通のモデルより最大で１.７４倍も速く動くのだ！これなら、ウィンドウズやマックなどの手元のパソコンだけで、データを外に送らずに、安全に、高速にエーアイエージェントを動かせるのだ。",
+        "slidenum": 16,
+        "start_ms": 336219,
+        "end_ms": 369322
+    },
+    {
+        "type": "cards",
+        "title": "選べる4つのモデルラインナップ",
+        "subhead": "用途やマシンスペックに合わせて柔軟に選択",
+        "columns": 2,
+        "items": [
+            {
+                "title": "0.8B",
+                "desc": "[[超軽量な極小サイズ]]、基本操作向け。"
+            },
+            {
+                "title": "4B",
+                "desc": "コスト効率に優れた汎用モデル。"
+            },
+            {
+                "title": "9B",
+                "desc": "速度と性能のバランスが最適。"
+            },
+            {
+                "title": "35B-A3B",
+                "desc": "[[最も賢い最高性能モデル]]、複雑なタスク向け。"
+            }
+        ],
+        "notes": "サイズも超軽量なものから、すごく賢いものまで４種類あるから、用途に合わせて選べるのだ！",
+        "slidenum": 17,
+        "start_ms": 369322,
+        "end_ms": 377373
+    },
+    {
+        "type": "content",
+        "title": "ローカルAIアシスタントの現実味",
+        "subhead": "セキュリティを維持したまま業務を自動化",
+        "points": [
+            "クラウドを使えない秘匿業務での活用",
+            "外部送信なしの安全な動作環境",
+            "[[実用的な速度]]での自動化アシスタント"
+        ],
+        "images": [
+            {
+                "url": "https://www.google.com/s2/favicons?domain=huggingface.co",
+                "caption": "A futuristic personal robot interface integrated into a sleek laptop screen, executing multiple tasks like spreadsheets and mobile apps, minimalist home office, high-tech atmosphere, 16:9 cinematic ratio."
+            }
+        ],
+        "notes": "感想としてわ、インターネットに繋がなくても、自分のパソコンの中でテキパキと動いてくれるアシスタントができるなんて、夢があるのだ！社外秘のデータを使う仕事でもこれなら安心なのだ。ぼくのずんだ餅の注文管理も、全部ホロちゃんに任せて自動化しちゃいたいのだ！",
+        "slidenum": 18,
+        "start_ms": 377373,
+        "end_ms": 399361
+    },
+    {
+        "type": "section",
+        "title": "ポルトガルの学会と遊戯王",
+        "url": "https://togetter.com/li/2704474",
+        "sectionNo": 4,
+        "notes": "最後にちょっと、ほっこりするお話を一つ紹介するのだ！",
+        "slidenum": 19,
+        "start_ms": 399361,
+        "end_ms": 399361
+    },
+    {
+        "type": "quote",
+        "title": "共通言語としてのホビー文化",
+        "text": "「普段何やってるの？」と訊かれたので 「[[I play YU-GI-OH]]」と返したら、その後「何だこの学会は」と言いたくなる流れになった",
+        "author": "togetter投稿者",
+        "images": [
+            "https://s.tgstc.com/ogp3/2b1aac232aa4fc48d3db79970cc6ff57-1200x630.jpeg"
+        ],
+        "notes": "というわけで、今日わ、エーアイが自分でプログラムを書いて検索する「サーチアズコード」の話。アンスロピック社がセキュリティーを守る「プロジェクトグラスウィング」の話。そして、ローカルで爆速で動く「ホロスリーポイントワン」の話の、３つをお届けしたのだ！最新技術から、ほっこりするお話まで、今日も盛りだくさんだったのだ。",
+        "slidenum": 20,
+        "start_ms": 399361,
+        "end_ms": 428324
+    },
+    {
+        "type": "closing",
+        "notes": "この番組わ、みんなからの感想やメッセージをいつでも募集しているのだ！ずんだ餅のおいしい食べ方のアイデアでも、技術的な質問でも、なんでも気軽に送ってほしいのだ。今日わ水曜日だから、週の後半も元気に乗り切っていこうなのだ！それじゃあ、また次回の放送で会えるのを楽しみにしているのだ！お相手わ、株式会社ずんだもん技術室エーアイ放送局のずんだもんでしたなのだ！バイバイなのだー！",
+        "slidenum": 21,
+        "start_ms": 428324,
+        "end_ms": 462284
+    }
+]
