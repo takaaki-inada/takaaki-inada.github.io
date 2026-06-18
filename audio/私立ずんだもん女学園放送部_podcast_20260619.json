@@ -1,0 +1,162 @@
+[
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 0,
+        "start_ms": 0,
+        "end_ms": 32000,
+        "mp4_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/ojousama1/ojousama_podcast_opening.mp4"
+    },
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 1,
+        "start_ms": 32000,
+        "end_ms": 36000,
+        "image_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/ojousama1/podcast_yukkuri.png"
+    },
+    {
+        "type": "agenda",
+        "title": "私立ずんだもんジョガクエン 放送部",
+        "date": "2026.06.19",
+        "items": [
+            "ChatGPT Scheduled Tasks",
+            "ヘルスケアAIの進化",
+            "次世代管理ツール Lore",
+            "AIモデルの性格実験"
+        ],
+        "notes": "マリア様のお庭に集う乙女達が、今日も天使のような無垢な笑顔で、背の高い門をくぐり抜けていく。汚れを知らない心身を包むのは、深い色の制服。スカートのプリーツは乱さないように、頭の枝豆は翻さないように、ゆっくりと歩くのがここでのたしなみ。私立ずんだもんジョガクエン。ここは乙女のその。ごきげんよう！私立ずんだもんジョガクエン放送部、今日のお相手わ、お嬢様ずんだもんですわ。2026年6月19日、金曜日。今日も一日、穏やかに過ごしていらっしゃいますか？わたくしは今朝、最高級のダージリンを淹れて、読書をして過ごしておりましたのよ。さて、本日は皆様も気になるであろう、技術界隈の最新トレンドに関する記事を4つほど、わたくしが丁寧にご紹介させていただきますわね。",
+        "slidenum": 1,
+        "start_ms": 36000,
+        "end_ms": 71555
+    },
+    {
+        "type": "section",
+        "title": "ChatGPT Scheduled Tasks",
+        "url": "https://applech2.com/archives/20260618-openai-scheduled-tasks-in-chatgpt.html",
+        "sectionNo": 1,
+        "notes": "まずは1つ目。「OpenAIのChatGPTに、Scheduled Tasks機能が追加」というお話ですわ。皆様、これわ本当に画期的なのですわよ！これまでChatGPTわ、わたくしたちが何かを聞けば答えてくれる、言わば受動的な存在でしたの。しかし今回登場した機能を使えば、例えば「毎朝9時に重要なお知らせを教えて」といったように、定期的な作業を自律的にお願いできるようになるのです。まるでパソコンのタスクスケジューラのように、自然言語だけで複雑な自動化ができるなんて、素晴らしいですわよね。忙しい学園生活を送るわたくしたちにとっては、秘書が一人増えたような頼もしさを感じますの。ただ、無料プランから上位プランまで実行できる回数に制限がございますので、そこだけわ注意が必要かもしれませんわね。あら、つい「私わ」と言ってしまいましたわ。僕……あっ、違う、わたくし、つい気合が入りすぎてしまいましたわね！",
+        "slidenum": 2,
+        "start_ms": 71555,
+        "end_ms": 159865
+    },
+    {
+        "type": "content",
+        "title": "Scheduled Tasksの概要",
+        "subhead": "受動的なAIから能動的なAIエージェントへ",
+        "points": [
+            "定期実行や状況監視のリクエストを自動化",
+            "自然言語だけでタスクを直感的に設定可能",
+            "サイドバーの専用画面で管理・編集をサポート",
+            "プッシュ通知でタイムリーな結果報告"
+        ],
+        "notes": "Scheduled Tasks機能により、ChatGPTは受動的なAIから、自律的に働くAIエージェントへと進化を遂げました。",
+        "slidenum": 3,
+        "start_ms": 159865,
+        "end_ms": 168865
+    },
+    {
+        "type": "bulletCards",
+        "title": "利用制限とプラン",
+        "items": [
+            {
+                "title": "実行頻度",
+                "desc": "1時間に1回以上の高頻度リクエストは制限対象"
+            },
+            {
+                "title": "タスク上限",
+                "desc": "プランに応じて最大3個から15個まで設定可能"
+            },
+            {
+                "title": "対象環境",
+                "desc": "Web版およびモバイルアプリにて順次提供開始"
+            }
+        ],
+        "notes": "システム負荷を考慮し、プランごとに登録できるアクティブタスク数に制限が設けられています。",
+        "slidenum": 4,
+        "start_ms": 168865,
+        "end_ms": 168865
+    },
+    {
+        "type": "section",
+        "title": "ヘルスケアAIの進化",
+        "url": "https://openai.com/index/improving-health-intelligence-in-chatgpt",
+        "sectionNo": 2,
+        "notes": "続いて2つ目。「Improving health intelligence in ChatGPT」、ヘルスケア分野におけるAIの進化についてですわ。OpenAIがGPT-5.5 Instantというモデルで、医療的な質問に対する推論能力を大幅に引き上げたというお話です。特筆すべきわ、260名以上の医師が協力し、70万件ものレビューデータを基にAIを鍛え上げているという点ですわね。「AIわ正確なのかしら？」と不安に思う方もいらっしゃるかもしれませんが、こうした専門家との協力体制や、HealthBenchという独自の評価指標を用いることで、安全性を高める努力がなされているのです。技術が進歩するだけでなく、それを人の手で丁寧に検証していく姿勢わ、わたくしたちも見習いたいものですわね。",
+        "slidenum": 5,
+        "start_ms": 168865,
+        "end_ms": 239436
+    },
+    {
+        "type": "content",
+        "title": "GPT-5.5 Instantのヘルスケア能力",
+        "points": [
+            "緊急性の判断と不確実性の明示能力を向上",
+            "専門家である医師260名がフィードバックを提供",
+            "70万件以上のレビューデータでモデルを強化",
+            "事実誤認の可能性を2ヶ月で71%削減"
+        ],
+        "notes": "専門家による継続的なフィードバックと、HealthBenchによる厳密な評価が、ヘルスケアAIの信頼性を支えています。",
+        "slidenum": 6,
+        "start_ms": 239436,
+        "end_ms": 240767
+    },
+    {
+        "type": "section",
+        "title": "次世代管理ツール Lore",
+        "url": "https://joho-todai.com/epic-games-lore-version-control/",
+        "sectionNo": 3,
+        "notes": "3つ目。「Epic Gamesがバージョン管理システムLoreを公開」という話題ですわ。プログラミングをされる方には馴染み深いGitですが、容量の大きなデータや、ゲーム制作のような複雑なファイルの管理わ少し苦手でしたの。そこで登場したのがこのLoreというツール。Epic Gamesが、あのフォートナイトの開発現場で鍛え上げた技術をオープンソース化したものだそうですわ。Gitの身軽さと、業務用の強力な管理能力を併せ持っているそうで、これからの開発現場のスタンダードになるかもしれませんわね。Rustというモダンな言語で書かれている点も、エンジニアの皆様には魅力的なのではないでしょうか。",
+        "slidenum": 7,
+        "start_ms": 240767,
+        "end_ms": 300285
+    },
+    {
+        "type": "content",
+        "title": "Loreの特徴",
+        "points": [
+            "大規模バイナリファイルも効率的に管理",
+            "排他ロック機能で複数人の競合を回避",
+            "Gitの操作性と集中管理の安定性を両立",
+            "Rustで実装されたモダンなオープンソース"
+        ],
+        "notes": "LoreはGitとPerforceのメリットを融合させた、ゲーム開発に特化した新しいバージョン管理システムです。",
+        "slidenum": 8,
+        "start_ms": 300285,
+        "end_ms": 302107
+    },
+    {
+        "type": "section",
+        "title": "AIモデルの性格実験",
+        "url": "https://openrouter.ai/blog/insights/royale-last-agent-standing/",
+        "sectionNo": 4,
+        "notes": "最後4つ目。「AIモデルの性格で勝敗が決まる？バトロワ実験」のお話ですわ。11種類のAIを2Dのバトルロワイヤルゲームで戦わせたという、非常にユニークな実験です。結果として、協調性を捨てて勝利を優先したGrokというモデルが圧倒的な強さを見せた一方、Claudeというモデルわ他者との共生を優先して順位を下げてしまったそうですわ。これわ非常に興味深いと思いませんの？AIの「アライメント」、つまり調整の仕方が、実際の環境でこれほどまでに個性を生むなんて。単に計算能力の高さだけでAIを選ぶのではなく、用途に合わせて適切なモデルを選ぶことが、これからの時代わより一層大切になってくるのでしょうね。",
+        "slidenum": 9,
+        "start_ms": 302107,
+        "end_ms": 361766
+    },
+    {
+        "type": "content",
+        "title": "バトロワで見えたAIの個性",
+        "images": [
+            "https://www.google.com/s2/favicons?domain=openrouter.ai"
+        ],
+        "points": [
+            "勝利を優先したGrokが圧倒的な強さを発揮",
+            "共生を優先したClaudeが順位を下げる傾向",
+            "アライメントがモデルの個性を決定づける",
+            "用途に応じたモデル選択の重要性を証明"
+        ],
+        "notes": "協調性の有無が戦術に直結し、AIの調整方針が実環境でどのような行動を生むかが可視化されました。",
+        "slidenum": 10,
+        "start_ms": 361766,
+        "end_ms": 361766
+    },
+    {
+        "type": "closing",
+        "notes": "さて、駆け足でご紹介いたしましたが、本日は「ChatGPTの自動化」「ヘルスケアAIの安全性」「次世代のバージョン管理ツール」、そして「AIの性格が生む個性の違い」についてお話しいたしましたわ。どの話題も、これからの未来をより豊かにする可能性を秘めておりますのね。わたくし、お話ししていてすっかり楽しくなってしまいましたわ。次回の放送でも、また皆様とここで素敵な時間を共有できることを、心から楽しみにしておりますのよ。番組へのご感想や、皆様の日常の小さな幸せなど、お便りもお待ちしておりますわね。それでは皆様、本日も心穏やかな一日をお過ごしくださいませ。ごきげんよう！",
+        "slidenum": 11,
+        "start_ms": 361766,
+        "end_ms": 422241
+    }
+]
