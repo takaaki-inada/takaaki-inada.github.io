@@ -1,0 +1,187 @@
+[
+    {
+        "type": "agenda",
+        "title": "ずんだもんの最新AI技術ニュース",
+        "date": "2026.06.24",
+        "items": [
+            "GPT-5が解き明かした免疫の謎",
+            "巨大モデルをローカルで動かす技術",
+            "国産AI基盤モデル PLaMo 3.0",
+            "物理デバッグの教訓"
+        ],
+        "notes": "やっほー。ぼくわ「ずんだもん」なのだ。今日は最新の技術記事やAIニュースを、ぼくが楽しく紹介していくのだ。全部で4本のワクワクする内容だから、最後まで聞いてほしいのだ。",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 12000
+    },
+    {
+        "type": "section",
+        "title": "1. How GPT-5 helped solve an immunology mystery",
+        "url": "https://openai.com/index/gpt-5-immunology-mystery",
+        "sectionNo": 1,
+        "notes": "1つ目の記事は「How GPT-5 helped immunologist Derya Unutmaz solve a 3-year-old mystery」なのだ。3年間わからなかった免疫細胞の謎を、最新AIが解明した驚きのニュースなのだ。",
+        "slidenum": 2,
+        "start_ms": 12000,
+        "end_ms": 70373
+    },
+    {
+        "type": "content",
+        "title": "3年来の未解決問題",
+        "subhead": "T細胞とグルコースの複雑な関係",
+        "points": [
+            "2022年から続くT細胞の研究",
+            "エネルギー不足だけでは説明できない現象",
+            "専門家も頭を抱えるTh17細胞の異常増殖"
+        ],
+        "notes": "2022年から、ウイルスと戦うT細胞がどう変化するかの実験をしていたんだけど、どうしても説明がつかない現象があったのだ。特定細胞が異常に増える原因がわからなかったのだ。",
+        "slidenum": 3,
+        "start_ms": 70373,
+        "end_ms": 82373
+    },
+    {
+        "type": "content",
+        "title": "AIによるメカニズムの特定",
+        "subhead": "GPT-5 Proが提示した答え",
+        "points": [
+            "実験データをGPT-5 Proで解析",
+            "IL-2タンパク質の生成阻害を指摘",
+            "専門家の見落としを完璧に見抜く"
+        ],
+        "notes": "教授は当時のデータをGPT-5 Proに読み込ませたのだ。そうしたらAIは「細胞内のブレーキであるIL-2の生成を邪魔している」という答えを一瞬で出したのだ。専門家も見落としていたメカニズムをAIが見抜いたのだ。",
+        "slidenum": 4,
+        "start_ms": 82373,
+        "end_ms": 97515
+    },
+    {
+        "type": "content",
+        "title": "エンジニアへの示唆",
+        "subhead": "AIとの協調による科学の加速",
+        "points": [
+            "数年かかっていた課題を数日で解決",
+            "AIは共同研究者へ進化",
+            "人間の専門知識がより重要に"
+        ],
+        "notes": "AIはただの検索ツールではなく、共同研究者になったのだ。これからのエンジニアには、AIが出した答えの妥当性を判断する専門知識が大事になるのだ。ぼくもずんだアローを放つくらい素早く解決したいのだ。",
+        "slidenum": 5,
+        "start_ms": 97515,
+        "end_ms": 111372
+    },
+    {
+        "type": "section",
+        "title": "2. GLM-5.2 - How to Run Locally",
+        "url": "https://unsloth.ai/docs/models/glm-5.2",
+        "sectionNo": 2,
+        "notes": "2つ目の記事は「GLM-4 -How to run locally」なのだ。7440億ものパラメータを持つ巨大AIを、ローカル環境で動かすための技術ガイドなのだ。",
+        "slidenum": 6,
+        "start_ms": 111372,
+        "end_ms": 122943
+    },
+    {
+        "type": "content",
+        "title": "世界最強クラスのオープンモデル",
+        "subhead": "GLM-5.2の驚異的なスペック",
+        "points": [
+            "744Bパラメータの超巨大モデル",
+            "コーディングと論理推論に強み",
+            "100万トークンのコンテキスト"
+        ],
+        "notes": "GLM-4は7440億というものすごい数のパラメータを持つ、世界最強クラスのオープンソースモデルなのだ。この巨大なモデルを自分の手元のパソコンで動かすガイドなのだ。",
+        "slidenum": 7,
+        "start_ms": 122943,
+        "end_ms": 134657
+    },
+    {
+        "type": "content",
+        "title": "動的量子化による軽量化",
+        "subhead": "巨大AIをPCに押し込む技術",
+        "points": [
+            "Dynamic GGUFによるデータ削減",
+            "2-bit量子化でサイズを84%圧縮",
+            "高い精度を維持したまま実行"
+        ],
+        "notes": "本来はスーパーコンピュータが必要なんだけど、動的量子化技術でサイズを84%も削ったのだ。2ビット量子化なら、256GBメモリのマックで動かせるらしいのだ。",
+        "slidenum": 8,
+        "start_ms": 134657,
+        "end_ms": 145657
+    },
+    {
+        "type": "content",
+        "title": "ローカルLLMの可能性",
+        "subhead": "エンジニアのロマン",
+        "points": [
+            "思考モードによる推論深度の調整",
+            "高価なクラウドAPIからの脱却",
+            "自分だけの最強AIを手元に"
+        ],
+        "notes": "思考モードで推論の深さを調整できるのも面白いのだ。巨大な知能をいかに工夫して手元のマシンに押し込むか、新人エンジニアのみんなには注目してほしい技術なのだ。",
+        "slidenum": 9,
+        "start_ms": 145657,
+        "end_ms": 156657
+    },
+    {
+        "type": "section",
+        "title": "3. 国産生成AI基盤モデル PLaMo 3.0 Prime",
+        "url": "https://www.preferred.jp/ja/news/pr20260622",
+        "sectionNo": 3,
+        "notes": "3つ目の記事は「国産生成AI基盤モデルPLaMo 3.0 Primeを正式リリース」なのだ。日本のPreferred Networksが作った、ビジネス特化型の最新モデルなのだ。",
+        "slidenum": 10,
+        "start_ms": 156657,
+        "end_ms": 169371
+    },
+    {
+        "type": "content",
+        "title": "用途に合わせたモデル選定",
+        "subhead": "推論力と速度のトレードオフ",
+        "points": [
+            "推論重視モデル：複雑な思考が可能",
+            "速度重視モデル：大量処理に最適",
+            "256kトークンの長いコンテキスト"
+        ],
+        "notes": "推論力を重視するモデルと、速度を重視するモデルの2種類から選べるのだ。しかも一度に読み込める情報が25万6千トークンに増えて、分厚い仕様書もまるごと読めるようになったのだ。",
+        "slidenum": 11,
+        "start_ms": 169371,
+        "end_ms": 181656
+    },
+    {
+        "type": "content",
+        "title": "国産モデルの強み",
+        "subhead": "日本語処理とコストパフォーマンス",
+        "points": [
+            "高い日本語処理効率",
+            "海外モデルに負けない性能とコスト",
+            "オンプレミス環境でセキュリティを確保"
+        ],
+        "notes": "国産だから日本語の処理効率がすごく高く、コストパフォーマンスも抜群なのだ。ビジネスの現場でも安心して使える仕様だし、日本のエンジニアにとって必須の開発基盤になるかもしれないのだ。",
+        "slidenum": 12,
+        "start_ms": 181656,
+        "end_ms": 194370
+    },
+    {
+        "type": "section",
+        "title": "4. カーネルの深淵を覗いた男、USBハブを抜いて帰る",
+        "url": "https://qiita.com/wetty_serial/items/3696bbae80b38bc14a74",
+        "sectionNo": 4,
+        "notes": "4つ目の記事は「カーネルの深淵を覗いた男、USBハブを抜いて帰る」なのだ。エンジニアあるあるな、ちょっと笑えるデバッグ日記なのだ。",
+        "slidenum": 13,
+        "start_ms": 194370,
+        "end_ms": 203655
+    },
+    {
+        "type": "content",
+        "title": "6時間の苦闘の記録",
+        "images": [
+            "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Farticle-ogp-background-afbab5eb44e0b055cce1258705637a91.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRnMzLWFwLW5vcnRoZWFzdC0xLmFtYXpvbmF3cy5jb20lMkZxaWl0YS1pbWFnZS1zdG9yZSUyRjAlMkYxMTg5MTQzJTJGNTIyYTM1MWM2NTFkODRhMzJkMmQ0ZGM4ZmZlNTcyNzA1ZDU4ODg1NSUyRnhfbGFyZ2UucG5nJTNGMTcxNzk4NDExND9peGxpYj1yYi00LjEuMSZhcj0xJTNBMSZmaXQ9Y3JvcCZtYXNrPWVsbGlwc2UmYmc9RkZGRkZGJmZtPXBuZzMyJnM9NWY0Njk2ZTlkNWEwYmFjOWZhMzUxZDZkZjIyZThhMjk%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3Dc49660fdc0d2c7aa9c1ee020ef755115?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgyJUFCJUUzJTgzJUJDJUUzJTgzJThEJUUzJTgzJUFCJUUzJTgxJUFFJUU2JUI3JUIxJUU2JUI3JUI1JUUzJTgyJTkyJUU4JUE2JTk3JUUzJTgxJTg0JUUzJTgxJTlGJUU3JTk0JUI3JUUzJTgwJTgxVVNCJUUzJTgzJThGJUUzJTgzJTk2JUUzJTgyJTkyJUU2JThBJTlDJUUzJTgxJTg0JUUzJTgxJUE2JUU1JUI4JUIwJUUzJTgyJThCJnR4dC1hbGlnbj1sZWZ0JTJDdG9wJnR4dC1jb2xvcj0lMjMxRTIxMjEmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9NTYmdHh0LXBhZD0wJnM9NjRiZmFjYjc5ODRjMmMwZWVmZTVlNTdjNTViNjViOGE&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDB3ZXR0eV9zZXJpYWwmdHh0LWNvbG9yPSUyMzFFMjEyMSZ0eHQtZm9udD1IaXJhZ2lubyUyMFNhbnMlMjBXNiZ0eHQtc2l6ZT0zNiZ0eHQtcGFkPTAmcz01ZjM3OTdhNmI3MTY1YmYyNjc5OTEyMTBmYmRjZGViMw&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=54dca887d39b13b2d6b8757dc4690ab7"
+        ],
+        "notes": "VRChat中のPC負荷異常の原因を突き止める6時間の苦闘の記録なのだ。カーネル階層まで調査したのに、真因はまさかのUSBハブの相性問題だったのだ。トラブル時は画面の中だけでなく、足元の配線も疑うべきという教訓なのだ。",
+        "slidenum": 14,
+        "start_ms": 203655,
+        "end_ms": 219226
+    },
+    {
+        "type": "closing",
+        "notes": "今日のまとめなのだ。GPT-5による免疫の謎解明、ローカルで動かす巨大モデル、国産AIプラモ3.0、そしてUSBハブの教訓。どれも面白い記事だったのだ。番組の感想も待っているのだ。それじゃあ今日このへんで。ずんだもんがお送りしたのだ。またね。",
+        "slidenum": 15,
+        "start_ms": 219226,
+        "end_ms": 474067
+    }
+]
