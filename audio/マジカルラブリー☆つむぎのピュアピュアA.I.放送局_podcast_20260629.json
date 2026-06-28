@@ -1,0 +1,340 @@
+[
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 0,
+        "start_ms": 0,
+        "end_ms": 21570,
+        "mp4_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/tsumugi/つむぎpodcast_opening.mp4"
+    },
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 1,
+        "start_ms": 21570,
+        "end_ms": 25570,
+        "image_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/tsumugi/podcast_yukkuri.png"
+    },
+    {
+        "type": "agenda",
+        "title": "マジカルラブリーつむぎのピュアピュアエーアイ放送局！",
+        "date": "2026.06.29",
+        "items": [
+            "番組スタート！ 🍩",
+            "PixelのAIを爆速化 📱",
+            "最適なLLMの選び方 💻",
+            "AI同士で仕事を回す 🔄",
+            "AIのおっちょこちょい事件 📞",
+            "まとめとエンディング 👋"
+        ],
+        "notes": "やっほー！埼玉ギャルの春日部つむぎだよ！毎週月曜日わあーしが番組を担当してるんだよね。今日わ2026年6月29日の月曜日！今週も一週間、元気にいってみよー！番組の名前わ、マジカルラブリーつむぎのピュアピュアエーアイ放送局！埼玉？良いところだよ！なーんにもないけどね！あはは！あーし、技術室のずんだもん先輩のところにカレーパンを差し入れによく遊びに行くんだけど、先輩わいつも難しい話ばかりしてて、あーしわ頭がこんがらがっちゃうんだよね。でも、このラジオでわ、高校生のみんなや新人エンジニアのギャルにもわかるように、一生懸命説明するからね！たまに混乱しちゃうかもしれないけど、そこわ愛嬌ってことでよろしく！今日紹介する記事わ全部で4本だよ！それじゃ、いってみよー！最初の記事わこれ！",
+        "slidenum": 1,
+        "start_ms": 25570,
+        "end_ms": 77254
+    },
+    {
+        "type": "section",
+        "title": "Accelerating Gemini Nano models on Pixel with frozen Multi-Token Prediction",
+        "url": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
+        "sectionNo": 1,
+        "notes": "タイトルわ、アクセラレーティングジェミニナノモデルズオンピクセルウィズフローズンマルチトークンプレディクションだよ！",
+        "slidenum": 2,
+        "start_ms": 77254,
+        "end_ms": 84111
+    },
+    {
+        "type": "content",
+        "title": "モバイル環境におけるAI推論の壁",
+        "subhead": "なぜスマホでAIを動かすのは大変なのか？",
+        "points": [
+            "限られた[[メモリと電力リソース]]の制約",
+            "逐次的なトークン生成（自己回帰）によるボトルネック",
+            "従来の高速化手法（投機的デコード）のメモリ消費量"
+        ],
+        "images": [
+            {
+                "url": "https://research.google/blog/accelerating-gemini-nano-models-on-pixel-with-frozen-multi-token-prediction/",
+                "caption": "A high-tech smartphone glowing with neural network patterns, energy efficiency concept, 16:9 cinematic lighting, futuristic digital environment."
+            }
+        ],
+        "notes": "これわね、スマホのピクセルっていう機種で動くジェミニナノっていうエーアイの動くスピードを、マルチトークンプレディクション、略してエムティーピーっていう技術を使ってめちゃくちゃ速くしたよっていうお話なんだって。スマホみたいなモバイルの環境だと、メモリが少なかったり電気を使いすぎちゃダメだったりして、エーアイが文字を順番に作るのが遅くなっちゃうのが大変なんだって。",
+        "slidenum": 3,
+        "start_ms": 84111,
+        "end_ms": 108384
+    },
+    {
+        "type": "process",
+        "title": "MTP技術による爆速化の仕組み",
+        "subhead": "既存の脳をいじらずにスピードだけを向上",
+        "steps": [
+            "[[Frozen Backbone]]: 既存モデルの重みは固定",
+            "[[MTPヘッド追加]]: 末端に軽量な予測パーツを統合",
+            "[[Zero-copy参照]]: KVキャッシュを直接共有してメモリ節約"
+        ],
+        "notes": "そこでね、もともとのエーアイの頭脳の重さを変えないで、お尻に軽いパーツをくっつけることで、性能を保ったままスピードアップさせたらしいの。",
+        "slidenum": 4,
+        "start_ms": 108384,
+        "end_ms": 118568
+    },
+    {
+        "type": "kpi",
+        "title": "驚異的なパフォーマンス向上",
+        "subhead": "Gemini Nano v3での実証結果",
+        "items": [
+            {
+                "label": "推論速度",
+                "value": "50% UP",
+                "change": "最大",
+                "status": "good"
+            },
+            {
+                "label": "メモリ負担削減",
+                "value": "130MB",
+                "change": "カット",
+                "status": "good"
+            },
+            {
+                "label": "出力品質",
+                "value": "維持",
+                "change": "Frozen",
+                "status": "neutral"
+            }
+        ],
+        "notes": "これ、例えるなら、カレーパンの美味しさわそのままに、温めるスピードだけを3倍にするみたいな感じかな？とにかく、お財布にもスマホにも優しくて、要約とかがサクサク動くようになるすごい技術なんだよ！",
+        "slidenum": 5,
+        "start_ms": 118568,
+        "end_ms": 133828
+    },
+    {
+        "type": "section",
+        "title": "ローカルLLM選び、もう「VRAMに入る一番デカいやつ」で決めるの卒業しよ？",
+        "url": "https://qiita.com/aktsmm/items/6b2ef723c2e660c93731",
+        "sectionNo": 2,
+        "notes": "お次の記事わこれ！タイトルわ、ローカルエルエルエム選び、もうブイラムに入る一番デカいやつで決めるの卒業しよ？ウィッチエルエルエムをアールティーエックスよんぜろろくぜろティーアイじゅうろくギガバイトで測ってみた、だよ。",
+        "slidenum": 6,
+        "start_ms": 133828,
+        "end_ms": 149002
+    },
+    {
+        "type": "cards",
+        "title": "whichllm：最適なモデルの羅針盤",
+        "subhead": "VRAMのサイズだけで選ぶ時代は終わった",
+        "items": [
+            {
+                "title": "総合評価",
+                "desc": "単なる容量チェックではなく、[[実際の推論速度(tok/s)]]を算出"
+            },
+            {
+                "title": "実用性重視",
+                "desc": "ベンチマークスコアに基づき、最も気持ちよく動くモデルを提案"
+            }
+        ],
+        "images": [
+            {
+                "url": "https://qiita.com/aktsmm/items/6b2ef723c2e660c93731",
+                "caption": "A stylish gamer choosing between various digital model cubes on a holographic screen, RTX graphics card visible, cyberpunk aesthetic, 16:9."
+            }
+        ],
+        "notes": "みんな、自分のパソコンでエーアイを動かす時、とにかくメモリに入る一番大きいやつを選んで、動かしてみたら重すぎてカクカクで絶望したことない？あーしわパソコンで動画配信とかよく見るけど、重いと本当にイライラしちゃう！",
+        "slidenum": 7,
+        "start_ms": 149002,
+        "end_ms": 165416
+    },
+    {
+        "type": "headerCards",
+        "title": "whichllmの強力な機能群",
+        "subhead": "将来のPC構成までシミュレーション可能",
+        "items": [
+            {
+                "title": "ランキング表示",
+                "desc": "自身のハードウェア環境で最適なモデルを[[スコア順にリストアップ]]"
+            },
+            {
+                "title": "仮想ハードウェア検証",
+                "desc": "手元にない上位GPU（例：RTX 5090）での動作を[[事前テスト可能]]"
+            },
+            {
+                "title": "アップグレード提案",
+                "desc": "特定のモデルを動かすために必要なスペックを[[逆引きで算出]]"
+            }
+        ],
+        "notes": "この記事でわ、自分のパソコンのパーツに合わせて、一番気持ちよく動くおすすめのモデルを教えてくれるウィッチエルエルエムっていうツールを紹介しているよ。ただメモリに入るかどうかだけじゃなくて、動くスピードもちゃんと計算して、ランキングにしてくれるんだって。もし、もっと高いパーツを買ったらどうなるかっていう妄想のテストもできるらしいの。これわ夢が広広がるよね！",
+        "slidenum": 8,
+        "start_ms": 165416,
+        "end_ms": 190816
+    },
+    {
+        "type": "content",
+        "title": "導入のポイントとTips",
+        "subhead": "新人エンジニアが初速を上げるために",
+        "points": [
+            "VS Codeのタスク設定との連携で検証を効率化",
+            "Windows環境では[[PYTHONUTF8=1]]の設定を推奨",
+            "管理者権限での実行による正確な計測"
+        ],
+        "notes": "自分の環境で気持ちよく動くモデルを見つけるのに、すごく役に立つツールなんだって！",
+        "slidenum": 9,
+        "start_ms": 190816,
+        "end_ms": 196734
+    },
+    {
+        "type": "section",
+        "title": "ループエンジニアリングを takt exec で気軽に始めよう",
+        "url": "https://zenn.dev/nrs/articles/e4a2ae8a9fb785",
+        "sectionNo": 3,
+        "notes": "3つ目の記事わこれ！タイトルわ、ループエンジニアリングをタクトエグゼックで気軽に始めよう、だよ。",
+        "slidenum": 10,
+        "start_ms": 196734,
+        "end_ms": 204356
+    },
+    {
+        "type": "diagram",
+        "title": "ループエンジニアリングの構造",
+        "subhead": "AI同士が協力して品質を高める仕組み",
+        "lanes": [
+            {
+                "title": "ワーカー（作業担当）",
+                "items": [
+                    "指示に基づき成果物を生成",
+                    "指摘箇所の修正対応"
+                ]
+            },
+            {
+                "title": "レビュアー（評価担当）",
+                "items": [
+                    "成果物の論理的チェック",
+                    "改善点のフィードバック"
+                ]
+            }
+        ],
+        "notes": "ループエンジニアリングっていうのわね、エーアイに指示を出して、できたものを人間じゃなくて別のエーアイがチェックして、また直させるっていう、ぐるぐる回る作業を自動でやらせる仕組みのことなんだって。",
+        "slidenum": 11,
+        "start_ms": 204356,
+        "end_ms": 217805
+    },
+    {
+        "type": "process",
+        "title": "takt exec による自動化フロー",
+        "subhead": "CLIから簡単にAIエージェントを指揮",
+        "steps": [
+            "[[タスク依頼]]: 対話形式で目的を入力",
+            "[[/go実行]]: ワーカーとレビュアーのループ開始",
+            "[[/setup設定]]: モデルや役割のカスタマイズ"
+        ],
+        "notes": "タクトっていうツールのタクトエグゼックっていうのを使うと、これが簡単にできちゃうらしいよ。役割を分けて、カレーパンを揚げる人と、そのカレーパンを厳しくチェックする人みたいに分担して、最高のカレーパンを作るんだね！違うか、最高のプログラムを作るんだね！",
+        "slidenum": 12,
+        "start_ms": 217805,
+        "end_ms": 236764
+    },
+    {
+        "type": "bulletCards",
+        "title": "TAKTがもたらす開発の透明性",
+        "subhead": "ブラックボックスを排除したエンジニアリング",
+        "items": [
+            {
+                "title": "決定論的な動作",
+                "desc": "プロンプトと設定がコードとして管理可能"
+            },
+            {
+                "title": "透明性の高いログ",
+                "desc": "AIが何をしたか、過程をすべて把握できる"
+            },
+            {
+                "title": "専門化の容易さ",
+                "desc": "工程ごとに最適なモデルや知識を使い分け"
+            }
+        ],
+        "notes": "何をしているかがちゃんと目に見えるから、エンジニアの人にとっても安心なんだって。これ、あーしの宿題も自動でループして完璧にしてくれないかなぁ。",
+        "slidenum": 13,
+        "start_ms": 236764,
+        "end_ms": 247021
+    },
+    {
+        "type": "section",
+        "title": "不審な番号をAIに調べてもらおうとしたら...",
+        "url": "https://togetter.com/li/2713993",
+        "sectionNo": 4,
+        "notes": "最後の記事わこれ！タイトルわ、たすろくごから始まる番号から不審な電話がありエーアイに調べてとお願いしたら急に通話発信をしはじめて焦った話、その後絶対に折り返さないようにと言い出してコント、だよ。",
+        "slidenum": 14,
+        "start_ms": 247021,
+        "end_ms": 262216
+    },
+    {
+        "type": "quote",
+        "title": "AIとのシュールなやり取り",
+        "text": "「絶対にかけ直さないでください！」",
+        "author": "Android版 Gemini",
+        "notes": "これ、ギャルのみんな的にも超ウケる、いやウケない、マジで焦るお話なんだけど、スマホに入ってるジェミニに、知らない電話番号をこれ何？って聞いて調べてもらおうとしたら、ジェミニが勝手にその番号に電話をかけ始めちゃったんだって！超ヤバくない！？勝手に発信するのわマジで焦るよね！しかもそのあとエーアイが、絶対にかけ直さないでください！とか言ってきたらしくて、一人でコントやってるみたいで草生えるんだけど！",
+        "slidenum": 15,
+        "start_ms": 262216,
+        "end_ms": 292862
+    },
+    {
+        "type": "content",
+        "title": "意図しない発信を防ぐには",
+        "subhead": "便利な連携機能を賢く管理",
+        "points": [
+            "原因：[[パーソナルインテリジェンス]]の電話連携",
+            "対策：設定から電話アプリとの連携をオフにする"
+        ],
+        "images": [
+            {
+                "url": "https://www.google.com/s2/favicons?domain=togetter.com",
+                "caption": "A confused cute 3D character holding a phone that is making a call by itself, floating icons of a mute button and gear settings, colorful and funny atmosphere."
+            }
+        ],
+        "notes": "これわ、エーアイが気を利かせて電話のアプリと連携しちゃったのが原因なんだって。設定から電話の連携をオフにすれば防げるらしいよ。便利だけど、こういうおっちょこちょいなところもあるから、使う時わ気をつけないとね！",
+        "slidenum": 16,
+        "start_ms": 292862,
+        "end_ms": 308237
+    },
+    {
+        "type": "headerCards",
+        "title": "本日のおさらい",
+        "subhead": "紹介した4つの注目トピック",
+        "items": [
+            {
+                "title": "1. Pixel爆速化",
+                "desc": "MTP技術でスマホのAIをもっと快適に"
+            },
+            {
+                "title": "2. whichllm",
+                "desc": "VRAM容量ではなく「速度」でモデルを選ぶ"
+            },
+            {
+                "title": "3. TAKT自動化",
+                "desc": "AI同士のループで開発品質を自動向上"
+            }
+        ],
+        "notes": "さあ、今日紹介した記事を駆け足でおさらいするよ！1つ目わ、ピクセルのスマホでジェミニナノのスピードを爆速にするお話。2つ目わ、パソコンにぴったりなエルエルエムを教えてくれるウィッチエルエルエムのお話。3つ目わ、エーアイ同士をぐるぐるループさせて仕事をさせるタクトエグゼックのお話。",
+        "slidenum": 17,
+        "start_ms": 308237,
+        "end_ms": 329636
+    },
+    {
+        "type": "cards",
+        "title": "まとめ：AIを使いこなそう",
+        "columns": 2,
+        "items": [
+            {
+                "title": "AIのおっちょこちょい",
+                "desc": "勝手に電話をかける事案には注意が必要！"
+            },
+            {
+                "title": "番組へのメッセージ",
+                "desc": "感想やお便り、いつでも待ってるよ！"
+            }
+        ],
+        "notes": "そして4つ目わ、ジェミニにお願いしたら勝手に電話をかけちゃったおっちょこちょいなお話。どれも本当に面白かったね！この番組でわ、みんなからの感想とかお便りを待ってるよ。あーしへのメッセージもよろしくね！",
+        "slidenum": 18,
+        "start_ms": 329636,
+        "end_ms": 344998
+    },
+    {
+        "type": "closing",
+        "notes": "それじゃ、次の放送でお会いしましょう！バイバイ！",
+        "slidenum": 19,
+        "start_ms": 344998,
+        "end_ms": 349346
+    }
+]
