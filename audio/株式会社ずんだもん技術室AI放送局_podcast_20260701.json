@@ -1,0 +1,348 @@
+[
+    {
+        "type": "agenda",
+        "title": "ずんだもん技術室AI放送局",
+        "date": "2026.07.01",
+        "items": [
+            "バナナとジェミニの最新モデル",
+            "クロードコードのルール化術",
+            "コーディング特化AI Ornith",
+            "永久0円の人間LLM"
+        ],
+        "notes": "ヤッホー！\nみんな元気にしてるかな？\n株式会社ずんだもん技術室AI放送局の時間なのだ！\nパーソナリティーのぼくわ、ずんだ餅の精、ずんだもんなのだ！\n今日もずんだアローみたいに鋭く、最新のテクノロジー情報をみんなに届けていくのだ！\n今日の日付わ、2026年7月1日水曜日なのだ。\n週の真ん中、折り返し地点だけど、みんな疲れてないかな？\n今日もネットで話題になっているトレンドの記事を紹介していくから、のんびり楽しんでいってね。\nそれじゃあ、今日も元気にいってみよう！",
+        "slidenum": 1,
+        "start_ms": 0,
+        "end_ms": 45885
+    },
+    {
+        "type": "cards",
+        "title": "本日の放送メニュー",
+        "subhead": "紹介する4つのトレンド記事",
+        "items": [
+            {
+                "title": "① Google最新モデル",
+                "desc": "Nano Banana 2 Lite ＆ Gemini Omni Flash"
+            },
+            {
+                "title": "② Claude Codeバグ対策",
+                "desc": "自動でルール化する3回ルール"
+            },
+            {
+                "title": "③ コーディング特化AI",
+                "desc": "Ornith-1.0の自己足場構築"
+            },
+            {
+                "title": "④ 永久0円人間LLM",
+                "desc": "あなたがLLMになる究極の遊び"
+            }
+        ],
+        "notes": "今日の放送で紹介するトレンドの記事わ、全部で4本あるのだ。\nエーアイや開発に役立つ面白いツール、そしてちょっと変わったユーモアのあるプロジェクトまで盛りだくさんなのだ。\n最新の技術トレンドをキャッチして、みんなのエンジニアライフをもっと楽しくしちゃうのだ！",
+        "slidenum": 2,
+        "start_ms": 45885,
+        "end_ms": 66806
+    },
+    {
+        "type": "section",
+        "title": "ナノバナナツーライトとジェミニオムニフラッシュで開発を始めよう",
+        "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash/",
+        "sectionNo": 1,
+        "notes": "まずは1つ目の記事、タイトルわ「ナノバナナツーライトとジェミニオムニフラッシュで開発を始めよう」なのだ。\nグーグルから、開発者がもっと速くて効率的にマルチメディア体験を作れる2つの新しいモデルが発表されたのだ。\nこれわグーグルエーアイスタジオやジェミニエーピーアイから使えるのだ。",
+        "slidenum": 3,
+        "start_ms": 66806,
+        "end_ms": 90256
+    },
+    {
+        "type": "compare",
+        "title": "Googleが放つ2つの新鋭AIモデル",
+        "subhead": "用途に特化した極めて効率的なマルチメディア処理",
+        "leftTitle": "Nano Banana 2 Lite",
+        "rightTitle": "Gemini Omni Flash",
+        "leftItems": [
+            "画像生成に特化した高速かつ低コストなモデル",
+            "従来モデルからの[[スムーズな置き換えを推奨]]",
+            "約4秒という驚異の画像生成速度を実現",
+            "プロトタイピングや大量生成ワークフローに最適"
+        ],
+        "rightItems": [
+            "動画生成と対話型編集をこなす[[マルチモーダルモデル]]",
+            "テキスト、画像、動画を組み合わせた入力に対応",
+            "自然言語による指示で動画編集が可能な画期的な機能",
+            "高品質な動画出力を効率的に生成可能"
+        ],
+        "notes": "まず「ナノバナナツーライト」わ、画像生成に特化した、すごく速くて低コストなモデルなのだ。\nなんと約4秒で画像を生成できちゃう速さなのだ！\nプロトタイプを作ったり、大量の画像が必要なワークフローにぴったりなのだ。\nもう1つの「ジェミニオムニフラッシュ」わ、動画生成と対話型の編集ができるマルチモーダルモデルなのだ。\nテキストや画像、動画を組み合わせて、高品質な動画を作れるのだ。\nさらに、言葉で指示するだけで動画の編集もできちゃうのがすごすぎるのだ！",
+        "slidenum": 4,
+        "start_ms": 90256,
+        "end_ms": 131449
+    },
+    {
+        "type": "content",
+        "title": "Nano Banana 2 Lite の特性",
+        "subhead": "画像生成ワークフローの圧倒的効率化",
+        "points": [
+            "秒速生成により[[開発イテレーションを劇的に高速化]]",
+            "API利用コストを最小限に抑える優れた価格設計",
+            "開発プロセスの初期段階における大量検証に最適",
+            "ビジネスユースに耐えうる安定した画像品質"
+        ],
+        "notes": "開発者がもっと速くて効率的にマルチメディア体験を作れるように、Googleはこれらのモデルを提供しているのだ。特にナノバナナツーライトは、秒速で大量生成するのに役立つ優れものなのだ。",
+        "slidenum": 5,
+        "start_ms": 131449,
+        "end_ms": 144449
+    },
+    {
+        "type": "content",
+        "title": "Gemini Omni Flash の強み",
+        "subhead": "動画生成・対話型編集のフロンティア",
+        "points": [
+            "多様なマルチモーダルインプット（テキスト、画像、動画）に対応",
+            "[[直感的な自然言語編集]]により高度な手戻りを削減",
+            "プロトタイプから実用動画までカバーする柔軟な適応力",
+            "ユーザーとの対話形式でクリエイティブな微調整が可能"
+        ],
+        "notes": "ジェミニオムニフラッシュは、マルチモーダルな入力を動画編集に生かせるすごいモデルなのだ。動画生成だけでなく、自然言語でインタラクティブに調整できるのが画期的なのだ。",
+        "slidenum": 6,
+        "start_ms": 144449,
+        "end_ms": 144449
+    },
+    {
+        "type": "process",
+        "title": "2つのモデルを組み合わせた高度な連携",
+        "subhead": "静止画生成からアニメーション化、そして安全な出力へ",
+        "steps": [
+            "Nano Banana 2 Liteで[[ベースとなる静止画を高速生成]]する",
+            "生成された静止画をGemini Omni Flashのインプットとして渡す",
+            "自然言語で動きや変化を指示し[[アニメーションとして動かす]]",
+            "SynthIDによる[[電子透かし技術を組み込み]]生成物の透明性を担保"
+        ],
+        "notes": "この2つを組み合わせると、ナノバナナツーライトで作った静止画を、ジェミニオムニフラッシュでアニメーションに動かす、なんて連携もできちゃうのだ。\n生成されたものにわ、シンスアイディーっていう電子透かしも入って安心なのだ。\nぼくもずんだ餅の画像を秒速で大量生成して、それをジェミニオムニフラッシュで美味しそうに伸びるアニメーションにしたいのだ！\nこういう技術が手軽に使えるようになるのわ、技術室のエンジニアとしても本当にワクワクするのだ。\nみんなわどんな動画を作ってみたいかな？",
+        "slidenum": 7,
+        "start_ms": 144449,
+        "end_ms": 170009
+    },
+    {
+        "type": "section",
+        "title": "クロードコードに同じバグを3回出すと、自動でルール化される話",
+        "url": "https://zenn.dev/nexta_/articles/858e92ee22b4a4",
+        "sectionNo": 2,
+        "images": [
+            "https://res.cloudinary.com/zenn/image/upload/s--gB-0iH6f--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:Claude%2520Code%25E3%2581%25AB%25E5%2590%258C%25E3%2581%2598%25E3%2583%2590%25E3%2582%25923%25E5%259B%259E%25E5%2587%25BA%25E3%2581%2599%25E3%2581%25A8%25E3%2580%2581%25E8%2587%25AA%25E5%258B%2595%25E3%2581%25A7%25E3%2583%25AB%25E3%2583%25BC%25E3%2583%25AB%25E5%258C%2596%25E3%2581%2595%25E3%2582%258C%25E3%2582%258B%25E8%25A9%25B1%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:bik%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U0ZGE2N2U3OWYuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:Nexta%2520Tech%2520Blog%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2E5NjU1MTIwMzUuanBlZw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+        ],
+        "notes": "続いて2つ目の記事、タイトルわ「クロードコードに同じバグを3回出すと、自動でルール化される話」なのだ。\nエーアイエージェントと一緒に開発してると、「同じミスを何度も繰り返す」とか「記憶が大きくなりすぎて困る」ってこと、よくあるよね。\nこの記事わ、そんな問題を解決するために、開発の区切りごとに振り返りをして学習させる仕組みを実践した記録なのだ。",
+        "slidenum": 8,
+        "start_ms": 170009,
+        "end_ms": 201832
+    },
+    {
+        "type": "bulletCards",
+        "title": "AI協調開発における課題と「ふりかえり」",
+        "subhead": "cc-retrospective-learnerによる学習メカニズム",
+        "items": [
+            {
+                "title": "課題1：同じミスの繰り返し",
+                "desc": "AIエージェントが過去の文脈を喪失し、[[同一パターンのエラー]]を開発中に繰り返し発生させてしまう"
+            },
+            {
+                "title": "課題2：記憶（Context）の肥大化",
+                "desc": "セッション履歴を過剰に学習させることで、AIの[[推論効率と処理精度が低下]]する"
+            },
+            {
+                "title": "解決策：振り返りの自動化",
+                "desc": "開発の節目でコマンドを実行し、385回のセッションから[[55個の再利用ルール]]を漏斗のように抽出"
+            }
+        ],
+        "notes": "著者の人わ、クロードコードの履歴を使って、ふりかえりコマンドを実行して、385回のセッションから55個のルールを抽出したのだ。",
+        "slidenum": 9,
+        "start_ms": 201832,
+        "end_ms": 213766
+    },
+    {
+        "type": "process",
+        "title": "自動ルール化の「3回ルール」プロセス",
+        "subhead": "個別のバグ発見から共通CLAUDE.mdへの昇格ステップ",
+        "steps": [
+            "開発セッションの区切りに振り返り用コマンドを実行する",
+            "同一パターンのバグまたはエラーを[[3回検出]]する",
+            "バグの原因を[[CLAUDE.mdへ自動昇格]]させてルールファイルに追記する",
+            "次回以降のセッションで同じエラーを未然に防ぐ状態を作る"
+        ],
+        "notes": "特に面白いのが「3回ルール」なのだ。同じパターンのバグを3回見つけたら、自動的にクロードのルールファイル、クロードエムディーに昇格させて、次から起きないようにするのだ。",
+        "slidenum": 10,
+        "start_ms": 213766,
+        "end_ms": 229100
+    },
+    {
+        "type": "cards",
+        "title": "成功の資産化とコンテキスト保護",
+        "subhead": "AIエージェントを効率的に成長させるコア技術",
+        "items": [
+            {
+                "title": "成功のスキル化",
+                "desc": "20回以上の効率的なアプローチをコマンド化"
+            },
+            {
+                "title": "エンジニアの「構え」を学習",
+                "desc": "個別のバグ対策を超え、設計時に考慮すべき視野をAIへ定着"
+            },
+            {
+                "title": "文脈の隔離（サブエージェント）",
+                "desc": "履歴肥大化を防ぐため、分析タスクはメインセッションから分離"
+            }
+        ],
+        "notes": "失敗だけじゃなくて、うまくいったやり方も記録して、コマンド化してスキルにしちゃうのだ。\nしかも、メインの作業が重くならないように、振り返りの分析わサブエージェントに任せるっていう工夫もしてるのだ。\nこれって、エーアイをただの道具じゃなくて、一緒に成長するパートナーにする素晴らしい方法なのだ。",
+        "slidenum": 11,
+        "start_ms": 229100,
+        "end_ms": 253574
+    },
+    {
+        "type": "content",
+        "title": "共に成長するパートナーとしてのAI",
+        "subhead": "失敗から学んでシステム化するエンジニアリングの極意",
+        "points": [
+            "セッション履歴を一次資料として扱う[[画期的なアプローチ]]",
+            "ルール構築とスキル化により[[エンジニアリング生産性が格段に向上]]",
+            "仕組みはGitHubで公開されており、新人エンジニアも手軽に導入可能"
+        ],
+        "notes": "ぼくもたまに同じ間違いを何度もやっちゃうことがあるから、この3回ルールわ身に染みるのだ。\n人間もエーアイも、失敗から学んでシステム化していくのが一番大事なのだ。\nギットハブで仕組みが公開されてるから、新人のみんなもぜひ試してみてね。",
+        "slidenum": 12,
+        "start_ms": 253574,
+        "end_ms": 273375
+    },
+    {
+        "type": "section",
+        "title": "オーニスイチてんゼロ：エージェント指向コーディングのための自己足場構築エルエルエム",
+        "url": "https://simonwillison.net/2026/Jun/29/ornith/",
+        "sectionNo": 3,
+        "images": [
+            "https://www.google.com/s2/favicons?domain=simonwillison.net"
+        ],
+        "notes": "3つ目の記事、タイトルわ「オーニスイチてんゼロ：エージェント指向コーディングのための自己足場構築エルエルエム」なのだ。\n「オーニスイチてんゼロ」わ、ディープラインフォース社が新しく公開した、コーディングに特化したエルエルエムなのだ。\nエムアイティーライセンスだから、商用利用も気にせず使いやすいのが嬉しいところなのだ。",
+        "slidenum": 13,
+        "start_ms": 273375,
+        "end_ms": 299662
+    },
+    {
+        "type": "content",
+        "title": "Ornith-1.0 の概要と技術的基礎",
+        "subhead": "DeepReinforce社が贈る新星エージェント指向LLM",
+        "points": [
+            "[[MITライセンス]]での提供により、商用利用の制限なく容易に活用可能",
+            "実績のあるGemma 4およびQwen 3.5をベースに高度な最適化を実施",
+            "9B（Dense）から超大規模な397B（MoE）まで多様なモデルサイズを選択可能",
+            "同等規模のオープンソースAIの中で[[最高水準のコーディング精度]]を達成"
+        ],
+        "notes": "中身わ、ジェマフォーやクウェンスリーてんファイブをベースにしていて、サイズもナインビーから、めちゃくちゃ大きいサンビャクキュウジュウナナビーまで選べるのだ。一番の強みわ「自己足場構築」っていう能力なのだ。",
+        "slidenum": 14,
+        "start_ms": 299662,
+        "end_ms": 316149
+    },
+    {
+        "type": "bulletCards",
+        "title": "自己足場構築（Self-Scaffolding）の実力",
+        "subhead": "ローカル環境で力を発揮する自律的コーディング能力",
+        "items": [
+            {
+                "title": "自律的ツール呼び出し",
+                "desc": "複雑なプログラミングタスクに対して、AI自身で[[段階的な足場を組んで解決]]する"
+            },
+            {
+                "title": "検索・解析の高度化",
+                "desc": "リポジトリ内部のコードを[[効率的かつ的確に検索・解析]]するエージェント性能"
+            },
+            {
+                "title": "ローカル環境での稼働",
+                "desc": "LM Studioなどを通じて、[[一般的なPCスペックでも賢く自律稼働]]"
+            }
+        ],
+        "notes": "難しいツールを呼び出したり、コードを検索して解析するようなエージェントとしてのタスクを、ローカル環境でも正確にこなしてくれるのだ。\n最近の軽量なモデルが、自分のパソコンの中でこんなに賢く動くなんて、本当にいい時代になったのだ。\n新人エンジニアの学びのツールとしても、ローカルで動く強力なアシスタントとして大活躍間違いなしなのだ。",
+        "slidenum": 15,
+        "start_ms": 316149,
+        "end_ms": 344729
+    },
+    {
+        "type": "content",
+        "title": "ローカルLLMという最強の開発アシスタント",
+        "subhead": "自身のPCに強力なエージェントを育てる楽しさ",
+        "points": [
+            "インターネット接続に依存しないため[[セキュリティやコストを心配せず利用可能]]",
+            "新人エンジニアの実践的なエージェントAI体験学習ツールとして最適",
+            "手元で動く軽量強力なAIによる、ストレスフリーな自洗型コーディング支援"
+        ],
+        "notes": "自分の手元で動くローカルエルエルエムわ、開発の強い味方なのだ。\nぼくの技術室のパソコンにも入れて、ぼく専用のずんだ開発アシスタントを育ててみたいのだ。\nこれがあれば、ぼくのずんだアローの威力もアップしちゃうかもしれないのだ！",
+        "slidenum": 16,
+        "start_ms": 344729,
+        "end_ms": 363709
+    },
+    {
+        "type": "section",
+        "title": "永久0円人間エルエルエムのすすめ",
+        "url": "https://qiita.com/Syuparn/items/0001f93221d4d7556271",
+        "sectionNo": 4,
+        "images": [
+            "https://qiita-user-contents.imgix.net/https%3A%2F%2Fqiita-user-contents.imgix.net%2Fhttps%253A%252F%252Fcdn.qiita.com%252Fassets%252Fpublic%252Ftech-festa-ogp-background-4b5015b2c518c7e6b9062a7c9f5f5e90.png%3Fixlib%3Drb-4.1.1%26w%3D1200%26blend64%3DaHR0cHM6Ly9xaWl0YS11c2VyLXByb2ZpbGUtaW1hZ2VzLmltZ2l4Lm5ldC9odHRwcyUzQSUyRiUyRmF2YXRhcnMzLmdpdGh1YnVzZXJjb250ZW50LmNvbSUyRnUlMkYzNjY2NTIwMCUzRnYlM0Q0P2l4bGliPXJiLTQuMS4xJmFyPTElM0ExJmZpdD1jcm9wJm1hc2s9ZWxsaXBzZSZiZz1GRkZGRkYmZm09cG5nMzImcz0wYzI3NGVmMWFlYjNmMzFiMDkwZWI5ZGZmMTNjNGEyNQ%26blend-x%3D120%26blend-y%3D467%26blend-w%3D82%26blend-h%3D82%26blend-mode%3Dnormal%26s%3D6cfbdbbc8aefa09b736a785403733beb?ixlib=rb-4.1.1&w=1200&fm=jpg&mark64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTk2MCZoPTMyNCZ0eHQ9JUUzJTgwJTkwJUU2JUIwJUI4JUU0JUI5JTg1MCVFNSU4NiU4NiVFMyU4MCU5MSVFNCVCQSVCQSVFOSU5NiU5M0xMTSVFMyU4MSVBRSVFMyU4MSVBRSVFMyU4MSVBRSVFMyU4MiU4MSZ0eHQtYWxpZ249bGVmdCUyQ3RvcCZ0eHQtY29sb3I9JTIzRkZGRkZGJnR4dC1mb250PUhpcmFnaW5vJTIwU2FucyUyMFc2JnR4dC1zaXplPTU2JnR4dC1wYWQ9MCZzPWFjZTVhMDE3MzkwMTY1ODkxYmQxY2E0YTE1NjU5Mzk1&mark-x=120&mark-y=112&blend64=aHR0cHM6Ly9xaWl0YS11c2VyLWNvbnRlbnRzLmltZ2l4Lm5ldC9-dGV4dD9peGxpYj1yYi00LjEuMSZ3PTgzOCZoPTU4JnR4dD0lNDBTeXVwYXJuJnR4dC1jb2xvcj0lMjNGRkZGRkYmdHh0LWZvbnQ9SGlyYWdpbm8lMjBTYW5zJTIwVzYmdHh0LXNpemU9MzYmdHh0LXBhZD0wJnM9YWExZTNlOWEzYmEwMGFjMWI5N2ZjMDQyNTcxZTMzNTk&blend-x=242&blend-y=480&blend-w=838&blend-h=46&blend-fit=crop&blend-crop=left%2Cbottom&blend-mode=normal&s=33d8f53f314c795faf02fb9a30b02da3"
+        ],
+        "notes": "最後の4つ目の記事、タイトルわ「永久0円人間エルエルエムのすすめ」なのだ。\nエーアイを使うのにお金がかかったり、パソコンの電気代に悩んでいるエンジニアに送る、まさかの解決策なのだ。\nその名も「ヒューマンエルエルエム」なのだ！\nこれわ、あなた自身がエルエルエムになって、エーアイエージェントの指示に手動で答えるっていう、最高にユーモア溢れるツールなのだ。",
+        "slidenum": 17,
+        "start_ms": 363709,
+        "end_ms": 395573
+    },
+    {
+        "type": "quote",
+        "title": "【永久0円】人間LLMのすすめ",
+        "subhead": "AIエージェントからのプロンプトに手動で返答する究極のユーモア",
+        "text": "「電気代はゼロ。あなたの脳みそが推論エンジンになる、最高にユーモア溢れる究極の省エネツール」",
+        "author": "Syuparn",
+        "notes": "オープンエーアイエーピーアイと互換性のあるサーバーが立ち上がって、ブラウザからあなたが返答を入力するのだ。\nつまり、電気代わゼロ！\nあなたの脳みそが推論エンジンになるのだ！\nエーアイエージェントに「これやって」と頼まれた仕事を、人間が裏で必死にこなすっていう、シュールな遊び心がたまらないのだ。\nこれわ究極の省エネなのだ！\nでも、これじゃあ人間がエーアイに使われてるみたいで、ちょっと笑っちゃうのだ。\nぼくがずんだ餅を食べながら、このヒューマンエルエルエムの裏側でコトコト返信を打つのも、のんびりしてて楽しそうなのだ。\nたまにわこンナフウニ、技術を使って全力で遊ぶのもエンジニアの醍醐味なのだ。",
+        "slidenum": 18,
+        "start_ms": 395573,
+        "end_ms": 446425
+    },
+    {
+        "type": "bulletCards",
+        "title": "本日のAIテクノロジーニュースまとめ",
+        "subhead": "未来の開発現場を変える4つの注目ポイント",
+        "items": [
+            {
+                "title": "Google高速マルチメディアAI",
+                "desc": "秒速画像生成のNano Banana 2 Lite ＆ 対話編集対応Gemini Omni Flash"
+            },
+            {
+                "title": "Claude Code振り返り自動化",
+                "desc": "同じバグが3回出たら自動でCLAUDE.mdに昇格し開発をシステム化"
+            },
+            {
+                "title": "コーディング特化Ornith",
+                "desc": "自己足場構築を武器に、ローカル環境で自律稼働する最強オープンソースAI"
+            }
+        ],
+        "notes": "というわけで、今日のニュースをおさらいするのだ。\nグーグルの高速画像生成モデル「ナノバナナツーライト」と「ジェミニオムニフラッシュ」、\n失敗を自動でルール化する「クロードコード」の活用術、\nローカルで賢く動くコーディング特化エーアイ「オーニスイチてんゼロ」、\nそして、人間がエルエルエムになっちゃう究極のツール「ヒューマンエルエルエム」を紹介したのだ！\nどれもワクワクする話題ばかりだったのだ。\nみんな、お気に入りのニュースわあったかな？",
+        "slidenum": 19,
+        "start_ms": 446425,
+        "end_ms": 484330
+    },
+    {
+        "type": "faq",
+        "title": "おたより＆ご質問募集",
+        "subhead": "ずんだもん技術室AI放送局より皆様へ",
+        "items": [
+            {
+                "q": "番組への感想やメッセージの宛先は？",
+                "a": "感想やご意見はいつでも大歓迎！宛先は番組の受付窓口までお送りください"
+            },
+            {
+                "q": "ずんだもんが最も気になったニュースは？",
+                "a": "やっぱり美味しいずんだ餅をアニメーションで伸ばせるGemini Omni Flashが気になるのだ！"
+            }
+        ],
+        "notes": "この番組では、みんなからの感想やメッセージをいつでも募集しているのだ。\n宛先わ番組の受付窓口まで送ってほしいのだ。",
+        "slidenum": 20,
+        "start_ms": 484330,
+        "end_ms": 495185
+    },
+    {
+        "type": "closing",
+        "notes": "今日も最後まで付き合ってくれてありがとうなのだ。\n次回の放送でも、みんなに会えるのをとっても楽しみにしているのだ！\nそれじゃあ、今日も1日元気にいってみよう！\nバイバイなのだ！",
+        "slidenum": 21,
+        "start_ms": 495185,
+        "end_ms": 510013
+    }
+]
