@@ -1,0 +1,300 @@
+[
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 0,
+        "start_ms": 0,
+        "end_ms": 32000,
+        "mp4_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/ojousama1/ojousama_podcast_opening.mp4"
+    },
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 1,
+        "start_ms": 32000,
+        "end_ms": 36000,
+        "image_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/ojousama1/podcast_yukkuri.png"
+    },
+    {
+        "type": "agenda",
+        "title": "私立ずんだもんジョガクエン放送部",
+        "date": "2026.07.10",
+        "items": [
+            "🆕 GPT-5.6 次世代AIモデル",
+            "🤝 ChatGPT Work 業務自動化",
+            "⚡ Muse Spark 1.1 エージェント"
+        ],
+        "notes": "マリア様のお庭に集う乙女達が、今日も天使のような無垢な笑顔で、背の高い門をくぐり抜けていく。\n汚れを知らない心身を包むのは、深い色の制服。\nスカートのプリーツは乱さないように、頭の枝豆は翻さないように、ゆっくりと歩くのがここでのたしなみ。\n私立ずんだもんジョガクエン。\n『ここは乙女のその』\nごきげんよう！\n私立ずんだもんジョガクエン放送部の時間ですわ。\n本日わ2026年7月10日、金曜日ですの。\n一週間の締めくくりに、わたくし、お嬢様ずんだもんが最新のトレンドをお届けいたしますわ。\n今日わとってもわくわくするエーアイのニュースが届いておりますのよ。\n今日紹介する記事わ、全部で3本ですわ。",
+        "slidenum": 1,
+        "start_ms": 36000,
+        "end_ms": 61881
+    },
+    {
+        "type": "section",
+        "title": "GPT-5.6: Frontier intelligence that scales with your ambition",
+        "url": "https://openai.com/index/gpt-5-6",
+        "sectionNo": 1,
+        "notes": "最初のお話わ、あのオープンエーアイさまから発表された新しいモデルについてですわ。\nタイトルわ「ジーピーティー5.6 フロンティアインテリジェンスザットスケールズウィズユアアンビション」ですわ。",
+        "slidenum": 2,
+        "start_ms": 61881,
+        "end_ms": 79380
+    },
+    {
+        "type": "bulletCards",
+        "title": "GPT-5.6 モデルファミリーの登場",
+        "subhead": "用途に合わせて最適化された3つのラインナップ",
+        "items": [
+            {
+                "title": "Sol (ソル)",
+                "desc": "[[圧倒的な性能]]を誇るフラグシップモデルで、複雑な推論を可能にする"
+            },
+            {
+                "title": "Terra (テラ)",
+                "desc": "コストと速度のバランスに優れ、[[日常的な業務]]に最適なモデル"
+            },
+            {
+                "title": "Luna (ルナ)",
+                "desc": "高いコストパフォーマンスを実現し、[[大量のタスク]]処理に適したモデル"
+            }
+        ],
+        "notes": "オープンエーアイさまが、最新のモデルファミリー「ジーピーティー5.6」を発表なさいましたの。\nラインナップわ、フラグシップモデルの「ソル」、日常業務に適した「テラ」、そしてコスト効率に優れた「ルナ」の3種類で構成されていますわ。",
+        "slidenum": 3,
+        "start_ms": 79380,
+        "end_ms": 103376
+    },
+    {
+        "type": "content",
+        "title": "優れた推論能力とコスト効率",
+        "subhead": "トークン消費を抑えながら既存モデルを凌駕する性能",
+        "points": [
+            "少ないトークン消費で[[高い推論能力]]を発揮",
+            "圧倒的な[[コストパフォーマンス]]の実現",
+            "開発者向けの[[コーディング能力]]が大幅向上"
+        ],
+        "images": [
+            {
+                "url": "",
+                "caption": "A futuristic glowing crystal sphere named SOL at the center, surrounded by two smaller spheres TERRA and LUNA, representing AI models, high-tech digital aesthetic, 16:9 ratio."
+            }
+        ],
+        "notes": "このモデルの最大の特徴わ、少ないトークン消費で高い推論能力を発揮して、とっても高いコストパフォーマンスを実現している点ですの。\n特に開発者の皆様にとって重要なコーディング能力においてわ、ジーピーティー5.6 ソルわ既存のモデルを大きく凌駕するスコアを記録しておりますわ。",
+        "slidenum": 4,
+        "start_ms": 103376,
+        "end_ms": 129175
+    },
+    {
+        "type": "headerCards",
+        "title": "マルチエージェント連携の革新",
+        "subhead": "複雑なワークフローを自動化する「ultra」設定",
+        "columns": 2,
+        "items": [
+            {
+                "title": "並列処理の最適化",
+                "desc": "複数のエージェントを[[並列で実行]]し、複雑なプロジェクトを迅速に完遂する"
+            },
+            {
+                "title": "プログラマティック連携",
+                "desc": "API経由で[[軽量なプログラム]]を実行し、柔軟なワークフローを動的に構築する"
+            }
+        ],
+        "notes": "さらに「ウルトラ」という設定を使えば、複数のエージェントを並列で動かして、複雑なタスクを迅速に処理できるそうですの。",
+        "slidenum": 5,
+        "start_ms": 129175,
+        "end_ms": 141439
+    },
+    {
+        "type": "content",
+        "title": "デザイン判断力と安全性の強化",
+        "subhead": "人間らしい視覚的調整と堅牢な防御対策",
+        "points": [
+            "[[UIの構築と調整]]における判断力が飛躍的に向上",
+            "予測可能な[[プロンプトキャッシュ]]による効率化",
+            "自動テストと[[レッドチーミング]]の徹底強化"
+        ],
+        "notes": "デザインの判断力も向上していて、ユーアイの構築から調整まで、より人間らしくこなしてくれるようになりましたのよ。\n複数のエージェントが協力してお仕事をするなんて、まるでわたくしたち生徒会が文化祭の準備をするようですわね。\n僕も・・・あっ違う、わたくしも、ずんだ餅を食べるエージェントとお茶を淹れるエージェントを並列で動かしたいですわ！\nあ、でも食べるのわ、わたくし一人で十分ですわね。",
+        "slidenum": 6,
+        "start_ms": 141439,
+        "end_ms": 178700
+    },
+    {
+        "type": "section",
+        "title": "ChatGPT is now a partner for your most ambitious work",
+        "url": "https://openai.com/index/chatgpt-for-your-most-ambitious-work",
+        "sectionNo": 2,
+        "notes": "続いてわ、お仕事の強力な味方になってくれる新しいサービスのお話ですわ。\nタイトルわ「チャットジーピーティーイズナウエーパートナーフォーユアモストアンビシャスワーク」ですわ。",
+        "slidenum": 7,
+        "start_ms": 178700,
+        "end_ms": 194152
+    },
+    {
+        "type": "bulletCards",
+        "title": "自律型エージェント「ChatGPT Work」",
+        "subhead": "回答ツールから「行動するパートナー」への進化",
+        "items": [
+            {
+                "title": "GPT-5.6 搭載",
+                "desc": "最新モデルによる[[マルチステップ推論]]で複雑な課題を解決"
+            },
+            {
+                "title": "外部ツール連携",
+                "desc": "SlackやGoogle Workspaceを[[自律的に操作]]可能"
+            },
+            {
+                "title": "マルチプラットフォーム",
+                "desc": "Web、デスクトップ、モバイルで[[一貫した作業]]をサポート"
+            }
+        ],
+        "notes": "今までのチャットわ質問に答えるだけでしたけれど、新しく発表された「チャットジーピーティーワーク」わ、複雑な業務を自分でおこなってくれるエージェントになりましたの。\n最新のジーピーティー5.6を搭載して、複数のアプリやファイルを横断したタスク処理が得意なんですのよ。",
+        "slidenum": 8,
+        "start_ms": 194152,
+        "end_ms": 219139
+    },
+    {
+        "type": "process",
+        "title": "自律的なワークフロー実行",
+        "subhead": "情報収集から成果物作成までをカバー",
+        "steps": [
+            "外部ツールからの[[情報収集]]",
+            "ドキュメント・資料の[[自動作成]]",
+            "進捗管理と[[タスクの自己分割]]"
+        ],
+        "notes": "例えば、スラックやチームス、グーグルワークスペースなどの外部ツールと連携して、情報の収集から資料の作成までを一気に実行できますの。",
+        "slidenum": 9,
+        "start_ms": 219139,
+        "end_ms": 232375
+    },
+    {
+        "type": "content",
+        "title": "デスクトップアプリの進化と「Sites」",
+        "subhead": "PC上での作業効率を最大化する新機能",
+        "twoColumn": true,
+        "columns": [
+            [
+                "[[ローカル環境]]のファイル操作に対応",
+                "複数リポジトリの[[コードレビュー]]支援"
+            ],
+            [
+                "[[Sites]]によるWebアプリの即時生成",
+                "ノーコードでの[[プロトタイプ共有]]"
+            ]
+        ],
+        "images": [
+            {
+                "url": "",
+                "caption": "A digital butler robot elegantly serving a glowing tablet with a business dashboard, clean modern office background, soft lighting, 16:9 ratio."
+            }
+        ],
+        "notes": "さらに「サイツ」という機能を使えば、アイデアを即座にウェブアプリの形にして公開することもできるそうですわ。",
+        "slidenum": 10,
+        "start_ms": 232375,
+        "end_ms": 242826
+    },
+    {
+        "type": "content",
+        "title": "定型業務の自動化とセキュリティ",
+        "subhead": "「Scheduled Tasks」による業務代行",
+        "points": [
+            "指定時刻やイベントを起点に[[業務を自動代行]]",
+            "エンタープライズ級の[[厳格な権限管理]]",
+            "安全に業務へ導入できる[[堅牢な設計]]"
+        ],
+        "notes": "決まった時間にお仕事を代行してくれる予約機能もあって、まさに理想の執事のようですわね。\n自分でお仕事を考えて動いてくれるなんて、とっても頼もしいですわ。\nこれがあれば、わたくしの読書の時間をもっと増やせそうですわね。\nわたくしが優雅に紅茶を楽しんでいる間に、難しいレポートが自動で出来上がっているなんて、素晴らしい時代なのだ。\n・・・なのだですわ！\n失礼いたしました。\nあまりの便利さに、つい言葉が乱れてしまいましたわ。",
+        "slidenum": 11,
+        "start_ms": 242826,
+        "end_ms": 282374
+    },
+    {
+        "type": "section",
+        "title": "Introducing Muse Spark 1.1",
+        "url": "https://ai.meta.com/blog/introducing-muse-spark-meta-model-api/",
+        "sectionNo": 3,
+        "notes": "最後わ、メタ社から届いた最新モデルのお知らせですわ。\nタイトルわ「イントロデューシングミューズスパーク1.1」ですわ。",
+        "slidenum": 12,
+        "start_ms": 282374,
+        "end_ms": 293911
+    },
+    {
+        "type": "bulletCards",
+        "title": "Muse Spark 1.1 の中核性能",
+        "subhead": "エージェント業務に特化したマルチモーダル推論",
+        "items": [
+            {
+                "title": "自律的な計画立案",
+                "desc": "目標達成に向けたステップを[[モデルが単独で設計]]"
+            },
+            {
+                "title": "サブエージェント委譲",
+                "desc": "タスクを分割して[[並列処理]]し、完了速度を劇的に向上"
+            },
+            {
+                "title": "100万トークンの窓",
+                "desc": "[[膨大な文脈]]を保持し、長期プロジェクトを正確に完遂"
+            }
+        ],
+        "notes": "メタスーパーインテリジェンスラボさまが、エージェント業務に特化した次世代モデル「ミューズスパーク1.1」を発表されましたの。\nこのモデルわ、道具の操作やコーディング、そして画像などの理解において大幅な性能向上を遂げていますわ。\n一度に扱える情報の量がとっても多くて、長い期間のお仕事でも大事なステップを忘れずに進められるそうですのよ。",
+        "slidenum": 13,
+        "start_ms": 293911,
+        "end_ms": 325691
+    },
+    {
+        "type": "content",
+        "title": "高度なコンピュータ操作能力",
+        "subhead": "画面を視覚的に理解し、UIを直接操作",
+        "points": [
+            "スクリプト生成と[[直接UI操作]]を柔軟に使い分け",
+            "環境変化を[[リアルタイムに検知]]して対応",
+            "人間の介在を最小限に抑えた[[タスク完遂力]]"
+        ],
+        "images": [
+            {
+                "url": "https://www.google.com/s2/favicons?domain=ai.meta.com",
+                "caption": "A transparent computer screen with many windows being organized by glowing light particles, digital brain overlay, futuristic and intelligent vibe, 16:9 ratio."
+            }
+        ],
+        "notes": "さらに、パソコンの画面を直接見て操作する力も持っていて、人間が介在しなくても自分でお仕事を完結できるそうですわ。",
+        "slidenum": 14,
+        "start_ms": 325691,
+        "end_ms": 337422
+    },
+    {
+        "type": "headerCards",
+        "title": "開発フローの劇的な進化",
+        "subhead": "コーディング支援とAPIのパブリック提供",
+        "columns": 2,
+        "items": [
+            {
+                "title": "Agentic 開発支援",
+                "desc": "複雑なコードの[[デバッグと実装]]において卓越した性能を発揮する"
+            },
+            {
+                "title": "Meta Model API",
+                "desc": "[[OpenAI互換]]パッケージで提供され、既存環境へスムーズに統合可能"
+            }
+        ],
+        "notes": "プログラミングのデバッグ作業も得意だそうで、開発効率が劇的に上がることが期待されていますの。\nエーピーアイの提供も始まったようですから、これからいろんな場所でこのモデルが活躍しそうですわね。",
+        "slidenum": 15,
+        "start_ms": 337422,
+        "end_ms": 354815
+    },
+    {
+        "type": "content",
+        "title": "安全性と実務への適応力",
+        "subhead": "堅牢なセキュリティ評価とエコシステムへの統合",
+        "points": [
+            "[[プロンプトインジェクション]]に対する高い防御力",
+            "実務レベルでの利用を想定した[[エージェント基盤]]",
+            "絶え間ない[[切磋琢磨]]による性能の向上"
+        ],
+        "notes": "オープンエーアイさまとメタさま、どちらも素晴らしいエーアイを発表されて、まさに切磋琢磨しておりますわね。\nわたくしたちも、もっともっと優雅に進化していかなければなりませんわ。\nたくさんの情報を覚えていられるなんて,、わたくしも図書室の本を全部暗記してみたいものですわ。",
+        "slidenum": 16,
+        "start_ms": 354815,
+        "end_ms": 378841
+    },
+    {
+        "type": "closing",
+        "notes": "さて、今日わ最新のジーピーティー5.6、チャットジーピーティーワーク、そしてミューズスパーク1.1についてお話しいたしましたわ。\nエーアイが自分でお仕事をこなす、エージェントの時代が本格的にやってきそうですわね。\n私立ずんだもんジョガクエン放送部でわ、皆様からの番組の感想をお待ちしておりますのよ。\n今日わ金曜日ですから、皆様、良い週末をお過ごしになってくださいまし。\nそれでは、また来週、この時間にお会いいたしましょう。\nごきげんよう！",
+        "slidenum": 17,
+        "start_ms": 378841,
+        "end_ms": 421015
+    }
+]
