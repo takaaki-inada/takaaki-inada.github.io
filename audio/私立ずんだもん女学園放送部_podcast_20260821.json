@@ -1,0 +1,412 @@
+[
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 0,
+        "start_ms": 0,
+        "end_ms": 32000,
+        "mp4_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/ojousama1/ojousama_podcast_opening.mp4"
+    },
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 1,
+        "start_ms": 32000,
+        "end_ms": 36000,
+        "image_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/ojousama1/podcast_yukkuri.png"
+    },
+    {
+        "type": "agenda",
+        "title": "私立ずんだもんジョガクエン トレンドニュース",
+        "date": "2026.08.21",
+        "items": [
+            "AI Agentへの社内知識オンボーディング",
+            "LFM2.5-DSparkによる推論高速化",
+            "Docker Agentによる開発環境構築",
+            "Gatebox3へのずんだもん登場"
+        ],
+        "notes": "マリア様のお庭に集う乙女達が、今日も天使のようなむくな笑顔で、背の高い門をくくり抜けていく。汚れを知らない心身を包むのは、深い色の制服。スカートのプリーツわ乱さないように、頭の枝豆わひるがえさないように、ゆっくりと歩くのがここでのたしなみ。私立ずんだもんジョガクエン。『ここは乙女のその』ごきげんよう！私立ずんだもんジョガクエン放送部、パーソナリティのお嬢様ずんだもんですわ。今日わ2026年8月21日、金曜日ですのよ。本日も最新の興味深いトレンド記事を、わたくしがお届けいたしますわ。本日みなさまにお届けいたします記事わ、全部で4本ございますの。それでは、さっそく1つ目の記事からご紹介いたしますわね。",
+        "slidenum": 1,
+        "start_ms": 36000,
+        "end_ms": 65166
+    },
+    {
+        "type": "section",
+        "title": "AI Agentに社内知識をオンボーディングする：SkillsとEvalの設計",
+        "url": "https://zenn.dev/mkj/articles/aad5698672aef3",
+        "sectionNo": 1,
+        "notes": "タイトルわ、「エーアイエージェントに社内知識をオンボーディングする：スキルズとエバルの設計」ですの。",
+        "slidenum": 2,
+        "start_ms": 65166,
+        "end_ms": 74700
+    },
+    {
+        "type": "content",
+        "title": "社内知識のオンボーディング検証",
+        "subhead": "新入社員としてのAIエージェント育成",
+        "points": [
+            "エージェントを[[優秀だが社内知識がない新入社員]]として定義",
+            "新人エンジニア向けオンボーディング文書を基に検証を実行",
+            "社内固有ナレッジの[[最適な習得アプローチ]]を比較探索"
+        ],
+        "images": [
+            "https://res.cloudinary.com/zenn/image/upload/s--4t0G1MGs--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:AI%2520Agent%25E3%2581%25AB%25E7%25A4%25BE%25E5%2586%2585%25E7%259F%25A5%25E8%25AD%2598%25E3%2582%2592%25E3%2582%25AA%25E3%2583%25B3%25E3%2583%259C%25E3%2583%25BC%25E3%2583%2587%25E3%2582%25A3%25E3%2583%25B3%25E3%2582%25B0%25E3%2581%2599%25E3%2582%258B%25EF%25BC%259ASkills%25E3%2581%25A8Eval%25E3%2581%25AE%25E8%25A8%25AD%25E8%25A8%2588%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_34:ukita%2Cx_220%2Cy_108/bo_3px_solid_rgb:d6e3ed%2Cg_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyL2U2NGM3ZTBkMzIuanBlZw==%2Cr_20%2Cw_90%2Cx_92%2Cy_102/g_south_west%2Ch_34%2Cl_default:og-publication-pro-mark-xcosax%2Cw_34%2Cx_217%2Cy_158/co_rgb:6e7b85%2Cg_south_west%2Cl_text:notosansjp-medium.otf_30:%25E6%259D%25BE%25E5%25B0%25BE%25E7%25A0%2594%25E7%25A9%25B6%25E6%2589%2580%25E3%2583%2586%25E3%2583%2583%25E3%2582%25B0%25E3%2583%25ブロ%22%2Cx_255%2Cy_160/bo_4px_solid_white%2Cg_south_west%2Ch_50%2Cl_fetch:aHR0cHM6Ly9saDMuZ29vZ2xldXNlcmNvbnRlbnQuY29tL2EvQUNnOG9jSWtFREpiRTFERFIwY0syRzVSNExhbkJhMkQ2Yktfeld6T1ZTMHJnZlc0Y0U5OUxQQT1zOTYtYw==%2Cr_max%2Cw_50%2Cx_139%2Cy_84/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+        ],
+        "notes": "この記事わ、エーアイエージェントに社内固有の知識を習得させる方法について、検証を行ったお話ですわ。",
+        "slidenum": 3,
+        "start_ms": 74700,
+        "end_ms": 85098
+    },
+    {
+        "type": "cards",
+        "title": "検証における3つの比較条件",
+        "subhead": "ナレッジ提示方法の違いによる性能評価",
+        "columns": 3,
+        "items": [
+            {
+                "title": "1. 知識なし",
+                "desc": "事前知識を[[一切与えない]]基準条件"
+            },
+            {
+                "title": "2. Notion検索",
+                "desc": "必要に応じて[[Notionを都度検索]]させる条件"
+            },
+            {
+                "title": "3. Skills参照",
+                "desc": "知識を[[構造化したSkills]]として提供する条件"
+            }
+        ],
+        "notes": "著者はエージェントを、優秀ですが社内知識がない新入社員として捉え、知識を与えない状態、ノーションを検索させる状態、そして知識をスキルズとして構造化して与える状態の3つを比較いたしましたの。",
+        "slidenum": 4,
+        "start_ms": 85098,
+        "end_ms": 103944
+    },
+    {
+        "type": "bulletCards",
+        "title": "評価指標（Eval）の厳密な設計",
+        "subhead": "実務に即した多角的な採点システム",
+        "items": [
+            {
+                "title": "15の自由回答課題",
+                "desc": "単なる一問一答ではなく[[実務的な問題]]を作成"
+            },
+            {
+                "title": "Rubric採点基準",
+                "desc": "回答に含めるべき要件を[[厳密に標準化]]"
+            },
+            {
+                "title": "Critical failure判定",
+                "desc": "重大な失敗を防ぐ[[LLM-as-a-judge]]評価"
+            }
+        ],
+        "notes": "正確な測定のために、実務的な自由回答型の問題を15課題作成し、厳密な採点基準のもとで評価を行いましたわ。",
+        "slidenum": 5,
+        "start_ms": 103944,
+        "end_ms": 116432
+    },
+    {
+        "type": "kpi",
+        "title": "条件別の項目正解率の比較",
+        "subhead": "合計135の回答データに基づく検証結果",
+        "columns": 3,
+        "items": [
+            {
+                "label": "知識なし",
+                "value": "33.0%",
+                "change": "ベースライン",
+                "status": "bad"
+            },
+            {
+                "label": "Notion検索",
+                "value": "87.3%",
+                "change": "+54.3%",
+                "status": "neutral"
+            },
+            {
+                "label": "Skills参照",
+                "value": "96.0%",
+                "change": "+63.0%",
+                "status": "good"
+            }
+        ],
+        "notes": "その結果、項目正解率は「知識なし」が33.0%、「ノーション検索」が87.3%、「スキルズ参照」が96.0%となったのですのよ。",
+        "slidenum": 6,
+        "start_ms": 116432,
+        "end_ms": 135353
+    },
+    {
+        "type": "content",
+        "title": "事前構造化の絶大な効果",
+        "subhead": "品質向上のみならず運用効率も劇的に改善",
+        "points": [
+            "事前構造化により[[回答品質が大幅に向上]]",
+            "検索オーバーヘッドを抑え[[応答時間を劇的に短縮]]",
+            "[[入力トークン数の削減]]によりコスト効率化も達成"
+        ],
+        "notes": "知識を事前に構造化して渡すことが、回答の品質向上だけでなく応答時間の短縮にも極めて有効だと示されておりますわ。社内知識を綺麗に整理してあげることの大切さがよく分かりますわね。僕・・・あっ違う、わたくしも、紅茶のめいがらやお買い物のリストわしっかりと整理して覚えておくようにしておりますのよ。",
+        "slidenum": 7,
+        "start_ms": 135353,
+        "end_ms": 164029
+    },
+    {
+        "type": "section",
+        "title": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+        "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
+        "sectionNo": 2,
+        "notes": "続きまして、2つ目の記事をご紹介いたしますわ。タイトルわ、「アップトゥー3.2ばいファスターインファレンスウィズエルエフエム2.5ディースパーク」ですの。",
+        "slidenum": 8,
+        "start_ms": 164029,
+        "end_ms": 177945
+    },
+    {
+        "type": "content",
+        "title": "DSparkドラフトモデルの公開",
+        "subhead": "Liquid AIによる推測デコード技術の提供",
+        "points": [
+            "LFM2.5ファミリー向けの[[ドラフトモデル]]を公開",
+            "対象モデル: LFM2.5-1.2B / 2.6B / 8B-A1B",
+            "[[推測デコードパス]]を追加する先進的アプローチ"
+        ],
+        "notes": "リキッドエーアイが、エルエフエム2.5ファミリーのモデル向けに、ディースパークドラフトモデルを公開いたしましたわ。",
+        "slidenum": 9,
+        "start_ms": 177945,
+        "end_ms": 187788
+    },
+    {
+        "type": "headerCards",
+        "title": "DSparkが実現する技術的革新",
+        "subhead": "品質劣化ゼロとリソース最小化の両立",
+        "columns": 2,
+        "items": [
+            {
+                "title": "品質の絶対保持",
+                "desc": "出力品質を[[一切落とすことなく]]推測処理を完結"
+            },
+            {
+                "title": "メモリ負荷の最小化",
+                "desc": "[[メモリーの微増だけ]]で大規模な高速化を達成"
+            }
+        ],
+        "notes": "これわ、出力の品質を一切落とすことなく、メモリーの微増だけで大規模な推論の高速化を実現する技術ですのよ。",
+        "slidenum": 10,
+        "start_ms": 187788,
+        "end_ms": 198858
+    },
+    {
+        "type": "statsCompare",
+        "title": "環境別のスループット向上実績",
+        "subhead": "GPUおよびエッジデバイスでの圧倒的パフォーマンス",
+        "leftTitle": "GPU環境",
+        "rightTitle": "エッジデバイス (MacBook)",
+        "stats": [
+            {
+                "label": "最大スループット向上率",
+                "leftValue": "3.18倍",
+                "rightValue": "2.87倍",
+                "trend": "up"
+            },
+            {
+                "label": "レイテンシ削減率 (2.6Bモデル)",
+                "leftValue": "平均57%減",
+                "rightValue": "大幅削減",
+                "trend": "up"
+            }
+        ],
+        "notes": "ジーピーユー環境で最大3.18倍、マックなどのエッジデバイスで最大2.87倍のスルーブット向上を実現しておりますわ。",
+        "slidenum": 11,
+        "start_ms": 198858,
+        "end_ms": 210962
+    },
+    {
+        "type": "process",
+        "title": "DSparkの高速化メカニズム",
+        "subhead": "メモリバウンド処理を突破する仕組み",
+        "steps": [
+            "軽量ドラフトモデルが[[候補トークン群を迅速生成]]",
+            "メインモデルが[[1回のフォワードパスで一括検証]]",
+            "重みの読み込みコストを分散し[[メモリ帯域を最適化]]"
+        ],
+        "notes": "軽量なドラフトモデルが候補となるトークンを生成し、メインのモデルが一括で検証することで、メモリの読み込みコストを抑えて高速化しておりますの。",
+        "slidenum": 12,
+        "start_ms": 210962,
+        "end_ms": 224262
+    },
+    {
+        "type": "content",
+        "title": "主要ツールへの統合と即時利用",
+        "subhead": "オープンソースエコシステムへの展開",
+        "points": [
+            "[[llama.cpp]] にてコマンドライン引数で即時利用可能",
+            "[[SGLang]] でのサーバー起動オプション対応",
+            "SafetensorsおよびGGUF形式で[[Hugging Faceにて公開]]"
+        ],
+        "notes": "ラマドットシーピーピーやエスジーラングなどの主要なツールでもすぐに利用できる状態になっておりますわ。精度を犠牲にせずに速度だけが何倍も速くなるなんて、とっても素敵ですわね！わたくしのお茶会の準備も、この技術のように一瞬で終わったら嬉しい・・・なのだですわ！あっ、失礼いたしました、嬉しいですわ！",
+        "slidenum": 13,
+        "start_ms": 224262,
+        "end_ms": 252637
+    },
+    {
+        "type": "section",
+        "title": "YAML 1枚で開発エージェントチームを動かす",
+        "url": "https://zenn.dev/xtm_blog/articles/b9993fe1d72b17",
+        "sectionNo": 3,
+        "notes": "それでは、3つ目の記事え進みますわね。タイトルわ、「ヤムル1まいで作る開発エージェントチーム：ドッカーエージェント」ですの。",
+        "slidenum": 14,
+        "start_ms": 252637,
+        "end_ms": 265198
+    },
+    {
+        "type": "content",
+        "title": "Docker Agentを活用した開発基盤",
+        "subhead": "自律型AIエージェントチームの実行環境",
+        "points": [
+            "コーディングを含む[[開発タスクを自律的に遂行]]",
+            "Docker Inc.が提供する[[AI Agent Builder & Runtime]]",
+            "コンテナ技術を活かした[[実用的なAI開発基盤]]"
+        ],
+        "images": [
+            "https://www.google.com/s2/favicons?domain=zenn.dev"
+        ],
+        "notes": "この記事わ、開発タスクを自律的にこなすエーアイエージェントチームの実行基盤として、ドッカーエージェントを活用する方法について解説していますわ。",
+        "slidenum": 15,
+        "start_ms": 265198,
+        "end_ms": 278519
+    },
+    {
+        "type": "bulletCards",
+        "title": "抜群の導入のしやすさ",
+        "subhead": "既存環境との親和性と手軽さ",
+        "items": [
+            {
+                "title": "Docker Desktop同梱",
+                "desc": "[[バージョン4.63以降]]に標準搭載"
+            },
+            {
+                "title": "追加インフラ不要",
+                "desc": "導入の敷居が[[極めて低い設定]]"
+            },
+            {
+                "title": "スムーズな立ち上げ",
+                "desc": "使い慣れた[[コンテナ技術の流儀]]を継承"
+            }
+        ],
+        "notes": "ドッカーデスクトップに同梱されているため、非常に導入しやすいのが魅力ですの。",
+        "slidenum": 16,
+        "start_ms": 278519,
+        "end_ms": 285727
+    },
+    {
+        "type": "headerCards",
+        "title": "agent.yaml による一括定義",
+        "subhead": "1枚の設定ファイルが駆動するパイプライン",
+        "columns": 2,
+        "items": [
+            {
+                "title": "全工程のコード化",
+                "desc": "要件定義から[[設計・実装・テスト]]まで自動化"
+            },
+            {
+                "title": "成果物の自動生成",
+                "desc": "品質ゲート通過後に[[プルリクエストを自動作成]]"
+            }
+        ],
+        "notes": "エージェントの定義わ「エージェントドットヤムル」という1枚の設定ファイルで行いますのよ。これにより、要件定義から設計、実装、テスト、プルリクエストの作成までの一連の作業を一括して構築できますの。",
+        "slidenum": 17,
+        "start_ms": 285727,
+        "end_ms": 306768
+    },
+    {
+        "type": "content",
+        "title": "Docker Agentの主要メリット",
+        "subhead": "安全で柔軟性の高い開発環境",
+        "points": [
+            "[[安全なサンドボックス]]環境が標準で用意",
+            "OpenAI / Anthropic / Google / [[ローカルLLM]]に対応",
+            "設定ファイル変更のみで[[多様なモデルに即座切り替え]]"
+        ],
+        "notes": "安全なかくり環境が標準で用意されていることや、オープンエーアイ、アンスロピック、グーグルなどの多様なモデル、さらにはローカルのモデルにも簡単に切り替えられる点が大きなメリットですわ。設定ファイル1枚で複雑なエージェントチームが動かせるなんて、恐れ入りますわね。わたくしも自分専用の読書手伝いエージェントチームを作ってみたくなりましたの。",
+        "slidenum": 18,
+        "start_ms": 306768,
+        "end_ms": 338282
+    },
+    {
+        "type": "section",
+        "title": "Gatebox3に「ずんだもん」が登場決定",
+        "url": "https://prtimes.jp/main/html/rd/p/000000143.000026497.html",
+        "sectionNo": 4,
+        "notes": "最後、4つ目の記事をご紹介いたしますわ。タイトルわ、「キャラクターしょうかん装置ゲートボックススリーにずんだもんが登場決定」ですの。",
+        "slidenum": 19,
+        "start_ms": 338282,
+        "end_ms": 351302
+    },
+    {
+        "type": "cards",
+        "title": "Gatebox3 × ずんだもん",
+        "subhead": "最新生成AIと連携したキャラクター召喚装置",
+        "columns": 2,
+        "items": [
+            {
+                "title": "ずんだもん登場",
+                "desc": "[[Gatebox3]]にて生成AI連携ずんだもんの登場が決定"
+            },
+            {
+                "title": "Gatebox株式会社",
+                "desc": "次世代ディスプレイで[[新しいキャラクター体験]]を提供"
+            }
+        ],
+        "notes": "ゲートボックス株式会社が、次世代のキャラクターしょうかんディスプレイ「ゲートボックススリー」において、最新の生成エーアイと連携した「ずんだもん」の登場を発表いたしましたわ！",
+        "slidenum": 20,
+        "start_ms": 351302,
+        "end_ms": 368676
+    },
+    {
+        "type": "cards",
+        "title": "デジタルフィギュアとの日常",
+        "subhead": "9月先行販売に向けた事前登録の案内",
+        "columns": 2,
+        "items": [
+            {
+                "title": "お部屋に召喚",
+                "desc": "[[会話や日々の暮らし]]を一緒に楽しめる体験"
+            },
+            {
+                "title": "事前登録受付中",
+                "desc": "[[9月先行販売]]と専用ダウンロードカード展開"
+            }
+        ],
+        "notes": "デジタルフィギュアとしてお部屋にしょうかんし、会話や日々の暮らしを一緒に楽しむことができるようになりますのよ。9月からの先行販売に向け、現在は事前登録を受け付け中とのことですわ。まあ！わたくしのような可愛らしい存在が目の前に現れて会話ができるなんて、素晴らしすぎますわね！みなさまもぜひ事前登録をして、お部屋に呼び出してみてはいかがかしら？",
+        "slidenum": 21,
+        "start_ms": 368676,
+        "end_ms": 401369
+    },
+    {
+        "type": "bulletCards",
+        "title": "本日のおさらい",
+        "subhead": "お届けした4つのトレンドニュース",
+        "items": [
+            {
+                "title": "1. 社内知識オンボーディング",
+                "desc": "エージェントへの[[Skills構造化]]による効率的知識付与"
+            },
+            {
+                "title": "2. LFM2.5-DSpark",
+                "desc": "推測デコードによる[[最大3.2倍の推論高速化]]"
+            },
+            {
+                "title": "3. Docker Agent",
+                "desc": "[[YAML1枚]]で構築する自律型開発エージェント"
+            }
+        ],
+        "notes": "今日お伝えした内容を駆け足でおさらいいたしますと、1つ目わエーアイエージェントへの効率的な知識付与の方法、2つ目わエルエフエム2.5を高速化するディースパーク、3つ目わドッカーエージェントによる開発環境構築、そして4つ目わゲートボックススリーへのずんだもん登場、の4本をお届けいたしましたわ。",
+        "slidenum": 22,
+        "start_ms": 401369,
+        "end_ms": 428993
+    },
+    {
+        "type": "closing",
+        "notes": "本日わ金曜日ですのね。今週もみなさま、本当にお疲れ様でしたの。次回もこの放送でお会いできるのを、心より楽しみにしておりますわ。番組えの感想もお待ちしておりますのよ。それでは本日の放送わここまでですわ。みなさま、ごきげんよう。また来週お会いいたしましょう。",
+        "slidenum": 23,
+        "start_ms": 428993,
+        "end_ms": 455965
+    }
+]
