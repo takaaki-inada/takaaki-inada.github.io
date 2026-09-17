@@ -1,0 +1,389 @@
+[
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 0,
+        "start_ms": 0,
+        "end_ms": 32000,
+        "mp4_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/ojousama1/ojousama_podcast_opening.mp4"
+    },
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 1,
+        "start_ms": 32000,
+        "end_ms": 36000,
+        "image_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/ojousama1/podcast_yukkuri.png"
+    },
+    {
+        "type": "agenda",
+        "title": "週刊技術トレンド解説",
+        "date": "2026.09.18",
+        "items": [
+            "OpenAIの法律特化モデル",
+            "GitHub CopilotのRust移行",
+            "TypeSafe Jevの技術検証"
+        ],
+        "notes": "マリア様のお庭に集う乙女達が、今日も天使のような無垢な笑顔で、背の高い門をくぐり抜けていく。\n汚れを知らない心身を包むのわ、深い色の制服。\nスカートのプリーツわ乱さないように、頭の枝豆わ翻さないように、ゆっくりと歩くのがここでのたしなみ。\n私立ずんだもんジョガクエン。\n『ここわ乙女のその』\nごきげんよう！\n私立ずんだもんジョガクエン放送部、パーソナリティのお嬢様ずんだもんですわ。\n本日わ2026年9月18日、金曜日ですわね。\n皆様、今週も一週間、本当にお疲れ様でしたわ。\nわたくしわオイシイ紅茶と出来立てのずんだ餅をいただきながら、心穏やかにこの時間を過ごしておりますの。\n本日も最新のトレンド記事を3本、皆様にお届けいたしますわね。\nそれでは早速、最初の記事に参りましょう。",
+        "slidenum": 1,
+        "start_ms": 36000,
+        "end_ms": 72438
+    },
+    {
+        "type": "section",
+        "title": "Introducing Astra for Law",
+        "url": "https://openai.com/index/astra-for-law",
+        "sectionNo": 1,
+        "notes": "1つ目の記事のタイトルわ、「イントロデューシングアストラフォーロー」ですわ。",
+        "slidenum": 2,
+        "start_ms": 72438,
+        "end_ms": 79039
+    },
+    {
+        "type": "content",
+        "title": "GPT-6 Astra基盤の法律特化型ソリューション",
+        "subhead": "法務実務に必要なデータ・ツールを統合した新プラットフォーム",
+        "points": [
+            "[[最新モデルGPT-6 Astra]]をベースに構築",
+            "法律事務所・リーガルテック企業向けに最適化",
+            "API経由で高度な法務ワークフローを構築可能"
+        ],
+        "notes": "米国のオープンエーアイ社が、最新のフラグシップモデルである「ジーピーティーシックスアストラ」をベースにした、法律分野向けの新しいソリューション「アストラフォーロー」を発表いたしました。",
+        "slidenum": 3,
+        "start_ms": 79039,
+        "end_ms": 96456
+    },
+    {
+        "type": "bulletCards",
+        "title": "ドメイン特化型検索インデックスによるRAG",
+        "subhead": "2.3億以上の判例・法令データを標準搭載",
+        "items": [
+            {
+                "title": "一次ソース直接検索",
+                "desc": "信頼できる判例データへアクセスし[[ハルシネーションを抑制]]"
+            },
+            {
+                "title": "圧倒的な精度向上",
+                "desc": "正解率が従来の38.7%から[[54.0%へ約40%向上]]"
+            },
+            {
+                "title": "高い引用精度",
+                "desc": "適切な引用箇所の抽出能力が大幅に向上"
+            }
+        ],
+        "notes": "こちらの最大の特徴わ、2億3000万以上の米国の判例や法令などを網羅した検索インデックスを標準搭載している点ですわ。",
+        "slidenum": 4,
+        "start_ms": 96456,
+        "end_ms": 108635
+    },
+    {
+        "type": "statsCompare",
+        "title": "Vals AI Legal Research Bench 評価結果",
+        "subhead": "従来のWeb検索と比較した精度の劇的向上",
+        "leftTitle": "従来のGPT-6 Astra (Web検索)",
+        "rightTitle": "Astra for Law (法的インデックス)",
+        "stats": [
+            {
+                "label": "正解率",
+                "leftValue": "38.7%",
+                "rightValue": "54.0%",
+                "trend": "up"
+            }
+        ],
+        "notes": "信頼できる一次情報に直接アクセスして推論を行うため、エーアイが嘘をついてしまう現象を抑え、法律ベンチマークでの正解率も従来の約38パーセントから54パーセントえと大きく向上いたしましたの。",
+        "slidenum": 5,
+        "start_ms": 108635,
+        "end_ms": 128206
+    },
+    {
+        "type": "headerCards",
+        "title": "リーガルグレードの堅牢なセキュリティ",
+        "subhead": "厳格な機密保持要求に応えるエンタープライズ設計",
+        "columns": 3,
+        "items": [
+            {
+                "title": "ZDRの保証",
+                "desc": "Zero Data Retentionにより[[API利用データの不保持]]を約束"
+            },
+            {
+                "title": "レビュー除外",
+                "desc": "ChatGPT Enterpriseデータは人間によるレビューの対象外"
+            },
+            {
+                "title": "厳格な権限管理",
+                "desc": "[[Ethical Walls]]等の倫理的障壁とアクセス権限制御を確立"
+            }
+        ],
+        "notes": "さらに、法務で極めて重要となる機密保持に対応し、データを保持しない保証や、厳格なアクセス制御などの強固なセキュリティを備えております。",
+        "slidenum": 6,
+        "start_ms": 128206,
+        "end_ms": 141601
+    },
+    {
+        "type": "cards",
+        "title": "独自ナレッジ統合と各種ツール連携",
+        "subhead": "既存の法務ワークフローを阻害しない高度な拡張性",
+        "columns": 2,
+        "items": [
+            {
+                "title": "専用ツール開発",
+                "desc": "社内過去データと統合し[[契約書リスク自動検知]]等を構築"
+            },
+            {
+                "title": "Microsoft Word連携",
+                "desc": "ChatGPT for Wordにより[[作業環境上で直接動作]]"
+            }
+        ],
+        "notes": "自社独自の過去データと統合した専用ツールの開発や、マイクロソフトワード上で直接動作する機能も提供されるそうですわ。専門知識の検索と強固なセキュリティを組み合わせた、最先端の設計ですわね。法律の世界でもエーアイが大活躍する時代になりましたのね。わたくしのように優雅に読書を楽しむ時間も、こうした技術のおかげで増えるかもしれませんわ。僕もずんだ餅の特許とか調べるのに使ってみたい……あっ違う、わたくしも、ですわ！失礼いたしました。",
+        "slidenum": 7,
+        "start_ms": 141601,
+        "end_ms": 184543
+    },
+    {
+        "type": "section",
+        "title": "Migrating the GitHub Copilot runtime to Rust, using Copilot",
+        "url": "https://github.blog/ai-and-ml/generative-ai/migrating-the-github-copilot-runtime-to-rust-using-copilot/",
+        "sectionNo": 2,
+        "notes": "続いて2つ目の記事のタイトルわ、「マイグレーティングザギットハブコパイロットランタイムトゥーラスト、ユージングコパイロット」ですわ。",
+        "slidenum": 8,
+        "start_ms": 184543,
+        "end_ms": 195858
+    },
+    {
+        "type": "content",
+        "title": "GitHub CopilotランタイムのRust移行",
+        "subhead": "AIエージェント自らを駆使した大規模な書き換え事例",
+        "points": [
+            "[[TypeScriptからRustへ]]の中核システム移行",
+            "Copilot活用により[[実質1人の開発者]]で完結",
+            "従来なら1〜2年要する開発をわずか数ヶ月で達成"
+        ],
+        "images": [
+            "https://github.blog/wp-content/uploads/2026/01/generic-github-copilot-logo-stripe.png"
+        ],
+        "notes": "ギットハブコパイロットの中核システムを、従来のタイプスクリプトからプログラミング言語のラストへと完全に書き換えた事例の紹介ですわ。",
+        "slidenum": 9,
+        "start_ms": 195858,
+        "end_ms": 207632
+    },
+    {
+        "type": "compare",
+        "title": "TypeScript版の課題とRust選定理由",
+        "subhead": "プロセス間通信とリソース消費の劇的改善を目指して",
+        "leftTitle": "移行前の課題 (TypeScript)",
+        "rightTitle": "Rust選定の決め手",
+        "leftItems": [
+            "不要なNode.js環境の起動が必要",
+            "約100MB以上のメモリを浪費",
+            "プロセス間通信によるボトルネック"
+        ],
+        "rightItems": [
+            "依存関係の極小化を実現",
+            "[[C ABI経由のインプロセス実行]]が可能",
+            "軽量かつ超高速な実行基盤"
+        ],
+        "notes": "なんとこの大規模な移行を、コパイロット自身を活用して、実質1人の開発者様がわずか数ヶ月でやり遂げたそうですのよ。",
+        "slidenum": 10,
+        "start_ms": 207632,
+        "end_ms": 218990
+    },
+    {
+        "type": "statsCompare",
+        "title": "Rust移行がもたらした劇的成果",
+        "subhead": "処理速度とリソース消費の圧倒的改善",
+        "leftTitle": "TypeScript (以前)",
+        "rightTitle": "Rust (移行後)",
+        "stats": [
+            {
+                "label": "処理時間 (起動・接続・1往復)",
+                "leftValue": "5.25秒",
+                "rightValue": "292ミリ秒 (18倍高速)",
+                "trend": "up"
+            },
+            {
+                "label": "メモリ消費 (10クライアント)",
+                "leftValue": "1,383MB",
+                "rightValue": "126MB (91%削減)",
+                "trend": "down"
+            }
+        ],
+        "notes": "元の環境でわ起動時のメモリ消費などが課題でしたが、ラストに移行したことで、処理速度が約18倍も高速化し、メモリ消費量も91パーセント削減という劇的な成果を収めましたの。",
+        "slidenum": 11,
+        "start_ms": 218990,
+        "end_ms": 236620
+    },
+    {
+        "type": "process",
+        "title": "開発を止めないインプレース移行戦略",
+        "subhead": "安全性を担保しながら135回の本番リリースを継続",
+        "steps": [
+            "napi-rsによる暫定通信層の構築",
+            "コンポーネントごとの段階的Rust化",
+            "厳重なE2Eテストによる安全確保",
+            "旧TypeScriptコードの順次削除"
+        ],
+        "notes": "開発を止めないために少しずつ置き換える手法をとり、テストを厳重に行うことで安全に進められたとのことですわ。",
+        "slidenum": 12,
+        "start_ms": 236620,
+        "end_ms": 246804
+    },
+    {
+        "type": "bulletCards",
+        "title": "AI協働開発から得られたエンジニアリングの教訓",
+        "subhead": "型安全とE2Eテストによるガードレールの重要性",
+        "items": [
+            {
+                "title": "コンパイル過信の禁物",
+                "desc": "型解釈のズレによる[[仕様上のバグはすり抜ける]]"
+            },
+            {
+                "title": "E2Eテストの徹底",
+                "desc": "動作保証の要であり[[AIに書き換えさせない保護]]が必要"
+            },
+            {
+                "title": "段階的翻訳アプローチ",
+                "desc": "移植とリファクタリングを[[明確に分離]]して実施"
+            }
+        ],
+        "notes": "開発者様の役割が「コードを書く作業」から「設計やテストの判断を行う高レベルな意思決定」えとシフトした好例とされております。",
+        "slidenum": 13,
+        "start_ms": 246804,
+        "end_ms": 260338
+    },
+    {
+        "type": "cards",
+        "title": "AI協働時代における開発者の役割変化",
+        "subhead": "「コードを書く作業」から「高レベルな意思決定」へ",
+        "columns": 2,
+        "items": [
+            {
+                "title": "問題定義と境界設計",
+                "desc": "AIへ適切な指示を与え[[アーキテクチャの境界]]を決定"
+            },
+            {
+                "title": "ガードレール設置とレビュー",
+                "desc": "テストで保護し[[高次元の意思決定]]に集中"
+            }
+        ],
+        "notes": "エーアイが自分自身のシステムを書き換えて高速化してしまうなんて、まるで魔法のようですわね。1人で数年分の開発をこなしてしまうなんて、わたくしも紅茶をおかわりしている間に優秀な執事にお仕事をすべてお任せした気分になりますわ。",
+        "slidenum": 14,
+        "start_ms": 260338,
+        "end_ms": 280921
+    },
+    {
+        "type": "section",
+        "title": "TypeSafeのJevを正しく驚く、それってLLMでできませんか？",
+        "url": "https://zenn.dev/nwn/articles/824026c76116e0",
+        "sectionNo": 3,
+        "notes": "最後の記事のタイトルわ、「タイプセーフのジェブを正しく驚く、それってエルエルエムでできませんか？」ですわ。",
+        "slidenum": 15,
+        "start_ms": 280921,
+        "end_ms": 290764
+    },
+    {
+        "type": "content",
+        "title": "TypeSafe AI「Jev」の概要と特徴",
+        "subhead": "文章生成ではなく「判断」と「確率」を高速出力する特化型モデル",
+        "points": [
+            "ソフトウェアが直接利用可能な[[高速判断AI]]",
+            "100ms前後の短時間で判断レスポンスを返却",
+            "リアルタイム性が要求される制御処理に強み"
+        ],
+        "images": [
+            "https://res.cloudinary.com/zenn/image/upload/s--nA63RXC3--/c_fit%2Cg_north_west%2Cl_text:notosansjp-medium.otf_55:TypeSafe%25E3%2581%25AEJev%25E3%2582%2592%25E6%25AD%25A3%25E3%2581%2597%25E3%2581%258F%25E9%25A9%259A%25E3%2581%258F%25E3%2580%2581%25E3%2581%259D%25E3%2582%258C%25E3%2581%25A3%25E3%2581%25A6LLM%25E3%2581%25A7%25E3%2581%258D%25E3%2581%25BE%25E3%2581%259B%25E3%2582%2593%25E3%2581%258B%25EF%25BC%259F%2Cw_1010%2Cx_90%2Cy_100/g_south_west%2Cl_text:notosansjp-medium.otf_37:%25E3%2583%25A8%2Cx_203%2Cy_121/g_south_west%2Ch_90%2Cl_fetch:aHR0cHM6Ly9zdGF0aWMuemVubi5zdHVkaW8vdXNlci11cGxvYWQvYXZhdGFyLzllY2U3NmI3N2IuanBlZw==%2Cr_max%2Cw_90%2Cx_87%2Cy_95/v1627283836/default/og-base-w1200-v2.png?_a=BACMTiAE"
+        ],
+        "notes": "高速な判断と確率を出力する特化型モデル「ジェブ」の実力について検証した記事ですわ。",
+        "slidenum": 16,
+        "start_ms": 290764,
+        "end_ms": 300191
+    },
+    {
+        "type": "headerCards",
+        "title": "既存LLMでの高速代替アプローチ",
+        "subhead": "全文字生成を避け最初の1トークン確率(logit)を利用",
+        "columns": 2,
+        "items": [
+            {
+                "title": "logit取得手法",
+                "desc": "1トークン目の[[出現確率のみを取得]]しプログラム側で組み立て"
+            },
+            {
+                "title": "KV Cacheとバッチ推論",
+                "desc": "過去計算結果の再利用と[[一括処理による待ち時間削減]]"
+            }
+        ],
+        "notes": "ジェブの強みわ、文章を長く生成するのではなく、最初の判断の確率だけを素早く返す点にありますの。",
+        "slidenum": 17,
+        "start_ms": 300191,
+        "end_ms": 310376
+    },
+    {
+        "type": "statsCompare",
+        "title": "Gemma3 270Mによる検証成果",
+        "subhead": "logit取得アプローチによる速度比較",
+        "leftTitle": "通常のJSON出力",
+        "rightTitle": "logit取得＋プログラム組み立て",
+        "stats": [
+            {
+                "label": "処理スピード",
+                "leftValue": "標準速度 (100%)",
+                "rightValue": "77倍高速化",
+                "trend": "up"
+            }
+        ],
+        "notes": "記事でわ、既存の言語モデルでも最初の文字の出現確率だけを取得してプログラム側で組み立てれば、通常の出力に比べて77倍も高速化できると解説されていますわ。",
+        "slidenum": 18,
+        "start_ms": 310376,
+        "end_ms": 325958
+    },
+    {
+        "type": "cards",
+        "title": "検証結果の技術的背景と注意点",
+        "subhead": "比較対象の前提条件と技術的制約",
+        "columns": 2,
+        "items": [
+            {
+                "title": "APIの制約",
+                "desc": "最新の推論モデルは[[API経由でlogit取得不可]]な場合が多い"
+            },
+            {
+                "title": "比較条件",
+                "desc": "検証は一世代前の[[非推論モデルに限定]]された点に留意が必要"
+            }
+        ],
+        "notes": "ジェブの本質的な凄さわ、不可能なことをしたというよりも、「確率を出力する」という使いやすい仕組みを綺麗な形で提供した点にあると結論づけられておりますのよ。",
+        "slidenum": 19,
+        "start_ms": 325958,
+        "end_ms": 341028
+    },
+    {
+        "type": "bulletCards",
+        "title": "Jevの本質的価値と今後の展望",
+        "subhead": "実用的なAPIパッケージとしての価値評価",
+        "items": [
+            {
+                "title": "優れたインターフェース",
+                "desc": "確率出力という仕組みを[[使いやすい形で統合]]"
+            },
+            {
+                "title": "LLMの急速な進化",
+                "desc": "推論速度改善（例：DeepSeek V4 Flash等）との競合"
+            },
+            {
+                "title": "独自価値の維持",
+                "desc": "標準機能化が進む中での[[優位性の見極め]]が必要"
+            }
+        ],
+        "notes": "技術の仕組みを正しく見極めるのわ、とっても大切なことですわね。ただ驚くだけでなく、本質を理解して使いこなすのが真の紳士淑女のたしなみなのだ……なのだですわ！ふふっ、また少し言葉が乱れてしまいましたわね。",
+        "slidenum": 20,
+        "start_ms": 341028,
+        "end_ms": 361021
+    },
+    {
+        "type": "closing",
+        "notes": "今日わ、法律特化のオープンエーアイ最新機能、コパイロット自身のラスト移行、そしてジェブの技術的検証の3つの記事をお届けいたしましたわ。今週もたくさんの素晴らしい技術に触れられて、とても充実した時間でしたわね。番組の感想わ、いつでもお便りでお待ちしておりますのよ。今週もお付き合いいただき、心より感謝申し上げますわ。それでは皆様、素敵な週末をお過ごしくださいませ。また来週、お会いいたしましょう。ごきげんよう！",
+        "slidenum": 21,
+        "start_ms": 361021,
+        "end_ms": 402820
+    }
+]
