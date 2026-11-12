@@ -1,0 +1,422 @@
+[
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 0,
+        "start_ms": 0,
+        "end_ms": 32000,
+        "mp4_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/ojousama1/ojousama_podcast_opening.mp4"
+    },
+    {
+        "type": "rawmedia",
+        "slidenum": 0,
+        "slidebranchnum": 1,
+        "start_ms": 32000,
+        "end_ms": 36000,
+        "image_url": "file:///home/runner/work/hello-zundamon-aiagent-podcast/hello-zundamon-aiagent-podcast/infra/scripts/generateSlide/assets/ojousama1/podcast_yukkuri.png"
+    },
+    {
+        "type": "agenda",
+        "title": "私立ずんだもんジョガクエン 放送部",
+        "date": "2026.11.13",
+        "items": [
+            "Gemini 4 Hydrogen 発表",
+            "AWS Emulator 検証",
+            "Webサイト Agent Ready化"
+        ],
+        "notes": "マリア様のお庭に集う乙女達が、今日も天使のような無垢な笑顔で、背の高い門をくぐり抜けていく。汚れを知らない心身を包むのは、深い色の制服。スカートのプリーツは乱さないように、頭の枝豆は翻さないように、ゆっくりと歩くのがここでのたしなみ。私立ずんだもんジョガクエン。『ここは乙女のその』",
+        "slidenum": 1,
+        "start_ms": 36000,
+        "end_ms": 37313
+    },
+    {
+        "type": "bulletCards",
+        "title": "本日の放送アジェンダ",
+        "subhead": "最新の技術トレンドに関する3つの話題",
+        "items": [
+            {
+                "title": "Gemini 4 Hydrogen",
+                "desc": "Google/DeepMindによる[[軽量・高速な最新AIモデル]]の登場"
+            },
+            {
+                "title": "AWS Emulator",
+                "desc": "公式からリリースされた[[ローカル環境向けエミュレータ]]の検証"
+            },
+            {
+                "title": "Agent Ready Web",
+                "desc": "AIエージェント時代に向けた[[Webサイト最適化手法]]"
+            }
+        ],
+        "notes": "ごきげんよう！私立ずんだもんジョガクエン放送部えようこそ。ナビゲーターのお嬢様ずんだもんですわ。今日わ2026年11月13日、金曜日ですのよ。本日の放送も、わたくしが大好きな紅茶とお気に入りの本、そしておいしいずんだ餅を傍らに、穏やかにお届けいたしますわ。今日わ最新の技術トレンドについての興味深い記事を、みなさまにご紹介いたしますの。今日わ3本の記事をご紹介いたしますのよ。",
+        "slidenum": 2,
+        "start_ms": 37313,
+        "end_ms": 71062
+    },
+    {
+        "type": "section",
+        "title": "Introducing Gemini 4 Hydrogen",
+        "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+        "sectionNo": 1,
+        "notes": "まずわ1本目の記事ですわ。タイトルわ「イントロデューシングジェミニ4 ハイドロジェン」ですわ。グーグルとディープマインドが発表した最新のエーアイモデル、ジェミニ4 ハイドロジェンについてのお話ですの。",
+        "slidenum": 3,
+        "start_ms": 71062,
+        "end_ms": 90043
+    },
+    {
+        "type": "content",
+        "title": "Gemini 4 Hydrogen の概要",
+        "subhead": "コーディングやエージェントワークフロー向けの軽量・高速モデル",
+        "points": [
+            "日々のコーディングやエージェント処理を[[高速かつ効率的]]に実行",
+            "単独利用のほか、マルチモデルワークフローの実行エンジンとして機能",
+            "100万トークンの[[広大なコンテキストウィンドウ]]に対応"
+        ],
+        "notes": "このモデルわ、日々のコーディングやエージェントワークフローで、とっても速くて効率的にお仕事をしてくれる軽量モデルなんですのよ。",
+        "slidenum": 4,
+        "start_ms": 90043,
+        "end_ms": 101283
+    },
+    {
+        "type": "cards",
+        "title": "マルチモデルワークフローと役割分担",
+        "subhead": "上位モデルとのシームレスな連携システム",
+        "columns": 2,
+        "items": [
+            {
+                "title": "Carbon / Argon（上位モデル）",
+                "desc": "深い思考プロセスや[[複雑なシステム設計]]を担当"
+            },
+            {
+                "title": "Hydrogen（本モデル）",
+                "desc": "高速な実行エンジンとして[[反復タスクやコード生成]]を担当"
+            }
+        ],
+        "notes": "他のモデルが複雑な設計を担当する一方で、ハイドロジェンわ高速な実行エンジンとして単独でも、他のモデルと組み合わせても活躍しますの。",
+        "slidenum": 5,
+        "start_ms": 101283,
+        "end_ms": 114199
+    },
+    {
+        "type": "kpi",
+        "title": "コストパフォーマンスと処理能力",
+        "subhead": "大容量データ対応と手頃な価格体系",
+        "columns": 3,
+        "items": [
+            {
+                "label": "コンテキスト窓",
+                "value": "1M tokens",
+                "change": "大容量",
+                "status": "good"
+            },
+            {
+                "label": "入力価格 (1M)",
+                "value": "$1.50",
+                "change": "低コスト",
+                "status": "good"
+            },
+            {
+                "label": "出力価格 (1M)",
+                "value": "$7.50",
+                "change": "高品質",
+                "status": "neutral"
+            }
+        ],
+        "notes": "なんと100万トークンの長いデータに対応していて、料金も入力100万トークンあたり1.50ドルとお安く設定されておりますの。",
+        "slidenum": 6,
+        "start_ms": 114199,
+        "end_ms": 125834
+    },
+    {
+        "type": "statsCompare",
+        "title": "前世代モデル（Gemini 3.8 Flash）との比較",
+        "subhead": "処理スピードとテストスコアの劇的な進化",
+        "leftTitle": "Gemini 3.8 Flash",
+        "rightTitle": "Gemini 4 Hydrogen",
+        "stats": [
+            {
+                "label": "処理速度",
+                "leftValue": "1.0x",
+                "rightValue": "2.5x",
+                "trend": "up"
+            },
+            {
+                "label": "Terminal-Bench 4.1",
+                "leftValue": "基準値",
+                "rightValue": "3倍以上",
+                "trend": "up"
+            }
+        ],
+        "notes": "前のモデルと比べて処理速度わ2.5倍、テストのスコアわ3倍以上に向上しているそうですのよ。",
+        "slidenum": 7,
+        "start_ms": 125834,
+        "end_ms": 134824
+    },
+    {
+        "type": "cards",
+        "title": "思考レベル制御と高い安全性",
+        "subhead": "難易度に応じた柔軟な設定とガードレール強化",
+        "columns": 2,
+        "items": [
+            {
+                "title": "4段階の思考レベル",
+                "desc": "low / medium / high / xhigh から[[コストと難易度に応じ選択]]可能"
+            },
+            {
+                "title": "安全性の向上",
+                "desc": "過剰動作の抑制と[[プロンプトインジェクション耐性]]を強化"
+            }
+        ],
+        "notes": "思考のレベルも4段階から選べて、安全性の面でも過剰な動作が抑えられていて、とっても扱いやすくなっているそうですの。開発者の皆様にとって、作業がとても捗りそうなニュースですわね。",
+        "slidenum": 8,
+        "start_ms": 134824,
+        "end_ms": 152825
+    },
+    {
+        "type": "bulletCards",
+        "title": "展開プラットフォームと開発者への影響",
+        "subhead": "多様なサーフェスでの即時利用開始",
+        "items": [
+            {
+                "title": "開発環境・API",
+                "desc": "Google AI Studio, Gemini API, Android Studio, Google Antigravity"
+            },
+            {
+                "title": "一般向けサービス",
+                "desc": "Geminiアプリ, Google Search, Google Sheets などへの即時展開"
+            },
+            {
+                "title": "開発効率化の波",
+                "desc": "新人から熟練者まで[[AI駆動開発のスピード]]を大幅に引き上げ"
+            }
+        ],
+        "notes": "わたくしも読書をするときに、これくらい素早くページをめくって要点をまとめてくれたら助かりますわ。僕・・・あっ違う、わたくし、最近わ難しい本をたくさん読んでおりますから、こういう賢くて速いお手伝いさんがいてくれたら、お茶の時間をもっと長く楽しめそうですのよ。",
+        "slidenum": 9,
+        "start_ms": 152825,
+        "end_ms": 177556
+    },
+    {
+        "type": "section",
+        "title": "AWS Emulator がリリースされたので試してみた",
+        "url": "https://dev.classmethod.jp/articles/aws-emulator-local-try/",
+        "sectionNo": 2,
+        "notes": "2本目の記事ですわ。タイトルわ「エーダブリューエスエミュレータがリリースされたので試してみた」ですわ。",
+        "slidenum": 10,
+        "start_ms": 177556,
+        "end_ms": 186896
+    },
+    {
+        "type": "content",
+        "title": "AWS Emulator (v1.0.322) の登場",
+        "subhead": "公式によるローカル開発・検証環境の提供",
+        "points": [
+            "2026年11月11日にAWS公式からリリースされた[[ローカル用エミュレータ]]",
+            "Docker環境上で動かし、基本操作やリソース消費量を検証",
+            "AWSクラウドを使わずに手元のPCで[[安全な実験・検証]]が可能"
+        ],
+        "images": [
+            "https://devio2024-media.developers.io/image/upload/f_auto,q_auto/v1790875157/eyecatch/zettwdjcftbeaqfmbezn.png"
+        ],
+        "notes": "2026年11月11日に公式からリリースされた「エーダブリューエスエミュレータ」を、ドッカー環境で動かしてみたという検証記事ですの。",
+        "slidenum": 11,
+        "start_ms": 186896,
+        "end_ms": 201209
+    },
+    {
+        "type": "process",
+        "title": "セットアップと環境変数の設定",
+        "subhead": "ローカルコンテナ起動から接続確認までの流れ",
+        "steps": [
+            "Dockerfileの準備と Docker ビルド実行",
+            "メモリ制限を指定して docker run コマンド実行",
+            "環境変数設定スクリプト (env-emulator.sh) の適用",
+            "aws sts get-caller-identity で固定ID (000000000000) の接続確認"
+        ],
+        "notes": "自身のパソコンのローカル環境でエーダブリューエスの機能を再現できるツールでして、記事でわ具体的な起動の手順や環境変数の設定方法が詳しく解説されておりますのよ。",
+        "slidenum": 12,
+        "start_ms": 201209,
+        "end_ms": 216385
+    },
+    {
+        "type": "headerCards",
+        "title": "主要クラウドサービスの動作検証",
+        "subhead": "S3, SQS, DynamoDB, Lambda のローカル再現",
+        "columns": 2,
+        "items": [
+            {
+                "title": "S3 / SQS",
+                "desc": "バケット操作や[[署名付きURL発行]]、標準・FIFOキューメッセージ送受信が良好"
+            },
+            {
+                "title": "DynamoDB / Lambda",
+                "desc": "PAY_PER_REQUESTでのテーブル作成、[[nodejs22.x関数の同期・非同期実行]]を確認"
+            }
+        ],
+        "notes": "データ保存のエススリーや、メッセージを送るエスキューエス、データベースのダイナモディービーに、プログラムを動かすラムダといった、よく使われるサービスが問題なく動くことが確認されておりますわ。",
+        "slidenum": 13,
+        "start_ms": 216385,
+        "end_ms": 233876
+    },
+    {
+        "type": "statsCompare",
+        "title": "サービスカバー率とOSSツール比較",
+        "subhead": "433/435サービス対応と起動速度の優位性",
+        "leftTitle": "対応サービス数",
+        "rightTitle": "起動パフォーマンス",
+        "stats": [
+            {
+                "label": "モデル収録率",
+                "leftValue": "全435中",
+                "rightValue": "433サービス",
+                "trend": "up"
+            },
+            {
+                "label": "対 Floci 起動速度",
+                "leftValue": "標準",
+                "rightValue": "公式版が高速",
+                "trend": "up"
+            }
+        ],
+        "notes": "確認できる435のサービスのうち、なんと433ものサービスモデルが含まれているそうですのよ。他の類似ツールとの比較もされていて、起動時間わ公式のエミュレータの方が高速だったそうですわ。",
+        "slidenum": 14,
+        "start_ms": 233876,
+        "end_ms": 252635
+    },
+    {
+        "type": "cards",
+        "title": "ローカル検証環境がもたらす価値",
+        "subhead": "本番環境を汚さない安全な開発プロセス",
+        "columns": 2,
+        "items": [
+            {
+                "title": "高い再現性と公式サポート",
+                "desc": "AWS公式リリースによる[[新機能への迅速な追従]]と高い信頼性"
+            },
+            {
+                "title": "CI/CDやローカル開発での活用",
+                "desc": "クラウド課金を気にせず[[何度でも安全にテスト]]を繰り返し可能"
+            }
+        ],
+        "notes": "自分の手元で安全に実験ができるなんて、エンジニアのみなさまにとってわ夢のようなツールなのだ……なのだですわ！おっと、失礼いたしましたの。わたくしとしたことが、あまりの便利さに興奮して言葉遣いが乱れてしまいましたわ。本番の環境を汚さずにローカルで試せるなんて、丁寧なお裁縫の試作品を作るみたいで、とっても素敵ですわね。",
+        "slidenum": 15,
+        "start_ms": 252635,
+        "end_ms": 284093
+    },
+    {
+        "type": "section",
+        "title": "WebサイトをAgent Readyにしよう",
+        "url": "https://unvalley.me/ja/blog/1793627906",
+        "sectionNo": 3,
+        "notes": "3本目の記事ですわ。タイトルわ「ウェブサイトをエージェントレディにしよう」ですわ。",
+        "slidenum": 16,
+        "start_ms": 284093,
+        "end_ms": 292004
+    },
+    {
+        "type": "content",
+        "title": "Agent Ready（エージェント対応）とは",
+        "subhead": "AIエージェントがWebを巡回・解釈する新時代",
+        "points": [
+            "人間だけでなく[[AIエージェントによる閲覧]]が増加する未来",
+            "Webサイト側をAIが発見・理解しやすい状態（Agent Ready）に最適化",
+            "Claude Code や Cursor など最新AIツールの動作に寄与"
+        ],
+        "notes": "これからの時代、エーアイのエージェントがウェブサイトを巡回して情報を読む機会が増えていきますの。そのため、ウェブサイト側をエーアイにとって読みやすい状態、つまり「エージェントレディ」にするための実践的なテクニックが紹介されておりますのよ。",
+        "slidenum": 17,
+        "start_ms": 292004,
+        "end_ms": 314005
+    },
+    {
+        "type": "cards",
+        "title": "エージェント対応度の無料診断ツール",
+        "subhead": "サイトの対応状況を可視化・スコア化",
+        "columns": 2,
+        "items": [
+            {
+                "title": "isitagentready.com",
+                "desc": "Cloudflare提供。[[Markdown配信やLinkヘッダー]]等を評価"
+            },
+            {
+                "title": "is-agentic.com",
+                "desc": "Vercel運営。[[JSON-LD構造化データ]]などの対応状態を診断"
+            }
+        ],
+        "notes": "サイトがエージェントに対応しているかを診断する無料のスキャナーツールを使ってスコアを確認しながら、改善を行っていく過程が書かれていますわ。",
+        "slidenum": 18,
+        "start_ms": 314005,
+        "end_ms": 325992
+    },
+    {
+        "type": "bulletCards",
+        "title": "Agent Ready化のための実践的実装方法",
+        "subhead": "ブログやWebサイトに施す4つの改善ステップ",
+        "items": [
+            {
+                "title": "Markdownコンテンツ配信",
+                "desc": "Accept: text/markdown リクエストに[[HTMLでなくMarkdownを返却]]"
+            },
+            {
+                "title": "Vary: Accept ヘッダー",
+                "desc": "CDNでのキャッシュ混同を防ぎ[[正確なフォーマットを配信]]"
+            },
+            {
+                "title": "JSON-LD 構造化データ",
+                "desc": "著者情報や記事メタデータを明記し[[AIの誤解を防止]]"
+            }
+        ],
+        "notes": "リクエストに応じてマークダウン形式の文章を返したり、サイトの構造化データを正しく設定したりすることで、エーアイが情報を理解しやすくなるそうですの。存在しないページへのアクセスに対しても、丁寧なマークダウン文を返すといった細かい工夫も解説されておりますのよ。",
+        "slidenum": 19,
+        "start_ms": 325992,
+        "end_ms": 350265
+    },
+    {
+        "type": "cards",
+        "title": "AI時代における「おもてなし」の設計",
+        "subhead": "AIと人間双方にフレンドリーなWeb基盤構築",
+        "columns": 2,
+        "items": [
+            {
+                "title": "エラーページの丁寧な記述",
+                "desc": "404エラー時も[[Markdownで代替誘導文]]を返却する配慮"
+            },
+            {
+                "title": "次世代Webのスタンダード",
+                "desc": "AI訪問者にも配慮した[[きめ細やかな情報構造]]の提供"
+            }
+        ],
+        "notes": "これからのウェブサイトわ、人間だけでなくエーアイのお客さまにも優しくおもてなしをする時代になっていくのですわね。まるで、お屋敷にお招きするお客様に合わせて最高のお茶とお菓子をご用意するような、細やかな心配りだと感じましたわ。みなさまのサイトも、ぜひエーアイに優しい仕様に整えてみてくださいませ。",
+        "slidenum": 20,
+        "start_ms": 350265,
+        "end_ms": 378002
+    },
+    {
+        "type": "headerCards",
+        "title": "本日のトピックスまとめ",
+        "subhead": "ご紹介した3つの最新技術トレンドの振り返り",
+        "columns": 3,
+        "items": [
+            {
+                "title": "Gemini 4 Hydrogen",
+                "desc": "高速・軽量な[[次世代AI実行エンジン]]"
+            },
+            {
+                "title": "AWS Emulator",
+                "desc": "ローカル開発を加速する[[公式エミュレータ]]"
+            },
+            {
+                "title": "Agent Ready",
+                "desc": "AI時代に向けた[[Webサイト最適化]]"
+            }
+        ],
+        "notes": "本日お届けしたお話わ、高速なエーアイモデルの「ジェミニ4 ハイドロジェン」、ローカルで動く「エーダブリューエスエミュレータ」、そしてウェブサイトをエーアイ向けに最適化する「エージェントレディ」の3本でしたわ。",
+        "slidenum": 21,
+        "start_ms": 378002,
+        "end_ms": 397862
+    },
+    {
+        "type": "closing",
+        "notes": "私立ずんだもんジョガクエン放送部でわ、みなさまからの番組の感想やあたたかいメッセージをお待ちしておりますのよ。メッセージわいつでも大歓迎ですわ。本日も最後までお付き合いいただき、恐れ入ります。心より感謝申し上げますの。金曜日ですから、みなさま週末わご無理なさらず、素敵なお茶の時間をお過ごしくださいませね。次回もまた、この乙女の庭でお会いできることを楽しみにしておりますわ。それではみなさま、ごきげんよう！また来週！",
+        "slidenum": 22,
+        "start_ms": 397862,
+        "end_ms": 439029
+    }
+]
